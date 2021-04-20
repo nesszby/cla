@@ -5,291 +5,291 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇳🇱 荷兰(鸟居), server: 45.130.137.14, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇳🇱 荷兰(鸟居) 2, server: 45.130.137.14, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇳🇱 荷兰(鸟居) 3, server: 45.130.137.3, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇳🇱 荷兰(鸟居) 4, server: 45.130.137.14, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇳🇱 荷兰(鸟居) 5, server: 45.130.137.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 捷克(鸟居), server: 89.187.168.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 德国(鸟居), server: 45.134.224.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 德国(鸟居) 2, server: 45.134.224.10, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 德国(鸟居) 3, server: 176.227.241.24, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 德国(鸟居) 4, server: 45.134.224.10, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 德国(鸟居) 5, server: 45.134.224.18, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 丹麦(鸟居), server: 37.120.194.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 丹麦(鸟居) 2, server: 37.120.194.165, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇫🇷 法国(鸟居), server: 45.89.174.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇫🇷 法国(鸟居) 2, server: 185.108.106.176, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇫🇷 法国(鸟居) 3, server: 217.138.207.243, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇫🇷 法国(鸟居) 4, server: 84.247.51.253, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇫🇷 法国(鸟居) 5, server: 217.138.207.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇫🇷 法国(鸟居) 6, server: 185.108.106.171, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇫🇷 法国(鸟居) 7, server: 185.108.106.106, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇫🇷 法国(鸟居) 8, server: 185.108.106.188, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(鸟居), server: 37.10.114.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(鸟居) 2, server: 185.44.76.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(鸟居) 3, server: 89.238.130.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇬🇧 英国(鸟居) 4, server: 185.38.148.228, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇬🇧 英国(鸟居) 5, server: 185.44.78.174, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(鸟居) 6, server: 185.108.105.182, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(鸟居) 7, server: 188.92.78.140, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇨🇭 瑞士(鸟居), server: 89.46.223.237, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇭 瑞士(鸟居) 2, server: 185.124.240.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇭 瑞士(鸟居) 3, server: 79.110.54.131, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇭 瑞士(鸟居) 4, server: 193.29.107.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇭 瑞士(鸟居) 5, server: 193.29.107.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇭 瑞士(鸟居) 6, server: 194.37.98.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(鸟居), server: 66.115.147.92, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(鸟居) 2, server: 66.115.147.92, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(鸟居) 3, server: 66.115.147.67, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(鸟居) 4, server: 66.115.147.74, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(鸟居) 5, server: 66.115.147.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(鸟居) 6, server: 199.36.221.85, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(鸟居) 7, server: 66.115.182.84, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(鸟居) 8, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(鸟居) 9, server: 198.147.22.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(鸟居) 10, server: 184.170.250.154, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 美国(鸟居) 11, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(鸟居) 12, server: 207.244.67.147, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国(鸟居) 13, server: 207.244.67.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(鸟居) 14, server: 98.142.220.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(鸟居) 15, server: 198.147.22.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(鸟居) 16, server: 192.154.255.52, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国(鸟居) 17, server: 84.17.35.108, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(鸟居) 18, server: 66.115.147.69, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(鸟居) 19, server: 66.115.147.74, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(鸟居) 20, server: 66.115.147.84, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(鸟居) 21, server: 66.115.147.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲(鸟居), server: 138.199.19.157, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(鸟居) 22, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(鸟居) 23, server: 143.244.42.69, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国(鸟居) 24, server: 156.146.56.135, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 美国(鸟居) 25, server: 172.98.75.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(鸟居) 26, server: 172.98.78.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇮🇳 印度(鸟居), server: 103.39.132.189, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇮🇳 印度(鸟居) 2, server: 103.39.132.189, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇮🇳 印度(鸟居) 3, server: 103.39.132.189, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇮🇳 印度(鸟居) 4, server: 103.39.132.189, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇳 印度(鸟居) 5, server: 103.39.132.189, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇮🇳 印度(鸟居) 6, server: 103.39.132.189, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇳🇱 荷兰(鸟君), server: 45.130.137.14, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇳🇱 荷兰(鸟君) 2, server: 45.130.137.14, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇳🇱 荷兰(鸟君) 3, server: 45.130.137.3, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇳🇱 荷兰(鸟君) 4, server: 45.130.137.14, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇳🇱 荷兰(鸟君) 5, server: 45.130.137.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 捷克(鸟君), server: 89.187.168.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 德国(鸟君), server: 45.134.224.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 德国(鸟君) 2, server: 45.134.224.10, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 德国(鸟君) 3, server: 176.227.241.24, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇪 德国(鸟君) 4, server: 45.134.224.10, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇪 德国(鸟君) 5, server: 45.134.224.18, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 丹麦(鸟君), server: 37.120.194.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇰 丹麦(鸟君) 2, server: 37.120.194.165, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇫🇷 法国(鸟君), server: 45.89.174.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇫🇷 法国(鸟君) 2, server: 185.108.106.176, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇫🇷 法国(鸟君) 3, server: 217.138.207.243, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇫🇷 法国(鸟君) 4, server: 84.247.51.253, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇫🇷 法国(鸟君) 5, server: 217.138.207.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇫🇷 法国(鸟君) 6, server: 185.108.106.171, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇫🇷 法国(鸟君) 7, server: 185.108.106.106, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇫🇷 法国(鸟君) 8, server: 185.108.106.188, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 英国(鸟君), server: 37.10.114.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 英国(鸟君) 2, server: 185.44.76.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 英国(鸟君) 3, server: 89.238.130.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇬🇧 英国(鸟君) 4, server: 185.38.148.228, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇬🇧 英国(鸟君) 5, server: 185.44.78.174, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 英国(鸟君) 6, server: 185.108.105.182, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 英国(鸟君) 7, server: 188.92.78.140, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇭 瑞士(鸟君), server: 89.46.223.237, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇭 瑞士(鸟君) 2, server: 185.124.240.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇭 瑞士(鸟君) 3, server: 79.110.54.131, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇭 瑞士(鸟君) 4, server: 193.29.107.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇭 瑞士(鸟君) 5, server: 193.29.107.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇭 瑞士(鸟君) 6, server: 194.37.98.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(鸟君), server: 66.115.147.92, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(鸟君) 2, server: 66.115.147.92, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(鸟君) 3, server: 66.115.147.67, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(鸟君) 4, server: 66.115.147.74, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(鸟君) 5, server: 66.115.147.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(鸟君) 6, server: 199.36.221.85, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(鸟君) 7, server: 66.115.182.84, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(鸟君) 8, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(鸟君) 9, server: 198.147.22.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(鸟君) 10, server: 184.170.250.154, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸 美国(鸟君) 11, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(鸟君) 12, server: 207.244.67.147, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国(鸟君) 13, server: 207.244.67.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(鸟君) 14, server: 98.142.220.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(鸟君) 15, server: 198.147.22.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(鸟君) 16, server: 192.154.255.52, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 美国(鸟君) 17, server: 84.17.35.108, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(鸟君) 18, server: 66.115.147.69, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(鸟君) 19, server: 66.115.147.74, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(鸟君) 20, server: 66.115.147.84, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(鸟君) 21, server: 66.115.147.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(鸟君), server: 138.199.19.157, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(鸟君) 22, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(鸟君) 23, server: 143.244.42.69, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(鸟君) 24, server: 156.146.56.135, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇺🇸 美国(鸟君) 25, server: 172.98.75.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国(鸟君) 26, server: 172.98.78.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇳 印度(鸟君), server: 103.39.132.189, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇳 印度(鸟君) 2, server: 103.39.132.189, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇮🇳 印度(鸟君) 3, server: 103.39.132.189, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇮🇳 印度(鸟君) 4, server: 103.39.132.189, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇮🇳 印度(鸟君) 5, server: 103.39.132.189, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇮🇳 印度(鸟君) 6, server: 103.39.132.189, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱 荷兰(鸟居)
-      - 🇳🇱 荷兰(鸟居) 2
-      - 🇳🇱 荷兰(鸟居) 3
-      - 🇳🇱 荷兰(鸟居) 4
-      - 🇳🇱 荷兰(鸟居) 5
-      - 捷克(鸟居)
-      - 🇩🇪 德国(鸟居)
-      - 🇩🇪 德国(鸟居) 2
-      - 🇩🇪 德国(鸟居) 3
-      - 🇩🇪 德国(鸟居) 4
-      - 🇩🇪 德国(鸟居) 5
-      - 🇩🇰 丹麦(鸟居)
-      - 🇩🇰 丹麦(鸟居) 2
-      - 🇫🇷 法国(鸟居)
-      - 🇫🇷 法国(鸟居) 2
-      - 🇫🇷 法国(鸟居) 3
-      - 🇫🇷 法国(鸟居) 4
-      - 🇫🇷 法国(鸟居) 5
-      - 🇫🇷 法国(鸟居) 6
-      - 🇫🇷 法国(鸟居) 7
-      - 🇫🇷 法国(鸟居) 8
-      - 🇬🇧 英国(鸟居)
-      - 🇬🇧 英国(鸟居) 2
-      - 🇬🇧 英国(鸟居) 3
-      - 🇬🇧 英国(鸟居) 4
-      - 🇬🇧 英国(鸟居) 5
-      - 🇬🇧 英国(鸟居) 6
-      - 🇬🇧 英国(鸟居) 7
-      - 🇨🇭 瑞士(鸟居)
-      - 🇨🇭 瑞士(鸟居) 2
-      - 🇨🇭 瑞士(鸟居) 3
-      - 🇨🇭 瑞士(鸟居) 4
-      - 🇨🇭 瑞士(鸟居) 5
-      - 🇨🇭 瑞士(鸟居) 6
-      - 🇺🇸 美国(鸟居)
-      - 🇺🇸 美国(鸟居) 2
-      - 🇺🇸 美国(鸟居) 3
-      - 🇺🇸 美国(鸟居) 4
-      - 🇺🇸 美国(鸟居) 5
-      - 🇺🇸 美国(鸟居) 6
-      - 🇺🇸 美国(鸟居) 7
-      - 🇺🇸 美国(鸟居) 8
-      - 🇺🇸 美国(鸟居) 9
-      - 🇺🇸 美国(鸟居) 10
-      - 🇺🇸 美国(鸟居) 11
-      - 🇺🇸 美国(鸟居) 12
-      - 🇺🇸 美国(鸟居) 13
-      - 🇺🇸 美国(鸟居) 14
-      - 🇺🇸 美国(鸟居) 15
-      - 🇺🇸 美国(鸟居) 16
-      - 🇺🇸 美国(鸟居) 17
-      - 🇺🇸 美国(鸟居) 18
-      - 🇺🇸 美国(鸟居) 19
-      - 🇺🇸 美国(鸟居) 20
-      - 🇺🇸 美国(鸟居) 21
-      - 欧洲(鸟居)
-      - 🇺🇸 美国(鸟居) 22
-      - 🇺🇸 美国(鸟居) 23
-      - 🇺🇸 美国(鸟居) 24
-      - 🇺🇸 美国(鸟居) 25
-      - 🇺🇸 美国(鸟居) 26
-      - 🇮🇳 印度(鸟居)
-      - 🇮🇳 印度(鸟居) 2
-      - 🇮🇳 印度(鸟居) 3
-      - 🇮🇳 印度(鸟居) 4
-      - 🇮🇳 印度(鸟居) 5
-      - 🇮🇳 印度(鸟居) 6
+      - 🇳🇱 荷兰(鸟君)
+      - 🇳🇱 荷兰(鸟君) 2
+      - 🇳🇱 荷兰(鸟君) 3
+      - 🇳🇱 荷兰(鸟君) 4
+      - 🇳🇱 荷兰(鸟君) 5
+      - 捷克(鸟君)
+      - 🇩🇪 德国(鸟君)
+      - 🇩🇪 德国(鸟君) 2
+      - 🇩🇪 德国(鸟君) 3
+      - 🇩🇪 德国(鸟君) 4
+      - 🇩🇪 德国(鸟君) 5
+      - 🇩🇰 丹麦(鸟君)
+      - 🇩🇰 丹麦(鸟君) 2
+      - 🇫🇷 法国(鸟君)
+      - 🇫🇷 法国(鸟君) 2
+      - 🇫🇷 法国(鸟君) 3
+      - 🇫🇷 法国(鸟君) 4
+      - 🇫🇷 法国(鸟君) 5
+      - 🇫🇷 法国(鸟君) 6
+      - 🇫🇷 法国(鸟君) 7
+      - 🇫🇷 法国(鸟君) 8
+      - 🇬🇧 英国(鸟君)
+      - 🇬🇧 英国(鸟君) 2
+      - 🇬🇧 英国(鸟君) 3
+      - 🇬🇧 英国(鸟君) 4
+      - 🇬🇧 英国(鸟君) 5
+      - 🇬🇧 英国(鸟君) 6
+      - 🇬🇧 英国(鸟君) 7
+      - 🇨🇭 瑞士(鸟君)
+      - 🇨🇭 瑞士(鸟君) 2
+      - 🇨🇭 瑞士(鸟君) 3
+      - 🇨🇭 瑞士(鸟君) 4
+      - 🇨🇭 瑞士(鸟君) 5
+      - 🇨🇭 瑞士(鸟君) 6
+      - 🇺🇸 美国(鸟君)
+      - 🇺🇸 美国(鸟君) 2
+      - 🇺🇸 美国(鸟君) 3
+      - 🇺🇸 美国(鸟君) 4
+      - 🇺🇸 美国(鸟君) 5
+      - 🇺🇸 美国(鸟君) 6
+      - 🇺🇸 美国(鸟君) 7
+      - 🇺🇸 美国(鸟君) 8
+      - 🇺🇸 美国(鸟君) 9
+      - 🇺🇸 美国(鸟君) 10
+      - 🇺🇸 美国(鸟君) 11
+      - 🇺🇸 美国(鸟君) 12
+      - 🇺🇸 美国(鸟君) 13
+      - 🇺🇸 美国(鸟君) 14
+      - 🇺🇸 美国(鸟君) 15
+      - 🇺🇸 美国(鸟君) 16
+      - 🇺🇸 美国(鸟君) 17
+      - 🇺🇸 美国(鸟君) 18
+      - 🇺🇸 美国(鸟君) 19
+      - 🇺🇸 美国(鸟君) 20
+      - 🇺🇸 美国(鸟君) 21
+      - 欧洲(鸟君)
+      - 🇺🇸 美国(鸟君) 22
+      - 🇺🇸 美国(鸟君) 23
+      - 🇺🇸 美国(鸟君) 24
+      - 🇺🇸 美国(鸟君) 25
+      - 🇺🇸 美国(鸟君) 26
+      - 🇮🇳 印度(鸟君)
+      - 🇮🇳 印度(鸟君) 2
+      - 🇮🇳 印度(鸟君) 3
+      - 🇮🇳 印度(鸟君) 4
+      - 🇮🇳 印度(鸟君) 5
+      - 🇮🇳 印度(鸟君) 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇳🇱 荷兰(鸟居)
-      - 🇳🇱 荷兰(鸟居) 2
-      - 🇳🇱 荷兰(鸟居) 3
-      - 🇳🇱 荷兰(鸟居) 4
-      - 🇳🇱 荷兰(鸟居) 5
-      - 捷克(鸟居)
-      - 🇩🇪 德国(鸟居)
-      - 🇩🇪 德国(鸟居) 2
-      - 🇩🇪 德国(鸟居) 3
-      - 🇩🇪 德国(鸟居) 4
-      - 🇩🇪 德国(鸟居) 5
-      - 🇩🇰 丹麦(鸟居)
-      - 🇩🇰 丹麦(鸟居) 2
-      - 🇫🇷 法国(鸟居)
-      - 🇫🇷 法国(鸟居) 2
-      - 🇫🇷 法国(鸟居) 3
-      - 🇫🇷 法国(鸟居) 4
-      - 🇫🇷 法国(鸟居) 5
-      - 🇫🇷 法国(鸟居) 6
-      - 🇫🇷 法国(鸟居) 7
-      - 🇫🇷 法国(鸟居) 8
-      - 🇬🇧 英国(鸟居)
-      - 🇬🇧 英国(鸟居) 2
-      - 🇬🇧 英国(鸟居) 3
-      - 🇬🇧 英国(鸟居) 4
-      - 🇬🇧 英国(鸟居) 5
-      - 🇬🇧 英国(鸟居) 6
-      - 🇬🇧 英国(鸟居) 7
-      - 🇨🇭 瑞士(鸟居)
-      - 🇨🇭 瑞士(鸟居) 2
-      - 🇨🇭 瑞士(鸟居) 3
-      - 🇨🇭 瑞士(鸟居) 4
-      - 🇨🇭 瑞士(鸟居) 5
-      - 🇨🇭 瑞士(鸟居) 6
-      - 🇺🇸 美国(鸟居)
-      - 🇺🇸 美国(鸟居) 2
-      - 🇺🇸 美国(鸟居) 3
-      - 🇺🇸 美国(鸟居) 4
-      - 🇺🇸 美国(鸟居) 5
-      - 🇺🇸 美国(鸟居) 6
-      - 🇺🇸 美国(鸟居) 7
-      - 🇺🇸 美国(鸟居) 8
-      - 🇺🇸 美国(鸟居) 9
-      - 🇺🇸 美国(鸟居) 10
-      - 🇺🇸 美国(鸟居) 11
-      - 🇺🇸 美国(鸟居) 12
-      - 🇺🇸 美国(鸟居) 13
-      - 🇺🇸 美国(鸟居) 14
-      - 🇺🇸 美国(鸟居) 15
-      - 🇺🇸 美国(鸟居) 16
-      - 🇺🇸 美国(鸟居) 17
-      - 🇺🇸 美国(鸟居) 18
-      - 🇺🇸 美国(鸟居) 19
-      - 🇺🇸 美国(鸟居) 20
-      - 🇺🇸 美国(鸟居) 21
-      - 欧洲(鸟居)
-      - 🇺🇸 美国(鸟居) 22
-      - 🇺🇸 美国(鸟居) 23
-      - 🇺🇸 美国(鸟居) 24
-      - 🇺🇸 美国(鸟居) 25
-      - 🇺🇸 美国(鸟居) 26
-      - 🇮🇳 印度(鸟居)
-      - 🇮🇳 印度(鸟居) 2
-      - 🇮🇳 印度(鸟居) 3
-      - 🇮🇳 印度(鸟居) 4
-      - 🇮🇳 印度(鸟居) 5
-      - 🇮🇳 印度(鸟居) 6
+      - 🇳🇱 荷兰(鸟君)
+      - 🇳🇱 荷兰(鸟君) 2
+      - 🇳🇱 荷兰(鸟君) 3
+      - 🇳🇱 荷兰(鸟君) 4
+      - 🇳🇱 荷兰(鸟君) 5
+      - 捷克(鸟君)
+      - 🇩🇪 德国(鸟君)
+      - 🇩🇪 德国(鸟君) 2
+      - 🇩🇪 德国(鸟君) 3
+      - 🇩🇪 德国(鸟君) 4
+      - 🇩🇪 德国(鸟君) 5
+      - 🇩🇰 丹麦(鸟君)
+      - 🇩🇰 丹麦(鸟君) 2
+      - 🇫🇷 法国(鸟君)
+      - 🇫🇷 法国(鸟君) 2
+      - 🇫🇷 法国(鸟君) 3
+      - 🇫🇷 法国(鸟君) 4
+      - 🇫🇷 法国(鸟君) 5
+      - 🇫🇷 法国(鸟君) 6
+      - 🇫🇷 法国(鸟君) 7
+      - 🇫🇷 法国(鸟君) 8
+      - 🇬🇧 英国(鸟君)
+      - 🇬🇧 英国(鸟君) 2
+      - 🇬🇧 英国(鸟君) 3
+      - 🇬🇧 英国(鸟君) 4
+      - 🇬🇧 英国(鸟君) 5
+      - 🇬🇧 英国(鸟君) 6
+      - 🇬🇧 英国(鸟君) 7
+      - 🇨🇭 瑞士(鸟君)
+      - 🇨🇭 瑞士(鸟君) 2
+      - 🇨🇭 瑞士(鸟君) 3
+      - 🇨🇭 瑞士(鸟君) 4
+      - 🇨🇭 瑞士(鸟君) 5
+      - 🇨🇭 瑞士(鸟君) 6
+      - 🇺🇸 美国(鸟君)
+      - 🇺🇸 美国(鸟君) 2
+      - 🇺🇸 美国(鸟君) 3
+      - 🇺🇸 美国(鸟君) 4
+      - 🇺🇸 美国(鸟君) 5
+      - 🇺🇸 美国(鸟君) 6
+      - 🇺🇸 美国(鸟君) 7
+      - 🇺🇸 美国(鸟君) 8
+      - 🇺🇸 美国(鸟君) 9
+      - 🇺🇸 美国(鸟君) 10
+      - 🇺🇸 美国(鸟君) 11
+      - 🇺🇸 美国(鸟君) 12
+      - 🇺🇸 美国(鸟君) 13
+      - 🇺🇸 美国(鸟君) 14
+      - 🇺🇸 美国(鸟君) 15
+      - 🇺🇸 美国(鸟君) 16
+      - 🇺🇸 美国(鸟君) 17
+      - 🇺🇸 美国(鸟君) 18
+      - 🇺🇸 美国(鸟君) 19
+      - 🇺🇸 美国(鸟君) 20
+      - 🇺🇸 美国(鸟君) 21
+      - 欧洲(鸟君)
+      - 🇺🇸 美国(鸟君) 22
+      - 🇺🇸 美国(鸟君) 23
+      - 🇺🇸 美国(鸟君) 24
+      - 🇺🇸 美国(鸟君) 25
+      - 🇺🇸 美国(鸟君) 26
+      - 🇮🇳 印度(鸟君)
+      - 🇮🇳 印度(鸟君) 2
+      - 🇮🇳 印度(鸟君) 3
+      - 🇮🇳 印度(鸟君) 4
+      - 🇮🇳 印度(鸟君) 5
+      - 🇮🇳 印度(鸟君) 6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱 荷兰(鸟居)
-      - 🇳🇱 荷兰(鸟居) 2
-      - 🇳🇱 荷兰(鸟居) 3
-      - 🇳🇱 荷兰(鸟居) 4
-      - 🇳🇱 荷兰(鸟居) 5
-      - 捷克(鸟居)
-      - 🇩🇪 德国(鸟居)
-      - 🇩🇪 德国(鸟居) 2
-      - 🇩🇪 德国(鸟居) 3
-      - 🇩🇪 德国(鸟居) 4
-      - 🇩🇪 德国(鸟居) 5
-      - 🇩🇰 丹麦(鸟居)
-      - 🇩🇰 丹麦(鸟居) 2
-      - 🇫🇷 法国(鸟居)
-      - 🇫🇷 法国(鸟居) 2
-      - 🇫🇷 法国(鸟居) 3
-      - 🇫🇷 法国(鸟居) 4
-      - 🇫🇷 法国(鸟居) 5
-      - 🇫🇷 法国(鸟居) 6
-      - 🇫🇷 法国(鸟居) 7
-      - 🇫🇷 法国(鸟居) 8
-      - 🇬🇧 英国(鸟居)
-      - 🇬🇧 英国(鸟居) 2
-      - 🇬🇧 英国(鸟居) 3
-      - 🇬🇧 英国(鸟居) 4
-      - 🇬🇧 英国(鸟居) 5
-      - 🇬🇧 英国(鸟居) 6
-      - 🇬🇧 英国(鸟居) 7
-      - 🇨🇭 瑞士(鸟居)
-      - 🇨🇭 瑞士(鸟居) 2
-      - 🇨🇭 瑞士(鸟居) 3
-      - 🇨🇭 瑞士(鸟居) 4
-      - 🇨🇭 瑞士(鸟居) 5
-      - 🇨🇭 瑞士(鸟居) 6
-      - 🇺🇸 美国(鸟居)
-      - 🇺🇸 美国(鸟居) 2
-      - 🇺🇸 美国(鸟居) 3
-      - 🇺🇸 美国(鸟居) 4
-      - 🇺🇸 美国(鸟居) 5
-      - 🇺🇸 美国(鸟居) 6
-      - 🇺🇸 美国(鸟居) 7
-      - 🇺🇸 美国(鸟居) 8
-      - 🇺🇸 美国(鸟居) 9
-      - 🇺🇸 美国(鸟居) 10
-      - 🇺🇸 美国(鸟居) 11
-      - 🇺🇸 美国(鸟居) 12
-      - 🇺🇸 美国(鸟居) 13
-      - 🇺🇸 美国(鸟居) 14
-      - 🇺🇸 美国(鸟居) 15
-      - 🇺🇸 美国(鸟居) 16
-      - 🇺🇸 美国(鸟居) 17
-      - 🇺🇸 美国(鸟居) 18
-      - 🇺🇸 美国(鸟居) 19
-      - 🇺🇸 美国(鸟居) 20
-      - 🇺🇸 美国(鸟居) 21
-      - 欧洲(鸟居)
-      - 🇺🇸 美国(鸟居) 22
-      - 🇺🇸 美国(鸟居) 23
-      - 🇺🇸 美国(鸟居) 24
-      - 🇺🇸 美国(鸟居) 25
-      - 🇺🇸 美国(鸟居) 26
-      - 🇮🇳 印度(鸟居)
-      - 🇮🇳 印度(鸟居) 2
-      - 🇮🇳 印度(鸟居) 3
-      - 🇮🇳 印度(鸟居) 4
-      - 🇮🇳 印度(鸟居) 5
-      - 🇮🇳 印度(鸟居) 6
+      - 🇳🇱 荷兰(鸟君)
+      - 🇳🇱 荷兰(鸟君) 2
+      - 🇳🇱 荷兰(鸟君) 3
+      - 🇳🇱 荷兰(鸟君) 4
+      - 🇳🇱 荷兰(鸟君) 5
+      - 捷克(鸟君)
+      - 🇩🇪 德国(鸟君)
+      - 🇩🇪 德国(鸟君) 2
+      - 🇩🇪 德国(鸟君) 3
+      - 🇩🇪 德国(鸟君) 4
+      - 🇩🇪 德国(鸟君) 5
+      - 🇩🇰 丹麦(鸟君)
+      - 🇩🇰 丹麦(鸟君) 2
+      - 🇫🇷 法国(鸟君)
+      - 🇫🇷 法国(鸟君) 2
+      - 🇫🇷 法国(鸟君) 3
+      - 🇫🇷 法国(鸟君) 4
+      - 🇫🇷 法国(鸟君) 5
+      - 🇫🇷 法国(鸟君) 6
+      - 🇫🇷 法国(鸟君) 7
+      - 🇫🇷 法国(鸟君) 8
+      - 🇬🇧 英国(鸟君)
+      - 🇬🇧 英国(鸟君) 2
+      - 🇬🇧 英国(鸟君) 3
+      - 🇬🇧 英国(鸟君) 4
+      - 🇬🇧 英国(鸟君) 5
+      - 🇬🇧 英国(鸟君) 6
+      - 🇬🇧 英国(鸟君) 7
+      - 🇨🇭 瑞士(鸟君)
+      - 🇨🇭 瑞士(鸟君) 2
+      - 🇨🇭 瑞士(鸟君) 3
+      - 🇨🇭 瑞士(鸟君) 4
+      - 🇨🇭 瑞士(鸟君) 5
+      - 🇨🇭 瑞士(鸟君) 6
+      - 🇺🇸 美国(鸟君)
+      - 🇺🇸 美国(鸟君) 2
+      - 🇺🇸 美国(鸟君) 3
+      - 🇺🇸 美国(鸟君) 4
+      - 🇺🇸 美国(鸟君) 5
+      - 🇺🇸 美国(鸟君) 6
+      - 🇺🇸 美国(鸟君) 7
+      - 🇺🇸 美国(鸟君) 8
+      - 🇺🇸 美国(鸟君) 9
+      - 🇺🇸 美国(鸟君) 10
+      - 🇺🇸 美国(鸟君) 11
+      - 🇺🇸 美国(鸟君) 12
+      - 🇺🇸 美国(鸟君) 13
+      - 🇺🇸 美国(鸟君) 14
+      - 🇺🇸 美国(鸟君) 15
+      - 🇺🇸 美国(鸟君) 16
+      - 🇺🇸 美国(鸟君) 17
+      - 🇺🇸 美国(鸟君) 18
+      - 🇺🇸 美国(鸟君) 19
+      - 🇺🇸 美国(鸟君) 20
+      - 🇺🇸 美国(鸟君) 21
+      - 欧洲(鸟君)
+      - 🇺🇸 美国(鸟君) 22
+      - 🇺🇸 美国(鸟君) 23
+      - 🇺🇸 美国(鸟君) 24
+      - 🇺🇸 美国(鸟君) 25
+      - 🇺🇸 美国(鸟君) 26
+      - 🇮🇳 印度(鸟君)
+      - 🇮🇳 印度(鸟君) 2
+      - 🇮🇳 印度(鸟君) 3
+      - 🇮🇳 印度(鸟君) 4
+      - 🇮🇳 印度(鸟君) 5
+      - 🇮🇳 印度(鸟君) 6
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -300,218 +300,218 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇱 荷兰(鸟居)
-      - 🇳🇱 荷兰(鸟居) 2
-      - 🇳🇱 荷兰(鸟居) 3
-      - 🇳🇱 荷兰(鸟居) 4
-      - 🇳🇱 荷兰(鸟居) 5
-      - 捷克(鸟居)
-      - 🇩🇪 德国(鸟居)
-      - 🇩🇪 德国(鸟居) 2
-      - 🇩🇪 德国(鸟居) 3
-      - 🇩🇪 德国(鸟居) 4
-      - 🇩🇪 德国(鸟居) 5
-      - 🇩🇰 丹麦(鸟居)
-      - 🇩🇰 丹麦(鸟居) 2
-      - 🇫🇷 法国(鸟居)
-      - 🇫🇷 法国(鸟居) 2
-      - 🇫🇷 法国(鸟居) 3
-      - 🇫🇷 法国(鸟居) 4
-      - 🇫🇷 法国(鸟居) 5
-      - 🇫🇷 法国(鸟居) 6
-      - 🇫🇷 法国(鸟居) 7
-      - 🇫🇷 法国(鸟居) 8
-      - 🇬🇧 英国(鸟居)
-      - 🇬🇧 英国(鸟居) 2
-      - 🇬🇧 英国(鸟居) 3
-      - 🇬🇧 英国(鸟居) 4
-      - 🇬🇧 英国(鸟居) 5
-      - 🇬🇧 英国(鸟居) 6
-      - 🇬🇧 英国(鸟居) 7
-      - 🇨🇭 瑞士(鸟居)
-      - 🇨🇭 瑞士(鸟居) 2
-      - 🇨🇭 瑞士(鸟居) 3
-      - 🇨🇭 瑞士(鸟居) 4
-      - 🇨🇭 瑞士(鸟居) 5
-      - 🇨🇭 瑞士(鸟居) 6
-      - 🇺🇸 美国(鸟居)
-      - 🇺🇸 美国(鸟居) 2
-      - 🇺🇸 美国(鸟居) 3
-      - 🇺🇸 美国(鸟居) 4
-      - 🇺🇸 美国(鸟居) 5
-      - 🇺🇸 美国(鸟居) 6
-      - 🇺🇸 美国(鸟居) 7
-      - 🇺🇸 美国(鸟居) 8
-      - 🇺🇸 美国(鸟居) 9
-      - 🇺🇸 美国(鸟居) 10
-      - 🇺🇸 美国(鸟居) 11
-      - 🇺🇸 美国(鸟居) 12
-      - 🇺🇸 美国(鸟居) 13
-      - 🇺🇸 美国(鸟居) 14
-      - 🇺🇸 美国(鸟居) 15
-      - 🇺🇸 美国(鸟居) 16
-      - 🇺🇸 美国(鸟居) 17
-      - 🇺🇸 美国(鸟居) 18
-      - 🇺🇸 美国(鸟居) 19
-      - 🇺🇸 美国(鸟居) 20
-      - 🇺🇸 美国(鸟居) 21
-      - 欧洲(鸟居)
-      - 🇺🇸 美国(鸟居) 22
-      - 🇺🇸 美国(鸟居) 23
-      - 🇺🇸 美国(鸟居) 24
-      - 🇺🇸 美国(鸟居) 25
-      - 🇺🇸 美国(鸟居) 26
-      - 🇮🇳 印度(鸟居)
-      - 🇮🇳 印度(鸟居) 2
-      - 🇮🇳 印度(鸟居) 3
-      - 🇮🇳 印度(鸟居) 4
-      - 🇮🇳 印度(鸟居) 5
-      - 🇮🇳 印度(鸟居) 6
+      - 🇳🇱 荷兰(鸟君)
+      - 🇳🇱 荷兰(鸟君) 2
+      - 🇳🇱 荷兰(鸟君) 3
+      - 🇳🇱 荷兰(鸟君) 4
+      - 🇳🇱 荷兰(鸟君) 5
+      - 捷克(鸟君)
+      - 🇩🇪 德国(鸟君)
+      - 🇩🇪 德国(鸟君) 2
+      - 🇩🇪 德国(鸟君) 3
+      - 🇩🇪 德国(鸟君) 4
+      - 🇩🇪 德国(鸟君) 5
+      - 🇩🇰 丹麦(鸟君)
+      - 🇩🇰 丹麦(鸟君) 2
+      - 🇫🇷 法国(鸟君)
+      - 🇫🇷 法国(鸟君) 2
+      - 🇫🇷 法国(鸟君) 3
+      - 🇫🇷 法国(鸟君) 4
+      - 🇫🇷 法国(鸟君) 5
+      - 🇫🇷 法国(鸟君) 6
+      - 🇫🇷 法国(鸟君) 7
+      - 🇫🇷 法国(鸟君) 8
+      - 🇬🇧 英国(鸟君)
+      - 🇬🇧 英国(鸟君) 2
+      - 🇬🇧 英国(鸟君) 3
+      - 🇬🇧 英国(鸟君) 4
+      - 🇬🇧 英国(鸟君) 5
+      - 🇬🇧 英国(鸟君) 6
+      - 🇬🇧 英国(鸟君) 7
+      - 🇨🇭 瑞士(鸟君)
+      - 🇨🇭 瑞士(鸟君) 2
+      - 🇨🇭 瑞士(鸟君) 3
+      - 🇨🇭 瑞士(鸟君) 4
+      - 🇨🇭 瑞士(鸟君) 5
+      - 🇨🇭 瑞士(鸟君) 6
+      - 🇺🇸 美国(鸟君)
+      - 🇺🇸 美国(鸟君) 2
+      - 🇺🇸 美国(鸟君) 3
+      - 🇺🇸 美国(鸟君) 4
+      - 🇺🇸 美国(鸟君) 5
+      - 🇺🇸 美国(鸟君) 6
+      - 🇺🇸 美国(鸟君) 7
+      - 🇺🇸 美国(鸟君) 8
+      - 🇺🇸 美国(鸟君) 9
+      - 🇺🇸 美国(鸟君) 10
+      - 🇺🇸 美国(鸟君) 11
+      - 🇺🇸 美国(鸟君) 12
+      - 🇺🇸 美国(鸟君) 13
+      - 🇺🇸 美国(鸟君) 14
+      - 🇺🇸 美国(鸟君) 15
+      - 🇺🇸 美国(鸟君) 16
+      - 🇺🇸 美国(鸟君) 17
+      - 🇺🇸 美国(鸟君) 18
+      - 🇺🇸 美国(鸟君) 19
+      - 🇺🇸 美国(鸟君) 20
+      - 🇺🇸 美国(鸟君) 21
+      - 欧洲(鸟君)
+      - 🇺🇸 美国(鸟君) 22
+      - 🇺🇸 美国(鸟君) 23
+      - 🇺🇸 美国(鸟君) 24
+      - 🇺🇸 美国(鸟君) 25
+      - 🇺🇸 美国(鸟君) 26
+      - 🇮🇳 印度(鸟君)
+      - 🇮🇳 印度(鸟君) 2
+      - 🇮🇳 印度(鸟君) 3
+      - 🇮🇳 印度(鸟君) 4
+      - 🇮🇳 印度(鸟君) 5
+      - 🇮🇳 印度(鸟君) 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇳🇱 荷兰(鸟居)
-      - 🇳🇱 荷兰(鸟居) 2
-      - 🇳🇱 荷兰(鸟居) 3
-      - 🇳🇱 荷兰(鸟居) 4
-      - 🇳🇱 荷兰(鸟居) 5
-      - 捷克(鸟居)
-      - 🇩🇪 德国(鸟居)
-      - 🇩🇪 德国(鸟居) 2
-      - 🇩🇪 德国(鸟居) 3
-      - 🇩🇪 德国(鸟居) 4
-      - 🇩🇪 德国(鸟居) 5
-      - 🇩🇰 丹麦(鸟居)
-      - 🇩🇰 丹麦(鸟居) 2
-      - 🇫🇷 法国(鸟居)
-      - 🇫🇷 法国(鸟居) 2
-      - 🇫🇷 法国(鸟居) 3
-      - 🇫🇷 法国(鸟居) 4
-      - 🇫🇷 法国(鸟居) 5
-      - 🇫🇷 法国(鸟居) 6
-      - 🇫🇷 法国(鸟居) 7
-      - 🇫🇷 法国(鸟居) 8
-      - 🇬🇧 英国(鸟居)
-      - 🇬🇧 英国(鸟居) 2
-      - 🇬🇧 英国(鸟居) 3
-      - 🇬🇧 英国(鸟居) 4
-      - 🇬🇧 英国(鸟居) 5
-      - 🇬🇧 英国(鸟居) 6
-      - 🇬🇧 英国(鸟居) 7
-      - 🇨🇭 瑞士(鸟居)
-      - 🇨🇭 瑞士(鸟居) 2
-      - 🇨🇭 瑞士(鸟居) 3
-      - 🇨🇭 瑞士(鸟居) 4
-      - 🇨🇭 瑞士(鸟居) 5
-      - 🇨🇭 瑞士(鸟居) 6
-      - 🇺🇸 美国(鸟居)
-      - 🇺🇸 美国(鸟居) 2
-      - 🇺🇸 美国(鸟居) 3
-      - 🇺🇸 美国(鸟居) 4
-      - 🇺🇸 美国(鸟居) 5
-      - 🇺🇸 美国(鸟居) 6
-      - 🇺🇸 美国(鸟居) 7
-      - 🇺🇸 美国(鸟居) 8
-      - 🇺🇸 美国(鸟居) 9
-      - 🇺🇸 美国(鸟居) 10
-      - 🇺🇸 美国(鸟居) 11
-      - 🇺🇸 美国(鸟居) 12
-      - 🇺🇸 美国(鸟居) 13
-      - 🇺🇸 美国(鸟居) 14
-      - 🇺🇸 美国(鸟居) 15
-      - 🇺🇸 美国(鸟居) 16
-      - 🇺🇸 美国(鸟居) 17
-      - 🇺🇸 美国(鸟居) 18
-      - 🇺🇸 美国(鸟居) 19
-      - 🇺🇸 美国(鸟居) 20
-      - 🇺🇸 美国(鸟居) 21
-      - 欧洲(鸟居)
-      - 🇺🇸 美国(鸟居) 22
-      - 🇺🇸 美国(鸟居) 23
-      - 🇺🇸 美国(鸟居) 24
-      - 🇺🇸 美国(鸟居) 25
-      - 🇺🇸 美国(鸟居) 26
-      - 🇮🇳 印度(鸟居)
-      - 🇮🇳 印度(鸟居) 2
-      - 🇮🇳 印度(鸟居) 3
-      - 🇮🇳 印度(鸟居) 4
-      - 🇮🇳 印度(鸟居) 5
-      - 🇮🇳 印度(鸟居) 6
+      - 🇳🇱 荷兰(鸟君)
+      - 🇳🇱 荷兰(鸟君) 2
+      - 🇳🇱 荷兰(鸟君) 3
+      - 🇳🇱 荷兰(鸟君) 4
+      - 🇳🇱 荷兰(鸟君) 5
+      - 捷克(鸟君)
+      - 🇩🇪 德国(鸟君)
+      - 🇩🇪 德国(鸟君) 2
+      - 🇩🇪 德国(鸟君) 3
+      - 🇩🇪 德国(鸟君) 4
+      - 🇩🇪 德国(鸟君) 5
+      - 🇩🇰 丹麦(鸟君)
+      - 🇩🇰 丹麦(鸟君) 2
+      - 🇫🇷 法国(鸟君)
+      - 🇫🇷 法国(鸟君) 2
+      - 🇫🇷 法国(鸟君) 3
+      - 🇫🇷 法国(鸟君) 4
+      - 🇫🇷 法国(鸟君) 5
+      - 🇫🇷 法国(鸟君) 6
+      - 🇫🇷 法国(鸟君) 7
+      - 🇫🇷 法国(鸟君) 8
+      - 🇬🇧 英国(鸟君)
+      - 🇬🇧 英国(鸟君) 2
+      - 🇬🇧 英国(鸟君) 3
+      - 🇬🇧 英国(鸟君) 4
+      - 🇬🇧 英国(鸟君) 5
+      - 🇬🇧 英国(鸟君) 6
+      - 🇬🇧 英国(鸟君) 7
+      - 🇨🇭 瑞士(鸟君)
+      - 🇨🇭 瑞士(鸟君) 2
+      - 🇨🇭 瑞士(鸟君) 3
+      - 🇨🇭 瑞士(鸟君) 4
+      - 🇨🇭 瑞士(鸟君) 5
+      - 🇨🇭 瑞士(鸟君) 6
+      - 🇺🇸 美国(鸟君)
+      - 🇺🇸 美国(鸟君) 2
+      - 🇺🇸 美国(鸟君) 3
+      - 🇺🇸 美国(鸟君) 4
+      - 🇺🇸 美国(鸟君) 5
+      - 🇺🇸 美国(鸟君) 6
+      - 🇺🇸 美国(鸟君) 7
+      - 🇺🇸 美国(鸟君) 8
+      - 🇺🇸 美国(鸟君) 9
+      - 🇺🇸 美国(鸟君) 10
+      - 🇺🇸 美国(鸟君) 11
+      - 🇺🇸 美国(鸟君) 12
+      - 🇺🇸 美国(鸟君) 13
+      - 🇺🇸 美国(鸟君) 14
+      - 🇺🇸 美国(鸟君) 15
+      - 🇺🇸 美国(鸟君) 16
+      - 🇺🇸 美国(鸟君) 17
+      - 🇺🇸 美国(鸟君) 18
+      - 🇺🇸 美国(鸟君) 19
+      - 🇺🇸 美国(鸟君) 20
+      - 🇺🇸 美国(鸟君) 21
+      - 欧洲(鸟君)
+      - 🇺🇸 美国(鸟君) 22
+      - 🇺🇸 美国(鸟君) 23
+      - 🇺🇸 美国(鸟君) 24
+      - 🇺🇸 美国(鸟君) 25
+      - 🇺🇸 美国(鸟君) 26
+      - 🇮🇳 印度(鸟君)
+      - 🇮🇳 印度(鸟君) 2
+      - 🇮🇳 印度(鸟君) 3
+      - 🇮🇳 印度(鸟君) 4
+      - 🇮🇳 印度(鸟君) 5
+      - 🇮🇳 印度(鸟君) 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱 荷兰(鸟居)
-      - 🇳🇱 荷兰(鸟居) 2
-      - 🇳🇱 荷兰(鸟居) 3
-      - 🇳🇱 荷兰(鸟居) 4
-      - 🇳🇱 荷兰(鸟居) 5
-      - 捷克(鸟居)
-      - 🇩🇪 德国(鸟居)
-      - 🇩🇪 德国(鸟居) 2
-      - 🇩🇪 德国(鸟居) 3
-      - 🇩🇪 德国(鸟居) 4
-      - 🇩🇪 德国(鸟居) 5
-      - 🇩🇰 丹麦(鸟居)
-      - 🇩🇰 丹麦(鸟居) 2
-      - 🇫🇷 法国(鸟居)
-      - 🇫🇷 法国(鸟居) 2
-      - 🇫🇷 法国(鸟居) 3
-      - 🇫🇷 法国(鸟居) 4
-      - 🇫🇷 法国(鸟居) 5
-      - 🇫🇷 法国(鸟居) 6
-      - 🇫🇷 法国(鸟居) 7
-      - 🇫🇷 法国(鸟居) 8
-      - 🇬🇧 英国(鸟居)
-      - 🇬🇧 英国(鸟居) 2
-      - 🇬🇧 英国(鸟居) 3
-      - 🇬🇧 英国(鸟居) 4
-      - 🇬🇧 英国(鸟居) 5
-      - 🇬🇧 英国(鸟居) 6
-      - 🇬🇧 英国(鸟居) 7
-      - 🇨🇭 瑞士(鸟居)
-      - 🇨🇭 瑞士(鸟居) 2
-      - 🇨🇭 瑞士(鸟居) 3
-      - 🇨🇭 瑞士(鸟居) 4
-      - 🇨🇭 瑞士(鸟居) 5
-      - 🇨🇭 瑞士(鸟居) 6
-      - 🇺🇸 美国(鸟居)
-      - 🇺🇸 美国(鸟居) 2
-      - 🇺🇸 美国(鸟居) 3
-      - 🇺🇸 美国(鸟居) 4
-      - 🇺🇸 美国(鸟居) 5
-      - 🇺🇸 美国(鸟居) 6
-      - 🇺🇸 美国(鸟居) 7
-      - 🇺🇸 美国(鸟居) 8
-      - 🇺🇸 美国(鸟居) 9
-      - 🇺🇸 美国(鸟居) 10
-      - 🇺🇸 美国(鸟居) 11
-      - 🇺🇸 美国(鸟居) 12
-      - 🇺🇸 美国(鸟居) 13
-      - 🇺🇸 美国(鸟居) 14
-      - 🇺🇸 美国(鸟居) 15
-      - 🇺🇸 美国(鸟居) 16
-      - 🇺🇸 美国(鸟居) 17
-      - 🇺🇸 美国(鸟居) 18
-      - 🇺🇸 美国(鸟居) 19
-      - 🇺🇸 美国(鸟居) 20
-      - 🇺🇸 美国(鸟居) 21
-      - 欧洲(鸟居)
-      - 🇺🇸 美国(鸟居) 22
-      - 🇺🇸 美国(鸟居) 23
-      - 🇺🇸 美国(鸟居) 24
-      - 🇺🇸 美国(鸟居) 25
-      - 🇺🇸 美国(鸟居) 26
-      - 🇮🇳 印度(鸟居)
-      - 🇮🇳 印度(鸟居) 2
-      - 🇮🇳 印度(鸟居) 3
-      - 🇮🇳 印度(鸟居) 4
-      - 🇮🇳 印度(鸟居) 5
-      - 🇮🇳 印度(鸟居) 6
+      - 🇳🇱 荷兰(鸟君)
+      - 🇳🇱 荷兰(鸟君) 2
+      - 🇳🇱 荷兰(鸟君) 3
+      - 🇳🇱 荷兰(鸟君) 4
+      - 🇳🇱 荷兰(鸟君) 5
+      - 捷克(鸟君)
+      - 🇩🇪 德国(鸟君)
+      - 🇩🇪 德国(鸟君) 2
+      - 🇩🇪 德国(鸟君) 3
+      - 🇩🇪 德国(鸟君) 4
+      - 🇩🇪 德国(鸟君) 5
+      - 🇩🇰 丹麦(鸟君)
+      - 🇩🇰 丹麦(鸟君) 2
+      - 🇫🇷 法国(鸟君)
+      - 🇫🇷 法国(鸟君) 2
+      - 🇫🇷 法国(鸟君) 3
+      - 🇫🇷 法国(鸟君) 4
+      - 🇫🇷 法国(鸟君) 5
+      - 🇫🇷 法国(鸟君) 6
+      - 🇫🇷 法国(鸟君) 7
+      - 🇫🇷 法国(鸟君) 8
+      - 🇬🇧 英国(鸟君)
+      - 🇬🇧 英国(鸟君) 2
+      - 🇬🇧 英国(鸟君) 3
+      - 🇬🇧 英国(鸟君) 4
+      - 🇬🇧 英国(鸟君) 5
+      - 🇬🇧 英国(鸟君) 6
+      - 🇬🇧 英国(鸟君) 7
+      - 🇨🇭 瑞士(鸟君)
+      - 🇨🇭 瑞士(鸟君) 2
+      - 🇨🇭 瑞士(鸟君) 3
+      - 🇨🇭 瑞士(鸟君) 4
+      - 🇨🇭 瑞士(鸟君) 5
+      - 🇨🇭 瑞士(鸟君) 6
+      - 🇺🇸 美国(鸟君)
+      - 🇺🇸 美国(鸟君) 2
+      - 🇺🇸 美国(鸟君) 3
+      - 🇺🇸 美国(鸟君) 4
+      - 🇺🇸 美国(鸟君) 5
+      - 🇺🇸 美国(鸟君) 6
+      - 🇺🇸 美国(鸟君) 7
+      - 🇺🇸 美国(鸟君) 8
+      - 🇺🇸 美国(鸟君) 9
+      - 🇺🇸 美国(鸟君) 10
+      - 🇺🇸 美国(鸟君) 11
+      - 🇺🇸 美国(鸟君) 12
+      - 🇺🇸 美国(鸟君) 13
+      - 🇺🇸 美国(鸟君) 14
+      - 🇺🇸 美国(鸟君) 15
+      - 🇺🇸 美国(鸟君) 16
+      - 🇺🇸 美国(鸟君) 17
+      - 🇺🇸 美国(鸟君) 18
+      - 🇺🇸 美国(鸟君) 19
+      - 🇺🇸 美国(鸟君) 20
+      - 🇺🇸 美国(鸟君) 21
+      - 欧洲(鸟君)
+      - 🇺🇸 美国(鸟君) 22
+      - 🇺🇸 美国(鸟君) 23
+      - 🇺🇸 美国(鸟君) 24
+      - 🇺🇸 美国(鸟君) 25
+      - 🇺🇸 美国(鸟君) 26
+      - 🇮🇳 印度(鸟君)
+      - 🇮🇳 印度(鸟君) 2
+      - 🇮🇳 印度(鸟君) 3
+      - 🇮🇳 印度(鸟君) 4
+      - 🇮🇳 印度(鸟君) 5
+      - 🇮🇳 印度(鸟君) 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -527,73 +527,73 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱 荷兰(鸟居)
-      - 🇳🇱 荷兰(鸟居) 2
-      - 🇳🇱 荷兰(鸟居) 3
-      - 🇳🇱 荷兰(鸟居) 4
-      - 🇳🇱 荷兰(鸟居) 5
-      - 捷克(鸟居)
-      - 🇩🇪 德国(鸟居)
-      - 🇩🇪 德国(鸟居) 2
-      - 🇩🇪 德国(鸟居) 3
-      - 🇩🇪 德国(鸟居) 4
-      - 🇩🇪 德国(鸟居) 5
-      - 🇩🇰 丹麦(鸟居)
-      - 🇩🇰 丹麦(鸟居) 2
-      - 🇫🇷 法国(鸟居)
-      - 🇫🇷 法国(鸟居) 2
-      - 🇫🇷 法国(鸟居) 3
-      - 🇫🇷 法国(鸟居) 4
-      - 🇫🇷 法国(鸟居) 5
-      - 🇫🇷 法国(鸟居) 6
-      - 🇫🇷 法国(鸟居) 7
-      - 🇫🇷 法国(鸟居) 8
-      - 🇬🇧 英国(鸟居)
-      - 🇬🇧 英国(鸟居) 2
-      - 🇬🇧 英国(鸟居) 3
-      - 🇬🇧 英国(鸟居) 4
-      - 🇬🇧 英国(鸟居) 5
-      - 🇬🇧 英国(鸟居) 6
-      - 🇬🇧 英国(鸟居) 7
-      - 🇨🇭 瑞士(鸟居)
-      - 🇨🇭 瑞士(鸟居) 2
-      - 🇨🇭 瑞士(鸟居) 3
-      - 🇨🇭 瑞士(鸟居) 4
-      - 🇨🇭 瑞士(鸟居) 5
-      - 🇨🇭 瑞士(鸟居) 6
-      - 🇺🇸 美国(鸟居)
-      - 🇺🇸 美国(鸟居) 2
-      - 🇺🇸 美国(鸟居) 3
-      - 🇺🇸 美国(鸟居) 4
-      - 🇺🇸 美国(鸟居) 5
-      - 🇺🇸 美国(鸟居) 6
-      - 🇺🇸 美国(鸟居) 7
-      - 🇺🇸 美国(鸟居) 8
-      - 🇺🇸 美国(鸟居) 9
-      - 🇺🇸 美国(鸟居) 10
-      - 🇺🇸 美国(鸟居) 11
-      - 🇺🇸 美国(鸟居) 12
-      - 🇺🇸 美国(鸟居) 13
-      - 🇺🇸 美国(鸟居) 14
-      - 🇺🇸 美国(鸟居) 15
-      - 🇺🇸 美国(鸟居) 16
-      - 🇺🇸 美国(鸟居) 17
-      - 🇺🇸 美国(鸟居) 18
-      - 🇺🇸 美国(鸟居) 19
-      - 🇺🇸 美国(鸟居) 20
-      - 🇺🇸 美国(鸟居) 21
-      - 欧洲(鸟居)
-      - 🇺🇸 美国(鸟居) 22
-      - 🇺🇸 美国(鸟居) 23
-      - 🇺🇸 美国(鸟居) 24
-      - 🇺🇸 美国(鸟居) 25
-      - 🇺🇸 美国(鸟居) 26
-      - 🇮🇳 印度(鸟居)
-      - 🇮🇳 印度(鸟居) 2
-      - 🇮🇳 印度(鸟居) 3
-      - 🇮🇳 印度(鸟居) 4
-      - 🇮🇳 印度(鸟居) 5
-      - 🇮🇳 印度(鸟居) 6
+      - 🇳🇱 荷兰(鸟君)
+      - 🇳🇱 荷兰(鸟君) 2
+      - 🇳🇱 荷兰(鸟君) 3
+      - 🇳🇱 荷兰(鸟君) 4
+      - 🇳🇱 荷兰(鸟君) 5
+      - 捷克(鸟君)
+      - 🇩🇪 德国(鸟君)
+      - 🇩🇪 德国(鸟君) 2
+      - 🇩🇪 德国(鸟君) 3
+      - 🇩🇪 德国(鸟君) 4
+      - 🇩🇪 德国(鸟君) 5
+      - 🇩🇰 丹麦(鸟君)
+      - 🇩🇰 丹麦(鸟君) 2
+      - 🇫🇷 法国(鸟君)
+      - 🇫🇷 法国(鸟君) 2
+      - 🇫🇷 法国(鸟君) 3
+      - 🇫🇷 法国(鸟君) 4
+      - 🇫🇷 法国(鸟君) 5
+      - 🇫🇷 法国(鸟君) 6
+      - 🇫🇷 法国(鸟君) 7
+      - 🇫🇷 法国(鸟君) 8
+      - 🇬🇧 英国(鸟君)
+      - 🇬🇧 英国(鸟君) 2
+      - 🇬🇧 英国(鸟君) 3
+      - 🇬🇧 英国(鸟君) 4
+      - 🇬🇧 英国(鸟君) 5
+      - 🇬🇧 英国(鸟君) 6
+      - 🇬🇧 英国(鸟君) 7
+      - 🇨🇭 瑞士(鸟君)
+      - 🇨🇭 瑞士(鸟君) 2
+      - 🇨🇭 瑞士(鸟君) 3
+      - 🇨🇭 瑞士(鸟君) 4
+      - 🇨🇭 瑞士(鸟君) 5
+      - 🇨🇭 瑞士(鸟君) 6
+      - 🇺🇸 美国(鸟君)
+      - 🇺🇸 美国(鸟君) 2
+      - 🇺🇸 美国(鸟君) 3
+      - 🇺🇸 美国(鸟君) 4
+      - 🇺🇸 美国(鸟君) 5
+      - 🇺🇸 美国(鸟君) 6
+      - 🇺🇸 美国(鸟君) 7
+      - 🇺🇸 美国(鸟君) 8
+      - 🇺🇸 美国(鸟君) 9
+      - 🇺🇸 美国(鸟君) 10
+      - 🇺🇸 美国(鸟君) 11
+      - 🇺🇸 美国(鸟君) 12
+      - 🇺🇸 美国(鸟君) 13
+      - 🇺🇸 美国(鸟君) 14
+      - 🇺🇸 美国(鸟君) 15
+      - 🇺🇸 美国(鸟君) 16
+      - 🇺🇸 美国(鸟君) 17
+      - 🇺🇸 美国(鸟君) 18
+      - 🇺🇸 美国(鸟君) 19
+      - 🇺🇸 美国(鸟君) 20
+      - 🇺🇸 美国(鸟君) 21
+      - 欧洲(鸟君)
+      - 🇺🇸 美国(鸟君) 22
+      - 🇺🇸 美国(鸟君) 23
+      - 🇺🇸 美国(鸟君) 24
+      - 🇺🇸 美国(鸟君) 25
+      - 🇺🇸 美国(鸟君) 26
+      - 🇮🇳 印度(鸟君)
+      - 🇮🇳 印度(鸟君) 2
+      - 🇮🇳 印度(鸟君) 3
+      - 🇮🇳 印度(鸟君) 4
+      - 🇮🇳 印度(鸟君) 5
+      - 🇮🇳 印度(鸟君) 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
