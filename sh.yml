@@ -5,605 +5,565 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港, server: shcn2-04.iplc188.com, port: 10001, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾, server: 223.166.165.243, port: 10004, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 2, server: 42.2.143.119, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: 🇨🇳 台湾 2, server: 183.236.57.53, port: 10003, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
-  - {name: 🇭🇰 香港 3, server: 183.236.57.53, port: 10001, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
-  - {name: 🇭🇰 香港 4, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: 🇺🇸 美国, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇷🇴 罗马尼亚, server: 185.124.240.159, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇬🇧 GB 英国, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国 2, server: 104.24.189.254, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name: 🇺🇸 美国 3, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国 4, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国 5, server: 199.180.114.32, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: us178.mars6666.com}}
-  - {name: 🇺🇸 美国 6, server: us178.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: us178.mars6666.com}}
-  - {name: 🇳🇱 荷兰, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 罗马尼亚 2, server: 185.124.240.159, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国 7, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 罗马尼亚 3, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 美国 8, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 DE 德国, server: 185.2.100.166, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇫🇷 FR 法国, server: node09-v2ray.cloudddns.icu, port: 58888, type: vmess, uuid: a4f79c56-42e5-462d-a76b-0aac55d45fdf, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: node09-v2ray.cloudddns.icu}}
-  - {name: 🇬🇧 GB 英国 2, server: 81.19.214.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国 9, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
-  - {name: 🇺🇸 美国 10, server: 104.19.80.46, port: 8080, type: vmess, uuid: 657f7981-0138-4c99-9199-51f62002d8e5, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /1234, ws-headers: {Host: 3.ioqr.cn}}
-  - {name: 🇩🇪 DE 德国 2, server: 185.2.100.166, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 克罗地亚, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 拉脱维亚, server: 188.92.78.145, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国 11, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 拉脱维亚 2, server: 188.92.78.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: LV 拉脱维亚, server: 188.92.78.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 克罗地亚 2, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 美国 12, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 美国 13, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 美国 14, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: LV 拉脱维亚 2, server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国 15, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国 16, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 克罗地亚 3, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 香港 5, server: shcn2-04.iplc188.com, port: 10005, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 17, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇸🇬 新加坡, server: 172.104.62.248, port: 80, type: vmess, uuid: 3c6e2754-9553-4801-bcb2-2043d92a5a0e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: www.um.edu.mo}}
-  - {name: 🇺🇸 美国 18, server: rntwo.laoban666.xyz, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
-  - {name: 🇺🇸 美国 19, server: 198.41.209.53, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name: 🇺🇸 美国 20, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 🇺🇸 美国 21, server: 104.16.249.130, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /233blog, ws-headers: {Host: rn.man-one.club}}
-  - {name: 🇺🇸 美国 22, server: ks-us-c.qjnodeip.xyz, port: 5361, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-c.qjnodeip.xyz}}
-  - {name: 🇷🇺 俄罗斯, server: 172.67.150.130, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: LV 拉脱维亚 3, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国 23, server: ks-us-d.qjnodeip.xyz, port: 9681, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-d.qjnodeip.xyz}}
-  - {name: 🇿🇦 南非, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国 24, server: 1.0.0.0, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name: 🇺🇸 美国 25, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 🇺🇸 美国 26, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 GB 英国 3, server: 84.252.94.98, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 台湾 3, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国 27, server: ks-us-a.qjnodeip.xyz, port: 5329, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-a.qjnodeip.xyz}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_134, server: 104.16.248.130, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /233blog, ws-headers: {Host: rn.man-one.club}}
-  - {name: 🇺🇸 Relay_🏁ZZ-🇺🇸US_139, server: 162.159.210.102, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name: 🇺🇸 美国 28, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国 29, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国 30, server: 107.175.44.154, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
-  - {name: 🇨🇳 台湾 4, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇸🇬 Relay_-🇸🇬SG_25, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
-  - {name: 🇰🇷 KR 韩国, server: 104.16.181.15, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇭🇰 香港 6, server: azhk.jiasu1.xyz, port: 10003, type: vmess, uuid: 484f2569-13e5-4945-ab46-7f63b4db8088, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hongyun, ws-headers: {Host: bing.com}}
-  - {name: 🇺🇸 美国 31, server: 51.75.141.238, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5}
-  - {name: 🇷🇺 俄罗斯 2, server: 23.100.91.135, port: 800, type: vmess, uuid: 6d04dd65-c0b0-38b0-8d3a-be30a68cb55d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: els.xiaobaiyun.me}}
-  - {name: 🇬🇧 GB英国, server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
+  - {name: 🇬🇧 英国, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 欧洲16, server: 195.206.169.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇸🇬 SG 新加坡, server: ss.sg.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: grtvkkHAinCf}
-  - {name: 🇸🇬 SG 新加坡 2, server: ss.sg.sshmax.net, port: 8139, type: ss, cipher: chacha20-ietf-poly1305, password: qyzhBfoKRzXl}
+  - {name: 🇺🇸 美国, server: 107.181.166.55, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: Croatia, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: Europe, server: 138.199.40.169, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇩🇪 Germany, server: 185.2.100.166, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲, server: 138.199.40.169, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 欧洲 2, server: 138.199.40.169, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇩🇪 Germany 2, server: 185.2.100.166, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇪 Germany 3, server: 185.2.100.166, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 194.110.115.85:31572, server: 194.110.115.85, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 45.89.173.205, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国 2, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国 3, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国 4, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国3, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇮🇳 India, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Latvia, server: 188.92.78.203, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇨🇳 台湾, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 89.46.223.239, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国2, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲 3, server: 5.189.202.9, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇬🇧 GB英国, server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
+  - {name: 🇺🇸 美国 5, server: 68.71.244.208, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇯🇵 Relay_-🇯🇵JP_16, server: ffrenzy.tk, port: 11443, type: ss, cipher: chacha20-ietf-poly1305, password: 543c3bff-3d9b-41b6-800e-a8ae3eb0712a}
+  - {name: 欧洲 4, server: 138.199.40.169, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 美国 6, server: 66.115.182.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国4, server: 143.244.42.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国 7, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: Europe 2, server: 138.199.40.169, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 欧洲 5, server: 138.199.40.169, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: Switzerland, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国 8, server: 104.200.131.245, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇮🇳 印度, server: 103.156.50.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国 9, server: 104.200.131.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲1, server: 212.102.35.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 欧洲 6, server: 138.199.40.169, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇨🇳 台湾 2, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 欧洲 7, server: 91.90.121.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲 8, server: 138.199.40.169, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: Croatia 2, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇹 Italy, server: 82.102.26.91, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 欧洲 9, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇬🇧 英国 2, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: Latvia 2, server: 188.92.78.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇬🇧 GB 英国, server: 81.19.214.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Latvia 3, server: 188.92.78.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国 10, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Azerbaijan, server: 62.212.239.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: KingFu景福@YouTuBe请订阅, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
+  - {name: 欧洲13, server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: Europe 3, server: 138.199.40.169, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇺🇸 美国 11, server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇸 美国 12, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: Latvia 4, server: 188.92.78.145, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: Latvia 5, server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇭 瑞士, server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 欧洲 10, server: 138.199.40.169, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: Latvia 6, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: Latvia 7, server: 188.92.78.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国 13, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: Europe 4, server: 138.199.40.169, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: KingFu景福@YouTuBe请订阅 2, server: ss.id.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
+  - {name: Croatia 3, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 2
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
+      - 🇬🇧 英国
+      - 欧洲16
+      - 🇸🇬 SG 新加坡
       - 🇺🇸 美国
-      - 🇷🇴 罗马尼亚
-      - 🇬🇧 GB 英国
+      - Croatia
+      - Europe
+      - 🇩🇪 Germany
+      - 欧洲
+      - 欧洲 2
+      - 🇩🇪 Germany 2
+      - 🇩🇪 Germany 3
+      - 194.110.115.85:31572
+      - 45.89.173.205
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国 7
-      - 🇷🇴 罗马尼亚 3
-      - 🇺🇸 美国 8
-      - 🇩🇪 DE 德国
-      - 🇫🇷 FR 法国
-      - 🇬🇧 GB 英国 2
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇩🇪 DE 德国 2
-      - 克罗地亚
-      - 拉脱维亚
-      - 🇺🇸 美国 11
-      - 拉脱维亚 2
-      - LV 拉脱维亚
-      - 克罗地亚 2
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - LV 拉脱维亚 2
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 克罗地亚 3
-      - 🇭🇰 香港 5
-      - 🇺🇸 美国 17
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇷🇺 俄罗斯
-      - LV 拉脱维亚 3
-      - 🇺🇸 美国 23
-      - 🇿🇦 南非
-      - 🇺🇸 美国 24
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 26
-      - 🇬🇧 GB 英国 3
-      - 🇨🇳 台湾 3
-      - 🇺🇸 美国 27
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_139
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇺🇸 美国 30
-      - 🇨🇳 台湾 4
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - 🇰🇷 KR 韩国
-      - 🇭🇰 香港 6
-      - 🇺🇸 美国 31
-      - 🇷🇺 俄罗斯 2
+      - 🇺🇸 美国3
+      - 🇮🇳 India
+      - Latvia
+      - 🇨🇳 台湾
+      - 89.46.223.239
+      - 🇺🇸 美国2
+      - 欧洲 3
       - 🇬🇧 GB英国
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
+      - 🇺🇸 美国 5
+      - 🇯🇵 Relay_-🇯🇵JP_16
+      - 欧洲 4
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国4
+      - 🇺🇸 美国 7
+      - Europe 2
+      - 欧洲 5
+      - Switzerland
+      - 🇺🇸 美国 8
+      - 🇮🇳 印度
+      - 🇺🇸 美国 9
+      - 欧洲1
+      - 欧洲 6
+      - 🇨🇳 台湾 2
+      - 欧洲 7
+      - 欧洲 8
+      - Croatia 2
+      - 🇮🇹 Italy
+      - 欧洲 9
+      - 🇬🇧 英国 2
+      - Latvia 2
+      - 🇬🇧 GB 英国
+      - Latvia 3
+      - 🇺🇸 美国 10
+      - Azerbaijan
+      - KingFu景福@YouTuBe请订阅
+      - 欧洲13
+      - Europe 3
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - Latvia 4
+      - Latvia 5
+      - 🇨🇭 瑞士
+      - 欧洲 10
+      - Latvia 6
+      - Latvia 7
+      - 🇺🇸 美国 13
+      - Europe 4
+      - KingFu景福@YouTuBe请订阅 2
+      - Croatia 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 2
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
+      - 🇬🇧 英国
+      - 欧洲16
+      - 🇸🇬 SG 新加坡
       - 🇺🇸 美国
-      - 🇷🇴 罗马尼亚
-      - 🇬🇧 GB 英国
+      - Croatia
+      - Europe
+      - 🇩🇪 Germany
+      - 欧洲
+      - 欧洲 2
+      - 🇩🇪 Germany 2
+      - 🇩🇪 Germany 3
+      - 194.110.115.85:31572
+      - 45.89.173.205
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国 7
-      - 🇷🇴 罗马尼亚 3
-      - 🇺🇸 美国 8
-      - 🇩🇪 DE 德国
-      - 🇫🇷 FR 法国
-      - 🇬🇧 GB 英国 2
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇩🇪 DE 德国 2
-      - 克罗地亚
-      - 拉脱维亚
-      - 🇺🇸 美国 11
-      - 拉脱维亚 2
-      - LV 拉脱维亚
-      - 克罗地亚 2
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - LV 拉脱维亚 2
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 克罗地亚 3
-      - 🇭🇰 香港 5
-      - 🇺🇸 美国 17
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇷🇺 俄罗斯
-      - LV 拉脱维亚 3
-      - 🇺🇸 美国 23
-      - 🇿🇦 南非
-      - 🇺🇸 美国 24
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 26
-      - 🇬🇧 GB 英国 3
-      - 🇨🇳 台湾 3
-      - 🇺🇸 美国 27
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_139
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇺🇸 美国 30
-      - 🇨🇳 台湾 4
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - 🇰🇷 KR 韩国
-      - 🇭🇰 香港 6
-      - 🇺🇸 美国 31
-      - 🇷🇺 俄罗斯 2
+      - 🇺🇸 美国3
+      - 🇮🇳 India
+      - Latvia
+      - 🇨🇳 台湾
+      - 89.46.223.239
+      - 🇺🇸 美国2
+      - 欧洲 3
       - 🇬🇧 GB英国
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
+      - 🇺🇸 美国 5
+      - 🇯🇵 Relay_-🇯🇵JP_16
+      - 欧洲 4
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国4
+      - 🇺🇸 美国 7
+      - Europe 2
+      - 欧洲 5
+      - Switzerland
+      - 🇺🇸 美国 8
+      - 🇮🇳 印度
+      - 🇺🇸 美国 9
+      - 欧洲1
+      - 欧洲 6
+      - 🇨🇳 台湾 2
+      - 欧洲 7
+      - 欧洲 8
+      - Croatia 2
+      - 🇮🇹 Italy
+      - 欧洲 9
+      - 🇬🇧 英国 2
+      - Latvia 2
+      - 🇬🇧 GB 英国
+      - Latvia 3
+      - 🇺🇸 美国 10
+      - Azerbaijan
+      - KingFu景福@YouTuBe请订阅
+      - 欧洲13
+      - Europe 3
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - Latvia 4
+      - Latvia 5
+      - 🇨🇭 瑞士
+      - 欧洲 10
+      - Latvia 6
+      - Latvia 7
+      - 🇺🇸 美国 13
+      - Europe 4
+      - KingFu景福@YouTuBe请订阅 2
+      - Croatia 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 2
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
+      - 🇬🇧 英国
+      - 欧洲16
+      - 🇸🇬 SG 新加坡
       - 🇺🇸 美国
-      - 🇷🇴 罗马尼亚
-      - 🇬🇧 GB 英国
+      - Croatia
+      - Europe
+      - 🇩🇪 Germany
+      - 欧洲
+      - 欧洲 2
+      - 🇩🇪 Germany 2
+      - 🇩🇪 Germany 3
+      - 194.110.115.85:31572
+      - 45.89.173.205
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国 7
-      - 🇷🇴 罗马尼亚 3
-      - 🇺🇸 美国 8
-      - 🇩🇪 DE 德国
-      - 🇫🇷 FR 法国
-      - 🇬🇧 GB 英国 2
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇩🇪 DE 德国 2
-      - 克罗地亚
-      - 拉脱维亚
-      - 🇺🇸 美国 11
-      - 拉脱维亚 2
-      - LV 拉脱维亚
-      - 克罗地亚 2
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - LV 拉脱维亚 2
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 克罗地亚 3
-      - 🇭🇰 香港 5
-      - 🇺🇸 美国 17
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇷🇺 俄罗斯
-      - LV 拉脱维亚 3
-      - 🇺🇸 美国 23
-      - 🇿🇦 南非
-      - 🇺🇸 美国 24
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 26
-      - 🇬🇧 GB 英国 3
-      - 🇨🇳 台湾 3
-      - 🇺🇸 美国 27
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_139
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇺🇸 美国 30
-      - 🇨🇳 台湾 4
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - 🇰🇷 KR 韩国
-      - 🇭🇰 香港 6
-      - 🇺🇸 美国 31
-      - 🇷🇺 俄罗斯 2
+      - 🇺🇸 美国3
+      - 🇮🇳 India
+      - Latvia
+      - 🇨🇳 台湾
+      - 89.46.223.239
+      - 🇺🇸 美国2
+      - 欧洲 3
       - 🇬🇧 GB英国
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
+      - 🇺🇸 美国 5
+      - 🇯🇵 Relay_-🇯🇵JP_16
+      - 欧洲 4
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国4
+      - 🇺🇸 美国 7
+      - Europe 2
+      - 欧洲 5
+      - Switzerland
+      - 🇺🇸 美国 8
+      - 🇮🇳 印度
+      - 🇺🇸 美国 9
+      - 欧洲1
+      - 欧洲 6
+      - 🇨🇳 台湾 2
+      - 欧洲 7
+      - 欧洲 8
+      - Croatia 2
+      - 🇮🇹 Italy
+      - 欧洲 9
+      - 🇬🇧 英国 2
+      - Latvia 2
+      - 🇬🇧 GB 英国
+      - Latvia 3
+      - 🇺🇸 美国 10
+      - Azerbaijan
+      - KingFu景福@YouTuBe请订阅
+      - 欧洲13
+      - Europe 3
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - Latvia 4
+      - Latvia 5
+      - 🇨🇭 瑞士
+      - 欧洲 10
+      - Latvia 6
+      - Latvia 7
+      - 🇺🇸 美国 13
+      - Europe 4
+      - KingFu景福@YouTuBe请订阅 2
+      - Croatia 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 2
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
+      - 🇬🇧 英国
+      - 欧洲16
+      - 🇸🇬 SG 新加坡
       - 🇺🇸 美国
-      - 🇷🇴 罗马尼亚
-      - 🇬🇧 GB 英国
+      - Croatia
+      - Europe
+      - 🇩🇪 Germany
+      - 欧洲
+      - 欧洲 2
+      - 🇩🇪 Germany 2
+      - 🇩🇪 Germany 3
+      - 194.110.115.85:31572
+      - 45.89.173.205
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国 7
-      - 🇷🇴 罗马尼亚 3
-      - 🇺🇸 美国 8
-      - 🇩🇪 DE 德国
-      - 🇫🇷 FR 法国
-      - 🇬🇧 GB 英国 2
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇩🇪 DE 德国 2
-      - 克罗地亚
-      - 拉脱维亚
-      - 🇺🇸 美国 11
-      - 拉脱维亚 2
-      - LV 拉脱维亚
-      - 克罗地亚 2
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - LV 拉脱维亚 2
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 克罗地亚 3
-      - 🇭🇰 香港 5
-      - 🇺🇸 美国 17
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇷🇺 俄罗斯
-      - LV 拉脱维亚 3
-      - 🇺🇸 美国 23
-      - 🇿🇦 南非
-      - 🇺🇸 美国 24
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 26
-      - 🇬🇧 GB 英国 3
-      - 🇨🇳 台湾 3
-      - 🇺🇸 美国 27
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_139
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇺🇸 美国 30
-      - 🇨🇳 台湾 4
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - 🇰🇷 KR 韩国
-      - 🇭🇰 香港 6
-      - 🇺🇸 美国 31
-      - 🇷🇺 俄罗斯 2
+      - 🇺🇸 美国3
+      - 🇮🇳 India
+      - Latvia
+      - 🇨🇳 台湾
+      - 89.46.223.239
+      - 🇺🇸 美国2
+      - 欧洲 3
       - 🇬🇧 GB英国
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
+      - 🇺🇸 美国 5
+      - 🇯🇵 Relay_-🇯🇵JP_16
+      - 欧洲 4
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国4
+      - 🇺🇸 美国 7
+      - Europe 2
+      - 欧洲 5
+      - Switzerland
+      - 🇺🇸 美国 8
+      - 🇮🇳 印度
+      - 🇺🇸 美国 9
+      - 欧洲1
+      - 欧洲 6
+      - 🇨🇳 台湾 2
+      - 欧洲 7
+      - 欧洲 8
+      - Croatia 2
+      - 🇮🇹 Italy
+      - 欧洲 9
+      - 🇬🇧 英国 2
+      - Latvia 2
+      - 🇬🇧 GB 英国
+      - Latvia 3
+      - 🇺🇸 美国 10
+      - Azerbaijan
+      - KingFu景福@YouTuBe请订阅
+      - 欧洲13
+      - Europe 3
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - Latvia 4
+      - Latvia 5
+      - 🇨🇭 瑞士
+      - 欧洲 10
+      - Latvia 6
+      - Latvia 7
+      - 🇺🇸 美国 13
+      - Europe 4
+      - KingFu景福@YouTuBe请订阅 2
+      - Croatia 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 2
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
+      - 🇬🇧 英国
+      - 欧洲16
+      - 🇸🇬 SG 新加坡
       - 🇺🇸 美国
-      - 🇷🇴 罗马尼亚
-      - 🇬🇧 GB 英国
+      - Croatia
+      - Europe
+      - 🇩🇪 Germany
+      - 欧洲
+      - 欧洲 2
+      - 🇩🇪 Germany 2
+      - 🇩🇪 Germany 3
+      - 194.110.115.85:31572
+      - 45.89.173.205
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国 7
-      - 🇷🇴 罗马尼亚 3
-      - 🇺🇸 美国 8
-      - 🇩🇪 DE 德国
-      - 🇫🇷 FR 法国
-      - 🇬🇧 GB 英国 2
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇩🇪 DE 德国 2
-      - 克罗地亚
-      - 拉脱维亚
-      - 🇺🇸 美国 11
-      - 拉脱维亚 2
-      - LV 拉脱维亚
-      - 克罗地亚 2
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - LV 拉脱维亚 2
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 克罗地亚 3
-      - 🇭🇰 香港 5
-      - 🇺🇸 美国 17
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇷🇺 俄罗斯
-      - LV 拉脱维亚 3
-      - 🇺🇸 美国 23
-      - 🇿🇦 南非
-      - 🇺🇸 美国 24
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 26
-      - 🇬🇧 GB 英国 3
-      - 🇨🇳 台湾 3
-      - 🇺🇸 美国 27
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_139
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇺🇸 美国 30
-      - 🇨🇳 台湾 4
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - 🇰🇷 KR 韩国
-      - 🇭🇰 香港 6
-      - 🇺🇸 美国 31
-      - 🇷🇺 俄罗斯 2
+      - 🇺🇸 美国3
+      - 🇮🇳 India
+      - Latvia
+      - 🇨🇳 台湾
+      - 89.46.223.239
+      - 🇺🇸 美国2
+      - 欧洲 3
       - 🇬🇧 GB英国
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
+      - 🇺🇸 美国 5
+      - 🇯🇵 Relay_-🇯🇵JP_16
+      - 欧洲 4
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国4
+      - 🇺🇸 美国 7
+      - Europe 2
+      - 欧洲 5
+      - Switzerland
+      - 🇺🇸 美国 8
+      - 🇮🇳 印度
+      - 🇺🇸 美国 9
+      - 欧洲1
+      - 欧洲 6
+      - 🇨🇳 台湾 2
+      - 欧洲 7
+      - 欧洲 8
+      - Croatia 2
+      - 🇮🇹 Italy
+      - 欧洲 9
+      - 🇬🇧 英国 2
+      - Latvia 2
+      - 🇬🇧 GB 英国
+      - Latvia 3
+      - 🇺🇸 美国 10
+      - Azerbaijan
+      - KingFu景福@YouTuBe请订阅
+      - 欧洲13
+      - Europe 3
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - Latvia 4
+      - Latvia 5
+      - 🇨🇭 瑞士
+      - 欧洲 10
+      - Latvia 6
+      - Latvia 7
+      - 🇺🇸 美国 13
+      - Europe 4
+      - KingFu景福@YouTuBe请订阅 2
+      - Croatia 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 2
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
+      - 🇬🇧 英国
+      - 欧洲16
+      - 🇸🇬 SG 新加坡
       - 🇺🇸 美国
-      - 🇷🇴 罗马尼亚
-      - 🇬🇧 GB 英国
+      - Croatia
+      - Europe
+      - 🇩🇪 Germany
+      - 欧洲
+      - 欧洲 2
+      - 🇩🇪 Germany 2
+      - 🇩🇪 Germany 3
+      - 194.110.115.85:31572
+      - 45.89.173.205
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国 7
-      - 🇷🇴 罗马尼亚 3
-      - 🇺🇸 美国 8
-      - 🇩🇪 DE 德国
-      - 🇫🇷 FR 法国
-      - 🇬🇧 GB 英国 2
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇩🇪 DE 德国 2
-      - 克罗地亚
-      - 拉脱维亚
-      - 🇺🇸 美国 11
-      - 拉脱维亚 2
-      - LV 拉脱维亚
-      - 克罗地亚 2
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - LV 拉脱维亚 2
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 克罗地亚 3
-      - 🇭🇰 香港 5
-      - 🇺🇸 美国 17
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇷🇺 俄罗斯
-      - LV 拉脱维亚 3
-      - 🇺🇸 美国 23
-      - 🇿🇦 南非
-      - 🇺🇸 美国 24
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 26
-      - 🇬🇧 GB 英国 3
-      - 🇨🇳 台湾 3
-      - 🇺🇸 美国 27
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_139
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇺🇸 美国 30
-      - 🇨🇳 台湾 4
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - 🇰🇷 KR 韩国
-      - 🇭🇰 香港 6
-      - 🇺🇸 美国 31
-      - 🇷🇺 俄罗斯 2
+      - 🇺🇸 美国3
+      - 🇮🇳 India
+      - Latvia
+      - 🇨🇳 台湾
+      - 89.46.223.239
+      - 🇺🇸 美国2
+      - 欧洲 3
       - 🇬🇧 GB英国
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
+      - 🇺🇸 美国 5
+      - 🇯🇵 Relay_-🇯🇵JP_16
+      - 欧洲 4
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国4
+      - 🇺🇸 美国 7
+      - Europe 2
+      - 欧洲 5
+      - Switzerland
+      - 🇺🇸 美国 8
+      - 🇮🇳 印度
+      - 🇺🇸 美国 9
+      - 欧洲1
+      - 欧洲 6
+      - 🇨🇳 台湾 2
+      - 欧洲 7
+      - 欧洲 8
+      - Croatia 2
+      - 🇮🇹 Italy
+      - 欧洲 9
+      - 🇬🇧 英国 2
+      - Latvia 2
+      - 🇬🇧 GB 英国
+      - Latvia 3
+      - 🇺🇸 美国 10
+      - Azerbaijan
+      - KingFu景福@YouTuBe请订阅
+      - 欧洲13
+      - Europe 3
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - Latvia 4
+      - Latvia 5
+      - 🇨🇭 瑞士
+      - 欧洲 10
+      - Latvia 6
+      - Latvia 7
+      - 🇺🇸 美国 13
+      - Europe 4
+      - KingFu景福@YouTuBe请订阅 2
+      - Croatia 3
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 2
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
+      - 🇬🇧 英国
+      - 欧洲16
+      - 🇸🇬 SG 新加坡
       - 🇺🇸 美国
-      - 🇷🇴 罗马尼亚
-      - 🇬🇧 GB 英国
+      - Croatia
+      - Europe
+      - 🇩🇪 Germany
+      - 欧洲
+      - 欧洲 2
+      - 🇩🇪 Germany 2
+      - 🇩🇪 Germany 3
+      - 194.110.115.85:31572
+      - 45.89.173.205
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国 7
-      - 🇷🇴 罗马尼亚 3
-      - 🇺🇸 美国 8
-      - 🇩🇪 DE 德国
-      - 🇫🇷 FR 法国
-      - 🇬🇧 GB 英国 2
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇩🇪 DE 德国 2
-      - 克罗地亚
-      - 拉脱维亚
-      - 🇺🇸 美国 11
-      - 拉脱维亚 2
-      - LV 拉脱维亚
-      - 克罗地亚 2
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - LV 拉脱维亚 2
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 克罗地亚 3
-      - 🇭🇰 香港 5
-      - 🇺🇸 美国 17
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇷🇺 俄罗斯
-      - LV 拉脱维亚 3
-      - 🇺🇸 美国 23
-      - 🇿🇦 南非
-      - 🇺🇸 美国 24
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 26
-      - 🇬🇧 GB 英国 3
-      - 🇨🇳 台湾 3
-      - 🇺🇸 美国 27
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_139
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇺🇸 美国 30
-      - 🇨🇳 台湾 4
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - 🇰🇷 KR 韩国
-      - 🇭🇰 香港 6
-      - 🇺🇸 美国 31
-      - 🇷🇺 俄罗斯 2
+      - 🇺🇸 美国3
+      - 🇮🇳 India
+      - Latvia
+      - 🇨🇳 台湾
+      - 89.46.223.239
+      - 🇺🇸 美国2
+      - 欧洲 3
       - 🇬🇧 GB英国
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
+      - 🇺🇸 美国 5
+      - 🇯🇵 Relay_-🇯🇵JP_16
+      - 欧洲 4
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国4
+      - 🇺🇸 美国 7
+      - Europe 2
+      - 欧洲 5
+      - Switzerland
+      - 🇺🇸 美国 8
+      - 🇮🇳 印度
+      - 🇺🇸 美国 9
+      - 欧洲1
+      - 欧洲 6
+      - 🇨🇳 台湾 2
+      - 欧洲 7
+      - 欧洲 8
+      - Croatia 2
+      - 🇮🇹 Italy
+      - 欧洲 9
+      - 🇬🇧 英国 2
+      - Latvia 2
+      - 🇬🇧 GB 英国
+      - Latvia 3
+      - 🇺🇸 美国 10
+      - Azerbaijan
+      - KingFu景福@YouTuBe请订阅
+      - 欧洲13
+      - Europe 3
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - Latvia 4
+      - Latvia 5
+      - 🇨🇭 瑞士
+      - 欧洲 10
+      - Latvia 6
+      - Latvia 7
+      - 🇺🇸 美国 13
+      - Europe 4
+      - KingFu景福@YouTuBe请订阅 2
+      - Croatia 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -626,76 +586,71 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港
-      - 🇨🇳 台湾
-      - 🇭🇰 香港 2
-      - 🇨🇳 台湾 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
+      - 🇬🇧 英国
+      - 欧洲16
+      - 🇸🇬 SG 新加坡
       - 🇺🇸 美国
-      - 🇷🇴 罗马尼亚
-      - 🇬🇧 GB 英国
+      - Croatia
+      - Europe
+      - 🇩🇪 Germany
+      - 欧洲
+      - 欧洲 2
+      - 🇩🇪 Germany 2
+      - 🇩🇪 Germany 3
+      - 194.110.115.85:31572
+      - 45.89.173.205
       - 🇺🇸 美国 2
       - 🇺🇸 美国 3
       - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇳🇱 荷兰
-      - 🇷🇴 罗马尼亚 2
-      - 🇺🇸 美国 7
-      - 🇷🇴 罗马尼亚 3
-      - 🇺🇸 美国 8
-      - 🇩🇪 DE 德国
-      - 🇫🇷 FR 法国
-      - 🇬🇧 GB 英国 2
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇩🇪 DE 德国 2
-      - 克罗地亚
-      - 拉脱维亚
-      - 🇺🇸 美国 11
-      - 拉脱维亚 2
-      - LV 拉脱维亚
-      - 克罗地亚 2
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - LV 拉脱维亚 2
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 克罗地亚 3
-      - 🇭🇰 香港 5
-      - 🇺🇸 美国 17
-      - 🇸🇬 新加坡
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇷🇺 俄罗斯
-      - LV 拉脱维亚 3
-      - 🇺🇸 美国 23
-      - 🇿🇦 南非
-      - 🇺🇸 美国 24
-      - 🇺🇸 美国 25
-      - 🇺🇸 美国 26
-      - 🇬🇧 GB 英国 3
-      - 🇨🇳 台湾 3
-      - 🇺🇸 美国 27
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇺🇸 Relay_🏁ZZ-🇺🇸US_139
-      - 🇺🇸 美国 28
-      - 🇺🇸 美国 29
-      - 🇺🇸 美国 30
-      - 🇨🇳 台湾 4
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - 🇰🇷 KR 韩国
-      - 🇭🇰 香港 6
-      - 🇺🇸 美国 31
-      - 🇷🇺 俄罗斯 2
+      - 🇺🇸 美国3
+      - 🇮🇳 India
+      - Latvia
+      - 🇨🇳 台湾
+      - 89.46.223.239
+      - 🇺🇸 美国2
+      - 欧洲 3
       - 🇬🇧 GB英国
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
+      - 🇺🇸 美国 5
+      - 🇯🇵 Relay_-🇯🇵JP_16
+      - 欧洲 4
+      - 🇺🇸 美国 6
+      - 🇺🇸 美国4
+      - 🇺🇸 美国 7
+      - Europe 2
+      - 欧洲 5
+      - Switzerland
+      - 🇺🇸 美国 8
+      - 🇮🇳 印度
+      - 🇺🇸 美国 9
+      - 欧洲1
+      - 欧洲 6
+      - 🇨🇳 台湾 2
+      - 欧洲 7
+      - 欧洲 8
+      - Croatia 2
+      - 🇮🇹 Italy
+      - 欧洲 9
+      - 🇬🇧 英国 2
+      - Latvia 2
+      - 🇬🇧 GB 英国
+      - Latvia 3
+      - 🇺🇸 美国 10
+      - Azerbaijan
+      - KingFu景福@YouTuBe请订阅
+      - 欧洲13
+      - Europe 3
+      - 🇺🇸 美国 11
+      - 🇺🇸 美国 12
+      - Latvia 4
+      - Latvia 5
+      - 🇨🇭 瑞士
+      - 欧洲 10
+      - Latvia 6
+      - Latvia 7
+      - 🇺🇸 美国 13
+      - Europe 4
+      - KingFu景福@YouTuBe请订阅 2
+      - Croatia 3
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3045,8 +3000,6 @@ rules:
  - DOMAIN-SUFFIX,discord.media,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.com,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.net,🚀 节点选择
- - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
- - DOMAIN-SUFFIX,duboxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,facebook.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.me,🚀 节点选择
@@ -3208,6 +3161,8 @@ rules:
  - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
+ - DOMAIN-SUFFIX,terabox.com,🚀 节点选择
+ - DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
  - IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
  - IP-CIDR,34.224.0.0/12,🚀 节点选择,no-resolve
  - IP-CIDR,54.242.0.0/15,🚀 节点选择,no-resolve
