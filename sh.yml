@@ -5,204 +5,292 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡02-06 NF 江门移动, server: JIANGMEN.CM.SPEEDUP.233yun.in, port: 10017, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /233yun/v2ray, ws-headers: {Host: JIANGMEN.CM.SPEEDUP.233yun.in}}
+  - {name: NONE, server: lax.jumpwallsocks.online, port: 65534, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: lax.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5, server: 65.52.164.219, port: 10011, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us5.xxl123.fun}}
+  - {name: 🇺🇸 QQ1977488121美国03 | 流媒体, server: us3.xxl123.fun, port: 18888, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us3.xxl123.fun}}
+  - {name: 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5, server: 65.52.164.219, port: 10008, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 65.52.164.219}}
+  - {name: 🇯🇵 JP02-广州CM→日本江东区-倍率x1, server: colagzcm.jumpwallsocks.online, port: 32002, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5, server: 65.52.164.219, port: 10003, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: kr1.xxl123.fun}}
+  - {name: 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1, server: jp3.xxl123.fun, port: 80, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇨🇳 台湾02-06 江门移动, server: JIANGMEN.CM.SPEEDUP.233yun.in, port: 10008, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /233yun/v2ray, ws-headers: {Host: JIANGMEN.CM.SPEEDUP.233yun.in}}
   - {name: 🇹🇷 土耳其, server: csltv.sttcloud.xyz, port: 61001, type: vmess, uuid: beff2b28-9e3b-3c4a-8863-c4eaa0818d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tur, ws-headers: {Host: csltv.sttcloud.xyz}}
+  - {name: 🇺🇸 TG@just_free_share, server: 192.3.228.135, port: 45361, type: vmess, uuid: aeaeff15-2e3e-4717-e2cc-d104564ac5c8, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡02-06 NF 江门移动, server: JIANGMEN.CM.SPEEDUP.233yun.in, port: 10017, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /233yun/v2ray, ws-headers: {Host: JIANGMEN.CM.SPEEDUP.233yun.in}}
+  - {name: t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345, server: 141.164.36.44, port: 80, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 🇯🇵 日本JP-1, server: kk1.feiclouddd.me, port: 443, type: vmess, uuid: 827c8469-c586-486a-a6ab-a899ea3e495d, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /asdfsaaa, ws-headers: {Host: kk1.feiclouddd.me}}
+  - {name: 🇯🇵 QQ1977488121日本02 | 中转AZ x0.5, server: 65.52.164.219, port: 10009, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: jp2.xxl123.fun}}
+  - {name: 🇭🇰 HK01-香港NTT-倍率x1, server: hkntt.jumpwallsocks.online, port: 65535, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkntt.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5, server: 65.52.164.219, port: 10010, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: sg1.xxl123.fun}}
+  - {name: 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1, server: colagzcm.jumpwallsocks.online, port: 37001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇨🇳 TW01-广州CM→台湾HINET-倍率x1, server: colagzcm.jumpwallsocks.online, port: 38001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇯🇵 JP02-日本江东区-倍率x1, server: tk.jumpwallsocks.online, port: 65535, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: tk.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇨🇳 vtwonet-tw-b.qjnodeip.xyz, server: vtwonet-tw-b.qjnodeip.xyz, port: 8300, type: vmess, uuid: 9FC4D03F-A81A-DB13-8547-7F25B4E290A0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 DE01-德国法兰克福-倍率x1, server: fr.jumpwallsocks.online, port: 65535, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: fr.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇨🇳 耳兔谷歌云gcp-http-tw80, server: 35.194.210.47, port: 80, type: vmess, uuid: 2935be3e-6c3a-4c7f-d747-a529c1539802, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 酸奶VPN香港09 三网优化, server: 40.83.94.130, port: 25012, type: vmess, uuid: 28ba4cb0-3f04-3f1b-8376-ff8387355c00, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ny, ws-headers: {Host: 40.83.94.130}}
+  - {name: 🇭🇰 QQ1977488121香港01 | 中转AZ x0.5, server: 65.52.164.219, port: 10000, type: trojan, password: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, skip-cert-verify: false}
+  - {name: 🇭🇰 耳兔谷歌云gcp-http-hk, server: 34.96.190.72, port: 80, type: vmess, uuid: 807099bb-128b-47c4-d9ab-5e286d64875e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 QQ1977488121| 日本80口  x0.1, server: 45.76.111.176, port: 80, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5, server: 65.52.164.219, port: 10005, type: trojan, password: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, skip-cert-verify: false}
+  - {name: 🇨🇳 耳兔谷歌云gcp-http-tw443, server: 35.194.210.47, port: 443, type: vmess, uuid: ed260362-cd88-42e4-8738-50ad60b6105c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国NN-13, server: nn-ssr13.feiclouddd.me, port: 443, type: vmess, uuid: 76cf8637-0a87-4d23-a9e6-b9098420e026, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sadfasdfasdf, ws-headers: {Host: nn-ssr13.feiclouddd.me}}
   - {name: 🇺🇸 美国USA-8, server: ban8.feiclouddd.me, port: 443, type: vmess, uuid: a0a5ae6b-c2ed-458c-bd5a-060cf5c7cc1e, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /asdfsafzzdfas, ws-headers: {Host: ban8.feiclouddd.me}}
   - {name: 🇺🇸 美国USA-4, server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
+  - {name: 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5, server: us7.xxl123.fun, port: 18889, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us7.xxl123.fun}}
   - {name: 🇺🇸 美国NN-4, server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇺🇸 美国NN-13, server: nn-ssr13.feiclouddd.me, port: 443, type: vmess, uuid: 76cf8637-0a87-4d23-a9e6-b9098420e026, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sadfasdfasdf, ws-headers: {Host: nn-ssr13.feiclouddd.me}}
-  - {name: 干饭云GanFanCloud Free, server: 52.184.71.53, port: 11035, type: trojan, password: ZOfTWgka, skip-cert-verify: false}
-  - {name: 🇨🇳 耳兔谷歌云gcp-http-tw80, server: 35.194.210.47, port: 80, type: vmess, uuid: 2935be3e-6c3a-4c7f-d747-a529c1539802, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 耳兔谷歌云gcp-http-tw443, server: 35.194.210.47, port: 443, type: vmess, uuid: ed260362-cd88-42e4-8738-50ad60b6105c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 耳兔谷歌云gcp-http-hk, server: 34.96.190.72, port: 80, type: vmess, uuid: 807099bb-128b-47c4-d9ab-5e286d64875e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 vtwonet-tw-b.qjnodeip.xyz, server: vtwonet-tw-b.qjnodeip.xyz, port: 8300, type: vmess, uuid: 9FC4D03F-A81A-DB13-8547-7F25B4E290A0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 TW01-广州CM→台湾HINET-倍率x1, server: colagzcm.jumpwallsocks.online, port: 38001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇺🇸 TG@just_free_share, server: 23.224.31.203, port: 443, type: vmess, uuid: d92d48b1-bad9-42db-9d07-880fa14380f0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/292026011205, ws-headers: {Host: www.28057431.xyz}}
-  - {name: 🇺🇸 TG@just_free_share 2, server: 192.3.228.135, port: 45361, type: vmess, uuid: aeaeff15-2e3e-4717-e2cc-d104564ac5c8, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: NONE, server: lax.jumpwallsocks.online, port: 65534, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: lax.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇯🇵 JP02-日本江东区-倍率x1, server: tk.jumpwallsocks.online, port: 65535, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: tk.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇯🇵 JP02-广州CM→日本江东区-倍率x1, server: colagzcm.jumpwallsocks.online, port: 32002, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 HK01-香港NTT-倍率x1, server: hkntt.jumpwallsocks.online, port: 65535, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkntt.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1, server: colagzcm.jumpwallsocks.online, port: 37001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇩🇪 DE01-德国法兰克福-倍率x1, server: fr.jumpwallsocks.online, port: 65535, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: fr.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: A32.7M, server: gdyd.jmzhongzhuan.xyz, port: 58888, type: vmess, uuid: 01fc4f5b-395f-3c4f-a4e5-2970b7422ee6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gdyd.jmzhongzhuan.xyz}}
+  - {name: 🇺🇸 TG@just_free_share 2, server: 23.224.31.203, port: 443, type: vmess, uuid: d92d48b1-bad9-42db-9d07-880fa14380f0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/292026011205, ws-headers: {Host: www.28057431.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡02-06 NF 江门移动
+      - NONE
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇹🇷 土耳其
+      - 🇺🇸 TG@just_free_share
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
       - 🇯🇵 日本JP-1
+      - 🇯🇵 QQ1977488121日本02 | 中转AZ x0.5
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
+      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
+      - 🇯🇵 JP02-日本江东区-倍率x1
+      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇨🇳 耳兔谷歌云gcp-http-tw80
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇭🇰 QQ1977488121香港01 | 中转AZ x0.5
+      - 🇭🇰 耳兔谷歌云gcp-http-hk
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - 🇨🇳 耳兔谷歌云gcp-http-tw443
+      - 🇺🇸 美国NN-13
       - 🇺🇸 美国USA-8
       - 🇺🇸 美国USA-4
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
       - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-13
-      - 干饭云GanFanCloud Free
-      - 🇨🇳 耳兔谷歌云gcp-http-tw80
-      - 🇨🇳 耳兔谷歌云gcp-http-tw443
-      - 🇭🇰 耳兔谷歌云gcp-http-hk
-      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
-      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
-      - 🇺🇸 TG@just_free_share
       - 🇺🇸 TG@just_free_share 2
-      - NONE
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - A32.7M
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡02-06 NF 江门移动
+      - NONE
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇹🇷 土耳其
+      - 🇺🇸 TG@just_free_share
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
       - 🇯🇵 日本JP-1
+      - 🇯🇵 QQ1977488121日本02 | 中转AZ x0.5
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
+      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
+      - 🇯🇵 JP02-日本江东区-倍率x1
+      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇨🇳 耳兔谷歌云gcp-http-tw80
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇭🇰 QQ1977488121香港01 | 中转AZ x0.5
+      - 🇭🇰 耳兔谷歌云gcp-http-hk
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - 🇨🇳 耳兔谷歌云gcp-http-tw443
+      - 🇺🇸 美国NN-13
       - 🇺🇸 美国USA-8
       - 🇺🇸 美国USA-4
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
       - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-13
-      - 干饭云GanFanCloud Free
-      - 🇨🇳 耳兔谷歌云gcp-http-tw80
-      - 🇨🇳 耳兔谷歌云gcp-http-tw443
-      - 🇭🇰 耳兔谷歌云gcp-http-hk
-      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
-      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
-      - 🇺🇸 TG@just_free_share
       - 🇺🇸 TG@just_free_share 2
-      - NONE
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - A32.7M
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡02-06 NF 江门移动
+      - NONE
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇹🇷 土耳其
+      - 🇺🇸 TG@just_free_share
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
       - 🇯🇵 日本JP-1
+      - 🇯🇵 QQ1977488121日本02 | 中转AZ x0.5
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
+      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
+      - 🇯🇵 JP02-日本江东区-倍率x1
+      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇨🇳 耳兔谷歌云gcp-http-tw80
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇭🇰 QQ1977488121香港01 | 中转AZ x0.5
+      - 🇭🇰 耳兔谷歌云gcp-http-hk
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - 🇨🇳 耳兔谷歌云gcp-http-tw443
+      - 🇺🇸 美国NN-13
       - 🇺🇸 美国USA-8
       - 🇺🇸 美国USA-4
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
       - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-13
-      - 干饭云GanFanCloud Free
-      - 🇨🇳 耳兔谷歌云gcp-http-tw80
-      - 🇨🇳 耳兔谷歌云gcp-http-tw443
-      - 🇭🇰 耳兔谷歌云gcp-http-hk
-      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
-      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
-      - 🇺🇸 TG@just_free_share
       - 🇺🇸 TG@just_free_share 2
-      - NONE
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - A32.7M
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 耳兔谷歌云gcp-http-tw80
-      - 🇨🇳 耳兔谷歌云gcp-http-tw443
-      - 🇭🇰 耳兔谷歌云gcp-http-hk
-      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
-      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
+      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
+      - 🇨🇳 耳兔谷歌云gcp-http-tw80
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇭🇰 QQ1977488121香港01 | 中转AZ x0.5
+      - 🇭🇰 耳兔谷歌云gcp-http-hk
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - 🇨🇳 耳兔谷歌云gcp-http-tw443
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡02-06 NF 江门移动
+      - NONE
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇹🇷 土耳其
+      - 🇺🇸 TG@just_free_share
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
       - 🇯🇵 日本JP-1
+      - 🇯🇵 QQ1977488121日本02 | 中转AZ x0.5
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
+      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
+      - 🇯🇵 JP02-日本江东区-倍率x1
+      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇨🇳 耳兔谷歌云gcp-http-tw80
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇭🇰 QQ1977488121香港01 | 中转AZ x0.5
+      - 🇭🇰 耳兔谷歌云gcp-http-hk
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - 🇨🇳 耳兔谷歌云gcp-http-tw443
+      - 🇺🇸 美国NN-13
       - 🇺🇸 美国USA-8
       - 🇺🇸 美国USA-4
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
       - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-13
-      - 干饭云GanFanCloud Free
-      - 🇨🇳 耳兔谷歌云gcp-http-tw80
-      - 🇨🇳 耳兔谷歌云gcp-http-tw443
-      - 🇭🇰 耳兔谷歌云gcp-http-hk
-      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
-      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
-      - 🇺🇸 TG@just_free_share
       - 🇺🇸 TG@just_free_share 2
-      - NONE
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - A32.7M
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡02-06 NF 江门移动
+      - NONE
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇹🇷 土耳其
+      - 🇺🇸 TG@just_free_share
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
       - 🇯🇵 日本JP-1
+      - 🇯🇵 QQ1977488121日本02 | 中转AZ x0.5
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
+      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
+      - 🇯🇵 JP02-日本江东区-倍率x1
+      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇨🇳 耳兔谷歌云gcp-http-tw80
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇭🇰 QQ1977488121香港01 | 中转AZ x0.5
+      - 🇭🇰 耳兔谷歌云gcp-http-hk
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - 🇨🇳 耳兔谷歌云gcp-http-tw443
+      - 🇺🇸 美国NN-13
       - 🇺🇸 美国USA-8
       - 🇺🇸 美国USA-4
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
       - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-13
-      - 干饭云GanFanCloud Free
-      - 🇨🇳 耳兔谷歌云gcp-http-tw80
-      - 🇨🇳 耳兔谷歌云gcp-http-tw443
-      - 🇭🇰 耳兔谷歌云gcp-http-hk
-      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
-      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
-      - 🇺🇸 TG@just_free_share
       - 🇺🇸 TG@just_free_share 2
-      - NONE
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - A32.7M
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡02-06 NF 江门移动
+      - NONE
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇹🇷 土耳其
+      - 🇺🇸 TG@just_free_share
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
       - 🇯🇵 日本JP-1
+      - 🇯🇵 QQ1977488121日本02 | 中转AZ x0.5
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
+      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
+      - 🇯🇵 JP02-日本江东区-倍率x1
+      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇨🇳 耳兔谷歌云gcp-http-tw80
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇭🇰 QQ1977488121香港01 | 中转AZ x0.5
+      - 🇭🇰 耳兔谷歌云gcp-http-hk
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - 🇨🇳 耳兔谷歌云gcp-http-tw443
+      - 🇺🇸 美国NN-13
       - 🇺🇸 美国USA-8
       - 🇺🇸 美国USA-4
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
       - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-13
-      - 干饭云GanFanCloud Free
-      - 🇨🇳 耳兔谷歌云gcp-http-tw80
-      - 🇨🇳 耳兔谷歌云gcp-http-tw443
-      - 🇭🇰 耳兔谷歌云gcp-http-hk
-      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
-      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
-      - 🇺🇸 TG@just_free_share
       - 🇺🇸 TG@just_free_share 2
-      - NONE
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - A32.7M
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -218,28 +306,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡02-06 NF 江门移动
+      - NONE
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇹🇷 土耳其
+      - 🇺🇸 TG@just_free_share
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
       - 🇯🇵 日本JP-1
+      - 🇯🇵 QQ1977488121日本02 | 中转AZ x0.5
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
+      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
+      - 🇯🇵 JP02-日本江东区-倍率x1
+      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇨🇳 耳兔谷歌云gcp-http-tw80
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇭🇰 QQ1977488121香港01 | 中转AZ x0.5
+      - 🇭🇰 耳兔谷歌云gcp-http-hk
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - 🇨🇳 耳兔谷歌云gcp-http-tw443
+      - 🇺🇸 美国NN-13
       - 🇺🇸 美国USA-8
       - 🇺🇸 美国USA-4
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
       - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-13
-      - 干饭云GanFanCloud Free
-      - 🇨🇳 耳兔谷歌云gcp-http-tw80
-      - 🇨🇳 耳兔谷歌云gcp-http-tw443
-      - 🇭🇰 耳兔谷歌云gcp-http-hk
-      - 🇨🇳 vtwonet-tw-b.qjnodeip.xyz
-      - 🇨🇳 TW01-广州CM→台湾HINET-倍率x1
-      - 🇺🇸 TG@just_free_share
       - 🇺🇸 TG@just_free_share 2
-      - NONE
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-广州CM→德国法兰克福-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - A32.7M
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
