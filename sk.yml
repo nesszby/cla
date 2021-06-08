@@ -5,458 +5,293 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: 🇺🇸 美国, server: 139.177.191.43, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-Linode-B 墙角.COM, server: jp02cf.v2cdn.org, port: 443, type: vmess, uuid: E5D687DC-34F4-620E-57BD-002FF026E670, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: jp02cf.v2cdn.org}}
-  - {name: 🇺🇸 美国 2, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国 3, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国 4, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
-  - {name: 🇬🇧 英国, server: 195.181.171.241, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 日本, server: jp01.v2net.top, port: 10089, type: vmess, uuid: 79D0BCA4-67DB-51D3-B497-39D54338AB61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1, server: csltv.sttcloud.xyz, port: 61001, type: vmess, uuid: beff2b28-9e3b-3c4a-8863-c4eaa0818d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tur, ws-headers: {Host: csltv.sttcloud.xyz}}
-  - {name: 🇺🇸 美国 5, server: 104.200.131.245, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 顺丰资源Youtube, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
-  - {name: 🇺🇸 美国 6, server: 18.183.70.20, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 🇺🇸 美国NN-4, server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇯🇵 日本 2, server: 54.250.204.150, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 🇺🇸 美国USA-8, server: ban8.feiclouddd.me, port: 443, type: vmess, uuid: a0a5ae6b-c2ed-458c-bd5a-060cf5c7cc1e, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /asdfsafzzdfas, ws-headers: {Host: ban8.feiclouddd.me}}
-  - {name: 泛播, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇨🇭 瑞士, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 香港直连, server: 18.167.120.97, port: 29855, type: vmess, uuid: 6f074cfb-04a2-3f9e-a483-6560f2173a4e, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 18.167.120.97}}
-  - {name: 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-KOPTI 墙角.COM, server: vtwonet-jp-b.qjnodeip.xyz, port: 10090, type: vmess, uuid: E614E4AC-B5E4-D0D5-8FF7-440DE4F6D9B5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 2, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 TG@just_free_share, server: vip9-3.lounge.workers.dev, port: 443, type: vmess, uuid: f5121518-a614-4a16-b1f1-8dbc0c502854, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: vip9-3.lounge.workers.dev}}
-  - {name: 🇮🇳 India, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 香港 2, server: 42.2.143.119, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: KingFu景福@YouTuBe请订阅, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
-  - {name: https://www.mattkaydiary.com|Relay_ |14.00Mb, server: 3.ioqr.cn, port: 8080, type: vmess, uuid: 657f7981-0138-4c99-9199-51f62002d8e5, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /1234, ws-headers: {Host: 3.ioqr.cn}}
-  - {name: 🇭🇰 https://www.mattkaydiary.com|墙角 高速-香港-流媒体 墙角.COM, server: vtwonet-hk-a.qjnodeip.xyz, port: 23333, type: vmess, uuid: E614E4AC-B5E4-D0D5-8FF7-440DE4F6D9B5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本 3, server: 18.181.119.239, port: 42009, type: vmess, uuid: ded56274-0abf-411d-ad4a-13a2c660fc81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本JP-1, server: kk1.feiclouddd.me, port: 443, type: vmess, uuid: 827c8469-c586-486a-a6ab-a899ea3e495d, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /asdfsaaa, ws-headers: {Host: kk1.feiclouddd.me}}
-  - {name: https://www.mattkaydiary.com|Best!*Shanghai-Tokyo*22, server: 139.226.50.32, port: 10001, type: vmess, uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国NN-24, server: nn-ssr24.feiclouddd.me, port: 443, type: vmess, uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /dsafasdf, ws-headers: {Host: nn-ssr24.feiclouddd.me}}
-  - {name: 🇯🇵 日本 4, server: 13.231.93.45, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 顺丰资源Youtube 2, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS}
-  - {name: 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04, server: bj.keaiyun.xyz, port: 31104, type: vmess, uuid: 44189341-2cc9-3be9-bb10-c135e98cd8eb, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 香港 3, server: 13.75.0.51, port: 20176, type: vmess, uuid: f3875942-e838-4d0a-82fd-59e785941b63, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ru1.june628.ml}}
-  - {name: 🇺🇸 美国 7, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: www.09025120.xyz}}
-  - {name: 🇿🇦 南非, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇸🇬 新加坡, server: 54.169.214.226, port: 55480, type: vmess, uuid: a62ce843-da83-4217-936a-c5e9074e5585, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 4, server: 207.46.154.93, port: 39011, type: vmess, uuid: d8d5eee2-b2c4-3ea0-96ef-cd64f1026107, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /xxx, ws-headers: {Host: 207.46.154.93}}
-  - {name: 🇮🇳 印度, server: 15.206.100.195, port: 80, type: vmess, uuid: d1e4e8a8-cc64-3988-906f-144e0363906f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 15.206.100.195}}
-  - {name: 🇺🇸 美国 8, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: www.10925848.xyz}}
-  - {name: 🇭🇰 香港 5, server: 207.46.154.93, port: 39012, type: vmess, uuid: d8d5eee2-b2c4-3ea0-96ef-cd64f1026107, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /xxx, ws-headers: {Host: 207.46.154.93}}
-  - {name: 🇬🇧 英国 3, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇭🇰 香港 6, server: 34.96.134.52, port: 80, type: vmess, uuid: eed7d373-4de8-4707-b5a4-ba4fa78a94d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 34.96.134.52}}
-  - {name: 阿塞拜疆, server: 62.212.239.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇰🇷 AWS韩国直连, server: 54.180.32.181, port: 28519, type: vmess, uuid: 6f074cfb-04a2-3f9e-a483-6560f2173a4e, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 54.180.32.181}}
-  - {name: https://www.mattkaydiary.com|Transit*Guangzhou-Tokyo01, server: 183.236.57.18, port: 10005, type: vmess, uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 9, server: 104.19.80.46, port: 8080, type: vmess, uuid: 657f7981-0138-4c99-9199-51f62002d8e5, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /1234, ws-headers: {Host: 3.ioqr.cn}}
-  - {name: 🇺🇸 美国 10, server: 139.177.184.164, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 🇺🇸 美国USA-2, server: tt2.feiclouddd.me, port: 443, type: vmess, uuid: a307a6f7-b697-400e-bc7e-e6356de877c2, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /asdfaszzsdfa, ws-headers: {Host: tt2.feiclouddd.me}}
-  - {name: 🇸🇬 新加坡 2, server: 54.169.214.226, port: 55480, type: vmess, uuid: a62ce843-da83-4217-936a-c5e9074e5585, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 11, server: 139.177.187.157, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 🇺🇸 美国5, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
-  - {name: 🇺🇸 美国USA-4, server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
-  - {name: KingFu景福@YouTuBe请订阅 2, server: ss.id.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
-  - {name: 🇺🇸 美国 12, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: www.16789312.xyz}}
+  - {name: NONE, server: colagzcm.jumpwallsocks.online, port: 31003, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇺🇸 QQ1977488121美国03 | 流媒体, server: us3.xxl123.fun, port: 18888, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us3.xxl123.fun}}
+  - {name: t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345, server: 141.164.36.44, port: 80, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇭🇰 酸奶VPN香港09 三网优化, server: 40.83.94.130, port: 25012, type: vmess, uuid: 28ba4cb0-3f04-3f1b-8376-ff8387355c00, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ny, ws-headers: {Host: 40.83.94.130}}
+  - {name: 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5, server: us7.xxl123.fun, port: 18889, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us7.xxl123.fun}}
+  - {name: 🇭🇰 VIP香港cmi | 广州移动 | 原生, server: gzyd.iganfan.store, port: 23318, type: ss, cipher: chacha20-ietf-poly1305, password: ccac5a9d-25c9-44ef-a7b1-6679d8c2745f}
+  - {name: 🇨🇳 VIP台湾01 | 广州移动 | 原生, server: gzyd.iganfan.store, port: 23321, type: vmess, uuid: ccac5a9d-25c9-44ef-a7b1-6679d8c2745f, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: tw.xxl123.fun}}
+  - {name: 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5, server: 65.52.164.219, port: 10010, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: sg1.xxl123.fun}}
+  - {name: 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5, server: 65.52.164.219, port: 10008, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 65.52.164.219}}
+  - {name: 🇨🇳 VIP台湾01 | 中转AZ | 原生, server: 23.101.8.216, port: 20001, type: vmess, uuid: ccac5a9d-25c9-44ef-a7b1-6679d8c2745f, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: tw.xxl123.fun}}
+  - {name: 🇺🇸 VIP美国03 | 中转AZ | 流媒体, server: 23.101.8.216, port: 10005, type: vmess, uuid: ccac5a9d-25c9-44ef-a7b1-6679d8c2745f, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us3.xxl123.fun}}
+  - {name: 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5, server: 65.52.164.219, port: 10005, type: trojan, password: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, skip-cert-verify: false}
+  - {name: NONE 2, server: lax.jumpwallsocks.online, port: 65534, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: lax.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇯🇵 JP02-广州CM→日本江东区-倍率x1, server: colagzcm.jumpwallsocks.online, port: 32002, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇯🇵 QQ1977488121| 日本80口  x0.1, server: 45.76.111.176, port: 80, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇨🇳 台湾02-06 江门移动, server: JIANGMEN.CM.SPEEDUP.233yun.in, port: 10008, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /233yun/v2ray, ws-headers: {Host: JIANGMEN.CM.SPEEDUP.233yun.in}}
   - {name: 🇺🇸 美国NN-13, server: nn-ssr13.feiclouddd.me, port: 443, type: vmess, uuid: 76cf8637-0a87-4d23-a9e6-b9098420e026, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sadfasdfasdf, ws-headers: {Host: nn-ssr13.feiclouddd.me}}
-  - {name: 🇺🇸 美国 13, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇬🇧 英国 4, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国USA-8, server: ban8.feiclouddd.me, port: 443, type: vmess, uuid: a0a5ae6b-c2ed-458c-bd5a-060cf5c7cc1e, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /asdfsafzzdfas, ws-headers: {Host: ban8.feiclouddd.me}}
+  - {name: 🇯🇵 QQ1977488121日本负载均衡, server: 65.52.164.219, port: 20021, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 65.52.164.219}}
+  - {name: 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联, server: zz1234.xyz, port: 25124, type: vmess, uuid: 28ba4cb0-3f04-3f1b-8376-ff8387355c00, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ny, ws-headers: {Host: zz1234.xyz}}
+  - {name: 🇭🇰 VIP香港WTT | 中转AZ | 原生, server: 23.101.8.216, port: 20004, type: vmess, uuid: ccac5a9d-25c9-44ef-a7b1-6679d8c2745f, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: hk8.xxl123.fun}}
+  - {name: 🇯🇵 VIP日本05 | 中转AZ | 流媒体, server: 23.101.8.216, port: 10004, type: vmess, uuid: ccac5a9d-25c9-44ef-a7b1-6679d8c2745f, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: jp5.xxl123.fun}}
+  - {name: 🇺🇸 美国NN-4, server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: 🇩🇪 DE01-德国法兰克福-倍率x1, server: fr.jumpwallsocks.online, port: 65535, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: fr.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5, server: 65.52.164.219, port: 10011, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us5.xxl123.fun}}
+  - {name: 🇺🇸 美国USA-4, server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
+  - {name: 🇭🇰 HK01-香港NTT-倍率x1, server: hkntt.jumpwallsocks.online, port: 65535, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkntt.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5, server: 65.52.164.219, port: 10003, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: kr1.xxl123.fun}}
+  - {name: 🇺🇸 VIP美国07 | 中转AZ | 流媒体 x0.5, server: 23.101.8.216, port: 10007, type: vmess, uuid: ccac5a9d-25c9-44ef-a7b1-6679d8c2745f, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us7.xxl123.fun}}
+  - {name: 🇭🇰 QQ1977488121香港02 | 中转AZ x0.5, server: 23.101.8.216, port: 10006, type: trojan, password: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, skip-cert-verify: false}
+  - {name: 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1, server: jp3.xxl123.fun, port: 80, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇸🇬 新加坡02-06 NF 江门移动, server: JIANGMEN.CM.SPEEDUP.233yun.in, port: 10017, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /233yun/v2ray, ws-headers: {Host: JIANGMEN.CM.SPEEDUP.233yun.in}}
+  - {name: 🇭🇰 VIP香港03 | 80 默认联通手厅直播混淆, server: 23.101.8.216, port: 80, type: vmess, uuid: ccac5a9d-25c9-44ef-a7b1-6679d8c2745f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇸🇬 VIP新加坡02 | 中转AZ, server: 23.101.8.216, port: 10002, type: vmess, uuid: ccac5a9d-25c9-44ef-a7b1-6679d8c2745f, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: sg2.xxl123.fun}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇺🇸 美国
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-Linode-B 墙角.COM
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - 🇯🇵 日本
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国NN-4
-      - 🇯🇵 日本 2
-      - 🇺🇸 美国USA-8
-      - 泛播
-      - 🇨🇭 瑞士
-      - 🇭🇰 香港直连
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-KOPTI 墙角.COM
-      - 🇬🇧 英国 2
-      - 🇺🇸 TG@just_free_share
-      - 🇮🇳 India
-      - 🇭🇰 香港 2
-      - KingFu景福@YouTuBe请订阅
-      - https://www.mattkaydiary.com|Relay_ |14.00Mb
-      - 🇭🇰 https://www.mattkaydiary.com|墙角 高速-香港-流媒体 墙角.COM
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本JP-1
-      - https://www.mattkaydiary.com|Best!*Shanghai-Tokyo*22
-      - 🇺🇸 美国NN-24
-      - 🇯🇵 日本 4
-      - 顺丰资源Youtube 2
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
-      - 🇭🇰 香港 3
-      - 🇺🇸 美国 7
-      - 🇿🇦 南非
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港 4
-      - 🇮🇳 印度
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 5
-      - 🇬🇧 英国 3
-      - 🇭🇰 香港 6
-      - 阿塞拜疆
-      - 🇰🇷 AWS韩国直连
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Tokyo01
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国USA-2
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国5
-      - 🇺🇸 美国USA-4
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇺🇸 美国 12
+      - NONE
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
+      - 🇭🇰 VIP香港cmi | 广州移动 | 原生
+      - 🇨🇳 VIP台湾01 | 广州移动 | 原生
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇨🇳 VIP台湾01 | 中转AZ | 原生
+      - 🇺🇸 VIP美国03 | 中转AZ | 流媒体
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - NONE 2
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇺🇸 美国NN-13
-      - 🇺🇸 美国 13
-      - 🇬🇧 英国 4
+      - 🇺🇸 美国USA-8
+      - 🇯🇵 QQ1977488121日本负载均衡
+      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
+      - 🇭🇰 VIP香港WTT | 中转AZ | 原生
+      - 🇯🇵 VIP日本05 | 中转AZ | 流媒体
+      - 🇺🇸 美国NN-4
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 美国USA-4
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇺🇸 VIP美国07 | 中转AZ | 流媒体 x0.5
+      - 🇭🇰 QQ1977488121香港02 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - 🇭🇰 VIP香港03 | 80 默认联通手厅直播混淆
+      - 🇸🇬 VIP新加坡02 | 中转AZ
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港
-      - 🇺🇸 美国
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-Linode-B 墙角.COM
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - 🇯🇵 日本
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国NN-4
-      - 🇯🇵 日本 2
-      - 🇺🇸 美国USA-8
-      - 泛播
-      - 🇨🇭 瑞士
-      - 🇭🇰 香港直连
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-KOPTI 墙角.COM
-      - 🇬🇧 英国 2
-      - 🇺🇸 TG@just_free_share
-      - 🇮🇳 India
-      - 🇭🇰 香港 2
-      - KingFu景福@YouTuBe请订阅
-      - https://www.mattkaydiary.com|Relay_ |14.00Mb
-      - 🇭🇰 https://www.mattkaydiary.com|墙角 高速-香港-流媒体 墙角.COM
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本JP-1
-      - https://www.mattkaydiary.com|Best!*Shanghai-Tokyo*22
-      - 🇺🇸 美国NN-24
-      - 🇯🇵 日本 4
-      - 顺丰资源Youtube 2
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
-      - 🇭🇰 香港 3
-      - 🇺🇸 美国 7
-      - 🇿🇦 南非
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港 4
-      - 🇮🇳 印度
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 5
-      - 🇬🇧 英国 3
-      - 🇭🇰 香港 6
-      - 阿塞拜疆
-      - 🇰🇷 AWS韩国直连
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Tokyo01
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国USA-2
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国5
-      - 🇺🇸 美国USA-4
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇺🇸 美国 12
+      - NONE
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
+      - 🇭🇰 VIP香港cmi | 广州移动 | 原生
+      - 🇨🇳 VIP台湾01 | 广州移动 | 原生
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇨🇳 VIP台湾01 | 中转AZ | 原生
+      - 🇺🇸 VIP美国03 | 中转AZ | 流媒体
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - NONE 2
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇺🇸 美国NN-13
-      - 🇺🇸 美国 13
-      - 🇬🇧 英国 4
+      - 🇺🇸 美国USA-8
+      - 🇯🇵 QQ1977488121日本负载均衡
+      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
+      - 🇭🇰 VIP香港WTT | 中转AZ | 原生
+      - 🇯🇵 VIP日本05 | 中转AZ | 流媒体
+      - 🇺🇸 美国NN-4
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 美国USA-4
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇺🇸 VIP美国07 | 中转AZ | 流媒体 x0.5
+      - 🇭🇰 QQ1977488121香港02 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - 🇭🇰 VIP香港03 | 80 默认联通手厅直播混淆
+      - 🇸🇬 VIP新加坡02 | 中转AZ
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇺🇸 美国
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-Linode-B 墙角.COM
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - 🇯🇵 日本
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国NN-4
-      - 🇯🇵 日本 2
-      - 🇺🇸 美国USA-8
-      - 泛播
-      - 🇨🇭 瑞士
-      - 🇭🇰 香港直连
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-KOPTI 墙角.COM
-      - 🇬🇧 英国 2
-      - 🇺🇸 TG@just_free_share
-      - 🇮🇳 India
-      - 🇭🇰 香港 2
-      - KingFu景福@YouTuBe请订阅
-      - https://www.mattkaydiary.com|Relay_ |14.00Mb
-      - 🇭🇰 https://www.mattkaydiary.com|墙角 高速-香港-流媒体 墙角.COM
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本JP-1
-      - https://www.mattkaydiary.com|Best!*Shanghai-Tokyo*22
-      - 🇺🇸 美国NN-24
-      - 🇯🇵 日本 4
-      - 顺丰资源Youtube 2
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
-      - 🇭🇰 香港 3
-      - 🇺🇸 美国 7
-      - 🇿🇦 南非
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港 4
-      - 🇮🇳 印度
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 5
-      - 🇬🇧 英国 3
-      - 🇭🇰 香港 6
-      - 阿塞拜疆
-      - 🇰🇷 AWS韩国直连
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Tokyo01
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国USA-2
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国5
-      - 🇺🇸 美国USA-4
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇺🇸 美国 12
+      - NONE
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
+      - 🇭🇰 VIP香港cmi | 广州移动 | 原生
+      - 🇨🇳 VIP台湾01 | 广州移动 | 原生
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇨🇳 VIP台湾01 | 中转AZ | 原生
+      - 🇺🇸 VIP美国03 | 中转AZ | 流媒体
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - NONE 2
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇺🇸 美国NN-13
-      - 🇺🇸 美国 13
-      - 🇬🇧 英国 4
+      - 🇺🇸 美国USA-8
+      - 🇯🇵 QQ1977488121日本负载均衡
+      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
+      - 🇭🇰 VIP香港WTT | 中转AZ | 原生
+      - 🇯🇵 VIP日本05 | 中转AZ | 流媒体
+      - 🇺🇸 美国NN-4
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 美国USA-4
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇺🇸 VIP美国07 | 中转AZ | 流媒体 x0.5
+      - 🇭🇰 QQ1977488121香港02 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - 🇭🇰 VIP香港03 | 80 默认联通手厅直播混淆
+      - 🇸🇬 VIP新加坡02 | 中转AZ
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇭🇰 香港直连
-      - 🇭🇰 香港 2
-      - 🇭🇰 https://www.mattkaydiary.com|墙角 高速-香港-流媒体 墙角.COM
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇭🇰 VIP香港cmi | 广州移动 | 原生
+      - 🇨🇳 VIP台湾01 | 广州移动 | 原生
+      - 🇨🇳 VIP台湾01 | 中转AZ | 原生
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - 🇨🇳 台湾02-06 江门移动
+      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
+      - 🇭🇰 VIP香港WTT | 中转AZ | 原生
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇭🇰 QQ1977488121香港02 | 中转AZ x0.5
+      - 🇭🇰 VIP香港03 | 80 默认联通手厅直播混淆
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港
-      - 🇺🇸 美国
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-Linode-B 墙角.COM
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - 🇯🇵 日本
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国NN-4
-      - 🇯🇵 日本 2
-      - 🇺🇸 美国USA-8
-      - 泛播
-      - 🇨🇭 瑞士
-      - 🇭🇰 香港直连
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-KOPTI 墙角.COM
-      - 🇬🇧 英国 2
-      - 🇺🇸 TG@just_free_share
-      - 🇮🇳 India
-      - 🇭🇰 香港 2
-      - KingFu景福@YouTuBe请订阅
-      - https://www.mattkaydiary.com|Relay_ |14.00Mb
-      - 🇭🇰 https://www.mattkaydiary.com|墙角 高速-香港-流媒体 墙角.COM
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本JP-1
-      - https://www.mattkaydiary.com|Best!*Shanghai-Tokyo*22
-      - 🇺🇸 美国NN-24
-      - 🇯🇵 日本 4
-      - 顺丰资源Youtube 2
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
-      - 🇭🇰 香港 3
-      - 🇺🇸 美国 7
-      - 🇿🇦 南非
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港 4
-      - 🇮🇳 印度
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 5
-      - 🇬🇧 英国 3
-      - 🇭🇰 香港 6
-      - 阿塞拜疆
-      - 🇰🇷 AWS韩国直连
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Tokyo01
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国USA-2
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国5
-      - 🇺🇸 美国USA-4
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇺🇸 美国 12
+      - NONE
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
+      - 🇭🇰 VIP香港cmi | 广州移动 | 原生
+      - 🇨🇳 VIP台湾01 | 广州移动 | 原生
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇨🇳 VIP台湾01 | 中转AZ | 原生
+      - 🇺🇸 VIP美国03 | 中转AZ | 流媒体
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - NONE 2
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇺🇸 美国NN-13
-      - 🇺🇸 美国 13
-      - 🇬🇧 英国 4
+      - 🇺🇸 美国USA-8
+      - 🇯🇵 QQ1977488121日本负载均衡
+      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
+      - 🇭🇰 VIP香港WTT | 中转AZ | 原生
+      - 🇯🇵 VIP日本05 | 中转AZ | 流媒体
+      - 🇺🇸 美国NN-4
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 美国USA-4
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇺🇸 VIP美国07 | 中转AZ | 流媒体 x0.5
+      - 🇭🇰 QQ1977488121香港02 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - 🇭🇰 VIP香港03 | 80 默认联通手厅直播混淆
+      - 🇸🇬 VIP新加坡02 | 中转AZ
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇺🇸 美国
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-Linode-B 墙角.COM
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - 🇯🇵 日本
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国NN-4
-      - 🇯🇵 日本 2
-      - 🇺🇸 美国USA-8
-      - 泛播
-      - 🇨🇭 瑞士
-      - 🇭🇰 香港直连
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-KOPTI 墙角.COM
-      - 🇬🇧 英国 2
-      - 🇺🇸 TG@just_free_share
-      - 🇮🇳 India
-      - 🇭🇰 香港 2
-      - KingFu景福@YouTuBe请订阅
-      - https://www.mattkaydiary.com|Relay_ |14.00Mb
-      - 🇭🇰 https://www.mattkaydiary.com|墙角 高速-香港-流媒体 墙角.COM
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本JP-1
-      - https://www.mattkaydiary.com|Best!*Shanghai-Tokyo*22
-      - 🇺🇸 美国NN-24
-      - 🇯🇵 日本 4
-      - 顺丰资源Youtube 2
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
-      - 🇭🇰 香港 3
-      - 🇺🇸 美国 7
-      - 🇿🇦 南非
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港 4
-      - 🇮🇳 印度
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 5
-      - 🇬🇧 英国 3
-      - 🇭🇰 香港 6
-      - 阿塞拜疆
-      - 🇰🇷 AWS韩国直连
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Tokyo01
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国USA-2
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国5
-      - 🇺🇸 美国USA-4
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇺🇸 美国 12
+      - NONE
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
+      - 🇭🇰 VIP香港cmi | 广州移动 | 原生
+      - 🇨🇳 VIP台湾01 | 广州移动 | 原生
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇨🇳 VIP台湾01 | 中转AZ | 原生
+      - 🇺🇸 VIP美国03 | 中转AZ | 流媒体
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - NONE 2
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇺🇸 美国NN-13
-      - 🇺🇸 美国 13
-      - 🇬🇧 英国 4
+      - 🇺🇸 美国USA-8
+      - 🇯🇵 QQ1977488121日本负载均衡
+      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
+      - 🇭🇰 VIP香港WTT | 中转AZ | 原生
+      - 🇯🇵 VIP日本05 | 中转AZ | 流媒体
+      - 🇺🇸 美国NN-4
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 美国USA-4
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇺🇸 VIP美国07 | 中转AZ | 流媒体 x0.5
+      - 🇭🇰 QQ1977488121香港02 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - 🇭🇰 VIP香港03 | 80 默认联通手厅直播混淆
+      - 🇸🇬 VIP新加坡02 | 中转AZ
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港
-      - 🇺🇸 美国
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-Linode-B 墙角.COM
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - 🇯🇵 日本
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国NN-4
-      - 🇯🇵 日本 2
-      - 🇺🇸 美国USA-8
-      - 泛播
-      - 🇨🇭 瑞士
-      - 🇭🇰 香港直连
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-KOPTI 墙角.COM
-      - 🇬🇧 英国 2
-      - 🇺🇸 TG@just_free_share
-      - 🇮🇳 India
-      - 🇭🇰 香港 2
-      - KingFu景福@YouTuBe请订阅
-      - https://www.mattkaydiary.com|Relay_ |14.00Mb
-      - 🇭🇰 https://www.mattkaydiary.com|墙角 高速-香港-流媒体 墙角.COM
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本JP-1
-      - https://www.mattkaydiary.com|Best!*Shanghai-Tokyo*22
-      - 🇺🇸 美国NN-24
-      - 🇯🇵 日本 4
-      - 顺丰资源Youtube 2
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
-      - 🇭🇰 香港 3
-      - 🇺🇸 美国 7
-      - 🇿🇦 南非
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港 4
-      - 🇮🇳 印度
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 5
-      - 🇬🇧 英国 3
-      - 🇭🇰 香港 6
-      - 阿塞拜疆
-      - 🇰🇷 AWS韩国直连
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Tokyo01
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国USA-2
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国5
-      - 🇺🇸 美国USA-4
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇺🇸 美国 12
+      - NONE
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
+      - 🇭🇰 VIP香港cmi | 广州移动 | 原生
+      - 🇨🇳 VIP台湾01 | 广州移动 | 原生
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇨🇳 VIP台湾01 | 中转AZ | 原生
+      - 🇺🇸 VIP美国03 | 中转AZ | 流媒体
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - NONE 2
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇺🇸 美国NN-13
-      - 🇺🇸 美国 13
-      - 🇬🇧 英国 4
+      - 🇺🇸 美国USA-8
+      - 🇯🇵 QQ1977488121日本负载均衡
+      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
+      - 🇭🇰 VIP香港WTT | 中转AZ | 原生
+      - 🇯🇵 VIP日本05 | 中转AZ | 流媒体
+      - 🇺🇸 美国NN-4
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 美国USA-4
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇺🇸 VIP美国07 | 中转AZ | 流媒体 x0.5
+      - 🇭🇰 QQ1977488121香港02 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - 🇭🇰 VIP香港03 | 80 默认联通手厅直播混淆
+      - 🇸🇬 VIP新加坡02 | 中转AZ
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -472,64 +307,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港
-      - 🇺🇸 美国
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-Linode-B 墙角.COM
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇬🇧 英国
-      - 🇯🇵 日本
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 美国 5
-      - 顺丰资源Youtube
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国NN-4
-      - 🇯🇵 日本 2
-      - 🇺🇸 美国USA-8
-      - 泛播
-      - 🇨🇭 瑞士
-      - 🇭🇰 香港直连
-      - 🇯🇵 https://www.mattkaydiary.com|墙角 高速-日本-KOPTI 墙角.COM
-      - 🇬🇧 英国 2
-      - 🇺🇸 TG@just_free_share
-      - 🇮🇳 India
-      - 🇭🇰 香港 2
-      - KingFu景福@YouTuBe请订阅
-      - https://www.mattkaydiary.com|Relay_ |14.00Mb
-      - 🇭🇰 https://www.mattkaydiary.com|墙角 高速-香港-流媒体 墙角.COM
-      - 🇯🇵 日本 3
-      - 🇯🇵 日本JP-1
-      - https://www.mattkaydiary.com|Best!*Shanghai-Tokyo*22
-      - 🇺🇸 美国NN-24
-      - 🇯🇵 日本 4
-      - 顺丰资源Youtube 2
-      - 🇫🇷 Relay_🇨🇳CN-🇫🇷FR_04
-      - 🇭🇰 香港 3
-      - 🇺🇸 美国 7
-      - 🇿🇦 南非
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港 4
-      - 🇮🇳 印度
-      - 🇺🇸 美国 8
-      - 🇭🇰 香港 5
-      - 🇬🇧 英国 3
-      - 🇭🇰 香港 6
-      - 阿塞拜疆
-      - 🇰🇷 AWS韩国直连
-      - https://www.mattkaydiary.com|Transit*Guangzhou-Tokyo01
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国USA-2
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国5
-      - 🇺🇸 美国USA-4
-      - KingFu景福@YouTuBe请订阅 2
-      - 🇺🇸 美国 12
+      - NONE
+      - 🇺🇸 QQ1977488121美国03 | 流媒体
+      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
+      - 🇭🇰 酸奶VPN香港09 三网优化
+      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
+      - 🇭🇰 VIP香港cmi | 广州移动 | 原生
+      - 🇨🇳 VIP台湾01 | 广州移动 | 原生
+      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
+      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
+      - 🇨🇳 VIP台湾01 | 中转AZ | 原生
+      - 🇺🇸 VIP美国03 | 中转AZ | 流媒体
+      - 🇭🇰 QQ1977488121香港04 | 中转AZ x0.5
+      - NONE 2
+      - 🇯🇵 JP02-广州CM→日本江东区-倍率x1
+      - 🇯🇵 QQ1977488121| 日本80口  x0.1
+      - 🇨🇳 台湾02-06 江门移动
       - 🇺🇸 美国NN-13
-      - 🇺🇸 美国 13
-      - 🇬🇧 英国 4
+      - 🇺🇸 美国USA-8
+      - 🇯🇵 QQ1977488121日本负载均衡
+      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
+      - 🇭🇰 VIP香港WTT | 中转AZ | 原生
+      - 🇯🇵 VIP日本05 | 中转AZ | 流媒体
+      - 🇺🇸 美国NN-4
+      - 🇩🇪 DE01-德国法兰克福-倍率x1
+      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
+      - 🇺🇸 美国USA-4
+      - 🇭🇰 HK01-香港NTT-倍率x1
+      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
+      - 🇺🇸 VIP美国07 | 中转AZ | 流媒体 x0.5
+      - 🇭🇰 QQ1977488121香港02 | 中转AZ x0.5
+      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
+      - 🇸🇬 新加坡02-06 NF 江门移动
+      - 🇭🇰 VIP香港03 | 80 默认联通手厅直播混淆
+      - 🇸🇬 VIP新加坡02 | 中转AZ
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
