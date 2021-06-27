@@ -5,614 +5,555 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡02-06 NF 江门移动, server: JIANGMEN.CM.SPEEDUP.233yun.in, port: 10017, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /233yun/v2ray, ws-headers: {Host: JIANGMEN.CM.SPEEDUP.233yun.in}}
-  - {name: 🇸🇬 新加坡 Anycast 01 1x 解锁, server: acdf7433d465801f3.awsglobalaccelerator.com, port: 8021, type: trojan, password: bd1a911a-8f16-361f-be9a-81d3c5bab67e, sni: acdf7433d465801f3.awsglobalaccelerator.com, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP→US03-拉斯维加斯-倍率x1, server: hkbgp.jumpwallsocks.online, port: 31003, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP→US02-罗马尼亚-倍率x1, server: hkbgp.jumpwallsocks.online, port: 31002, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP→US01-洛杉矶-倍率x1, server: hkbgp.jumpwallsocks.online, port: 31001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP→SG01-新加坡-倍率x1, server: hkbgp.jumpwallsocks.online, port: 33001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP→JP02-日本江东区-倍率x1, server: hkbgp.jumpwallsocks.online, port: 32002, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP→JP01-日本品川区-倍率x3, server: hkbgp.jumpwallsocks.online, port: 32001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP→IN01-印度班加罗尔-倍率x1, server: hkbgp.jumpwallsocks.online, port: 36001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP→HK03-香港HKT-倍率x1, server: hkbgp.jumpwallsocks.online, port: 30003, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP→HK02-香港HGC-倍率x1, server: hkbgp.jumpwallsocks.online, port: 30002, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP→HK01-香港NTT-倍率x1, server: hkbgp.jumpwallsocks.online, port: 30001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇩🇪 香港BGP→DE01-德国法兰克福-倍率x1, server: hkbgp.jumpwallsocks.online, port: 37001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 兔哥甲骨文oracle-http-kr, server: 193.122.124.97, port: 8080, type: vmess, uuid: ec69641e-e9e6-4cf6-cb69-369b31d4abeb, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 兔哥甲骨文oracle-http-kr 2, server: 193.122.123.97, port: 8080, type: vmess, uuid: 05530d86-f4f4-4525-846a-b404e1221c9e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾02-06 江门移动, server: JIANGMEN.CM.SPEEDUP.233yun.in, port: 10008, type: vmess, uuid: b36cafcc-17d0-3c7e-9a06-366041e395a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /233yun/v2ray, ws-headers: {Host: JIANGMEN.CM.SPEEDUP.233yun.in}}
-  - {name: 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联, server: zz1234.xyz, port: 25124, type: vmess, uuid: 28ba4cb0-3f04-3f1b-8376-ff8387355c00, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ny, ws-headers: {Host: zz1234.xyz}}
-  - {name: 🇯🇵 上网课日本 A, server: 54.65.114.219, port: 80, type: vmess, uuid: a2f1a248-b0af-3c2e-b2d9-573d6916a39d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: 🇺🇸 上网课美国 A, server: 13.52.187.136, port: 12345, type: vmess, uuid: a2f1a248-b0af-3c2e-b2d9-573d6916a39d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
-  - {name: 🇯🇵 日本JP-1, server: kk1.feiclouddd.me, port: 443, type: vmess, uuid: 827c8469-c586-486a-a6ab-a899ea3e495d, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /asdfsaaa, ws-headers: {Host: kk1.feiclouddd.me}}
-  - {name: 🇺🇸 美国USA-8, server: ban8.feiclouddd.me, port: 443, type: vmess, uuid: a0a5ae6b-c2ed-458c-bd5a-060cf5c7cc1e, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /asdfsafzzdfas, ws-headers: {Host: ban8.feiclouddd.me}}
-  - {name: 🇺🇸 美国NN-13, server: nn-ssr13.feiclouddd.me, port: 443, type: vmess, uuid: 76cf8637-0a87-4d23-a9e6-b9098420e026, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sadfasdfasdf, ws-headers: {Host: nn-ssr13.feiclouddd.me}}
-  - {name: 🇯🇵 基佬云QQ69027662AB分區01( 直连)亞洲节点日本东京(三网拉滿), server: abnode01.gayv.gay, port: 443, type: trojan, password: 2a997a98-a6ca-4425-8629-09e4d0876e26, sni: abnode01.gayv.gay, skip-cert-verify: false}
-  - {name: 黑洞172.247.27.194, server: 172.247.27.194, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.29160682.xyz}}
-  - {name: 🇰🇷 韩国 Oracle 02 1x 原生IP, server: 193.123.254.118, port: 8021, type: trojan, password: bd1a911a-8f16-361f-be9a-81d3c5bab67e, skip-cert-verify: false}
-  - {name: 🇺🇸 广州CM→US03-拉斯维加斯-倍率x1, server: colagzcm.jumpwallsocks.online, port: 31003, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇷🇴 广州CM→US02-罗马尼亚-倍率x1, server: colagzcm.jumpwallsocks.online, port: 31002, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇺🇸 广州CM→US01-洛杉矶-倍率x1, server: colagzcm.jumpwallsocks.online, port: 31001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇨🇳 广州CM→TW01-台湾HINET-倍率x1, server: colagzcm.jumpwallsocks.online, port: 38001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇸🇬 广州CM→SG01-新加坡-倍率x1, server: colagzcm.jumpwallsocks.online, port: 33001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇰🇷 广州CM→KR01-韩国首尔-倍率x1, server: colagzcm.jumpwallsocks.online, port: 34001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇯🇵 广州CM→JP02-日本江东区-倍率x1, server: colagzcm.jumpwallsocks.online, port: 32002, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇯🇵 广州CM→JP01-日本品川-倍率x3, server: colagzcm.jumpwallsocks.online, port: 32001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇮🇳 广州CM→IN01-印度班加罗尔-倍率x1, server: colagzcm.jumpwallsocks.online, port: 36001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 广州CM→HK03-香港HKT-倍率x1, server: colagzcm.jumpwallsocks.online, port: 30003, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 广州CM→HK01-香港NTT-倍率x1, server: colagzcm.jumpwallsocks.online, port: 30001, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇺🇸 公益-洛杉矶三网直连-倍率0.1, server: lax02.jumpwallsocks.online, port: 65535, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: lax02.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇯🇵 VIP日本01 | 广州移动 | 流媒体, server: gzyd.iganfan.store, port: 23320, type: trojan, password: ccac5a9d-25c9-44ef-a7b1-6679d8c2745f, sni: gzyd.iganfan.store, skip-cert-verify: false}
-  - {name: 🏳️‍🌈 vip-韩国2 QQ3556578307星光云流量, server: hg2.xyttk.vip, port: 80, type: vmess, uuid: a08a2ddb-7c1b-4116-add5-28d019b274ad, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hg2.xyttk.vip}}
-  - {name: 🏳️‍🌈 vip-韩国 QQ3556578307星光云流量, server: hg1.xyttk.vip, port: 80, type: vmess, uuid: a08a2ddb-7c1b-4116-add5-28d019b274ad, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hg1.xyttk.vip}}
-  - {name: 🇺🇸 TG@just_free_share, server: 183.236.57.18, port: 10001, type: vmess, uuid: 037f44d9-47ac-4d86-b612-18f6b8de19e6, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 TG@just_free_share 2, server: 183.236.57.18, port: 10001, type: vmess, uuid: c28986df-4a55-462f-8bed-362cb9bb39ce, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 TG@just_free_share 3, server: 183.236.57.18, port: 10001, type: vmess, uuid: b8bdb0b9-2766-4f3c-a0dc-b8fa982b7554, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 TG@just_free_share 4, server: 183.236.57.52, port: 10001, type: vmess, uuid: 8f39b265-8e98-4443-aed3-c93485936000, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 TG@just_free_share 5, server: shcn2-04e.iplc188.com, port: 10001, type: vmess, uuid: aa5510cf-d24e-4378-950f-96e0adff28ac, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 TG@just_free_share 6, server: shcn2-02.iplc188.com, port: 10001, type: vmess, uuid: b8bdb0b9-2766-4f3c-a0dc-b8fa982b7554, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 TG@just_free_share 7, server: 139.226.50.68, port: 10002, type: vmess, uuid: 601d07b5-ba7d-44c5-963a-cb897125e62d, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 TG@just_free_share 8, server: 139.226.50.68, port: 10004, type: vmess, uuid: 037f44d9-47ac-4d86-b612-18f6b8de19e6, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 TG@just_free_share 9, server: 139.226.50.68, port: 10002, type: vmess, uuid: aa5510cf-d24e-4378-950f-96e0adff28ac, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 TG@just_free_share 10, server: 65.52.164.219, port: 10011, type: vmess, uuid: e9a058c8-4960-4b05-8699-0c526058d345, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us5.xxl123.fun}}
-  - {name: 🇺🇸 TG@just_free_share 11, server: 65.52.164.219, port: 10008, type: vmess, uuid: e9a058c8-4960-4b05-8699-0c526058d345, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 65.52.164.219}}
-  - {name: 🇺🇸 TG@just_free_share 12, server: 65.52.164.219, port: 20021, type: vmess, uuid: e9a058c8-4960-4b05-8699-0c526058d345, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 65.52.164.219}}
-  - {name: 🇺🇸 TG@just_free_share 13, server: 000007.bujidao.org, port: 6000, type: vmess, uuid: 1cb6ea16-6a40-39cc-a47f-0be12cba9aa9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /xiaodao, ws-headers: {Host: bujidao.cccccc.cc}}
-  - {name: t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345, server: 141.164.36.44, port: 80, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇸🇬 QQ2732144691的flyxx机场订阅新加坡04 | 中转AZ x0.5, server: 65.52.164.219, port: 10008, type: vmess, uuid: 63f80374-116b-476b-b42f-7bf13d5a8ec9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 65.52.164.219}}
-  - {name: 🇸🇬 QQ2732144691的flyxx机场订阅新加坡01 | 中转AZ x0.5, server: 65.52.164.219, port: 10010, type: vmess, uuid: 63f80374-116b-476b-b42f-7bf13d5a8ec9, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: sg1.xxl123.fun}}
-  - {name: QQ2732144691的flyxx机场订阅网址：fly.xxl123.fun | TG：t.me/flyXXL12345, server: 141.164.36.44, port: 80, type: vmess, uuid: 63f80374-116b-476b-b42f-7bf13d5a8ec9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇯🇵 QQ2732144691的flyxx机场订阅日本负载均衡, server: 65.52.164.219, port: 20021, type: vmess, uuid: 63f80374-116b-476b-b42f-7bf13d5a8ec9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 65.52.164.219}}
-  - {name: 🇺🇸 QQ2732144691的flyxx机场订阅美国05 | 中转AZ x0.5, server: 65.52.164.219, port: 10011, type: vmess, uuid: 63f80374-116b-476b-b42f-7bf13d5a8ec9, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us5.xxl123.fun}}
-  - {name: 🇺🇸 QQ2732144691的flyxx机场订阅美国03 | 流媒体, server: us3.xxl123.fun, port: 18888, type: vmess, uuid: 63f80374-116b-476b-b42f-7bf13d5a8ec9, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us3.xxl123.fun}}
-  - {name: 🇰🇷 QQ2732144691的flyxx机场订阅韩国01 | 中转AZ x0.5, server: 65.52.164.219, port: 10003, type: vmess, uuid: 63f80374-116b-476b-b42f-7bf13d5a8ec9, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: kr1.xxl123.fun}}
-  - {name: 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1, server: jp3.xxl123.fun, port: 80, type: vmess, uuid: 63f80374-116b-476b-b42f-7bf13d5a8ec9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口  x0.1, server: 45.76.111.176, port: 80, type: vmess, uuid: 63f80374-116b-476b-b42f-7bf13d5a8ec9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5, server: 65.52.164.219, port: 10008, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 65.52.164.219}}
-  - {name: 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5, server: 65.52.164.219, port: 10010, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: sg1.xxl123.fun}}
-  - {name: 🇯🇵 QQ1977488121日本负载均衡, server: 65.52.164.219, port: 20021, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ws, ws-headers: {Host: 65.52.164.219}}
-  - {name: 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5, server: us7.xxl123.fun, port: 18889, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us7.xxl123.fun}}
-  - {name: 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5, server: 65.52.164.219, port: 10011, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us5.xxl123.fun}}
-  - {name: 🇺🇸 QQ1977488121美国03 | 流媒体, server: us3.xxl123.fun, port: 18888, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us3.xxl123.fun}}
-  - {name: 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5, server: 65.52.164.219, port: 10003, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: kr1.xxl123.fun}}
-  - {name: 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1, server: jp3.xxl123.fun, port: 80, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇯🇵 QQ1977488121| 日本80口  x0.1, server: 45.76.111.176, port: 80, type: vmess, uuid: 86a507e5-0ef9-4c62-b1b8-ff6b2d7ab3df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: NONE, server: lax.jumpwallsocks.online, port: 65534, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: lax.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: NONE 2, server: colagzcm.jumpwallsocks.online, port: 31003, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇯🇵 JP02-日本江东区-倍率x1, server: tk.jumpwallsocks.online, port: 65535, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: tk.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇭🇰 HK01-香港NTT-倍率x1, server: hkntt.jumpwallsocks.online, port: 65535, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: hkntt.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇩🇪 DE01-德国法兰克福-倍率x1, server: fr.jumpwallsocks.online, port: 65535, type: trojan, password: 96d4852c-f9f1-4d9c-99ac-9568dadf3261, sni: fr.jumpwallsocks.online, skip-cert-verify: false}
-  - {name: 🇺🇸 （真正坚挺100天美国USA-4, server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
-  - {name: 🇺🇸 （真正坚挺100天）美国NN-4, server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
+  - {name: ★官方频道：@jingpingziyuanfenxiang, server: BaiPiaoLianMeng, port: 9999, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★更多节点加入以下电报群, server: BaiPiaoLianMeng, port: 9999, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★电报群 ：@baipiaolianmeng, server: BaiPiaoLianMeng, port: 9999, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★如需收费节点可私聊 @群主, server: BaiPiaoLianMeng, port: 9999, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______1, server: 217.138.207.253, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______2, server: 217.138.196.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: ★白嫖联盟★_______3, server: 178.239.172.111, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______4, server: 185.44.78.174, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______5, server: 87.101.94.227, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______6, server: 196.244.191.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: ★白嫖联盟★_______7, server: 185.153.151.100, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: ★白嫖联盟★_______8, server: 185.212.111.6, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______9, server: 196.244.191.181, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______10, server: 148.72.169.213, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______11, server: 37.120.148.229, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______12, server: 217.138.216.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______13, server: 89.46.223.100, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: ★白嫖联盟★_______14, server: 81.19.208.66, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______15, server: 196.244.191.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______16, server: 45.89.175.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______17, server: 196.244.191.35, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______18, server: 81.19.209.59, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______19, server: 89.35.29.71, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______20, server: 66.115.175.50, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______21, server: 173.237.207.21, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______22, server: 89.46.223.92, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______23, server: 66.115.154.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______24, server: 104.244.208.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______25, server: 193.9.112.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______26, server: 85.10.56.190, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: ★白嫖联盟★_______27, server: 37.120.148.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______28, server: 45.89.175.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______29, server: 87.101.94.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______30, server: 212.102.35.206, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______31, server: 45.12.221.165, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: ★白嫖联盟★_______32, server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ★白嫖联盟★_______33, server: 37.120.148.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______34, server: 196.244.191.181, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______35, server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: ★白嫖联盟★_______36, server: 81.19.208.56, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______37, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______38, server: 212.102.35.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: ★白嫖联盟★_______39, server: 162.251.61.221, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ★白嫖联盟★_______40, server: 143.244.56.228, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______41, server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ★白嫖联盟★_______42, server: 194.150.167.36, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: ★白嫖联盟★_______43, server: 185.108.106.160, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______44, server: 143.244.42.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: ★白嫖联盟★_______45, server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ★白嫖联盟★_______46, server: 185.246.208.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______47, server: 86.106.137.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______48, server: 217.138.222.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______49, server: 185.108.106.158, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______50, server: 143.244.60.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______51, server: 212.102.48.13, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______52, server: 37.120.212.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______53, server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
+  - {name: ★白嫖联盟★_______54, server: 84.17.58.146, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______55, server: 37.120.212.77, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______56, server: 37.120.212.139, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______57, server: 143.244.57.106, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______58, server: 188.92.78.152, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______59, server: 185.166.84.61, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: ★白嫖联盟★_______60, server: 212.102.54.132, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______61, server: 45.89.175.53, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______62, server: 143.244.57.112, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: ★白嫖联盟★_______63, server: 89.45.7.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______64, server: grafana.friyonline.com, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: ★白嫖联盟★_______65, server: 212.102.48.13, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: ★白嫖联盟★_______66, server: 5.154.174.219, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ★白嫖联盟★_______67, server: 84.17.53.216, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______68, server: 185.108.106.160, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ★白嫖联盟★_______69, server: 95.174.65.69, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡02-06 NF 江门移动
-      - 🇸🇬 新加坡 Anycast 01 1x 解锁
-      - 🇭🇰 香港BGP→US03-拉斯维加斯-倍率x1
-      - 🇭🇰 香港BGP→US02-罗马尼亚-倍率x1
-      - 🇭🇰 香港BGP→US01-洛杉矶-倍率x1
-      - 🇭🇰 香港BGP→SG01-新加坡-倍率x1
-      - 🇭🇰 香港BGP→JP02-日本江东区-倍率x1
-      - 🇭🇰 香港BGP→JP01-日本品川区-倍率x3
-      - 🇭🇰 香港BGP→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 香港BGP→HK03-香港HKT-倍率x1
-      - 🇭🇰 香港BGP→HK02-香港HGC-倍率x1
-      - 🇭🇰 香港BGP→HK01-香港NTT-倍率x1
-      - 🇩🇪 香港BGP→DE01-德国法兰克福-倍率x1
-      - 兔哥甲骨文oracle-http-kr
-      - 兔哥甲骨文oracle-http-kr 2
-      - 🇨🇳 台湾02-06 江门移动
-      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
-      - 🇯🇵 上网课日本 A
-      - 🇺🇸 上网课美国 A
-      - 🇯🇵 日本JP-1
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国NN-13
-      - 🇯🇵 基佬云QQ69027662AB分區01( 直连)亞洲节点日本东京(三网拉滿)
-      - 黑洞172.247.27.194
-      - 🇰🇷 韩国 Oracle 02 1x 原生IP
-      - 🇺🇸 广州CM→US03-拉斯维加斯-倍率x1
-      - 🇷🇴 广州CM→US02-罗马尼亚-倍率x1
-      - 🇺🇸 广州CM→US01-洛杉矶-倍率x1
-      - 🇨🇳 广州CM→TW01-台湾HINET-倍率x1
-      - 🇸🇬 广州CM→SG01-新加坡-倍率x1
-      - 🇰🇷 广州CM→KR01-韩国首尔-倍率x1
-      - 🇯🇵 广州CM→JP02-日本江东区-倍率x1
-      - 🇯🇵 广州CM→JP01-日本品川-倍率x3
-      - 🇮🇳 广州CM→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 广州CM→HK03-香港HKT-倍率x1
-      - 🇭🇰 广州CM→HK01-香港NTT-倍率x1
-      - 🇺🇸 公益-洛杉矶三网直连-倍率0.1
-      - 🇯🇵 VIP日本01 | 广州移动 | 流媒体
-      - 🏳️‍🌈 vip-韩国2 QQ3556578307星光云流量
-      - 🏳️‍🌈 vip-韩国 QQ3556578307星光云流量
-      - 🇺🇸 TG@just_free_share
-      - 🇺🇸 TG@just_free_share 2
-      - 🇺🇸 TG@just_free_share 3
-      - 🇺🇸 TG@just_free_share 4
-      - 🇺🇸 TG@just_free_share 5
-      - 🇺🇸 TG@just_free_share 6
-      - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - 🇺🇸 TG@just_free_share 11
-      - 🇺🇸 TG@just_free_share 12
-      - 🇺🇸 TG@just_free_share 13
-      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡01 | 中转AZ x0.5
-      - QQ2732144691的flyxx机场订阅网址：fly.xxl123.fun | TG：t.me/flyXXL12345
-      - 🇯🇵 QQ2732144691的flyxx机场订阅日本负载均衡
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国03 | 流媒体
-      - 🇰🇷 QQ2732144691的flyxx机场订阅韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口  x0.1
-      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121日本负载均衡
-      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
-      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ1977488121美国03 | 流媒体
-      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ1977488121| 日本80口  x0.1
-      - NONE
-      - NONE 2
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - 🇺🇸 （真正坚挺100天美国USA-4
-      - 🇺🇸 （真正坚挺100天）美国NN-4
+      - ★官方频道：@jingpingziyuanfenxiang
+      - ★更多节点加入以下电报群
+      - ★电报群 ：@baipiaolianmeng
+      - ★如需收费节点可私聊 @群主
+      - ★白嫖联盟★_______1
+      - ★白嫖联盟★_______2
+      - ★白嫖联盟★_______3
+      - ★白嫖联盟★_______4
+      - ★白嫖联盟★_______5
+      - ★白嫖联盟★_______6
+      - ★白嫖联盟★_______7
+      - ★白嫖联盟★_______8
+      - ★白嫖联盟★_______9
+      - ★白嫖联盟★_______10
+      - ★白嫖联盟★_______11
+      - ★白嫖联盟★_______12
+      - ★白嫖联盟★_______13
+      - ★白嫖联盟★_______14
+      - ★白嫖联盟★_______15
+      - ★白嫖联盟★_______16
+      - ★白嫖联盟★_______17
+      - ★白嫖联盟★_______18
+      - ★白嫖联盟★_______19
+      - ★白嫖联盟★_______20
+      - ★白嫖联盟★_______21
+      - ★白嫖联盟★_______22
+      - ★白嫖联盟★_______23
+      - ★白嫖联盟★_______24
+      - ★白嫖联盟★_______25
+      - ★白嫖联盟★_______26
+      - ★白嫖联盟★_______27
+      - ★白嫖联盟★_______28
+      - ★白嫖联盟★_______29
+      - ★白嫖联盟★_______30
+      - ★白嫖联盟★_______31
+      - ★白嫖联盟★_______32
+      - ★白嫖联盟★_______33
+      - ★白嫖联盟★_______34
+      - ★白嫖联盟★_______35
+      - ★白嫖联盟★_______36
+      - ★白嫖联盟★_______37
+      - ★白嫖联盟★_______38
+      - ★白嫖联盟★_______39
+      - ★白嫖联盟★_______40
+      - ★白嫖联盟★_______41
+      - ★白嫖联盟★_______42
+      - ★白嫖联盟★_______43
+      - ★白嫖联盟★_______44
+      - ★白嫖联盟★_______45
+      - ★白嫖联盟★_______46
+      - ★白嫖联盟★_______47
+      - ★白嫖联盟★_______48
+      - ★白嫖联盟★_______49
+      - ★白嫖联盟★_______50
+      - ★白嫖联盟★_______51
+      - ★白嫖联盟★_______52
+      - ★白嫖联盟★_______53
+      - ★白嫖联盟★_______54
+      - ★白嫖联盟★_______55
+      - ★白嫖联盟★_______56
+      - ★白嫖联盟★_______57
+      - ★白嫖联盟★_______58
+      - ★白嫖联盟★_______59
+      - ★白嫖联盟★_______60
+      - ★白嫖联盟★_______61
+      - ★白嫖联盟★_______62
+      - ★白嫖联盟★_______63
+      - ★白嫖联盟★_______64
+      - ★白嫖联盟★_______65
+      - ★白嫖联盟★_______66
+      - ★白嫖联盟★_______67
+      - ★白嫖联盟★_______68
+      - ★白嫖联盟★_______69
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡02-06 NF 江门移动
-      - 🇸🇬 新加坡 Anycast 01 1x 解锁
-      - 🇭🇰 香港BGP→US03-拉斯维加斯-倍率x1
-      - 🇭🇰 香港BGP→US02-罗马尼亚-倍率x1
-      - 🇭🇰 香港BGP→US01-洛杉矶-倍率x1
-      - 🇭🇰 香港BGP→SG01-新加坡-倍率x1
-      - 🇭🇰 香港BGP→JP02-日本江东区-倍率x1
-      - 🇭🇰 香港BGP→JP01-日本品川区-倍率x3
-      - 🇭🇰 香港BGP→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 香港BGP→HK03-香港HKT-倍率x1
-      - 🇭🇰 香港BGP→HK02-香港HGC-倍率x1
-      - 🇭🇰 香港BGP→HK01-香港NTT-倍率x1
-      - 🇩🇪 香港BGP→DE01-德国法兰克福-倍率x1
-      - 兔哥甲骨文oracle-http-kr
-      - 兔哥甲骨文oracle-http-kr 2
-      - 🇨🇳 台湾02-06 江门移动
-      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
-      - 🇯🇵 上网课日本 A
-      - 🇺🇸 上网课美国 A
-      - 🇯🇵 日本JP-1
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国NN-13
-      - 🇯🇵 基佬云QQ69027662AB分區01( 直连)亞洲节点日本东京(三网拉滿)
-      - 黑洞172.247.27.194
-      - 🇰🇷 韩国 Oracle 02 1x 原生IP
-      - 🇺🇸 广州CM→US03-拉斯维加斯-倍率x1
-      - 🇷🇴 广州CM→US02-罗马尼亚-倍率x1
-      - 🇺🇸 广州CM→US01-洛杉矶-倍率x1
-      - 🇨🇳 广州CM→TW01-台湾HINET-倍率x1
-      - 🇸🇬 广州CM→SG01-新加坡-倍率x1
-      - 🇰🇷 广州CM→KR01-韩国首尔-倍率x1
-      - 🇯🇵 广州CM→JP02-日本江东区-倍率x1
-      - 🇯🇵 广州CM→JP01-日本品川-倍率x3
-      - 🇮🇳 广州CM→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 广州CM→HK03-香港HKT-倍率x1
-      - 🇭🇰 广州CM→HK01-香港NTT-倍率x1
-      - 🇺🇸 公益-洛杉矶三网直连-倍率0.1
-      - 🇯🇵 VIP日本01 | 广州移动 | 流媒体
-      - 🏳️‍🌈 vip-韩国2 QQ3556578307星光云流量
-      - 🏳️‍🌈 vip-韩国 QQ3556578307星光云流量
-      - 🇺🇸 TG@just_free_share
-      - 🇺🇸 TG@just_free_share 2
-      - 🇺🇸 TG@just_free_share 3
-      - 🇺🇸 TG@just_free_share 4
-      - 🇺🇸 TG@just_free_share 5
-      - 🇺🇸 TG@just_free_share 6
-      - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - 🇺🇸 TG@just_free_share 11
-      - 🇺🇸 TG@just_free_share 12
-      - 🇺🇸 TG@just_free_share 13
-      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡01 | 中转AZ x0.5
-      - QQ2732144691的flyxx机场订阅网址：fly.xxl123.fun | TG：t.me/flyXXL12345
-      - 🇯🇵 QQ2732144691的flyxx机场订阅日本负载均衡
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国03 | 流媒体
-      - 🇰🇷 QQ2732144691的flyxx机场订阅韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口  x0.1
-      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121日本负载均衡
-      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
-      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ1977488121美国03 | 流媒体
-      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ1977488121| 日本80口  x0.1
-      - NONE
-      - NONE 2
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - 🇺🇸 （真正坚挺100天美国USA-4
-      - 🇺🇸 （真正坚挺100天）美国NN-4
+      - ★官方频道：@jingpingziyuanfenxiang
+      - ★更多节点加入以下电报群
+      - ★电报群 ：@baipiaolianmeng
+      - ★如需收费节点可私聊 @群主
+      - ★白嫖联盟★_______1
+      - ★白嫖联盟★_______2
+      - ★白嫖联盟★_______3
+      - ★白嫖联盟★_______4
+      - ★白嫖联盟★_______5
+      - ★白嫖联盟★_______6
+      - ★白嫖联盟★_______7
+      - ★白嫖联盟★_______8
+      - ★白嫖联盟★_______9
+      - ★白嫖联盟★_______10
+      - ★白嫖联盟★_______11
+      - ★白嫖联盟★_______12
+      - ★白嫖联盟★_______13
+      - ★白嫖联盟★_______14
+      - ★白嫖联盟★_______15
+      - ★白嫖联盟★_______16
+      - ★白嫖联盟★_______17
+      - ★白嫖联盟★_______18
+      - ★白嫖联盟★_______19
+      - ★白嫖联盟★_______20
+      - ★白嫖联盟★_______21
+      - ★白嫖联盟★_______22
+      - ★白嫖联盟★_______23
+      - ★白嫖联盟★_______24
+      - ★白嫖联盟★_______25
+      - ★白嫖联盟★_______26
+      - ★白嫖联盟★_______27
+      - ★白嫖联盟★_______28
+      - ★白嫖联盟★_______29
+      - ★白嫖联盟★_______30
+      - ★白嫖联盟★_______31
+      - ★白嫖联盟★_______32
+      - ★白嫖联盟★_______33
+      - ★白嫖联盟★_______34
+      - ★白嫖联盟★_______35
+      - ★白嫖联盟★_______36
+      - ★白嫖联盟★_______37
+      - ★白嫖联盟★_______38
+      - ★白嫖联盟★_______39
+      - ★白嫖联盟★_______40
+      - ★白嫖联盟★_______41
+      - ★白嫖联盟★_______42
+      - ★白嫖联盟★_______43
+      - ★白嫖联盟★_______44
+      - ★白嫖联盟★_______45
+      - ★白嫖联盟★_______46
+      - ★白嫖联盟★_______47
+      - ★白嫖联盟★_______48
+      - ★白嫖联盟★_______49
+      - ★白嫖联盟★_______50
+      - ★白嫖联盟★_______51
+      - ★白嫖联盟★_______52
+      - ★白嫖联盟★_______53
+      - ★白嫖联盟★_______54
+      - ★白嫖联盟★_______55
+      - ★白嫖联盟★_______56
+      - ★白嫖联盟★_______57
+      - ★白嫖联盟★_______58
+      - ★白嫖联盟★_______59
+      - ★白嫖联盟★_______60
+      - ★白嫖联盟★_______61
+      - ★白嫖联盟★_______62
+      - ★白嫖联盟★_______63
+      - ★白嫖联盟★_______64
+      - ★白嫖联盟★_______65
+      - ★白嫖联盟★_______66
+      - ★白嫖联盟★_______67
+      - ★白嫖联盟★_______68
+      - ★白嫖联盟★_______69
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡02-06 NF 江门移动
-      - 🇸🇬 新加坡 Anycast 01 1x 解锁
-      - 🇭🇰 香港BGP→US03-拉斯维加斯-倍率x1
-      - 🇭🇰 香港BGP→US02-罗马尼亚-倍率x1
-      - 🇭🇰 香港BGP→US01-洛杉矶-倍率x1
-      - 🇭🇰 香港BGP→SG01-新加坡-倍率x1
-      - 🇭🇰 香港BGP→JP02-日本江东区-倍率x1
-      - 🇭🇰 香港BGP→JP01-日本品川区-倍率x3
-      - 🇭🇰 香港BGP→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 香港BGP→HK03-香港HKT-倍率x1
-      - 🇭🇰 香港BGP→HK02-香港HGC-倍率x1
-      - 🇭🇰 香港BGP→HK01-香港NTT-倍率x1
-      - 🇩🇪 香港BGP→DE01-德国法兰克福-倍率x1
-      - 兔哥甲骨文oracle-http-kr
-      - 兔哥甲骨文oracle-http-kr 2
-      - 🇨🇳 台湾02-06 江门移动
-      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
-      - 🇯🇵 上网课日本 A
-      - 🇺🇸 上网课美国 A
-      - 🇯🇵 日本JP-1
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国NN-13
-      - 🇯🇵 基佬云QQ69027662AB分區01( 直连)亞洲节点日本东京(三网拉滿)
-      - 黑洞172.247.27.194
-      - 🇰🇷 韩国 Oracle 02 1x 原生IP
-      - 🇺🇸 广州CM→US03-拉斯维加斯-倍率x1
-      - 🇷🇴 广州CM→US02-罗马尼亚-倍率x1
-      - 🇺🇸 广州CM→US01-洛杉矶-倍率x1
-      - 🇨🇳 广州CM→TW01-台湾HINET-倍率x1
-      - 🇸🇬 广州CM→SG01-新加坡-倍率x1
-      - 🇰🇷 广州CM→KR01-韩国首尔-倍率x1
-      - 🇯🇵 广州CM→JP02-日本江东区-倍率x1
-      - 🇯🇵 广州CM→JP01-日本品川-倍率x3
-      - 🇮🇳 广州CM→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 广州CM→HK03-香港HKT-倍率x1
-      - 🇭🇰 广州CM→HK01-香港NTT-倍率x1
-      - 🇺🇸 公益-洛杉矶三网直连-倍率0.1
-      - 🇯🇵 VIP日本01 | 广州移动 | 流媒体
-      - 🏳️‍🌈 vip-韩国2 QQ3556578307星光云流量
-      - 🏳️‍🌈 vip-韩国 QQ3556578307星光云流量
-      - 🇺🇸 TG@just_free_share
-      - 🇺🇸 TG@just_free_share 2
-      - 🇺🇸 TG@just_free_share 3
-      - 🇺🇸 TG@just_free_share 4
-      - 🇺🇸 TG@just_free_share 5
-      - 🇺🇸 TG@just_free_share 6
-      - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - 🇺🇸 TG@just_free_share 11
-      - 🇺🇸 TG@just_free_share 12
-      - 🇺🇸 TG@just_free_share 13
-      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡01 | 中转AZ x0.5
-      - QQ2732144691的flyxx机场订阅网址：fly.xxl123.fun | TG：t.me/flyXXL12345
-      - 🇯🇵 QQ2732144691的flyxx机场订阅日本负载均衡
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国03 | 流媒体
-      - 🇰🇷 QQ2732144691的flyxx机场订阅韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口  x0.1
-      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121日本负载均衡
-      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
-      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ1977488121美国03 | 流媒体
-      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ1977488121| 日本80口  x0.1
-      - NONE
-      - NONE 2
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - 🇺🇸 （真正坚挺100天美国USA-4
-      - 🇺🇸 （真正坚挺100天）美国NN-4
+      - ★官方频道：@jingpingziyuanfenxiang
+      - ★更多节点加入以下电报群
+      - ★电报群 ：@baipiaolianmeng
+      - ★如需收费节点可私聊 @群主
+      - ★白嫖联盟★_______1
+      - ★白嫖联盟★_______2
+      - ★白嫖联盟★_______3
+      - ★白嫖联盟★_______4
+      - ★白嫖联盟★_______5
+      - ★白嫖联盟★_______6
+      - ★白嫖联盟★_______7
+      - ★白嫖联盟★_______8
+      - ★白嫖联盟★_______9
+      - ★白嫖联盟★_______10
+      - ★白嫖联盟★_______11
+      - ★白嫖联盟★_______12
+      - ★白嫖联盟★_______13
+      - ★白嫖联盟★_______14
+      - ★白嫖联盟★_______15
+      - ★白嫖联盟★_______16
+      - ★白嫖联盟★_______17
+      - ★白嫖联盟★_______18
+      - ★白嫖联盟★_______19
+      - ★白嫖联盟★_______20
+      - ★白嫖联盟★_______21
+      - ★白嫖联盟★_______22
+      - ★白嫖联盟★_______23
+      - ★白嫖联盟★_______24
+      - ★白嫖联盟★_______25
+      - ★白嫖联盟★_______26
+      - ★白嫖联盟★_______27
+      - ★白嫖联盟★_______28
+      - ★白嫖联盟★_______29
+      - ★白嫖联盟★_______30
+      - ★白嫖联盟★_______31
+      - ★白嫖联盟★_______32
+      - ★白嫖联盟★_______33
+      - ★白嫖联盟★_______34
+      - ★白嫖联盟★_______35
+      - ★白嫖联盟★_______36
+      - ★白嫖联盟★_______37
+      - ★白嫖联盟★_______38
+      - ★白嫖联盟★_______39
+      - ★白嫖联盟★_______40
+      - ★白嫖联盟★_______41
+      - ★白嫖联盟★_______42
+      - ★白嫖联盟★_______43
+      - ★白嫖联盟★_______44
+      - ★白嫖联盟★_______45
+      - ★白嫖联盟★_______46
+      - ★白嫖联盟★_______47
+      - ★白嫖联盟★_______48
+      - ★白嫖联盟★_______49
+      - ★白嫖联盟★_______50
+      - ★白嫖联盟★_______51
+      - ★白嫖联盟★_______52
+      - ★白嫖联盟★_______53
+      - ★白嫖联盟★_______54
+      - ★白嫖联盟★_______55
+      - ★白嫖联盟★_______56
+      - ★白嫖联盟★_______57
+      - ★白嫖联盟★_______58
+      - ★白嫖联盟★_______59
+      - ★白嫖联盟★_______60
+      - ★白嫖联盟★_______61
+      - ★白嫖联盟★_______62
+      - ★白嫖联盟★_______63
+      - ★白嫖联盟★_______64
+      - ★白嫖联盟★_______65
+      - ★白嫖联盟★_______66
+      - ★白嫖联盟★_______67
+      - ★白嫖联盟★_______68
+      - ★白嫖联盟★_______69
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港BGP→US03-拉斯维加斯-倍率x1
-      - 🇭🇰 香港BGP→US02-罗马尼亚-倍率x1
-      - 🇭🇰 香港BGP→US01-洛杉矶-倍率x1
-      - 🇭🇰 香港BGP→SG01-新加坡-倍率x1
-      - 🇭🇰 香港BGP→JP02-日本江东区-倍率x1
-      - 🇭🇰 香港BGP→JP01-日本品川区-倍率x3
-      - 🇭🇰 香港BGP→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 香港BGP→HK03-香港HKT-倍率x1
-      - 🇭🇰 香港BGP→HK02-香港HGC-倍率x1
-      - 🇭🇰 香港BGP→HK01-香港NTT-倍率x1
-      - 🇩🇪 香港BGP→DE01-德国法兰克福-倍率x1
-      - 🇨🇳 台湾02-06 江门移动
-      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
-      - 🇨🇳 广州CM→TW01-台湾HINET-倍率x1
-      - 🇭🇰 广州CM→HK03-香港HKT-倍率x1
-      - 🇭🇰 广州CM→HK01-香港NTT-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡02-06 NF 江门移动
-      - 🇸🇬 新加坡 Anycast 01 1x 解锁
-      - 🇭🇰 香港BGP→US03-拉斯维加斯-倍率x1
-      - 🇭🇰 香港BGP→US02-罗马尼亚-倍率x1
-      - 🇭🇰 香港BGP→US01-洛杉矶-倍率x1
-      - 🇭🇰 香港BGP→SG01-新加坡-倍率x1
-      - 🇭🇰 香港BGP→JP02-日本江东区-倍率x1
-      - 🇭🇰 香港BGP→JP01-日本品川区-倍率x3
-      - 🇭🇰 香港BGP→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 香港BGP→HK03-香港HKT-倍率x1
-      - 🇭🇰 香港BGP→HK02-香港HGC-倍率x1
-      - 🇭🇰 香港BGP→HK01-香港NTT-倍率x1
-      - 🇩🇪 香港BGP→DE01-德国法兰克福-倍率x1
-      - 兔哥甲骨文oracle-http-kr
-      - 兔哥甲骨文oracle-http-kr 2
-      - 🇨🇳 台湾02-06 江门移动
-      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
-      - 🇯🇵 上网课日本 A
-      - 🇺🇸 上网课美国 A
-      - 🇯🇵 日本JP-1
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国NN-13
-      - 🇯🇵 基佬云QQ69027662AB分區01( 直连)亞洲节点日本东京(三网拉滿)
-      - 黑洞172.247.27.194
-      - 🇰🇷 韩国 Oracle 02 1x 原生IP
-      - 🇺🇸 广州CM→US03-拉斯维加斯-倍率x1
-      - 🇷🇴 广州CM→US02-罗马尼亚-倍率x1
-      - 🇺🇸 广州CM→US01-洛杉矶-倍率x1
-      - 🇨🇳 广州CM→TW01-台湾HINET-倍率x1
-      - 🇸🇬 广州CM→SG01-新加坡-倍率x1
-      - 🇰🇷 广州CM→KR01-韩国首尔-倍率x1
-      - 🇯🇵 广州CM→JP02-日本江东区-倍率x1
-      - 🇯🇵 广州CM→JP01-日本品川-倍率x3
-      - 🇮🇳 广州CM→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 广州CM→HK03-香港HKT-倍率x1
-      - 🇭🇰 广州CM→HK01-香港NTT-倍率x1
-      - 🇺🇸 公益-洛杉矶三网直连-倍率0.1
-      - 🇯🇵 VIP日本01 | 广州移动 | 流媒体
-      - 🏳️‍🌈 vip-韩国2 QQ3556578307星光云流量
-      - 🏳️‍🌈 vip-韩国 QQ3556578307星光云流量
-      - 🇺🇸 TG@just_free_share
-      - 🇺🇸 TG@just_free_share 2
-      - 🇺🇸 TG@just_free_share 3
-      - 🇺🇸 TG@just_free_share 4
-      - 🇺🇸 TG@just_free_share 5
-      - 🇺🇸 TG@just_free_share 6
-      - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - 🇺🇸 TG@just_free_share 11
-      - 🇺🇸 TG@just_free_share 12
-      - 🇺🇸 TG@just_free_share 13
-      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡01 | 中转AZ x0.5
-      - QQ2732144691的flyxx机场订阅网址：fly.xxl123.fun | TG：t.me/flyXXL12345
-      - 🇯🇵 QQ2732144691的flyxx机场订阅日本负载均衡
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国03 | 流媒体
-      - 🇰🇷 QQ2732144691的flyxx机场订阅韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口  x0.1
-      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121日本负载均衡
-      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
-      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ1977488121美国03 | 流媒体
-      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ1977488121| 日本80口  x0.1
-      - NONE
-      - NONE 2
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - 🇺🇸 （真正坚挺100天美国USA-4
-      - 🇺🇸 （真正坚挺100天）美国NN-4
+      - ★官方频道：@jingpingziyuanfenxiang
+      - ★更多节点加入以下电报群
+      - ★电报群 ：@baipiaolianmeng
+      - ★如需收费节点可私聊 @群主
+      - ★白嫖联盟★_______1
+      - ★白嫖联盟★_______2
+      - ★白嫖联盟★_______3
+      - ★白嫖联盟★_______4
+      - ★白嫖联盟★_______5
+      - ★白嫖联盟★_______6
+      - ★白嫖联盟★_______7
+      - ★白嫖联盟★_______8
+      - ★白嫖联盟★_______9
+      - ★白嫖联盟★_______10
+      - ★白嫖联盟★_______11
+      - ★白嫖联盟★_______12
+      - ★白嫖联盟★_______13
+      - ★白嫖联盟★_______14
+      - ★白嫖联盟★_______15
+      - ★白嫖联盟★_______16
+      - ★白嫖联盟★_______17
+      - ★白嫖联盟★_______18
+      - ★白嫖联盟★_______19
+      - ★白嫖联盟★_______20
+      - ★白嫖联盟★_______21
+      - ★白嫖联盟★_______22
+      - ★白嫖联盟★_______23
+      - ★白嫖联盟★_______24
+      - ★白嫖联盟★_______25
+      - ★白嫖联盟★_______26
+      - ★白嫖联盟★_______27
+      - ★白嫖联盟★_______28
+      - ★白嫖联盟★_______29
+      - ★白嫖联盟★_______30
+      - ★白嫖联盟★_______31
+      - ★白嫖联盟★_______32
+      - ★白嫖联盟★_______33
+      - ★白嫖联盟★_______34
+      - ★白嫖联盟★_______35
+      - ★白嫖联盟★_______36
+      - ★白嫖联盟★_______37
+      - ★白嫖联盟★_______38
+      - ★白嫖联盟★_______39
+      - ★白嫖联盟★_______40
+      - ★白嫖联盟★_______41
+      - ★白嫖联盟★_______42
+      - ★白嫖联盟★_______43
+      - ★白嫖联盟★_______44
+      - ★白嫖联盟★_______45
+      - ★白嫖联盟★_______46
+      - ★白嫖联盟★_______47
+      - ★白嫖联盟★_______48
+      - ★白嫖联盟★_______49
+      - ★白嫖联盟★_______50
+      - ★白嫖联盟★_______51
+      - ★白嫖联盟★_______52
+      - ★白嫖联盟★_______53
+      - ★白嫖联盟★_______54
+      - ★白嫖联盟★_______55
+      - ★白嫖联盟★_______56
+      - ★白嫖联盟★_______57
+      - ★白嫖联盟★_______58
+      - ★白嫖联盟★_______59
+      - ★白嫖联盟★_______60
+      - ★白嫖联盟★_______61
+      - ★白嫖联盟★_______62
+      - ★白嫖联盟★_______63
+      - ★白嫖联盟★_______64
+      - ★白嫖联盟★_______65
+      - ★白嫖联盟★_______66
+      - ★白嫖联盟★_______67
+      - ★白嫖联盟★_______68
+      - ★白嫖联盟★_______69
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡02-06 NF 江门移动
-      - 🇸🇬 新加坡 Anycast 01 1x 解锁
-      - 🇭🇰 香港BGP→US03-拉斯维加斯-倍率x1
-      - 🇭🇰 香港BGP→US02-罗马尼亚-倍率x1
-      - 🇭🇰 香港BGP→US01-洛杉矶-倍率x1
-      - 🇭🇰 香港BGP→SG01-新加坡-倍率x1
-      - 🇭🇰 香港BGP→JP02-日本江东区-倍率x1
-      - 🇭🇰 香港BGP→JP01-日本品川区-倍率x3
-      - 🇭🇰 香港BGP→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 香港BGP→HK03-香港HKT-倍率x1
-      - 🇭🇰 香港BGP→HK02-香港HGC-倍率x1
-      - 🇭🇰 香港BGP→HK01-香港NTT-倍率x1
-      - 🇩🇪 香港BGP→DE01-德国法兰克福-倍率x1
-      - 兔哥甲骨文oracle-http-kr
-      - 兔哥甲骨文oracle-http-kr 2
-      - 🇨🇳 台湾02-06 江门移动
-      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
-      - 🇯🇵 上网课日本 A
-      - 🇺🇸 上网课美国 A
-      - 🇯🇵 日本JP-1
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国NN-13
-      - 🇯🇵 基佬云QQ69027662AB分區01( 直连)亞洲节点日本东京(三网拉滿)
-      - 黑洞172.247.27.194
-      - 🇰🇷 韩国 Oracle 02 1x 原生IP
-      - 🇺🇸 广州CM→US03-拉斯维加斯-倍率x1
-      - 🇷🇴 广州CM→US02-罗马尼亚-倍率x1
-      - 🇺🇸 广州CM→US01-洛杉矶-倍率x1
-      - 🇨🇳 广州CM→TW01-台湾HINET-倍率x1
-      - 🇸🇬 广州CM→SG01-新加坡-倍率x1
-      - 🇰🇷 广州CM→KR01-韩国首尔-倍率x1
-      - 🇯🇵 广州CM→JP02-日本江东区-倍率x1
-      - 🇯🇵 广州CM→JP01-日本品川-倍率x3
-      - 🇮🇳 广州CM→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 广州CM→HK03-香港HKT-倍率x1
-      - 🇭🇰 广州CM→HK01-香港NTT-倍率x1
-      - 🇺🇸 公益-洛杉矶三网直连-倍率0.1
-      - 🇯🇵 VIP日本01 | 广州移动 | 流媒体
-      - 🏳️‍🌈 vip-韩国2 QQ3556578307星光云流量
-      - 🏳️‍🌈 vip-韩国 QQ3556578307星光云流量
-      - 🇺🇸 TG@just_free_share
-      - 🇺🇸 TG@just_free_share 2
-      - 🇺🇸 TG@just_free_share 3
-      - 🇺🇸 TG@just_free_share 4
-      - 🇺🇸 TG@just_free_share 5
-      - 🇺🇸 TG@just_free_share 6
-      - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - 🇺🇸 TG@just_free_share 11
-      - 🇺🇸 TG@just_free_share 12
-      - 🇺🇸 TG@just_free_share 13
-      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡01 | 中转AZ x0.5
-      - QQ2732144691的flyxx机场订阅网址：fly.xxl123.fun | TG：t.me/flyXXL12345
-      - 🇯🇵 QQ2732144691的flyxx机场订阅日本负载均衡
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国03 | 流媒体
-      - 🇰🇷 QQ2732144691的flyxx机场订阅韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口  x0.1
-      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121日本负载均衡
-      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
-      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ1977488121美国03 | 流媒体
-      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ1977488121| 日本80口  x0.1
-      - NONE
-      - NONE 2
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - 🇺🇸 （真正坚挺100天美国USA-4
-      - 🇺🇸 （真正坚挺100天）美国NN-4
+      - ★官方频道：@jingpingziyuanfenxiang
+      - ★更多节点加入以下电报群
+      - ★电报群 ：@baipiaolianmeng
+      - ★如需收费节点可私聊 @群主
+      - ★白嫖联盟★_______1
+      - ★白嫖联盟★_______2
+      - ★白嫖联盟★_______3
+      - ★白嫖联盟★_______4
+      - ★白嫖联盟★_______5
+      - ★白嫖联盟★_______6
+      - ★白嫖联盟★_______7
+      - ★白嫖联盟★_______8
+      - ★白嫖联盟★_______9
+      - ★白嫖联盟★_______10
+      - ★白嫖联盟★_______11
+      - ★白嫖联盟★_______12
+      - ★白嫖联盟★_______13
+      - ★白嫖联盟★_______14
+      - ★白嫖联盟★_______15
+      - ★白嫖联盟★_______16
+      - ★白嫖联盟★_______17
+      - ★白嫖联盟★_______18
+      - ★白嫖联盟★_______19
+      - ★白嫖联盟★_______20
+      - ★白嫖联盟★_______21
+      - ★白嫖联盟★_______22
+      - ★白嫖联盟★_______23
+      - ★白嫖联盟★_______24
+      - ★白嫖联盟★_______25
+      - ★白嫖联盟★_______26
+      - ★白嫖联盟★_______27
+      - ★白嫖联盟★_______28
+      - ★白嫖联盟★_______29
+      - ★白嫖联盟★_______30
+      - ★白嫖联盟★_______31
+      - ★白嫖联盟★_______32
+      - ★白嫖联盟★_______33
+      - ★白嫖联盟★_______34
+      - ★白嫖联盟★_______35
+      - ★白嫖联盟★_______36
+      - ★白嫖联盟★_______37
+      - ★白嫖联盟★_______38
+      - ★白嫖联盟★_______39
+      - ★白嫖联盟★_______40
+      - ★白嫖联盟★_______41
+      - ★白嫖联盟★_______42
+      - ★白嫖联盟★_______43
+      - ★白嫖联盟★_______44
+      - ★白嫖联盟★_______45
+      - ★白嫖联盟★_______46
+      - ★白嫖联盟★_______47
+      - ★白嫖联盟★_______48
+      - ★白嫖联盟★_______49
+      - ★白嫖联盟★_______50
+      - ★白嫖联盟★_______51
+      - ★白嫖联盟★_______52
+      - ★白嫖联盟★_______53
+      - ★白嫖联盟★_______54
+      - ★白嫖联盟★_______55
+      - ★白嫖联盟★_______56
+      - ★白嫖联盟★_______57
+      - ★白嫖联盟★_______58
+      - ★白嫖联盟★_______59
+      - ★白嫖联盟★_______60
+      - ★白嫖联盟★_______61
+      - ★白嫖联盟★_______62
+      - ★白嫖联盟★_______63
+      - ★白嫖联盟★_______64
+      - ★白嫖联盟★_______65
+      - ★白嫖联盟★_______66
+      - ★白嫖联盟★_______67
+      - ★白嫖联盟★_______68
+      - ★白嫖联盟★_______69
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡02-06 NF 江门移动
-      - 🇸🇬 新加坡 Anycast 01 1x 解锁
-      - 🇭🇰 香港BGP→US03-拉斯维加斯-倍率x1
-      - 🇭🇰 香港BGP→US02-罗马尼亚-倍率x1
-      - 🇭🇰 香港BGP→US01-洛杉矶-倍率x1
-      - 🇭🇰 香港BGP→SG01-新加坡-倍率x1
-      - 🇭🇰 香港BGP→JP02-日本江东区-倍率x1
-      - 🇭🇰 香港BGP→JP01-日本品川区-倍率x3
-      - 🇭🇰 香港BGP→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 香港BGP→HK03-香港HKT-倍率x1
-      - 🇭🇰 香港BGP→HK02-香港HGC-倍率x1
-      - 🇭🇰 香港BGP→HK01-香港NTT-倍率x1
-      - 🇩🇪 香港BGP→DE01-德国法兰克福-倍率x1
-      - 兔哥甲骨文oracle-http-kr
-      - 兔哥甲骨文oracle-http-kr 2
-      - 🇨🇳 台湾02-06 江门移动
-      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
-      - 🇯🇵 上网课日本 A
-      - 🇺🇸 上网课美国 A
-      - 🇯🇵 日本JP-1
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国NN-13
-      - 🇯🇵 基佬云QQ69027662AB分區01( 直连)亞洲节点日本东京(三网拉滿)
-      - 黑洞172.247.27.194
-      - 🇰🇷 韩国 Oracle 02 1x 原生IP
-      - 🇺🇸 广州CM→US03-拉斯维加斯-倍率x1
-      - 🇷🇴 广州CM→US02-罗马尼亚-倍率x1
-      - 🇺🇸 广州CM→US01-洛杉矶-倍率x1
-      - 🇨🇳 广州CM→TW01-台湾HINET-倍率x1
-      - 🇸🇬 广州CM→SG01-新加坡-倍率x1
-      - 🇰🇷 广州CM→KR01-韩国首尔-倍率x1
-      - 🇯🇵 广州CM→JP02-日本江东区-倍率x1
-      - 🇯🇵 广州CM→JP01-日本品川-倍率x3
-      - 🇮🇳 广州CM→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 广州CM→HK03-香港HKT-倍率x1
-      - 🇭🇰 广州CM→HK01-香港NTT-倍率x1
-      - 🇺🇸 公益-洛杉矶三网直连-倍率0.1
-      - 🇯🇵 VIP日本01 | 广州移动 | 流媒体
-      - 🏳️‍🌈 vip-韩国2 QQ3556578307星光云流量
-      - 🏳️‍🌈 vip-韩国 QQ3556578307星光云流量
-      - 🇺🇸 TG@just_free_share
-      - 🇺🇸 TG@just_free_share 2
-      - 🇺🇸 TG@just_free_share 3
-      - 🇺🇸 TG@just_free_share 4
-      - 🇺🇸 TG@just_free_share 5
-      - 🇺🇸 TG@just_free_share 6
-      - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - 🇺🇸 TG@just_free_share 11
-      - 🇺🇸 TG@just_free_share 12
-      - 🇺🇸 TG@just_free_share 13
-      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡01 | 中转AZ x0.5
-      - QQ2732144691的flyxx机场订阅网址：fly.xxl123.fun | TG：t.me/flyXXL12345
-      - 🇯🇵 QQ2732144691的flyxx机场订阅日本负载均衡
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国03 | 流媒体
-      - 🇰🇷 QQ2732144691的flyxx机场订阅韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口  x0.1
-      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121日本负载均衡
-      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
-      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ1977488121美国03 | 流媒体
-      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ1977488121| 日本80口  x0.1
-      - NONE
-      - NONE 2
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - 🇺🇸 （真正坚挺100天美国USA-4
-      - 🇺🇸 （真正坚挺100天）美国NN-4
+      - ★官方频道：@jingpingziyuanfenxiang
+      - ★更多节点加入以下电报群
+      - ★电报群 ：@baipiaolianmeng
+      - ★如需收费节点可私聊 @群主
+      - ★白嫖联盟★_______1
+      - ★白嫖联盟★_______2
+      - ★白嫖联盟★_______3
+      - ★白嫖联盟★_______4
+      - ★白嫖联盟★_______5
+      - ★白嫖联盟★_______6
+      - ★白嫖联盟★_______7
+      - ★白嫖联盟★_______8
+      - ★白嫖联盟★_______9
+      - ★白嫖联盟★_______10
+      - ★白嫖联盟★_______11
+      - ★白嫖联盟★_______12
+      - ★白嫖联盟★_______13
+      - ★白嫖联盟★_______14
+      - ★白嫖联盟★_______15
+      - ★白嫖联盟★_______16
+      - ★白嫖联盟★_______17
+      - ★白嫖联盟★_______18
+      - ★白嫖联盟★_______19
+      - ★白嫖联盟★_______20
+      - ★白嫖联盟★_______21
+      - ★白嫖联盟★_______22
+      - ★白嫖联盟★_______23
+      - ★白嫖联盟★_______24
+      - ★白嫖联盟★_______25
+      - ★白嫖联盟★_______26
+      - ★白嫖联盟★_______27
+      - ★白嫖联盟★_______28
+      - ★白嫖联盟★_______29
+      - ★白嫖联盟★_______30
+      - ★白嫖联盟★_______31
+      - ★白嫖联盟★_______32
+      - ★白嫖联盟★_______33
+      - ★白嫖联盟★_______34
+      - ★白嫖联盟★_______35
+      - ★白嫖联盟★_______36
+      - ★白嫖联盟★_______37
+      - ★白嫖联盟★_______38
+      - ★白嫖联盟★_______39
+      - ★白嫖联盟★_______40
+      - ★白嫖联盟★_______41
+      - ★白嫖联盟★_______42
+      - ★白嫖联盟★_______43
+      - ★白嫖联盟★_______44
+      - ★白嫖联盟★_______45
+      - ★白嫖联盟★_______46
+      - ★白嫖联盟★_______47
+      - ★白嫖联盟★_______48
+      - ★白嫖联盟★_______49
+      - ★白嫖联盟★_______50
+      - ★白嫖联盟★_______51
+      - ★白嫖联盟★_______52
+      - ★白嫖联盟★_______53
+      - ★白嫖联盟★_______54
+      - ★白嫖联盟★_______55
+      - ★白嫖联盟★_______56
+      - ★白嫖联盟★_______57
+      - ★白嫖联盟★_______58
+      - ★白嫖联盟★_______59
+      - ★白嫖联盟★_______60
+      - ★白嫖联盟★_______61
+      - ★白嫖联盟★_______62
+      - ★白嫖联盟★_______63
+      - ★白嫖联盟★_______64
+      - ★白嫖联盟★_______65
+      - ★白嫖联盟★_______66
+      - ★白嫖联盟★_______67
+      - ★白嫖联盟★_______68
+      - ★白嫖联盟★_______69
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -628,85 +569,79 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡02-06 NF 江门移动
-      - 🇸🇬 新加坡 Anycast 01 1x 解锁
-      - 🇭🇰 香港BGP→US03-拉斯维加斯-倍率x1
-      - 🇭🇰 香港BGP→US02-罗马尼亚-倍率x1
-      - 🇭🇰 香港BGP→US01-洛杉矶-倍率x1
-      - 🇭🇰 香港BGP→SG01-新加坡-倍率x1
-      - 🇭🇰 香港BGP→JP02-日本江东区-倍率x1
-      - 🇭🇰 香港BGP→JP01-日本品川区-倍率x3
-      - 🇭🇰 香港BGP→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 香港BGP→HK03-香港HKT-倍率x1
-      - 🇭🇰 香港BGP→HK02-香港HGC-倍率x1
-      - 🇭🇰 香港BGP→HK01-香港NTT-倍率x1
-      - 🇩🇪 香港BGP→DE01-德国法兰克福-倍率x1
-      - 兔哥甲骨文oracle-http-kr
-      - 兔哥甲骨文oracle-http-kr 2
-      - 🇨🇳 台湾02-06 江门移动
-      - 🇭🇰 酸奶VPN香港01 三网优化 防墙节点，永不失联
-      - 🇯🇵 上网课日本 A
-      - 🇺🇸 上网课美国 A
-      - 🇯🇵 日本JP-1
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国NN-13
-      - 🇯🇵 基佬云QQ69027662AB分區01( 直连)亞洲节点日本东京(三网拉滿)
-      - 黑洞172.247.27.194
-      - 🇰🇷 韩国 Oracle 02 1x 原生IP
-      - 🇺🇸 广州CM→US03-拉斯维加斯-倍率x1
-      - 🇷🇴 广州CM→US02-罗马尼亚-倍率x1
-      - 🇺🇸 广州CM→US01-洛杉矶-倍率x1
-      - 🇨🇳 广州CM→TW01-台湾HINET-倍率x1
-      - 🇸🇬 广州CM→SG01-新加坡-倍率x1
-      - 🇰🇷 广州CM→KR01-韩国首尔-倍率x1
-      - 🇯🇵 广州CM→JP02-日本江东区-倍率x1
-      - 🇯🇵 广州CM→JP01-日本品川-倍率x3
-      - 🇮🇳 广州CM→IN01-印度班加罗尔-倍率x1
-      - 🇭🇰 广州CM→HK03-香港HKT-倍率x1
-      - 🇭🇰 广州CM→HK01-香港NTT-倍率x1
-      - 🇺🇸 公益-洛杉矶三网直连-倍率0.1
-      - 🇯🇵 VIP日本01 | 广州移动 | 流媒体
-      - 🏳️‍🌈 vip-韩国2 QQ3556578307星光云流量
-      - 🏳️‍🌈 vip-韩国 QQ3556578307星光云流量
-      - 🇺🇸 TG@just_free_share
-      - 🇺🇸 TG@just_free_share 2
-      - 🇺🇸 TG@just_free_share 3
-      - 🇺🇸 TG@just_free_share 4
-      - 🇺🇸 TG@just_free_share 5
-      - 🇺🇸 TG@just_free_share 6
-      - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - 🇺🇸 TG@just_free_share 11
-      - 🇺🇸 TG@just_free_share 12
-      - 🇺🇸 TG@just_free_share 13
-      - t.xxl123.funQQ1977488121| TG：t.me/flyXXL12345
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ2732144691的flyxx机场订阅新加坡01 | 中转AZ x0.5
-      - QQ2732144691的flyxx机场订阅网址：fly.xxl123.fun | TG：t.me/flyXXL12345
-      - 🇯🇵 QQ2732144691的flyxx机场订阅日本负载均衡
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ2732144691的flyxx机场订阅美国03 | 流媒体
-      - 🇰🇷 QQ2732144691的flyxx机场订阅韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ2732144691的flyxx机场订阅白嫖机场：fly.xxl123.fun | 日本80口  x0.1
-      - 🇸🇬 QQ1977488121新加坡04 | 中转AZ x0.5
-      - 🇸🇬 QQ1977488121新加坡01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121日本负载均衡
-      - 🇺🇸 QQ1977488121美国07 | 流媒体  x0.5
-      - 🇺🇸 QQ1977488121美国05 | 中转AZ x0.5
-      - 🇺🇸 QQ1977488121美国03 | 流媒体
-      - 🇰🇷 QQ1977488121韩国01 | 中转AZ x0.5
-      - 🇯🇵 QQ1977488121白嫖机场：t.xxl123.fun | 日本80口 默认联通手厅直播混淆 x0.1
-      - 🇯🇵 QQ1977488121| 日本80口  x0.1
-      - NONE
-      - NONE 2
-      - 🇯🇵 JP02-日本江东区-倍率x1
-      - 🇭🇰 HK01-香港NTT-倍率x1
-      - 🇩🇪 DE01-德国法兰克福-倍率x1
-      - 🇺🇸 （真正坚挺100天美国USA-4
-      - 🇺🇸 （真正坚挺100天）美国NN-4
+      - ★官方频道：@jingpingziyuanfenxiang
+      - ★更多节点加入以下电报群
+      - ★电报群 ：@baipiaolianmeng
+      - ★如需收费节点可私聊 @群主
+      - ★白嫖联盟★_______1
+      - ★白嫖联盟★_______2
+      - ★白嫖联盟★_______3
+      - ★白嫖联盟★_______4
+      - ★白嫖联盟★_______5
+      - ★白嫖联盟★_______6
+      - ★白嫖联盟★_______7
+      - ★白嫖联盟★_______8
+      - ★白嫖联盟★_______9
+      - ★白嫖联盟★_______10
+      - ★白嫖联盟★_______11
+      - ★白嫖联盟★_______12
+      - ★白嫖联盟★_______13
+      - ★白嫖联盟★_______14
+      - ★白嫖联盟★_______15
+      - ★白嫖联盟★_______16
+      - ★白嫖联盟★_______17
+      - ★白嫖联盟★_______18
+      - ★白嫖联盟★_______19
+      - ★白嫖联盟★_______20
+      - ★白嫖联盟★_______21
+      - ★白嫖联盟★_______22
+      - ★白嫖联盟★_______23
+      - ★白嫖联盟★_______24
+      - ★白嫖联盟★_______25
+      - ★白嫖联盟★_______26
+      - ★白嫖联盟★_______27
+      - ★白嫖联盟★_______28
+      - ★白嫖联盟★_______29
+      - ★白嫖联盟★_______30
+      - ★白嫖联盟★_______31
+      - ★白嫖联盟★_______32
+      - ★白嫖联盟★_______33
+      - ★白嫖联盟★_______34
+      - ★白嫖联盟★_______35
+      - ★白嫖联盟★_______36
+      - ★白嫖联盟★_______37
+      - ★白嫖联盟★_______38
+      - ★白嫖联盟★_______39
+      - ★白嫖联盟★_______40
+      - ★白嫖联盟★_______41
+      - ★白嫖联盟★_______42
+      - ★白嫖联盟★_______43
+      - ★白嫖联盟★_______44
+      - ★白嫖联盟★_______45
+      - ★白嫖联盟★_______46
+      - ★白嫖联盟★_______47
+      - ★白嫖联盟★_______48
+      - ★白嫖联盟★_______49
+      - ★白嫖联盟★_______50
+      - ★白嫖联盟★_______51
+      - ★白嫖联盟★_______52
+      - ★白嫖联盟★_______53
+      - ★白嫖联盟★_______54
+      - ★白嫖联盟★_______55
+      - ★白嫖联盟★_______56
+      - ★白嫖联盟★_______57
+      - ★白嫖联盟★_______58
+      - ★白嫖联盟★_______59
+      - ★白嫖联盟★_______60
+      - ★白嫖联盟★_______61
+      - ★白嫖联盟★_______62
+      - ★白嫖联盟★_______63
+      - ★白嫖联盟★_______64
+      - ★白嫖联盟★_______65
+      - ★白嫖联盟★_______66
+      - ★白嫖联盟★_______67
+      - ★白嫖联盟★_______68
+      - ★白嫖联盟★_______69
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
