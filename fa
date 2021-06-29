@@ -5,776 +5,299 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇮🇳 印度 ➤ 01｜直连｜免流节点, server: 15.206.100.195, port: 80, type: vmess, uuid: d1e4e8a8-cc64-3988-906f-144e0363906f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 15.206.100.195}}
-  - {name: 🇸🇬 新加坡本部, server: 13.212.195.168, port: 29455, type: vmess, uuid: 6f074cfb-04a2-3f9e-a483-6560f2173a4e, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 13.212.195.168}}
-  - {name: 🇸🇬 新加坡, server: 172.104.62.248, port: 80, type: vmess, uuid: 3c6e2754-9553-4801-bcb2-2043d92a5a0e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: www.um.edu.mo}}
-  - {name: 🇭🇰 香港, server: 42.2.143.119, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: 🇭🇰 香港 2, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: 🇭🇰 香港 3, server: shcn2-04.iplc188.com, port: 10001, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 4, server: shcn2-04.iplc188.com, port: 10005, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港 5, server: 183.236.57.53, port: 10001, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
-  - {name: 🇭🇰 香港 6, server: azhk.jiasu1.xyz, port: 10003, type: vmess, uuid: 484f2569-13e5-4945-ab46-7f63b4db8088, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hongyun, ws-headers: {Host: bing.com}}
-  - {name: 🇨🇳 台湾, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 台湾 2, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 台湾 3, server: 183.236.57.53, port: 10003, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
-  - {name: 🇨🇳 台湾 4, server: 223.166.165.243, port: 10004, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 顺丰资源Youtube, server: 138.199.9.202, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 顺丰资源Youtube 2, server: 138.199.9.202, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 顺丰资源Youtube 3, server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇯🇵 日本JP-1, server: kk1.feiclouddd.me, port: 443, type: vmess, uuid: 827c8469-c586-486a-a6ab-a899ea3e495d, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /asdfsaaa, ws-headers: {Host: kk1.feiclouddd.me}}
-  - {name: 🇯🇵 日本, server: jp1.qaqspeed.com, port: 443, type: vmess, uuid: e84a52c3-84a8-4f8d-9678-9ddbe61d4246, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /html, ws-headers: {Host: jp1.qaqspeed.com}}
-  - {name: 🇿🇦 南非, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国USA-8, server: ban8.feiclouddd.me, port: 443, type: vmess, uuid: a0a5ae6b-c2ed-458c-bd5a-060cf5c7cc1e, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /asdfsafzzdfas, ws-headers: {Host: ban8.feiclouddd.me}}
-  - {name: 🇺🇸 美国USA-4, server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
-  - {name: 🇺🇸 美国USA-2, server: tt2.feiclouddd.me, port: 443, type: vmess, uuid: a307a6f7-b697-400e-bc7e-e6356de877c2, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /asdfaszzsdfa, ws-headers: {Host: tt2.feiclouddd.me}}
-  - {name: 🇺🇸 美国NN-4, server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: 🇺🇸 美国NN-24, server: nn-ssr24.feiclouddd.me, port: 443, type: vmess, uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /dsafasdf, ws-headers: {Host: nn-ssr24.feiclouddd.me}}
-  - {name: 🇺🇸 美国NN-13, server: nn-ssr13.feiclouddd.me, port: 443, type: vmess, uuid: 76cf8637-0a87-4d23-a9e6-b9098420e026, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sadfasdfasdf, ws-headers: {Host: nn-ssr13.feiclouddd.me}}
-  - {name: 🇺🇸 美国, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 🇺🇸 美国 2, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 🇺🇸 美国 3, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇺🇸 美国 4, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国 5, server: us178.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: us178.mars6666.com}}
-  - {name: 🇺🇸 美国 6, server: 199.180.114.32, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: us178.mars6666.com}}
-  - {name: 🇺🇸 美国 7, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 美国 8, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 美国 9, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 美国 10, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 🇺🇸 美国 11, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 美国 12, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国 13, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国 14, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国 15, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国 16, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国 17, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国 18, server: 104.16.249.130, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /233blog, ws-headers: {Host: rn.man-one.club}}
-  - {name: 🇺🇸 美国 19, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国 20, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
-  - {name: 🇺🇸 美国 21, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国 22, server: 107.175.44.154, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
-  - {name: 🇺🇸 美国 23, server: rntwo.laoban666.xyz, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
-  - {name: 🇺🇸 美国 24, server: 104.19.80.46, port: 8080, type: vmess, uuid: 657f7981-0138-4c99-9199-51f62002d8e5, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /1234, ws-headers: {Host: 3.ioqr.cn}}
-  - {name: 🇷🇴 罗马尼亚, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇷🇴 罗马尼亚 2, server: 185.124.240.159, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 罗马尼亚 3, server: 185.124.240.159, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 拉脱维亚, server: 188.92.78.145, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 拉脱维亚 2, server: 188.92.78.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 克罗地亚, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 克罗地亚 2, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 克罗地亚 3, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇳🇱 荷兰, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 公益节点, server: 104.19.23.24, port: 443, type: vmess, uuid: a9cd126a-7c05-41af-ad0e-a185eabc89c8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson.cf}}
-  - {name: 🇷🇺 俄罗斯, server: 172.67.150.130, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: 🇷🇺 俄罗斯 2, server: 23.100.91.135, port: 800, type: vmess, uuid: 6d04dd65-c0b0-38b0-8d3a-be30a68cb55d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: els.xiaobaiyun.me}}
-  - {name: 🇩🇪 德国(Youtube频道：工具大师！), server: 185.2.100.166, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国 -- D --（公益）-- 2x -- 官网 -- ninihao.me, server: gonyiazhk2.xiaobaiyun.me, port: 827, type: vmess, uuid: 7cbbf009-bc28-3e62-a10e-7a9a5c9e7855, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: meiguowanju1.xiaobaiyun.me}}
-  - {name: 🇷🇺 俄罗斯 -- B -- V2RAY --（公益）-- 2x -- --官網-- -- ninihao.me --, server: gonyiazhk2.xiaobaiyun.me, port: 809, type: vmess, uuid: 7cbbf009-bc28-3e62-a10e-7a9a5c9e7855, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: elsxxbly.xiaobaiyun.me}}
-  - {name: 🇮🇳 印度 ➤ 01｜直连｜免流节点 2, server: 15.206.100.195, port: 80, type: vmess, uuid: d1e4e8a8-cc64-3988-906f-144e0363906f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 15.206.100.195}}
-  - {name: 🇿🇦 ZA 南非, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 TG@just_free_share, server: 158.51.96.59, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 🇺🇸 TG@just_free_share 2, server: 158.51.96.90, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 🇺🇸 TG@just_free_share 3, server: 158.51.96.57, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 🇺🇸 TG@just_free_share 4, server: 139.177.187.157, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 🇺🇸 TG@just_free_share 5, server: 18.163.206.156, port: 80, type: vmess, uuid: 4a7512c8-9cff-471e-fe3f-6816d7d77024, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 TG@just_free_share 6, server: 104.16.167.138, port: 443, type: vmess, uuid: a9cd126a-7c05-41af-ad0e-a185eabc89c8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson.cf}}
-  - {name: 🇺🇸 TG@just_free_share 7, server: jp01.v2net.top, port: 10089, type: vmess, uuid: 79D0BCA4-67DB-51D3-B497-39D54338AB61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 TG@just_free_share 8, server: 158.51.96.91, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 🇺🇸 TG@just_free_share 9, server: 104.16.207.196, port: 443, type: vmess, uuid: a9cd126a-7c05-41af-ad0e-a185eabc89c8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson.cf}}
-  - {name: 🇺🇸 TG@just_free_share 10, server: 104.16.110.238, port: 443, type: vmess, uuid: a9cd126a-7c05-41af-ad0e-a185eabc89c8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson.cf}}
-  - {name: ss.de.sshmax.net:21474, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
-  - {name: 🇸🇬 SG 新加坡, server: ss.sg.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: grtvkkHAinCf}
-  - {name: 🇸🇬 SG 新加坡 2, server: ss.sg.sshmax.net, port: 8139, type: ss, cipher: chacha20-ietf-poly1305, password: qyzhBfoKRzXl}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_134, server: 104.16.248.130, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /233blog, ws-headers: {Host: rn.man-one.club}}
-  - {name: 🇸🇬 Relay_-🇸🇬SG_25, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co, skip-cert-verify: false}
-  - {name: LV 拉脱维亚, server: 188.92.78.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: LV 拉脱维亚 2, server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: LV 拉脱维亚 3, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇰🇷 KR 韩国, server: 104.16.181.15, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1, server: csltv.sttcloud.xyz, port: 61001, type: vmess, uuid: beff2b28-9e3b-3c4a-8863-c4eaa0818d73, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tur, ws-headers: {Host: csltv.sttcloud.xyz}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_2994 | 4.63Mb, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_305, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_304, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇬🇧 GB英国, server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
-  - {name: 🇬🇧 GB 英国, server: 81.19.214.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 GB 英国 2, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 GB 英国 3, server: 84.252.94.98, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 DE 德国, server: 185.2.100.166, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇩🇪 DE 德国 2, server: 185.2.100.166, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 AWS香港直连, server: 18.167.120.97, port: 29855, type: vmess, uuid: 6f074cfb-04a2-3f9e-a483-6560f2173a4e, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 18.167.120.97}}
-  - {name: 🇰🇷 AWS韩国直连, server: 54.180.32.181, port: 28519, type: vmess, uuid: 6f074cfb-04a2-3f9e-a483-6560f2173a4e, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 54.180.32.181}}
-  - {name: 5, server: 54.250.204.150, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 4, server: 18.183.70.20, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: 207.244.67.149:40093, server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 137.59.52.107:39772, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 107.181.166.55:33992, server: 107.181.166.55, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 1, server: 13.231.93.45, port: 443, type: vmess, uuid: 0b9b7a5c-2d7c-381e-a7b7-2df1797c5cec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
+  - {name: 🇭🇰 香港BGP→🇭🇰HK03|香港|倍率x1.0, server: hkbgp.jumpwallsocks.online, port: 30003, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: "🇭🇰 赞助节点03 : (直连)香港(0.3流率)(赞助人@us boom)27.4M/s", server: supper03.gayv.gay, port: 443, type: trojan, password: 92340993-5b07-4bd0-b0a2-30a585cdff3b, sni: supper03.gayv.gay, skip-cert-verify: false}
+  - {name: 🇭🇰 香港BGP→🇭🇰HK02|香港|倍率x1.0, server: hkbgp.jumpwallsocks.online, port: 30002, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇺🇸 TG@just_free_share, server: hk7.xyttk.vip, port: 80, type: vmess, uuid: fabeaf7d-bc25-4a04-b648-35868c65ead2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: hk7.xyttk.vip}}
+  - {name: _3893 |15.36Mb, server: 89.187.187.68, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: _910 |19.12Mb, server: 208.78.41.198, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇭🇰 香港BGP→🇸🇬SG01|新加坡|倍率x1.0, server: hkbgp.jumpwallsocks.online, port: 33001, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇯🇵 江门CM→🇯🇵JP01|日本|倍率x1.0, server: colagzcm.jumpwallsocks.online, port: 32001, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK03|香港|倍率x1.0 17M/s, server: colagzcm.jumpwallsocks.online, port: 30003, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: _4195 |11.16Mb, server: 23.105.163.94, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 公益|🇺🇸洛杉矶|三网直连|倍率X0, server: lax02.jumpwallsocks.online, port: 65535, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: lax02.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇭🇰 AB分區02(2号中转)香港 4.9M/s, server: forward01.gayv.gay, port: 52570, type: trojan, password: ce7ed134-e785-424e-990a-8bc753da7fbe, sni: forward01.gayv.gay, skip-cert-verify: false}
+  - {name: 🇭🇰 香港BGP→🇭🇰HK01|香港|倍率x1.0, server: hkbgp.jumpwallsocks.online, port: 30001, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇺🇸 江门CM→🇺🇸US01|美国|倍率x1.0, server: colagzcm.jumpwallsocks.online, port: 31001, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇸🇬 QQ1977488121|可乐云江门CM→🇸🇬SG01|新加坡|倍率x1.0 14.2M/s, server: colagzcm.jumpwallsocks.online, port: 33001, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: "🇭🇰 赞助节点03 : (直连0.5x香港(赞助人@us boom)18M/s", server: supper03.gayv.gay, port: 443, type: trojan, password: ce7ed134-e785-424e-990a-8bc753da7fbe, sni: supper03.gayv.gay, skip-cert-verify: false}
+  - {name: 🇩🇪 江门CM→🇩🇪DE01|德国|倍率x1.0, server: colagzcm.jumpwallsocks.online, port: 37001, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇺🇸 TG@just_free_share 2, server: 154.84.1.15, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
+  - {name: 🇺🇸 TG@just_free_share 3, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
+  - {name: 🇷🇴 Pool_馃嚪馃嚧RO_47, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: _2483 | 5.91Mb, server: 82.102.26.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇷🇴 Pool_馃嚪馃嚧RO_48, server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 TG@just_free_share 4, server: 46.182.107.46, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
+  - {name: _2478 | 5.58Mb, server: 82.102.26.117, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: _4093 |23.49Mb, server: 89.187.187.68, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: _2182 |11.94Mb, server: 23.105.163.94, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: _2479 | 5.20Mb, server: 82.102.26.117, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: _2477 | 5.58Mb, server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇭🇰 香港BGP→🇯🇵JP02|日本|倍率x1.0, server: hkbgp.jumpwallsocks.online, port: 32002, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: hkbgp.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇺🇸 TG@just_free_share 5, server: 154.84.1.14, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
+  - {name: 🇺🇸 江门CM→🇺🇸US03|美国|倍率x1.0, server: colagzcm.jumpwallsocks.online, port: 31003, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
+  - {name: 🇰🇷 B分區02(2号中转)韩国(禁推特) 5.1M/s, server: forward01.gayv.gay, port: 52537, type: trojan, password: ce7ed134-e785-424e-990a-8bc753da7fbe, sni: forward01.gayv.gay, skip-cert-verify: false}
+  - {name: 🇺🇸 TG@just_free_share 6, server: 23.225.125.195, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/301109172001, ws-headers: {Host: www.91370744.xyz}}
+  - {name: 🇺🇸 TG@just_free_share 7, server: 46.182.107.3, port: 443, type: vmess, uuid: bcca23ea-be73-4caf-b143-cbab2be93145, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.33960870.xyz}}
+  - {name: 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK01|香港|倍率x1.0 22M/s, server: colagzcm.jumpwallsocks.online, port: 30001, type: trojan, password: 859c4bbd-c630-452c-8d97-9727a8d7efb8, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点
-      - 🇸🇬 新加坡本部
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - 顺丰资源Youtube 3
-      - 🇯🇵 日本JP-1
-      - 🇯🇵 日本
-      - 🇿🇦 南非
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国USA-4
-      - 🇺🇸 美国USA-2
-      - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-24
-      - 🇺🇸 美国NN-13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
-      - 🇺🇸 美国 24
-      - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
-      - 🇷🇴 罗马尼亚 3
-      - 拉脱维亚
-      - 拉脱维亚 2
-      - 克罗地亚
-      - 克罗地亚 2
-      - 克罗地亚 3
-      - 🇳🇱 荷兰
-      - 公益节点
-      - 🇷🇺 俄罗斯
-      - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇺🇸 美国 -- D --（公益）-- 2x -- 官网 -- ninihao.me
-      - 🇷🇺 俄罗斯 -- B -- V2RAY --（公益）-- 2x -- --官網-- -- ninihao.me --
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点 2
-      - 🇿🇦 ZA 南非
+      - 🇭🇰 香港BGP→🇭🇰HK03|香港|倍率x1.0
+      - "🇭🇰 赞助节点03 : (直连)香港(0.3流率)(赞助人@us boom)27.4M/s"
+      - 🇭🇰 香港BGP→🇭🇰HK02|香港|倍率x1.0
       - 🇺🇸 TG@just_free_share
+      - _3893 |15.36Mb
+      - _910 |19.12Mb
+      - 🇭🇰 香港BGP→🇸🇬SG01|新加坡|倍率x1.0
+      - 🇯🇵 江门CM→🇯🇵JP01|日本|倍率x1.0
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK03|香港|倍率x1.0 17M/s
+      - _4195 |11.16Mb
+      - 🇺🇸 公益|🇺🇸洛杉矶|三网直连|倍率X0
+      - 🇭🇰 AB分區02(2号中转)香港 4.9M/s
+      - 🇭🇰 香港BGP→🇭🇰HK01|香港|倍率x1.0
+      - 🇺🇸 江门CM→🇺🇸US01|美国|倍率x1.0
+      - 🇸🇬 QQ1977488121|可乐云江门CM→🇸🇬SG01|新加坡|倍率x1.0 14.2M/s
+      - "🇭🇰 赞助节点03 : (直连0.5x香港(赞助人@us boom)18M/s"
+      - 🇩🇪 江门CM→🇩🇪DE01|德国|倍率x1.0
       - 🇺🇸 TG@just_free_share 2
       - 🇺🇸 TG@just_free_share 3
+      - 🇷🇴 Pool_馃嚪馃嚧RO_47
+      - _2483 | 5.91Mb
+      - 🇷🇴 Pool_馃嚪馃嚧RO_48
       - 🇺🇸 TG@just_free_share 4
+      - _2478 | 5.58Mb
+      - _4093 |23.49Mb
+      - _2182 |11.94Mb
+      - _2479 | 5.20Mb
+      - _2477 | 5.58Mb
+      - 🇭🇰 香港BGP→🇯🇵JP02|日本|倍率x1.0
       - 🇺🇸 TG@just_free_share 5
+      - 🇺🇸 江门CM→🇺🇸US03|美国|倍率x1.0
+      - 🇰🇷 B分區02(2号中转)韩国(禁推特) 5.1M/s
       - 🇺🇸 TG@just_free_share 6
       - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - ss.de.sshmax.net:21474
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - LV 拉脱维亚
-      - LV 拉脱维亚 2
-      - LV 拉脱维亚 3
-      - 🇰🇷 KR 韩国
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_2994 | 4.63Mb
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_305
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_304
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB 英国
-      - 🇬🇧 GB 英国 2
-      - 🇬🇧 GB 英国 3
-      - 🇩🇪 DE 德国
-      - 🇩🇪 DE 德国 2
-      - 🇭🇰 AWS香港直连
-      - 🇰🇷 AWS韩国直连
-      - 5
-      - 4
-      - 207.244.67.149:40093
-      - 137.59.52.107:39772
-      - 107.181.166.55:33992
-      - 1
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK01|香港|倍率x1.0 22M/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点
-      - 🇸🇬 新加坡本部
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - 顺丰资源Youtube 3
-      - 🇯🇵 日本JP-1
-      - 🇯🇵 日本
-      - 🇿🇦 南非
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国USA-4
-      - 🇺🇸 美国USA-2
-      - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-24
-      - 🇺🇸 美国NN-13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
-      - 🇺🇸 美国 24
-      - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
-      - 🇷🇴 罗马尼亚 3
-      - 拉脱维亚
-      - 拉脱维亚 2
-      - 克罗地亚
-      - 克罗地亚 2
-      - 克罗地亚 3
-      - 🇳🇱 荷兰
-      - 公益节点
-      - 🇷🇺 俄罗斯
-      - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇺🇸 美国 -- D --（公益）-- 2x -- 官网 -- ninihao.me
-      - 🇷🇺 俄罗斯 -- B -- V2RAY --（公益）-- 2x -- --官網-- -- ninihao.me --
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点 2
-      - 🇿🇦 ZA 南非
+      - 🇭🇰 香港BGP→🇭🇰HK03|香港|倍率x1.0
+      - "🇭🇰 赞助节点03 : (直连)香港(0.3流率)(赞助人@us boom)27.4M/s"
+      - 🇭🇰 香港BGP→🇭🇰HK02|香港|倍率x1.0
       - 🇺🇸 TG@just_free_share
+      - _3893 |15.36Mb
+      - _910 |19.12Mb
+      - 🇭🇰 香港BGP→🇸🇬SG01|新加坡|倍率x1.0
+      - 🇯🇵 江门CM→🇯🇵JP01|日本|倍率x1.0
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK03|香港|倍率x1.0 17M/s
+      - _4195 |11.16Mb
+      - 🇺🇸 公益|🇺🇸洛杉矶|三网直连|倍率X0
+      - 🇭🇰 AB分區02(2号中转)香港 4.9M/s
+      - 🇭🇰 香港BGP→🇭🇰HK01|香港|倍率x1.0
+      - 🇺🇸 江门CM→🇺🇸US01|美国|倍率x1.0
+      - 🇸🇬 QQ1977488121|可乐云江门CM→🇸🇬SG01|新加坡|倍率x1.0 14.2M/s
+      - "🇭🇰 赞助节点03 : (直连0.5x香港(赞助人@us boom)18M/s"
+      - 🇩🇪 江门CM→🇩🇪DE01|德国|倍率x1.0
       - 🇺🇸 TG@just_free_share 2
       - 🇺🇸 TG@just_free_share 3
+      - 🇷🇴 Pool_馃嚪馃嚧RO_47
+      - _2483 | 5.91Mb
+      - 🇷🇴 Pool_馃嚪馃嚧RO_48
       - 🇺🇸 TG@just_free_share 4
+      - _2478 | 5.58Mb
+      - _4093 |23.49Mb
+      - _2182 |11.94Mb
+      - _2479 | 5.20Mb
+      - _2477 | 5.58Mb
+      - 🇭🇰 香港BGP→🇯🇵JP02|日本|倍率x1.0
       - 🇺🇸 TG@just_free_share 5
+      - 🇺🇸 江门CM→🇺🇸US03|美国|倍率x1.0
+      - 🇰🇷 B分區02(2号中转)韩国(禁推特) 5.1M/s
       - 🇺🇸 TG@just_free_share 6
       - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - ss.de.sshmax.net:21474
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - LV 拉脱维亚
-      - LV 拉脱维亚 2
-      - LV 拉脱维亚 3
-      - 🇰🇷 KR 韩国
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_2994 | 4.63Mb
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_305
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_304
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB 英国
-      - 🇬🇧 GB 英国 2
-      - 🇬🇧 GB 英国 3
-      - 🇩🇪 DE 德国
-      - 🇩🇪 DE 德国 2
-      - 🇭🇰 AWS香港直连
-      - 🇰🇷 AWS韩国直连
-      - 5
-      - 4
-      - 207.244.67.149:40093
-      - 137.59.52.107:39772
-      - 107.181.166.55:33992
-      - 1
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK01|香港|倍率x1.0 22M/s
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点
-      - 🇸🇬 新加坡本部
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - 顺丰资源Youtube 3
-      - 🇯🇵 日本JP-1
-      - 🇯🇵 日本
-      - 🇿🇦 南非
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国USA-4
-      - 🇺🇸 美国USA-2
-      - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-24
-      - 🇺🇸 美国NN-13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
-      - 🇺🇸 美国 24
-      - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
-      - 🇷🇴 罗马尼亚 3
-      - 拉脱维亚
-      - 拉脱维亚 2
-      - 克罗地亚
-      - 克罗地亚 2
-      - 克罗地亚 3
-      - 🇳🇱 荷兰
-      - 公益节点
-      - 🇷🇺 俄罗斯
-      - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇺🇸 美国 -- D --（公益）-- 2x -- 官网 -- ninihao.me
-      - 🇷🇺 俄罗斯 -- B -- V2RAY --（公益）-- 2x -- --官網-- -- ninihao.me --
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点 2
-      - 🇿🇦 ZA 南非
+      - 🇭🇰 香港BGP→🇭🇰HK03|香港|倍率x1.0
+      - "🇭🇰 赞助节点03 : (直连)香港(0.3流率)(赞助人@us boom)27.4M/s"
+      - 🇭🇰 香港BGP→🇭🇰HK02|香港|倍率x1.0
       - 🇺🇸 TG@just_free_share
+      - _3893 |15.36Mb
+      - _910 |19.12Mb
+      - 🇭🇰 香港BGP→🇸🇬SG01|新加坡|倍率x1.0
+      - 🇯🇵 江门CM→🇯🇵JP01|日本|倍率x1.0
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK03|香港|倍率x1.0 17M/s
+      - _4195 |11.16Mb
+      - 🇺🇸 公益|🇺🇸洛杉矶|三网直连|倍率X0
+      - 🇭🇰 AB分區02(2号中转)香港 4.9M/s
+      - 🇭🇰 香港BGP→🇭🇰HK01|香港|倍率x1.0
+      - 🇺🇸 江门CM→🇺🇸US01|美国|倍率x1.0
+      - 🇸🇬 QQ1977488121|可乐云江门CM→🇸🇬SG01|新加坡|倍率x1.0 14.2M/s
+      - "🇭🇰 赞助节点03 : (直连0.5x香港(赞助人@us boom)18M/s"
+      - 🇩🇪 江门CM→🇩🇪DE01|德国|倍率x1.0
       - 🇺🇸 TG@just_free_share 2
       - 🇺🇸 TG@just_free_share 3
+      - 🇷🇴 Pool_馃嚪馃嚧RO_47
+      - _2483 | 5.91Mb
+      - 🇷🇴 Pool_馃嚪馃嚧RO_48
       - 🇺🇸 TG@just_free_share 4
+      - _2478 | 5.58Mb
+      - _4093 |23.49Mb
+      - _2182 |11.94Mb
+      - _2479 | 5.20Mb
+      - _2477 | 5.58Mb
+      - 🇭🇰 香港BGP→🇯🇵JP02|日本|倍率x1.0
       - 🇺🇸 TG@just_free_share 5
+      - 🇺🇸 江门CM→🇺🇸US03|美国|倍率x1.0
+      - 🇰🇷 B分區02(2号中转)韩国(禁推特) 5.1M/s
       - 🇺🇸 TG@just_free_share 6
       - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - ss.de.sshmax.net:21474
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - LV 拉脱维亚
-      - LV 拉脱维亚 2
-      - LV 拉脱维亚 3
-      - 🇰🇷 KR 韩国
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_2994 | 4.63Mb
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_305
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_304
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB 英国
-      - 🇬🇧 GB 英国 2
-      - 🇬🇧 GB 英国 3
-      - 🇩🇪 DE 德国
-      - 🇩🇪 DE 德国 2
-      - 🇭🇰 AWS香港直连
-      - 🇰🇷 AWS韩国直连
-      - 5
-      - 4
-      - 207.244.67.149:40093
-      - 137.59.52.107:39772
-      - 107.181.166.55:33992
-      - 1
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK01|香港|倍率x1.0 22M/s
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 🇭🇰 AWS香港直连
+      - 🇭🇰 香港BGP→🇭🇰HK03|香港|倍率x1.0
+      - "🇭🇰 赞助节点03 : (直连)香港(0.3流率)(赞助人@us boom)27.4M/s"
+      - 🇭🇰 香港BGP→🇭🇰HK02|香港|倍率x1.0
+      - 🇭🇰 香港BGP→🇸🇬SG01|新加坡|倍率x1.0
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK03|香港|倍率x1.0 17M/s
+      - 🇭🇰 AB分區02(2号中转)香港 4.9M/s
+      - 🇭🇰 香港BGP→🇭🇰HK01|香港|倍率x1.0
+      - "🇭🇰 赞助节点03 : (直连0.5x香港(赞助人@us boom)18M/s"
+      - 🇭🇰 香港BGP→🇯🇵JP02|日本|倍率x1.0
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK01|香港|倍率x1.0 22M/s
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点
-      - 🇸🇬 新加坡本部
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - 顺丰资源Youtube 3
-      - 🇯🇵 日本JP-1
-      - 🇯🇵 日本
-      - 🇿🇦 南非
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国USA-4
-      - 🇺🇸 美国USA-2
-      - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-24
-      - 🇺🇸 美国NN-13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
-      - 🇺🇸 美国 24
-      - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
-      - 🇷🇴 罗马尼亚 3
-      - 拉脱维亚
-      - 拉脱维亚 2
-      - 克罗地亚
-      - 克罗地亚 2
-      - 克罗地亚 3
-      - 🇳🇱 荷兰
-      - 公益节点
-      - 🇷🇺 俄罗斯
-      - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇺🇸 美国 -- D --（公益）-- 2x -- 官网 -- ninihao.me
-      - 🇷🇺 俄罗斯 -- B -- V2RAY --（公益）-- 2x -- --官網-- -- ninihao.me --
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点 2
-      - 🇿🇦 ZA 南非
+      - 🇭🇰 香港BGP→🇭🇰HK03|香港|倍率x1.0
+      - "🇭🇰 赞助节点03 : (直连)香港(0.3流率)(赞助人@us boom)27.4M/s"
+      - 🇭🇰 香港BGP→🇭🇰HK02|香港|倍率x1.0
       - 🇺🇸 TG@just_free_share
+      - _3893 |15.36Mb
+      - _910 |19.12Mb
+      - 🇭🇰 香港BGP→🇸🇬SG01|新加坡|倍率x1.0
+      - 🇯🇵 江门CM→🇯🇵JP01|日本|倍率x1.0
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK03|香港|倍率x1.0 17M/s
+      - _4195 |11.16Mb
+      - 🇺🇸 公益|🇺🇸洛杉矶|三网直连|倍率X0
+      - 🇭🇰 AB分區02(2号中转)香港 4.9M/s
+      - 🇭🇰 香港BGP→🇭🇰HK01|香港|倍率x1.0
+      - 🇺🇸 江门CM→🇺🇸US01|美国|倍率x1.0
+      - 🇸🇬 QQ1977488121|可乐云江门CM→🇸🇬SG01|新加坡|倍率x1.0 14.2M/s
+      - "🇭🇰 赞助节点03 : (直连0.5x香港(赞助人@us boom)18M/s"
+      - 🇩🇪 江门CM→🇩🇪DE01|德国|倍率x1.0
       - 🇺🇸 TG@just_free_share 2
       - 🇺🇸 TG@just_free_share 3
+      - 🇷🇴 Pool_馃嚪馃嚧RO_47
+      - _2483 | 5.91Mb
+      - 🇷🇴 Pool_馃嚪馃嚧RO_48
       - 🇺🇸 TG@just_free_share 4
+      - _2478 | 5.58Mb
+      - _4093 |23.49Mb
+      - _2182 |11.94Mb
+      - _2479 | 5.20Mb
+      - _2477 | 5.58Mb
+      - 🇭🇰 香港BGP→🇯🇵JP02|日本|倍率x1.0
       - 🇺🇸 TG@just_free_share 5
+      - 🇺🇸 江门CM→🇺🇸US03|美国|倍率x1.0
+      - 🇰🇷 B分區02(2号中转)韩国(禁推特) 5.1M/s
       - 🇺🇸 TG@just_free_share 6
       - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - ss.de.sshmax.net:21474
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - LV 拉脱维亚
-      - LV 拉脱维亚 2
-      - LV 拉脱维亚 3
-      - 🇰🇷 KR 韩国
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_2994 | 4.63Mb
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_305
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_304
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB 英国
-      - 🇬🇧 GB 英国 2
-      - 🇬🇧 GB 英国 3
-      - 🇩🇪 DE 德国
-      - 🇩🇪 DE 德国 2
-      - 🇭🇰 AWS香港直连
-      - 🇰🇷 AWS韩国直连
-      - 5
-      - 4
-      - 207.244.67.149:40093
-      - 137.59.52.107:39772
-      - 107.181.166.55:33992
-      - 1
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK01|香港|倍率x1.0 22M/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点
-      - 🇸🇬 新加坡本部
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - 顺丰资源Youtube 3
-      - 🇯🇵 日本JP-1
-      - 🇯🇵 日本
-      - 🇿🇦 南非
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国USA-4
-      - 🇺🇸 美国USA-2
-      - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-24
-      - 🇺🇸 美国NN-13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
-      - 🇺🇸 美国 24
-      - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
-      - 🇷🇴 罗马尼亚 3
-      - 拉脱维亚
-      - 拉脱维亚 2
-      - 克罗地亚
-      - 克罗地亚 2
-      - 克罗地亚 3
-      - 🇳🇱 荷兰
-      - 公益节点
-      - 🇷🇺 俄罗斯
-      - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇺🇸 美国 -- D --（公益）-- 2x -- 官网 -- ninihao.me
-      - 🇷🇺 俄罗斯 -- B -- V2RAY --（公益）-- 2x -- --官網-- -- ninihao.me --
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点 2
-      - 🇿🇦 ZA 南非
+      - 🇭🇰 香港BGP→🇭🇰HK03|香港|倍率x1.0
+      - "🇭🇰 赞助节点03 : (直连)香港(0.3流率)(赞助人@us boom)27.4M/s"
+      - 🇭🇰 香港BGP→🇭🇰HK02|香港|倍率x1.0
       - 🇺🇸 TG@just_free_share
+      - _3893 |15.36Mb
+      - _910 |19.12Mb
+      - 🇭🇰 香港BGP→🇸🇬SG01|新加坡|倍率x1.0
+      - 🇯🇵 江门CM→🇯🇵JP01|日本|倍率x1.0
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK03|香港|倍率x1.0 17M/s
+      - _4195 |11.16Mb
+      - 🇺🇸 公益|🇺🇸洛杉矶|三网直连|倍率X0
+      - 🇭🇰 AB分區02(2号中转)香港 4.9M/s
+      - 🇭🇰 香港BGP→🇭🇰HK01|香港|倍率x1.0
+      - 🇺🇸 江门CM→🇺🇸US01|美国|倍率x1.0
+      - 🇸🇬 QQ1977488121|可乐云江门CM→🇸🇬SG01|新加坡|倍率x1.0 14.2M/s
+      - "🇭🇰 赞助节点03 : (直连0.5x香港(赞助人@us boom)18M/s"
+      - 🇩🇪 江门CM→🇩🇪DE01|德国|倍率x1.0
       - 🇺🇸 TG@just_free_share 2
       - 🇺🇸 TG@just_free_share 3
+      - 🇷🇴 Pool_馃嚪馃嚧RO_47
+      - _2483 | 5.91Mb
+      - 🇷🇴 Pool_馃嚪馃嚧RO_48
       - 🇺🇸 TG@just_free_share 4
+      - _2478 | 5.58Mb
+      - _4093 |23.49Mb
+      - _2182 |11.94Mb
+      - _2479 | 5.20Mb
+      - _2477 | 5.58Mb
+      - 🇭🇰 香港BGP→🇯🇵JP02|日本|倍率x1.0
       - 🇺🇸 TG@just_free_share 5
+      - 🇺🇸 江门CM→🇺🇸US03|美国|倍率x1.0
+      - 🇰🇷 B分區02(2号中转)韩国(禁推特) 5.1M/s
       - 🇺🇸 TG@just_free_share 6
       - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - ss.de.sshmax.net:21474
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - LV 拉脱维亚
-      - LV 拉脱维亚 2
-      - LV 拉脱维亚 3
-      - 🇰🇷 KR 韩国
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_2994 | 4.63Mb
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_305
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_304
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB 英国
-      - 🇬🇧 GB 英国 2
-      - 🇬🇧 GB 英国 3
-      - 🇩🇪 DE 德国
-      - 🇩🇪 DE 德国 2
-      - 🇭🇰 AWS香港直连
-      - 🇰🇷 AWS韩国直连
-      - 5
-      - 4
-      - 207.244.67.149:40093
-      - 137.59.52.107:39772
-      - 107.181.166.55:33992
-      - 1
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK01|香港|倍率x1.0 22M/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点
-      - 🇸🇬 新加坡本部
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - 顺丰资源Youtube 3
-      - 🇯🇵 日本JP-1
-      - 🇯🇵 日本
-      - 🇿🇦 南非
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国USA-4
-      - 🇺🇸 美国USA-2
-      - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-24
-      - 🇺🇸 美国NN-13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
-      - 🇺🇸 美国 24
-      - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
-      - 🇷🇴 罗马尼亚 3
-      - 拉脱维亚
-      - 拉脱维亚 2
-      - 克罗地亚
-      - 克罗地亚 2
-      - 克罗地亚 3
-      - 🇳🇱 荷兰
-      - 公益节点
-      - 🇷🇺 俄罗斯
-      - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇺🇸 美国 -- D --（公益）-- 2x -- 官网 -- ninihao.me
-      - 🇷🇺 俄罗斯 -- B -- V2RAY --（公益）-- 2x -- --官網-- -- ninihao.me --
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点 2
-      - 🇿🇦 ZA 南非
+      - 🇭🇰 香港BGP→🇭🇰HK03|香港|倍率x1.0
+      - "🇭🇰 赞助节点03 : (直连)香港(0.3流率)(赞助人@us boom)27.4M/s"
+      - 🇭🇰 香港BGP→🇭🇰HK02|香港|倍率x1.0
       - 🇺🇸 TG@just_free_share
+      - _3893 |15.36Mb
+      - _910 |19.12Mb
+      - 🇭🇰 香港BGP→🇸🇬SG01|新加坡|倍率x1.0
+      - 🇯🇵 江门CM→🇯🇵JP01|日本|倍率x1.0
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK03|香港|倍率x1.0 17M/s
+      - _4195 |11.16Mb
+      - 🇺🇸 公益|🇺🇸洛杉矶|三网直连|倍率X0
+      - 🇭🇰 AB分區02(2号中转)香港 4.9M/s
+      - 🇭🇰 香港BGP→🇭🇰HK01|香港|倍率x1.0
+      - 🇺🇸 江门CM→🇺🇸US01|美国|倍率x1.0
+      - 🇸🇬 QQ1977488121|可乐云江门CM→🇸🇬SG01|新加坡|倍率x1.0 14.2M/s
+      - "🇭🇰 赞助节点03 : (直连0.5x香港(赞助人@us boom)18M/s"
+      - 🇩🇪 江门CM→🇩🇪DE01|德国|倍率x1.0
       - 🇺🇸 TG@just_free_share 2
       - 🇺🇸 TG@just_free_share 3
+      - 🇷🇴 Pool_馃嚪馃嚧RO_47
+      - _2483 | 5.91Mb
+      - 🇷🇴 Pool_馃嚪馃嚧RO_48
       - 🇺🇸 TG@just_free_share 4
+      - _2478 | 5.58Mb
+      - _4093 |23.49Mb
+      - _2182 |11.94Mb
+      - _2479 | 5.20Mb
+      - _2477 | 5.58Mb
+      - 🇭🇰 香港BGP→🇯🇵JP02|日本|倍率x1.0
       - 🇺🇸 TG@just_free_share 5
+      - 🇺🇸 江门CM→🇺🇸US03|美国|倍率x1.0
+      - 🇰🇷 B分區02(2号中转)韩国(禁推特) 5.1M/s
       - 🇺🇸 TG@just_free_share 6
       - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - ss.de.sshmax.net:21474
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - LV 拉脱维亚
-      - LV 拉脱维亚 2
-      - LV 拉脱维亚 3
-      - 🇰🇷 KR 韩国
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_2994 | 4.63Mb
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_305
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_304
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB 英国
-      - 🇬🇧 GB 英国 2
-      - 🇬🇧 GB 英国 3
-      - 🇩🇪 DE 德国
-      - 🇩🇪 DE 德国 2
-      - 🇭🇰 AWS香港直连
-      - 🇰🇷 AWS韩国直连
-      - 5
-      - 4
-      - 207.244.67.149:40093
-      - 137.59.52.107:39772
-      - 107.181.166.55:33992
-      - 1
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK01|香港|倍率x1.0 22M/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -790,109 +313,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点
-      - 🇸🇬 新加坡本部
-      - 🇸🇬 新加坡
-      - 🇭🇰 香港
-      - 🇭🇰 香港 2
-      - 🇭🇰 香港 3
-      - 🇭🇰 香港 4
-      - 🇭🇰 香港 5
-      - 🇭🇰 香港 6
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾 2
-      - 🇨🇳 台湾 3
-      - 🇨🇳 台湾 4
-      - 顺丰资源Youtube
-      - 顺丰资源Youtube 2
-      - 顺丰资源Youtube 3
-      - 🇯🇵 日本JP-1
-      - 🇯🇵 日本
-      - 🇿🇦 南非
-      - 🇺🇸 美国USA-8
-      - 🇺🇸 美国USA-4
-      - 🇺🇸 美国USA-2
-      - 🇺🇸 美国NN-4
-      - 🇺🇸 美国NN-24
-      - 🇺🇸 美国NN-13
-      - 🇺🇸 美国
-      - 🇺🇸 美国 2
-      - 🇺🇸 美国 3
-      - 🇺🇸 美国 4
-      - 🇺🇸 美国 5
-      - 🇺🇸 美国 6
-      - 🇺🇸 美国 7
-      - 🇺🇸 美国 8
-      - 🇺🇸 美国 9
-      - 🇺🇸 美国 10
-      - 🇺🇸 美国 11
-      - 🇺🇸 美国 12
-      - 🇺🇸 美国 13
-      - 🇺🇸 美国 14
-      - 🇺🇸 美国 15
-      - 🇺🇸 美国 16
-      - 🇺🇸 美国 17
-      - 🇺🇸 美国 18
-      - 🇺🇸 美国 19
-      - 🇺🇸 美国 20
-      - 🇺🇸 美国 21
-      - 🇺🇸 美国 22
-      - 🇺🇸 美国 23
-      - 🇺🇸 美国 24
-      - 🇷🇴 罗马尼亚
-      - 🇷🇴 罗马尼亚 2
-      - 🇷🇴 罗马尼亚 3
-      - 拉脱维亚
-      - 拉脱维亚 2
-      - 克罗地亚
-      - 克罗地亚 2
-      - 克罗地亚 3
-      - 🇳🇱 荷兰
-      - 公益节点
-      - 🇷🇺 俄罗斯
-      - 🇷🇺 俄罗斯 2
-      - 🇩🇪 德国(Youtube频道：工具大师！)
-      - 🇺🇸 美国 -- D --（公益）-- 2x -- 官网 -- ninihao.me
-      - 🇷🇺 俄罗斯 -- B -- V2RAY --（公益）-- 2x -- --官網-- -- ninihao.me --
-      - 🇮🇳 印度 ➤ 01｜直连｜免流节点 2
-      - 🇿🇦 ZA 南非
+      - 🇭🇰 香港BGP→🇭🇰HK03|香港|倍率x1.0
+      - "🇭🇰 赞助节点03 : (直连)香港(0.3流率)(赞助人@us boom)27.4M/s"
+      - 🇭🇰 香港BGP→🇭🇰HK02|香港|倍率x1.0
       - 🇺🇸 TG@just_free_share
+      - _3893 |15.36Mb
+      - _910 |19.12Mb
+      - 🇭🇰 香港BGP→🇸🇬SG01|新加坡|倍率x1.0
+      - 🇯🇵 江门CM→🇯🇵JP01|日本|倍率x1.0
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK03|香港|倍率x1.0 17M/s
+      - _4195 |11.16Mb
+      - 🇺🇸 公益|🇺🇸洛杉矶|三网直连|倍率X0
+      - 🇭🇰 AB分區02(2号中转)香港 4.9M/s
+      - 🇭🇰 香港BGP→🇭🇰HK01|香港|倍率x1.0
+      - 🇺🇸 江门CM→🇺🇸US01|美国|倍率x1.0
+      - 🇸🇬 QQ1977488121|可乐云江门CM→🇸🇬SG01|新加坡|倍率x1.0 14.2M/s
+      - "🇭🇰 赞助节点03 : (直连0.5x香港(赞助人@us boom)18M/s"
+      - 🇩🇪 江门CM→🇩🇪DE01|德国|倍率x1.0
       - 🇺🇸 TG@just_free_share 2
       - 🇺🇸 TG@just_free_share 3
+      - 🇷🇴 Pool_馃嚪馃嚧RO_47
+      - _2483 | 5.91Mb
+      - 🇷🇴 Pool_馃嚪馃嚧RO_48
       - 🇺🇸 TG@just_free_share 4
+      - _2478 | 5.58Mb
+      - _4093 |23.49Mb
+      - _2182 |11.94Mb
+      - _2479 | 5.20Mb
+      - _2477 | 5.58Mb
+      - 🇭🇰 香港BGP→🇯🇵JP02|日本|倍率x1.0
       - 🇺🇸 TG@just_free_share 5
+      - 🇺🇸 江门CM→🇺🇸US03|美国|倍率x1.0
+      - 🇰🇷 B分區02(2号中转)韩国(禁推特) 5.1M/s
       - 🇺🇸 TG@just_free_share 6
       - 🇺🇸 TG@just_free_share 7
-      - 🇺🇸 TG@just_free_share 8
-      - 🇺🇸 TG@just_free_share 9
-      - 🇺🇸 TG@just_free_share 10
-      - ss.de.sshmax.net:21474
-      - 🇸🇬 SG 新加坡
-      - 🇸🇬 SG 新加坡 2
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_134
-      - 🇸🇬 Relay_-🇸🇬SG_25
-      - LV 拉脱维亚
-      - LV 拉脱维亚 2
-      - LV 拉脱维亚 3
-      - 🇰🇷 KR 韩国
-      - 🇹🇷 https://www.mattkaydiary.com|土耳其 S-01 *原生 | x1
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸US_2994 | 4.63Mb
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_305
-      - 🇺🇸 https://www.mattkaydiary.com|🇺🇸 US_304
-      - 🇬🇧 GB英国
-      - 🇬🇧 GB 英国
-      - 🇬🇧 GB 英国 2
-      - 🇬🇧 GB 英国 3
-      - 🇩🇪 DE 德国
-      - 🇩🇪 DE 德国 2
-      - 🇭🇰 AWS香港直连
-      - 🇰🇷 AWS韩国直连
-      - 5
-      - 4
-      - 207.244.67.149:40093
-      - 137.59.52.107:39772
-      - 107.181.166.55:33992
-      - 1
+      - 🇭🇰 QQ1977488121|可乐云江门CM→🇭🇰HK01|香港|倍率x1.0 22M/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
