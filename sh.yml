@@ -5,1011 +5,1011 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 欧洲), server: 185.153.151.98, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇬🇧 英国), server: 217.146.82.83, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 欧洲) 2, server: 45.134.224.20, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 欧洲) 3, server: 191.96.13.200, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: 🇺🇸 美国), server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲) 4, server: 37.120.212.131, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 欧洲) 5, server: 45.125.247.93, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇩🇪 德国), server: 138.199.16.130, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 欧洲) 6, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇩🇪 德国) 2, server: 185.102.219.49, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇮🇹 意大利), server: 185.128.27.35, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 欧洲) 7, server: 185.153.151.100, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 欧洲) 8, server: 185.188.61.119, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 罗马), server: 193.29.106.181, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 罗马) 2, server: 193.29.106.85, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇮🇹 意大利) 2, server: 82.102.26.54, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇮🇹 意大利) 3, server: 82.102.26.60, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇩🇪 德国), server: 185.102.219.49, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 美国), server: 154.16.168.186, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇩🇪 德国) 2, server: 185.102.219.49, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇩🇪 德国) 3, server: 138.199.19.185, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇮🇹 意大利), server: 82.102.26.54, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 欧洲) 9, server: 138.199.19.185, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 欧洲) 10, server: 5.189.202.16, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 欧洲) 11, server: 82.102.26.60, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 欧洲) 12, server: 82.102.26.54, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: 欧洲) 13, server: 82.102.26.60, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 欧洲) 14, server: 82.102.26.60, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: 欧洲) 15, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲) 16, server: 85.10.50.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲) 17, server: 217.138.216.243, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 欧洲) 18, server: 37.120.196.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 欧洲) 19, server: 217.138.216.243, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 欧洲) 20, server: 37.120.196.53, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 欧洲) 21, server: 42.157.8.162, port: 46006, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false}
-  - {name: 欧洲) 22, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 欧洲) 23, server: 138.199.19.186, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 欧洲) 24, server: 185.128.27.35, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 欧洲) 25, server: 185.128.27.35, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 欧洲) 26, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲) 27, server: 208.78.41.195, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 欧洲) 28, server: 5.253.205.227, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 欧洲) 29, server: 185.212.111.41, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 欧洲) 30, server: 89.238.130.253, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 欧洲) 31, server: 185.128.27.35, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 欧洲) 32, server: 86.106.136.85, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 欧洲) 33, server: 45.134.224.18, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇳 印度), server: 165.231.253.147, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 欧洲) 34, server: www.freetouchor.xyz, port: 443, type: trojan, password: mima0.0.000, sni: www.freetouchor.xyz}
-  - {name: 欧洲) 35, server: 45.12.223.195, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇮🇹 意大利) 4, server: 217.138.219.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马) 3, server: 45.12.223.195, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 欧洲) 36, server: 37.120.221.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇮🇹 意大利) 5, server: 82.102.26.54, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: 罗马) 4, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇨🇳 台湾), server: 2.58.241.3, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇨🇳 台湾) 2, server: 2.58.241.3, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇮🇳 印度) 2, server: 165.231.253.147, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇷🇺 俄罗斯), server: v3.ssrsub.one, port: 153, type: vmess, uuid: 310d9ce0-1903-4b5a-99eb-bee8dc30e8ec, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.one}}
-  - {name: 欧洲) 37, server: 144.48.39.85, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇨🇳 台湾) 3, server: 2.58.242.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 欧洲) 38, server: 37.120.217.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 欧洲) 39, server: 138.199.19.186, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 罗马) 5, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇺 俄罗斯) 2, server: v3.ssrsub.one, port: 153, type: vmess, uuid: 18395e1a-0bf7-42da-a264-4de396141e83, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.one}}
-  - {name: 罗马) 6, server: 193.29.106.181, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 欧洲) 40, server: 5.253.205.229, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 美国) 2, server: 143.244.57.99, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 欧洲) 41, server: 5.253.205.227, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 欧洲) 42, server: 37.120.143.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇨🇳 台湾) 4, server: 2.58.241.5, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
-  - {name: 🇺🇸 美国) 3, server: 104.200.131.167, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇺🇸 美国) 4, server: 154.16.168.186, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇸 美国) 5, server: 104.200.131.167, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 欧洲) 43, server: 45.248.76.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲) 44, server: 176.125.231.5, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 罗马) 7, server: 193.29.106.181, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 欧洲) 45, server: 51.77.170.89, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: 7FDvhjev93bs}
-  - {name: 欧洲) 46, server: 176.125.231.5, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇮🇳 印度) 3, server: 165.231.253.147, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 欧洲) 47, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 欧洲) 48, server: ss4.ssrsub.one, port: 2443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
-  - {name: 欧洲) 49, server: 185.166.84.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲) 50, server: 5.253.207.85, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 欧洲) 51, server: 139.155.22.227, port: 49110, type: vmess, uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国) 6, server: 104.17.251.27, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: calm-snow-beb3.6663901.workers.dev}}
-  - {name: 🇨🇳 台湾) 5, server: 2.58.241.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲) 52, server: 185.232.21.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 欧洲) 53, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
-  - {name: 欧洲) 54, server: 185.102.219.6, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 美国) 7, server: 192.111.134.195, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 欧洲) 55, server: 217.138.211.219, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 美国) 8, server: 207.244.67.149, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
-  - {name: 罗马) 8, server: 193.29.107.163, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 罗马) 9, server: 89.37.95.23, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇺🇸 美国) 9, server: 173.82.150.26, port: 443, type: vmess, uuid: 1a116d02-5fca-47fa-a2a1-6e8d0f2f71cc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.75287890.xyz}}
-  - {name: 🇺🇸 美国) 10, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
-  - {name: 罗马) 10, server: 193.29.106.181, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇺 俄罗斯) 3, server: t3.ssrsub.one, port: 8443, type: trojan, password: 18395e1a-0bf7-42da-a264-4de396141e83, sni: t3.ssrsub.one}
-  - {name: 欧洲) 56, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 欧洲) 57, server: 185.153.150.54, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 欧洲) 58, server: 217.138.211.221, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 🇨🇳 台湾) 6, server: 2.58.241.5, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: 🇨🇳 台湾) 7, server: 2.58.242.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马) 11, server: 193.29.107.237, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 罗马) 12, server: 152.89.160.213, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇮🇹 意大利) 6, server: 82.102.26.54, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 欧洲) 59, server: 138.199.19.186, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 欧洲) 60, server: 217.138.199.179, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 欧洲) 61, server: 208.78.41.202, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 欧洲) 62, server: 37.120.212.131, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 美国) 11, server: 192.111.134.195, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
-  - {name: 🇺🇸 美国) 12, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇺 俄罗斯) 4, server: t3.ssrsub.one, port: 8443, type: trojan, password: 310d9ce0-1903-4b5a-99eb-bee8dc30e8ec, sni: t3.ssrsub.one}
-  - {name: 欧洲) 63, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 欧洲) 64, server: 91.205.230.160, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 欧洲) 65, server: 37.120.143.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇨🇳 台湾) 8, server: 2.58.241.3, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 罗马) 13, server: 193.29.106.29, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马) 14, server: 91.219.215.69, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: 欧洲) 66, server: 138.199.16.130, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 欧洲) 67, server: 185.212.111.6, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 欧洲) 68, server: 5.253.207.83, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 美国) 13, server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇷🇺 俄罗斯) 5, server: 5.189.202.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
-  - {name: 欧洲) 69, server: 176.125.231.5, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 欧洲) 70, server: 84.17.53.86, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 欧洲) 71, server: 185.153.151.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 欧洲) 72, server: 5.157.13.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
-  - {name: 欧洲) 73, server: 185.166.84.19, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 欧洲) 74, server: 45.134.224.20, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 欧洲) 75, server: 5.253.205.179, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 欧洲) 76, server: 185.153.151.104, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 欧洲) 77, server: 195.47.194.64, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 欧洲) 78, server: 31.171.154.99, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 罗马) 15, server: 91.219.215.69, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 罗马) 16, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 欧洲(！), server: 185.153.151.98, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇬🇧 英国(！), server: 217.146.82.83, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 欧洲(！) 2, server: 45.134.224.20, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 欧洲(！) 3, server: 191.96.13.200, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: 🇺🇸 美国(！), server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲(！) 4, server: 37.120.212.131, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 欧洲(！) 5, server: 45.125.247.93, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇩🇪 德国(！), server: 138.199.16.130, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 欧洲(！) 6, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇩🇪 德国(！) 2, server: 185.102.219.49, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇮🇹 意大利(！), server: 185.128.27.35, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 欧洲(！) 7, server: 185.153.151.100, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 欧洲(！) 8, server: 185.188.61.119, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 罗马(！), server: 193.29.106.181, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 罗马(！) 2, server: 193.29.106.85, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇮🇹 意大利(！) 2, server: 82.102.26.54, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇮🇹 意大利(！) 3, server: 82.102.26.60, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 🇩🇪 德国(Youtube:工具大师！), server: 185.102.219.49, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 美国(Youtube:工具大师！), server: 154.16.168.186, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇩🇪 德国(Youtube:工具大师！) 2, server: 185.102.219.49, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇩🇪 德国(Youtube:工具大师！) 3, server: 138.199.19.185, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇮🇹 意大利(Youtube:工具大师！), server: 82.102.26.54, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(！) 9, server: 138.199.19.185, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 欧洲(！) 10, server: 5.189.202.16, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 欧洲(！) 11, server: 82.102.26.60, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 欧洲(！) 12, server: 82.102.26.54, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: 欧洲(！) 13, server: 82.102.26.60, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲(！) 14, server: 82.102.26.60, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 欧洲(！) 15, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(！) 16, server: 85.10.50.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲(！) 17, server: 217.138.216.243, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(！) 18, server: 37.120.196.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(！) 19, server: 217.138.216.243, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(！) 20, server: 37.120.196.53, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(！) 21, server: 42.157.8.162, port: 46006, type: vmess, uuid: 3959477e-55c4-453f-bc80-3b13e64891ac, alterId: 64, cipher: auto, tls: false}
+  - {name: 欧洲(！) 22, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 欧洲(！) 23, server: 138.199.19.186, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 欧洲(！) 24, server: 185.128.27.35, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 欧洲(！) 25, server: 185.128.27.35, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 欧洲(！) 26, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(！) 27, server: 208.78.41.195, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 欧洲(！) 28, server: 5.253.205.227, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(！) 29, server: 185.212.111.41, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(！) 30, server: 89.238.130.253, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(！) 31, server: 185.128.27.35, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 欧洲(！) 32, server: 86.106.136.85, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(！) 33, server: 45.134.224.18, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇮🇳 印度(！), server: 165.231.253.147, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 欧洲(！) 34, server: www.freetouchor.xyz, port: 443, type: trojan, password: mima0.0.000, sni: www.freetouchor.xyz}
+  - {name: 欧洲(！) 35, server: 45.12.223.195, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇹 意大利(！) 4, server: 217.138.219.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 罗马(！) 3, server: 45.12.223.195, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 欧洲(！) 36, server: 37.120.221.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇮🇹 意大利(！) 5, server: 82.102.26.54, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: 罗马(！) 4, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇳 台湾(！), server: 2.58.241.3, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾(！) 2, server: 2.58.241.3, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇮🇳 印度(！) 2, server: 165.231.253.147, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇷🇺 俄罗斯(！), server: v3.ssrsub.one, port: 153, type: vmess, uuid: 310d9ce0-1903-4b5a-99eb-bee8dc30e8ec, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.one}}
+  - {name: 欧洲(！) 37, server: 144.48.39.85, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇨🇳 台湾(！) 3, server: 2.58.242.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 欧洲(！) 38, server: 37.120.217.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 欧洲(！) 39, server: 138.199.19.186, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 罗马(！) 5, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇺 俄罗斯(！) 2, server: v3.ssrsub.one, port: 153, type: vmess, uuid: 18395e1a-0bf7-42da-a264-4de396141e83, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.one}}
+  - {name: 罗马(！) 6, server: 193.29.106.181, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 欧洲(！) 40, server: 5.253.205.229, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 美国(！) 2, server: 143.244.57.99, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 欧洲(！) 41, server: 5.253.205.227, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 欧洲(！) 42, server: 37.120.143.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇨🇳 台湾(！) 4, server: 2.58.241.5, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: 🇺🇸 美国(！) 3, server: 104.200.131.167, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇸 美国(！) 4, server: 154.16.168.186, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: 🇺🇸 美国(！) 5, server: 104.200.131.167, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 欧洲(！) 43, server: 45.248.76.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(！) 44, server: 176.125.231.5, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 罗马(！) 7, server: 193.29.106.181, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 欧洲(！) 45, server: 51.77.170.89, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: 7FDvhjev93bs}
+  - {name: 欧洲(！) 46, server: 176.125.231.5, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇮🇳 印度(！) 3, server: 165.231.253.147, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 欧洲(！) 47, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲(！) 48, server: ss4.ssrsub.one, port: 2443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: 欧洲(！) 49, server: 185.166.84.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(！) 50, server: 5.253.207.85, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 欧洲(！) 51, server: 139.155.22.227, port: 49110, type: vmess, uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(！) 6, server: 104.17.251.27, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: calm-snow-beb3.6663901.workers.dev}}
+  - {name: 🇨🇳 台湾(！) 5, server: 2.58.241.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(！) 52, server: 185.232.21.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(！) 53, server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}}
+  - {name: 欧洲(！) 54, server: 185.102.219.6, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 美国(！) 7, server: 192.111.134.195, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 欧洲(！) 55, server: 217.138.211.219, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇺🇸 美国(！) 8, server: 207.244.67.149, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: 罗马(！) 8, server: 193.29.107.163, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 罗马(！) 9, server: 89.37.95.23, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇺🇸 美国(！) 9, server: 173.82.150.26, port: 443, type: vmess, uuid: 1a116d02-5fca-47fa-a2a1-6e8d0f2f71cc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.75287890.xyz}}
+  - {name: 🇺🇸 美国(！) 10, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: 罗马(！) 10, server: 193.29.106.181, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇺 俄罗斯(！) 3, server: t3.ssrsub.one, port: 8443, type: trojan, password: 18395e1a-0bf7-42da-a264-4de396141e83, sni: t3.ssrsub.one}
+  - {name: 欧洲(！) 56, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲(！) 57, server: 185.153.150.54, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲(！) 58, server: 217.138.211.221, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇨🇳 台湾(！) 6, server: 2.58.241.5, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: 🇨🇳 台湾(！) 7, server: 2.58.242.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 罗马(！) 11, server: 193.29.107.237, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 罗马(！) 12, server: 152.89.160.213, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇮🇹 意大利(！) 6, server: 82.102.26.54, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 欧洲(！) 59, server: 138.199.19.186, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 欧洲(！) 60, server: 217.138.199.179, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(！) 61, server: 208.78.41.202, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 欧洲(！) 62, server: 37.120.212.131, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 美国(！) 11, server: 192.111.134.195, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: 🇺🇸 美国(！) 12, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇺 俄罗斯(！) 4, server: t3.ssrsub.one, port: 8443, type: trojan, password: 310d9ce0-1903-4b5a-99eb-bee8dc30e8ec, sni: t3.ssrsub.one}
+  - {name: 欧洲(！) 63, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 欧洲(！) 64, server: 91.205.230.160, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 欧洲(！) 65, server: 37.120.143.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 🇨🇳 台湾(！) 8, server: 2.58.241.3, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 罗马(！) 13, server: 193.29.106.29, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 罗马(！) 14, server: 91.219.215.69, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: 欧洲(！) 66, server: 138.199.16.130, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 欧洲(！) 67, server: 185.212.111.6, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 欧洲(！) 68, server: 5.253.207.83, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇺🇸 美国(！) 13, server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇷🇺 俄罗斯(！) 5, server: 5.189.202.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: 欧洲(！) 69, server: 176.125.231.5, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 欧洲(！) 70, server: 84.17.53.86, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(！) 71, server: 185.153.151.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(！) 72, server: 5.157.13.53, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 欧洲(！) 73, server: 185.166.84.19, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲(！) 74, server: 45.134.224.20, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 欧洲(！) 75, server: 5.253.205.179, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 欧洲(！) 76, server: 185.153.151.104, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 欧洲(！) 77, server: 195.47.194.64, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 欧洲(！) 78, server: 31.171.154.99, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 罗马(！) 15, server: 91.219.215.69, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 罗马(！) 16, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲)
-      - 🇬🇧 英国)
-      - 欧洲) 2
-      - 欧洲) 3
-      - 🇺🇸 美国)
-      - 欧洲) 4
-      - 欧洲) 5
-      - 🇩🇪 德国)
-      - 欧洲) 6
-      - 🇩🇪 德国) 2
-      - 🇮🇹 意大利)
-      - 欧洲) 7
-      - 欧洲) 8
-      - 罗马)
-      - 罗马) 2
-      - 🇮🇹 意大利) 2
-      - 🇮🇹 意大利) 3
-      - 🇩🇪 德国)
-      - 🇺🇸 美国)
-      - 🇩🇪 德国) 2
-      - 🇩🇪 德国) 3
-      - 🇮🇹 意大利)
-      - 欧洲) 9
-      - 欧洲) 10
-      - 欧洲) 11
-      - 欧洲) 12
-      - 欧洲) 13
-      - 欧洲) 14
-      - 欧洲) 15
-      - 欧洲) 16
-      - 欧洲) 17
-      - 欧洲) 18
-      - 欧洲) 19
-      - 欧洲) 20
-      - 欧洲) 21
-      - 欧洲) 22
-      - 欧洲) 23
-      - 欧洲) 24
-      - 欧洲) 25
-      - 欧洲) 26
-      - 欧洲) 27
-      - 欧洲) 28
-      - 欧洲) 29
-      - 欧洲) 30
-      - 欧洲) 31
-      - 欧洲) 32
-      - 欧洲) 33
-      - 🇮🇳 印度)
-      - 欧洲) 34
-      - 欧洲) 35
-      - 🇮🇹 意大利) 4
-      - 罗马) 3
-      - 欧洲) 36
-      - 🇮🇹 意大利) 5
-      - 罗马) 4
-      - 🇨🇳 台湾)
-      - 🇨🇳 台湾) 2
-      - 🇮🇳 印度) 2
-      - 🇷🇺 俄罗斯)
-      - 欧洲) 37
-      - 🇨🇳 台湾) 3
-      - 欧洲) 38
-      - 欧洲) 39
-      - 罗马) 5
-      - 🇷🇺 俄罗斯) 2
-      - 罗马) 6
-      - 欧洲) 40
-      - 🇺🇸 美国) 2
-      - 欧洲) 41
-      - 欧洲) 42
-      - 🇨🇳 台湾) 4
-      - 🇺🇸 美国) 3
-      - 🇺🇸 美国) 4
-      - 🇺🇸 美国) 5
-      - 欧洲) 43
-      - 欧洲) 44
-      - 罗马) 7
-      - 欧洲) 45
-      - 欧洲) 46
-      - 🇮🇳 印度) 3
-      - 欧洲) 47
-      - 欧洲) 48
-      - 欧洲) 49
-      - 欧洲) 50
-      - 欧洲) 51
-      - 🇺🇸 美国) 6
-      - 🇨🇳 台湾) 5
-      - 欧洲) 52
-      - 欧洲) 53
-      - 欧洲) 54
-      - 🇺🇸 美国) 7
-      - 欧洲) 55
-      - 🇺🇸 美国) 8
-      - 罗马) 8
-      - 罗马) 9
-      - 🇺🇸 美国) 9
-      - 🇺🇸 美国) 10
-      - 罗马) 10
-      - 🇷🇺 俄罗斯) 3
-      - 欧洲) 56
-      - 欧洲) 57
-      - 欧洲) 58
-      - 🇨🇳 台湾) 6
-      - 🇨🇳 台湾) 7
-      - 罗马) 11
-      - 罗马) 12
-      - 🇮🇹 意大利) 6
-      - 欧洲) 59
-      - 欧洲) 60
-      - 欧洲) 61
-      - 欧洲) 62
-      - 🇺🇸 美国) 11
-      - 🇺🇸 美国) 12
-      - 🇷🇺 俄罗斯) 4
-      - 欧洲) 63
-      - 欧洲) 64
-      - 欧洲) 65
-      - 🇨🇳 台湾) 8
-      - 罗马) 13
-      - 罗马) 14
-      - 欧洲) 66
-      - 欧洲) 67
-      - 欧洲) 68
-      - 🇺🇸 美国) 13
-      - 🇷🇺 俄罗斯) 5
-      - 欧洲) 69
-      - 欧洲) 70
-      - 欧洲) 71
-      - 欧洲) 72
-      - 欧洲) 73
-      - 欧洲) 74
-      - 欧洲) 75
-      - 欧洲) 76
-      - 欧洲) 77
-      - 欧洲) 78
-      - 罗马) 15
-      - 罗马) 16
+      - 欧洲(！)
+      - 🇬🇧 英国(！)
+      - 欧洲(！) 2
+      - 欧洲(！) 3
+      - 🇺🇸 美国(！)
+      - 欧洲(！) 4
+      - 欧洲(！) 5
+      - 🇩🇪 德国(！)
+      - 欧洲(！) 6
+      - 🇩🇪 德国(！) 2
+      - 🇮🇹 意大利(！)
+      - 欧洲(！) 7
+      - 欧洲(！) 8
+      - 罗马(！)
+      - 罗马(！) 2
+      - 🇮🇹 意大利(！) 2
+      - 🇮🇹 意大利(！) 3
+      - 🇩🇪 德国(Youtube:工具大师！)
+      - 🇺🇸 美国(Youtube:工具大师！)
+      - 🇩🇪 德国(Youtube:工具大师！) 2
+      - 🇩🇪 德国(Youtube:工具大师！) 3
+      - 🇮🇹 意大利(Youtube:工具大师！)
+      - 欧洲(！) 9
+      - 欧洲(！) 10
+      - 欧洲(！) 11
+      - 欧洲(！) 12
+      - 欧洲(！) 13
+      - 欧洲(！) 14
+      - 欧洲(！) 15
+      - 欧洲(！) 16
+      - 欧洲(！) 17
+      - 欧洲(！) 18
+      - 欧洲(！) 19
+      - 欧洲(！) 20
+      - 欧洲(！) 21
+      - 欧洲(！) 22
+      - 欧洲(！) 23
+      - 欧洲(！) 24
+      - 欧洲(！) 25
+      - 欧洲(！) 26
+      - 欧洲(！) 27
+      - 欧洲(！) 28
+      - 欧洲(！) 29
+      - 欧洲(！) 30
+      - 欧洲(！) 31
+      - 欧洲(！) 32
+      - 欧洲(！) 33
+      - 🇮🇳 印度(！)
+      - 欧洲(！) 34
+      - 欧洲(！) 35
+      - 🇮🇹 意大利(！) 4
+      - 罗马(！) 3
+      - 欧洲(！) 36
+      - 🇮🇹 意大利(！) 5
+      - 罗马(！) 4
+      - 🇨🇳 台湾(！)
+      - 🇨🇳 台湾(！) 2
+      - 🇮🇳 印度(！) 2
+      - 🇷🇺 俄罗斯(！)
+      - 欧洲(！) 37
+      - 🇨🇳 台湾(！) 3
+      - 欧洲(！) 38
+      - 欧洲(！) 39
+      - 罗马(！) 5
+      - 🇷🇺 俄罗斯(！) 2
+      - 罗马(！) 6
+      - 欧洲(！) 40
+      - 🇺🇸 美国(！) 2
+      - 欧洲(！) 41
+      - 欧洲(！) 42
+      - 🇨🇳 台湾(！) 4
+      - 🇺🇸 美国(！) 3
+      - 🇺🇸 美国(！) 4
+      - 🇺🇸 美国(！) 5
+      - 欧洲(！) 43
+      - 欧洲(！) 44
+      - 罗马(！) 7
+      - 欧洲(！) 45
+      - 欧洲(！) 46
+      - 🇮🇳 印度(！) 3
+      - 欧洲(！) 47
+      - 欧洲(！) 48
+      - 欧洲(！) 49
+      - 欧洲(！) 50
+      - 欧洲(！) 51
+      - 🇺🇸 美国(！) 6
+      - 🇨🇳 台湾(！) 5
+      - 欧洲(！) 52
+      - 欧洲(！) 53
+      - 欧洲(！) 54
+      - 🇺🇸 美国(！) 7
+      - 欧洲(！) 55
+      - 🇺🇸 美国(！) 8
+      - 罗马(！) 8
+      - 罗马(！) 9
+      - 🇺🇸 美国(！) 9
+      - 🇺🇸 美国(！) 10
+      - 罗马(！) 10
+      - 🇷🇺 俄罗斯(！) 3
+      - 欧洲(！) 56
+      - 欧洲(！) 57
+      - 欧洲(！) 58
+      - 🇨🇳 台湾(！) 6
+      - 🇨🇳 台湾(！) 7
+      - 罗马(！) 11
+      - 罗马(！) 12
+      - 🇮🇹 意大利(！) 6
+      - 欧洲(！) 59
+      - 欧洲(！) 60
+      - 欧洲(！) 61
+      - 欧洲(！) 62
+      - 🇺🇸 美国(！) 11
+      - 🇺🇸 美国(！) 12
+      - 🇷🇺 俄罗斯(！) 4
+      - 欧洲(！) 63
+      - 欧洲(！) 64
+      - 欧洲(！) 65
+      - 🇨🇳 台湾(！) 8
+      - 罗马(！) 13
+      - 罗马(！) 14
+      - 欧洲(！) 66
+      - 欧洲(！) 67
+      - 欧洲(！) 68
+      - 🇺🇸 美国(！) 13
+      - 🇷🇺 俄罗斯(！) 5
+      - 欧洲(！) 69
+      - 欧洲(！) 70
+      - 欧洲(！) 71
+      - 欧洲(！) 72
+      - 欧洲(！) 73
+      - 欧洲(！) 74
+      - 欧洲(！) 75
+      - 欧洲(！) 76
+      - 欧洲(！) 77
+      - 欧洲(！) 78
+      - 罗马(！) 15
+      - 罗马(！) 16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 欧洲)
-      - 🇬🇧 英国)
-      - 欧洲) 2
-      - 欧洲) 3
-      - 🇺🇸 美国)
-      - 欧洲) 4
-      - 欧洲) 5
-      - 🇩🇪 德国)
-      - 欧洲) 6
-      - 🇩🇪 德国) 2
-      - 🇮🇹 意大利)
-      - 欧洲) 7
-      - 欧洲) 8
-      - 罗马)
-      - 罗马) 2
-      - 🇮🇹 意大利) 2
-      - 🇮🇹 意大利) 3
-      - 🇩🇪 德国)
-      - 🇺🇸 美国)
-      - 🇩🇪 德国) 2
-      - 🇩🇪 德国) 3
-      - 🇮🇹 意大利)
-      - 欧洲) 9
-      - 欧洲) 10
-      - 欧洲) 11
-      - 欧洲) 12
-      - 欧洲) 13
-      - 欧洲) 14
-      - 欧洲) 15
-      - 欧洲) 16
-      - 欧洲) 17
-      - 欧洲) 18
-      - 欧洲) 19
-      - 欧洲) 20
-      - 欧洲) 21
-      - 欧洲) 22
-      - 欧洲) 23
-      - 欧洲) 24
-      - 欧洲) 25
-      - 欧洲) 26
-      - 欧洲) 27
-      - 欧洲) 28
-      - 欧洲) 29
-      - 欧洲) 30
-      - 欧洲) 31
-      - 欧洲) 32
-      - 欧洲) 33
-      - 🇮🇳 印度)
-      - 欧洲) 34
-      - 欧洲) 35
-      - 🇮🇹 意大利) 4
-      - 罗马) 3
-      - 欧洲) 36
-      - 🇮🇹 意大利) 5
-      - 罗马) 4
-      - 🇨🇳 台湾)
-      - 🇨🇳 台湾) 2
-      - 🇮🇳 印度) 2
-      - 🇷🇺 俄罗斯)
-      - 欧洲) 37
-      - 🇨🇳 台湾) 3
-      - 欧洲) 38
-      - 欧洲) 39
-      - 罗马) 5
-      - 🇷🇺 俄罗斯) 2
-      - 罗马) 6
-      - 欧洲) 40
-      - 🇺🇸 美国) 2
-      - 欧洲) 41
-      - 欧洲) 42
-      - 🇨🇳 台湾) 4
-      - 🇺🇸 美国) 3
-      - 🇺🇸 美国) 4
-      - 🇺🇸 美国) 5
-      - 欧洲) 43
-      - 欧洲) 44
-      - 罗马) 7
-      - 欧洲) 45
-      - 欧洲) 46
-      - 🇮🇳 印度) 3
-      - 欧洲) 47
-      - 欧洲) 48
-      - 欧洲) 49
-      - 欧洲) 50
-      - 欧洲) 51
-      - 🇺🇸 美国) 6
-      - 🇨🇳 台湾) 5
-      - 欧洲) 52
-      - 欧洲) 53
-      - 欧洲) 54
-      - 🇺🇸 美国) 7
-      - 欧洲) 55
-      - 🇺🇸 美国) 8
-      - 罗马) 8
-      - 罗马) 9
-      - 🇺🇸 美国) 9
-      - 🇺🇸 美国) 10
-      - 罗马) 10
-      - 🇷🇺 俄罗斯) 3
-      - 欧洲) 56
-      - 欧洲) 57
-      - 欧洲) 58
-      - 🇨🇳 台湾) 6
-      - 🇨🇳 台湾) 7
-      - 罗马) 11
-      - 罗马) 12
-      - 🇮🇹 意大利) 6
-      - 欧洲) 59
-      - 欧洲) 60
-      - 欧洲) 61
-      - 欧洲) 62
-      - 🇺🇸 美国) 11
-      - 🇺🇸 美国) 12
-      - 🇷🇺 俄罗斯) 4
-      - 欧洲) 63
-      - 欧洲) 64
-      - 欧洲) 65
-      - 🇨🇳 台湾) 8
-      - 罗马) 13
-      - 罗马) 14
-      - 欧洲) 66
-      - 欧洲) 67
-      - 欧洲) 68
-      - 🇺🇸 美国) 13
-      - 🇷🇺 俄罗斯) 5
-      - 欧洲) 69
-      - 欧洲) 70
-      - 欧洲) 71
-      - 欧洲) 72
-      - 欧洲) 73
-      - 欧洲) 74
-      - 欧洲) 75
-      - 欧洲) 76
-      - 欧洲) 77
-      - 欧洲) 78
-      - 罗马) 15
-      - 罗马) 16
+      - 欧洲(！)
+      - 🇬🇧 英国(！)
+      - 欧洲(！) 2
+      - 欧洲(！) 3
+      - 🇺🇸 美国(！)
+      - 欧洲(！) 4
+      - 欧洲(！) 5
+      - 🇩🇪 德国(！)
+      - 欧洲(！) 6
+      - 🇩🇪 德国(！) 2
+      - 🇮🇹 意大利(！)
+      - 欧洲(！) 7
+      - 欧洲(！) 8
+      - 罗马(！)
+      - 罗马(！) 2
+      - 🇮🇹 意大利(！) 2
+      - 🇮🇹 意大利(！) 3
+      - 🇩🇪 德国(Youtube:工具大师！)
+      - 🇺🇸 美国(Youtube:工具大师！)
+      - 🇩🇪 德国(Youtube:工具大师！) 2
+      - 🇩🇪 德国(Youtube:工具大师！) 3
+      - 🇮🇹 意大利(Youtube:工具大师！)
+      - 欧洲(！) 9
+      - 欧洲(！) 10
+      - 欧洲(！) 11
+      - 欧洲(！) 12
+      - 欧洲(！) 13
+      - 欧洲(！) 14
+      - 欧洲(！) 15
+      - 欧洲(！) 16
+      - 欧洲(！) 17
+      - 欧洲(！) 18
+      - 欧洲(！) 19
+      - 欧洲(！) 20
+      - 欧洲(！) 21
+      - 欧洲(！) 22
+      - 欧洲(！) 23
+      - 欧洲(！) 24
+      - 欧洲(！) 25
+      - 欧洲(！) 26
+      - 欧洲(！) 27
+      - 欧洲(！) 28
+      - 欧洲(！) 29
+      - 欧洲(！) 30
+      - 欧洲(！) 31
+      - 欧洲(！) 32
+      - 欧洲(！) 33
+      - 🇮🇳 印度(！)
+      - 欧洲(！) 34
+      - 欧洲(！) 35
+      - 🇮🇹 意大利(！) 4
+      - 罗马(！) 3
+      - 欧洲(！) 36
+      - 🇮🇹 意大利(！) 5
+      - 罗马(！) 4
+      - 🇨🇳 台湾(！)
+      - 🇨🇳 台湾(！) 2
+      - 🇮🇳 印度(！) 2
+      - 🇷🇺 俄罗斯(！)
+      - 欧洲(！) 37
+      - 🇨🇳 台湾(！) 3
+      - 欧洲(！) 38
+      - 欧洲(！) 39
+      - 罗马(！) 5
+      - 🇷🇺 俄罗斯(！) 2
+      - 罗马(！) 6
+      - 欧洲(！) 40
+      - 🇺🇸 美国(！) 2
+      - 欧洲(！) 41
+      - 欧洲(！) 42
+      - 🇨🇳 台湾(！) 4
+      - 🇺🇸 美国(！) 3
+      - 🇺🇸 美国(！) 4
+      - 🇺🇸 美国(！) 5
+      - 欧洲(！) 43
+      - 欧洲(！) 44
+      - 罗马(！) 7
+      - 欧洲(！) 45
+      - 欧洲(！) 46
+      - 🇮🇳 印度(！) 3
+      - 欧洲(！) 47
+      - 欧洲(！) 48
+      - 欧洲(！) 49
+      - 欧洲(！) 50
+      - 欧洲(！) 51
+      - 🇺🇸 美国(！) 6
+      - 🇨🇳 台湾(！) 5
+      - 欧洲(！) 52
+      - 欧洲(！) 53
+      - 欧洲(！) 54
+      - 🇺🇸 美国(！) 7
+      - 欧洲(！) 55
+      - 🇺🇸 美国(！) 8
+      - 罗马(！) 8
+      - 罗马(！) 9
+      - 🇺🇸 美国(！) 9
+      - 🇺🇸 美国(！) 10
+      - 罗马(！) 10
+      - 🇷🇺 俄罗斯(！) 3
+      - 欧洲(！) 56
+      - 欧洲(！) 57
+      - 欧洲(！) 58
+      - 🇨🇳 台湾(！) 6
+      - 🇨🇳 台湾(！) 7
+      - 罗马(！) 11
+      - 罗马(！) 12
+      - 🇮🇹 意大利(！) 6
+      - 欧洲(！) 59
+      - 欧洲(！) 60
+      - 欧洲(！) 61
+      - 欧洲(！) 62
+      - 🇺🇸 美国(！) 11
+      - 🇺🇸 美国(！) 12
+      - 🇷🇺 俄罗斯(！) 4
+      - 欧洲(！) 63
+      - 欧洲(！) 64
+      - 欧洲(！) 65
+      - 🇨🇳 台湾(！) 8
+      - 罗马(！) 13
+      - 罗马(！) 14
+      - 欧洲(！) 66
+      - 欧洲(！) 67
+      - 欧洲(！) 68
+      - 🇺🇸 美国(！) 13
+      - 🇷🇺 俄罗斯(！) 5
+      - 欧洲(！) 69
+      - 欧洲(！) 70
+      - 欧洲(！) 71
+      - 欧洲(！) 72
+      - 欧洲(！) 73
+      - 欧洲(！) 74
+      - 欧洲(！) 75
+      - 欧洲(！) 76
+      - 欧洲(！) 77
+      - 欧洲(！) 78
+      - 罗马(！) 15
+      - 罗马(！) 16
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲)
-      - 🇬🇧 英国)
-      - 欧洲) 2
-      - 欧洲) 3
-      - 🇺🇸 美国)
-      - 欧洲) 4
-      - 欧洲) 5
-      - 🇩🇪 德国)
-      - 欧洲) 6
-      - 🇩🇪 德国) 2
-      - 🇮🇹 意大利)
-      - 欧洲) 7
-      - 欧洲) 8
-      - 罗马)
-      - 罗马) 2
-      - 🇮🇹 意大利) 2
-      - 🇮🇹 意大利) 3
-      - 🇩🇪 德国)
-      - 🇺🇸 美国)
-      - 🇩🇪 德国) 2
-      - 🇩🇪 德国) 3
-      - 🇮🇹 意大利)
-      - 欧洲) 9
-      - 欧洲) 10
-      - 欧洲) 11
-      - 欧洲) 12
-      - 欧洲) 13
-      - 欧洲) 14
-      - 欧洲) 15
-      - 欧洲) 16
-      - 欧洲) 17
-      - 欧洲) 18
-      - 欧洲) 19
-      - 欧洲) 20
-      - 欧洲) 21
-      - 欧洲) 22
-      - 欧洲) 23
-      - 欧洲) 24
-      - 欧洲) 25
-      - 欧洲) 26
-      - 欧洲) 27
-      - 欧洲) 28
-      - 欧洲) 29
-      - 欧洲) 30
-      - 欧洲) 31
-      - 欧洲) 32
-      - 欧洲) 33
-      - 🇮🇳 印度)
-      - 欧洲) 34
-      - 欧洲) 35
-      - 🇮🇹 意大利) 4
-      - 罗马) 3
-      - 欧洲) 36
-      - 🇮🇹 意大利) 5
-      - 罗马) 4
-      - 🇨🇳 台湾)
-      - 🇨🇳 台湾) 2
-      - 🇮🇳 印度) 2
-      - 🇷🇺 俄罗斯)
-      - 欧洲) 37
-      - 🇨🇳 台湾) 3
-      - 欧洲) 38
-      - 欧洲) 39
-      - 罗马) 5
-      - 🇷🇺 俄罗斯) 2
-      - 罗马) 6
-      - 欧洲) 40
-      - 🇺🇸 美国) 2
-      - 欧洲) 41
-      - 欧洲) 42
-      - 🇨🇳 台湾) 4
-      - 🇺🇸 美国) 3
-      - 🇺🇸 美国) 4
-      - 🇺🇸 美国) 5
-      - 欧洲) 43
-      - 欧洲) 44
-      - 罗马) 7
-      - 欧洲) 45
-      - 欧洲) 46
-      - 🇮🇳 印度) 3
-      - 欧洲) 47
-      - 欧洲) 48
-      - 欧洲) 49
-      - 欧洲) 50
-      - 欧洲) 51
-      - 🇺🇸 美国) 6
-      - 🇨🇳 台湾) 5
-      - 欧洲) 52
-      - 欧洲) 53
-      - 欧洲) 54
-      - 🇺🇸 美国) 7
-      - 欧洲) 55
-      - 🇺🇸 美国) 8
-      - 罗马) 8
-      - 罗马) 9
-      - 🇺🇸 美国) 9
-      - 🇺🇸 美国) 10
-      - 罗马) 10
-      - 🇷🇺 俄罗斯) 3
-      - 欧洲) 56
-      - 欧洲) 57
-      - 欧洲) 58
-      - 🇨🇳 台湾) 6
-      - 🇨🇳 台湾) 7
-      - 罗马) 11
-      - 罗马) 12
-      - 🇮🇹 意大利) 6
-      - 欧洲) 59
-      - 欧洲) 60
-      - 欧洲) 61
-      - 欧洲) 62
-      - 🇺🇸 美国) 11
-      - 🇺🇸 美国) 12
-      - 🇷🇺 俄罗斯) 4
-      - 欧洲) 63
-      - 欧洲) 64
-      - 欧洲) 65
-      - 🇨🇳 台湾) 8
-      - 罗马) 13
-      - 罗马) 14
-      - 欧洲) 66
-      - 欧洲) 67
-      - 欧洲) 68
-      - 🇺🇸 美国) 13
-      - 🇷🇺 俄罗斯) 5
-      - 欧洲) 69
-      - 欧洲) 70
-      - 欧洲) 71
-      - 欧洲) 72
-      - 欧洲) 73
-      - 欧洲) 74
-      - 欧洲) 75
-      - 欧洲) 76
-      - 欧洲) 77
-      - 欧洲) 78
-      - 罗马) 15
-      - 罗马) 16
+      - 欧洲(！)
+      - 🇬🇧 英国(！)
+      - 欧洲(！) 2
+      - 欧洲(！) 3
+      - 🇺🇸 美国(！)
+      - 欧洲(！) 4
+      - 欧洲(！) 5
+      - 🇩🇪 德国(！)
+      - 欧洲(！) 6
+      - 🇩🇪 德国(！) 2
+      - 🇮🇹 意大利(！)
+      - 欧洲(！) 7
+      - 欧洲(！) 8
+      - 罗马(！)
+      - 罗马(！) 2
+      - 🇮🇹 意大利(！) 2
+      - 🇮🇹 意大利(！) 3
+      - 🇩🇪 德国(Youtube:工具大师！)
+      - 🇺🇸 美国(Youtube:工具大师！)
+      - 🇩🇪 德国(Youtube:工具大师！) 2
+      - 🇩🇪 德国(Youtube:工具大师！) 3
+      - 🇮🇹 意大利(Youtube:工具大师！)
+      - 欧洲(！) 9
+      - 欧洲(！) 10
+      - 欧洲(！) 11
+      - 欧洲(！) 12
+      - 欧洲(！) 13
+      - 欧洲(！) 14
+      - 欧洲(！) 15
+      - 欧洲(！) 16
+      - 欧洲(！) 17
+      - 欧洲(！) 18
+      - 欧洲(！) 19
+      - 欧洲(！) 20
+      - 欧洲(！) 21
+      - 欧洲(！) 22
+      - 欧洲(！) 23
+      - 欧洲(！) 24
+      - 欧洲(！) 25
+      - 欧洲(！) 26
+      - 欧洲(！) 27
+      - 欧洲(！) 28
+      - 欧洲(！) 29
+      - 欧洲(！) 30
+      - 欧洲(！) 31
+      - 欧洲(！) 32
+      - 欧洲(！) 33
+      - 🇮🇳 印度(！)
+      - 欧洲(！) 34
+      - 欧洲(！) 35
+      - 🇮🇹 意大利(！) 4
+      - 罗马(！) 3
+      - 欧洲(！) 36
+      - 🇮🇹 意大利(！) 5
+      - 罗马(！) 4
+      - 🇨🇳 台湾(！)
+      - 🇨🇳 台湾(！) 2
+      - 🇮🇳 印度(！) 2
+      - 🇷🇺 俄罗斯(！)
+      - 欧洲(！) 37
+      - 🇨🇳 台湾(！) 3
+      - 欧洲(！) 38
+      - 欧洲(！) 39
+      - 罗马(！) 5
+      - 🇷🇺 俄罗斯(！) 2
+      - 罗马(！) 6
+      - 欧洲(！) 40
+      - 🇺🇸 美国(！) 2
+      - 欧洲(！) 41
+      - 欧洲(！) 42
+      - 🇨🇳 台湾(！) 4
+      - 🇺🇸 美国(！) 3
+      - 🇺🇸 美国(！) 4
+      - 🇺🇸 美国(！) 5
+      - 欧洲(！) 43
+      - 欧洲(！) 44
+      - 罗马(！) 7
+      - 欧洲(！) 45
+      - 欧洲(！) 46
+      - 🇮🇳 印度(！) 3
+      - 欧洲(！) 47
+      - 欧洲(！) 48
+      - 欧洲(！) 49
+      - 欧洲(！) 50
+      - 欧洲(！) 51
+      - 🇺🇸 美国(！) 6
+      - 🇨🇳 台湾(！) 5
+      - 欧洲(！) 52
+      - 欧洲(！) 53
+      - 欧洲(！) 54
+      - 🇺🇸 美国(！) 7
+      - 欧洲(！) 55
+      - 🇺🇸 美国(！) 8
+      - 罗马(！) 8
+      - 罗马(！) 9
+      - 🇺🇸 美国(！) 9
+      - 🇺🇸 美国(！) 10
+      - 罗马(！) 10
+      - 🇷🇺 俄罗斯(！) 3
+      - 欧洲(！) 56
+      - 欧洲(！) 57
+      - 欧洲(！) 58
+      - 🇨🇳 台湾(！) 6
+      - 🇨🇳 台湾(！) 7
+      - 罗马(！) 11
+      - 罗马(！) 12
+      - 🇮🇹 意大利(！) 6
+      - 欧洲(！) 59
+      - 欧洲(！) 60
+      - 欧洲(！) 61
+      - 欧洲(！) 62
+      - 🇺🇸 美国(！) 11
+      - 🇺🇸 美国(！) 12
+      - 🇷🇺 俄罗斯(！) 4
+      - 欧洲(！) 63
+      - 欧洲(！) 64
+      - 欧洲(！) 65
+      - 🇨🇳 台湾(！) 8
+      - 罗马(！) 13
+      - 罗马(！) 14
+      - 欧洲(！) 66
+      - 欧洲(！) 67
+      - 欧洲(！) 68
+      - 🇺🇸 美国(！) 13
+      - 🇷🇺 俄罗斯(！) 5
+      - 欧洲(！) 69
+      - 欧洲(！) 70
+      - 欧洲(！) 71
+      - 欧洲(！) 72
+      - 欧洲(！) 73
+      - 欧洲(！) 74
+      - 欧洲(！) 75
+      - 欧洲(！) 76
+      - 欧洲(！) 77
+      - 欧洲(！) 78
+      - 罗马(！) 15
+      - 罗马(！) 16
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾)
-      - 🇨🇳 台湾) 2
-      - 🇨🇳 台湾) 3
-      - 🇨🇳 台湾) 4
-      - 🇨🇳 台湾) 5
-      - 🇨🇳 台湾) 6
-      - 🇨🇳 台湾) 7
-      - 🇨🇳 台湾) 8
+      - 🇨🇳 台湾(！)
+      - 🇨🇳 台湾(！) 2
+      - 🇨🇳 台湾(！) 3
+      - 🇨🇳 台湾(！) 4
+      - 🇨🇳 台湾(！) 5
+      - 🇨🇳 台湾(！) 6
+      - 🇨🇳 台湾(！) 7
+      - 🇨🇳 台湾(！) 8
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 欧洲)
-      - 🇬🇧 英国)
-      - 欧洲) 2
-      - 欧洲) 3
-      - 🇺🇸 美国)
-      - 欧洲) 4
-      - 欧洲) 5
-      - 🇩🇪 德国)
-      - 欧洲) 6
-      - 🇩🇪 德国) 2
-      - 🇮🇹 意大利)
-      - 欧洲) 7
-      - 欧洲) 8
-      - 罗马)
-      - 罗马) 2
-      - 🇮🇹 意大利) 2
-      - 🇮🇹 意大利) 3
-      - 🇩🇪 德国)
-      - 🇺🇸 美国)
-      - 🇩🇪 德国) 2
-      - 🇩🇪 德国) 3
-      - 🇮🇹 意大利)
-      - 欧洲) 9
-      - 欧洲) 10
-      - 欧洲) 11
-      - 欧洲) 12
-      - 欧洲) 13
-      - 欧洲) 14
-      - 欧洲) 15
-      - 欧洲) 16
-      - 欧洲) 17
-      - 欧洲) 18
-      - 欧洲) 19
-      - 欧洲) 20
-      - 欧洲) 21
-      - 欧洲) 22
-      - 欧洲) 23
-      - 欧洲) 24
-      - 欧洲) 25
-      - 欧洲) 26
-      - 欧洲) 27
-      - 欧洲) 28
-      - 欧洲) 29
-      - 欧洲) 30
-      - 欧洲) 31
-      - 欧洲) 32
-      - 欧洲) 33
-      - 🇮🇳 印度)
-      - 欧洲) 34
-      - 欧洲) 35
-      - 🇮🇹 意大利) 4
-      - 罗马) 3
-      - 欧洲) 36
-      - 🇮🇹 意大利) 5
-      - 罗马) 4
-      - 🇨🇳 台湾)
-      - 🇨🇳 台湾) 2
-      - 🇮🇳 印度) 2
-      - 🇷🇺 俄罗斯)
-      - 欧洲) 37
-      - 🇨🇳 台湾) 3
-      - 欧洲) 38
-      - 欧洲) 39
-      - 罗马) 5
-      - 🇷🇺 俄罗斯) 2
-      - 罗马) 6
-      - 欧洲) 40
-      - 🇺🇸 美国) 2
-      - 欧洲) 41
-      - 欧洲) 42
-      - 🇨🇳 台湾) 4
-      - 🇺🇸 美国) 3
-      - 🇺🇸 美国) 4
-      - 🇺🇸 美国) 5
-      - 欧洲) 43
-      - 欧洲) 44
-      - 罗马) 7
-      - 欧洲) 45
-      - 欧洲) 46
-      - 🇮🇳 印度) 3
-      - 欧洲) 47
-      - 欧洲) 48
-      - 欧洲) 49
-      - 欧洲) 50
-      - 欧洲) 51
-      - 🇺🇸 美国) 6
-      - 🇨🇳 台湾) 5
-      - 欧洲) 52
-      - 欧洲) 53
-      - 欧洲) 54
-      - 🇺🇸 美国) 7
-      - 欧洲) 55
-      - 🇺🇸 美国) 8
-      - 罗马) 8
-      - 罗马) 9
-      - 🇺🇸 美国) 9
-      - 🇺🇸 美国) 10
-      - 罗马) 10
-      - 🇷🇺 俄罗斯) 3
-      - 欧洲) 56
-      - 欧洲) 57
-      - 欧洲) 58
-      - 🇨🇳 台湾) 6
-      - 🇨🇳 台湾) 7
-      - 罗马) 11
-      - 罗马) 12
-      - 🇮🇹 意大利) 6
-      - 欧洲) 59
-      - 欧洲) 60
-      - 欧洲) 61
-      - 欧洲) 62
-      - 🇺🇸 美国) 11
-      - 🇺🇸 美国) 12
-      - 🇷🇺 俄罗斯) 4
-      - 欧洲) 63
-      - 欧洲) 64
-      - 欧洲) 65
-      - 🇨🇳 台湾) 8
-      - 罗马) 13
-      - 罗马) 14
-      - 欧洲) 66
-      - 欧洲) 67
-      - 欧洲) 68
-      - 🇺🇸 美国) 13
-      - 🇷🇺 俄罗斯) 5
-      - 欧洲) 69
-      - 欧洲) 70
-      - 欧洲) 71
-      - 欧洲) 72
-      - 欧洲) 73
-      - 欧洲) 74
-      - 欧洲) 75
-      - 欧洲) 76
-      - 欧洲) 77
-      - 欧洲) 78
-      - 罗马) 15
-      - 罗马) 16
+      - 欧洲(！)
+      - 🇬🇧 英国(！)
+      - 欧洲(！) 2
+      - 欧洲(！) 3
+      - 🇺🇸 美国(！)
+      - 欧洲(！) 4
+      - 欧洲(！) 5
+      - 🇩🇪 德国(！)
+      - 欧洲(！) 6
+      - 🇩🇪 德国(！) 2
+      - 🇮🇹 意大利(！)
+      - 欧洲(！) 7
+      - 欧洲(！) 8
+      - 罗马(！)
+      - 罗马(！) 2
+      - 🇮🇹 意大利(！) 2
+      - 🇮🇹 意大利(！) 3
+      - 🇩🇪 德国(Youtube:工具大师！)
+      - 🇺🇸 美国(Youtube:工具大师！)
+      - 🇩🇪 德国(Youtube:工具大师！) 2
+      - 🇩🇪 德国(Youtube:工具大师！) 3
+      - 🇮🇹 意大利(Youtube:工具大师！)
+      - 欧洲(！) 9
+      - 欧洲(！) 10
+      - 欧洲(！) 11
+      - 欧洲(！) 12
+      - 欧洲(！) 13
+      - 欧洲(！) 14
+      - 欧洲(！) 15
+      - 欧洲(！) 16
+      - 欧洲(！) 17
+      - 欧洲(！) 18
+      - 欧洲(！) 19
+      - 欧洲(！) 20
+      - 欧洲(！) 21
+      - 欧洲(！) 22
+      - 欧洲(！) 23
+      - 欧洲(！) 24
+      - 欧洲(！) 25
+      - 欧洲(！) 26
+      - 欧洲(！) 27
+      - 欧洲(！) 28
+      - 欧洲(！) 29
+      - 欧洲(！) 30
+      - 欧洲(！) 31
+      - 欧洲(！) 32
+      - 欧洲(！) 33
+      - 🇮🇳 印度(！)
+      - 欧洲(！) 34
+      - 欧洲(！) 35
+      - 🇮🇹 意大利(！) 4
+      - 罗马(！) 3
+      - 欧洲(！) 36
+      - 🇮🇹 意大利(！) 5
+      - 罗马(！) 4
+      - 🇨🇳 台湾(！)
+      - 🇨🇳 台湾(！) 2
+      - 🇮🇳 印度(！) 2
+      - 🇷🇺 俄罗斯(！)
+      - 欧洲(！) 37
+      - 🇨🇳 台湾(！) 3
+      - 欧洲(！) 38
+      - 欧洲(！) 39
+      - 罗马(！) 5
+      - 🇷🇺 俄罗斯(！) 2
+      - 罗马(！) 6
+      - 欧洲(！) 40
+      - 🇺🇸 美国(！) 2
+      - 欧洲(！) 41
+      - 欧洲(！) 42
+      - 🇨🇳 台湾(！) 4
+      - 🇺🇸 美国(！) 3
+      - 🇺🇸 美国(！) 4
+      - 🇺🇸 美国(！) 5
+      - 欧洲(！) 43
+      - 欧洲(！) 44
+      - 罗马(！) 7
+      - 欧洲(！) 45
+      - 欧洲(！) 46
+      - 🇮🇳 印度(！) 3
+      - 欧洲(！) 47
+      - 欧洲(！) 48
+      - 欧洲(！) 49
+      - 欧洲(！) 50
+      - 欧洲(！) 51
+      - 🇺🇸 美国(！) 6
+      - 🇨🇳 台湾(！) 5
+      - 欧洲(！) 52
+      - 欧洲(！) 53
+      - 欧洲(！) 54
+      - 🇺🇸 美国(！) 7
+      - 欧洲(！) 55
+      - 🇺🇸 美国(！) 8
+      - 罗马(！) 8
+      - 罗马(！) 9
+      - 🇺🇸 美国(！) 9
+      - 🇺🇸 美国(！) 10
+      - 罗马(！) 10
+      - 🇷🇺 俄罗斯(！) 3
+      - 欧洲(！) 56
+      - 欧洲(！) 57
+      - 欧洲(！) 58
+      - 🇨🇳 台湾(！) 6
+      - 🇨🇳 台湾(！) 7
+      - 罗马(！) 11
+      - 罗马(！) 12
+      - 🇮🇹 意大利(！) 6
+      - 欧洲(！) 59
+      - 欧洲(！) 60
+      - 欧洲(！) 61
+      - 欧洲(！) 62
+      - 🇺🇸 美国(！) 11
+      - 🇺🇸 美国(！) 12
+      - 🇷🇺 俄罗斯(！) 4
+      - 欧洲(！) 63
+      - 欧洲(！) 64
+      - 欧洲(！) 65
+      - 🇨🇳 台湾(！) 8
+      - 罗马(！) 13
+      - 罗马(！) 14
+      - 欧洲(！) 66
+      - 欧洲(！) 67
+      - 欧洲(！) 68
+      - 🇺🇸 美国(！) 13
+      - 🇷🇺 俄罗斯(！) 5
+      - 欧洲(！) 69
+      - 欧洲(！) 70
+      - 欧洲(！) 71
+      - 欧洲(！) 72
+      - 欧洲(！) 73
+      - 欧洲(！) 74
+      - 欧洲(！) 75
+      - 欧洲(！) 76
+      - 欧洲(！) 77
+      - 欧洲(！) 78
+      - 罗马(！) 15
+      - 罗马(！) 16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 欧洲)
-      - 🇬🇧 英国)
-      - 欧洲) 2
-      - 欧洲) 3
-      - 🇺🇸 美国)
-      - 欧洲) 4
-      - 欧洲) 5
-      - 🇩🇪 德国)
-      - 欧洲) 6
-      - 🇩🇪 德国) 2
-      - 🇮🇹 意大利)
-      - 欧洲) 7
-      - 欧洲) 8
-      - 罗马)
-      - 罗马) 2
-      - 🇮🇹 意大利) 2
-      - 🇮🇹 意大利) 3
-      - 🇩🇪 德国)
-      - 🇺🇸 美国)
-      - 🇩🇪 德国) 2
-      - 🇩🇪 德国) 3
-      - 🇮🇹 意大利)
-      - 欧洲) 9
-      - 欧洲) 10
-      - 欧洲) 11
-      - 欧洲) 12
-      - 欧洲) 13
-      - 欧洲) 14
-      - 欧洲) 15
-      - 欧洲) 16
-      - 欧洲) 17
-      - 欧洲) 18
-      - 欧洲) 19
-      - 欧洲) 20
-      - 欧洲) 21
-      - 欧洲) 22
-      - 欧洲) 23
-      - 欧洲) 24
-      - 欧洲) 25
-      - 欧洲) 26
-      - 欧洲) 27
-      - 欧洲) 28
-      - 欧洲) 29
-      - 欧洲) 30
-      - 欧洲) 31
-      - 欧洲) 32
-      - 欧洲) 33
-      - 🇮🇳 印度)
-      - 欧洲) 34
-      - 欧洲) 35
-      - 🇮🇹 意大利) 4
-      - 罗马) 3
-      - 欧洲) 36
-      - 🇮🇹 意大利) 5
-      - 罗马) 4
-      - 🇨🇳 台湾)
-      - 🇨🇳 台湾) 2
-      - 🇮🇳 印度) 2
-      - 🇷🇺 俄罗斯)
-      - 欧洲) 37
-      - 🇨🇳 台湾) 3
-      - 欧洲) 38
-      - 欧洲) 39
-      - 罗马) 5
-      - 🇷🇺 俄罗斯) 2
-      - 罗马) 6
-      - 欧洲) 40
-      - 🇺🇸 美国) 2
-      - 欧洲) 41
-      - 欧洲) 42
-      - 🇨🇳 台湾) 4
-      - 🇺🇸 美国) 3
-      - 🇺🇸 美国) 4
-      - 🇺🇸 美国) 5
-      - 欧洲) 43
-      - 欧洲) 44
-      - 罗马) 7
-      - 欧洲) 45
-      - 欧洲) 46
-      - 🇮🇳 印度) 3
-      - 欧洲) 47
-      - 欧洲) 48
-      - 欧洲) 49
-      - 欧洲) 50
-      - 欧洲) 51
-      - 🇺🇸 美国) 6
-      - 🇨🇳 台湾) 5
-      - 欧洲) 52
-      - 欧洲) 53
-      - 欧洲) 54
-      - 🇺🇸 美国) 7
-      - 欧洲) 55
-      - 🇺🇸 美国) 8
-      - 罗马) 8
-      - 罗马) 9
-      - 🇺🇸 美国) 9
-      - 🇺🇸 美国) 10
-      - 罗马) 10
-      - 🇷🇺 俄罗斯) 3
-      - 欧洲) 56
-      - 欧洲) 57
-      - 欧洲) 58
-      - 🇨🇳 台湾) 6
-      - 🇨🇳 台湾) 7
-      - 罗马) 11
-      - 罗马) 12
-      - 🇮🇹 意大利) 6
-      - 欧洲) 59
-      - 欧洲) 60
-      - 欧洲) 61
-      - 欧洲) 62
-      - 🇺🇸 美国) 11
-      - 🇺🇸 美国) 12
-      - 🇷🇺 俄罗斯) 4
-      - 欧洲) 63
-      - 欧洲) 64
-      - 欧洲) 65
-      - 🇨🇳 台湾) 8
-      - 罗马) 13
-      - 罗马) 14
-      - 欧洲) 66
-      - 欧洲) 67
-      - 欧洲) 68
-      - 🇺🇸 美国) 13
-      - 🇷🇺 俄罗斯) 5
-      - 欧洲) 69
-      - 欧洲) 70
-      - 欧洲) 71
-      - 欧洲) 72
-      - 欧洲) 73
-      - 欧洲) 74
-      - 欧洲) 75
-      - 欧洲) 76
-      - 欧洲) 77
-      - 欧洲) 78
-      - 罗马) 15
-      - 罗马) 16
+      - 欧洲(！)
+      - 🇬🇧 英国(！)
+      - 欧洲(！) 2
+      - 欧洲(！) 3
+      - 🇺🇸 美国(！)
+      - 欧洲(！) 4
+      - 欧洲(！) 5
+      - 🇩🇪 德国(！)
+      - 欧洲(！) 6
+      - 🇩🇪 德国(！) 2
+      - 🇮🇹 意大利(！)
+      - 欧洲(！) 7
+      - 欧洲(！) 8
+      - 罗马(！)
+      - 罗马(！) 2
+      - 🇮🇹 意大利(！) 2
+      - 🇮🇹 意大利(！) 3
+      - 🇩🇪 德国(Youtube:工具大师！)
+      - 🇺🇸 美国(Youtube:工具大师！)
+      - 🇩🇪 德国(Youtube:工具大师！) 2
+      - 🇩🇪 德国(Youtube:工具大师！) 3
+      - 🇮🇹 意大利(Youtube:工具大师！)
+      - 欧洲(！) 9
+      - 欧洲(！) 10
+      - 欧洲(！) 11
+      - 欧洲(！) 12
+      - 欧洲(！) 13
+      - 欧洲(！) 14
+      - 欧洲(！) 15
+      - 欧洲(！) 16
+      - 欧洲(！) 17
+      - 欧洲(！) 18
+      - 欧洲(！) 19
+      - 欧洲(！) 20
+      - 欧洲(！) 21
+      - 欧洲(！) 22
+      - 欧洲(！) 23
+      - 欧洲(！) 24
+      - 欧洲(！) 25
+      - 欧洲(！) 26
+      - 欧洲(！) 27
+      - 欧洲(！) 28
+      - 欧洲(！) 29
+      - 欧洲(！) 30
+      - 欧洲(！) 31
+      - 欧洲(！) 32
+      - 欧洲(！) 33
+      - 🇮🇳 印度(！)
+      - 欧洲(！) 34
+      - 欧洲(！) 35
+      - 🇮🇹 意大利(！) 4
+      - 罗马(！) 3
+      - 欧洲(！) 36
+      - 🇮🇹 意大利(！) 5
+      - 罗马(！) 4
+      - 🇨🇳 台湾(！)
+      - 🇨🇳 台湾(！) 2
+      - 🇮🇳 印度(！) 2
+      - 🇷🇺 俄罗斯(！)
+      - 欧洲(！) 37
+      - 🇨🇳 台湾(！) 3
+      - 欧洲(！) 38
+      - 欧洲(！) 39
+      - 罗马(！) 5
+      - 🇷🇺 俄罗斯(！) 2
+      - 罗马(！) 6
+      - 欧洲(！) 40
+      - 🇺🇸 美国(！) 2
+      - 欧洲(！) 41
+      - 欧洲(！) 42
+      - 🇨🇳 台湾(！) 4
+      - 🇺🇸 美国(！) 3
+      - 🇺🇸 美国(！) 4
+      - 🇺🇸 美国(！) 5
+      - 欧洲(！) 43
+      - 欧洲(！) 44
+      - 罗马(！) 7
+      - 欧洲(！) 45
+      - 欧洲(！) 46
+      - 🇮🇳 印度(！) 3
+      - 欧洲(！) 47
+      - 欧洲(！) 48
+      - 欧洲(！) 49
+      - 欧洲(！) 50
+      - 欧洲(！) 51
+      - 🇺🇸 美国(！) 6
+      - 🇨🇳 台湾(！) 5
+      - 欧洲(！) 52
+      - 欧洲(！) 53
+      - 欧洲(！) 54
+      - 🇺🇸 美国(！) 7
+      - 欧洲(！) 55
+      - 🇺🇸 美国(！) 8
+      - 罗马(！) 8
+      - 罗马(！) 9
+      - 🇺🇸 美国(！) 9
+      - 🇺🇸 美国(！) 10
+      - 罗马(！) 10
+      - 🇷🇺 俄罗斯(！) 3
+      - 欧洲(！) 56
+      - 欧洲(！) 57
+      - 欧洲(！) 58
+      - 🇨🇳 台湾(！) 6
+      - 🇨🇳 台湾(！) 7
+      - 罗马(！) 11
+      - 罗马(！) 12
+      - 🇮🇹 意大利(！) 6
+      - 欧洲(！) 59
+      - 欧洲(！) 60
+      - 欧洲(！) 61
+      - 欧洲(！) 62
+      - 🇺🇸 美国(！) 11
+      - 🇺🇸 美国(！) 12
+      - 🇷🇺 俄罗斯(！) 4
+      - 欧洲(！) 63
+      - 欧洲(！) 64
+      - 欧洲(！) 65
+      - 🇨🇳 台湾(！) 8
+      - 罗马(！) 13
+      - 罗马(！) 14
+      - 欧洲(！) 66
+      - 欧洲(！) 67
+      - 欧洲(！) 68
+      - 🇺🇸 美国(！) 13
+      - 🇷🇺 俄罗斯(！) 5
+      - 欧洲(！) 69
+      - 欧洲(！) 70
+      - 欧洲(！) 71
+      - 欧洲(！) 72
+      - 欧洲(！) 73
+      - 欧洲(！) 74
+      - 欧洲(！) 75
+      - 欧洲(！) 76
+      - 欧洲(！) 77
+      - 欧洲(！) 78
+      - 罗马(！) 15
+      - 罗马(！) 16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲)
-      - 🇬🇧 英国)
-      - 欧洲) 2
-      - 欧洲) 3
-      - 🇺🇸 美国)
-      - 欧洲) 4
-      - 欧洲) 5
-      - 🇩🇪 德国)
-      - 欧洲) 6
-      - 🇩🇪 德国) 2
-      - 🇮🇹 意大利)
-      - 欧洲) 7
-      - 欧洲) 8
-      - 罗马)
-      - 罗马) 2
-      - 🇮🇹 意大利) 2
-      - 🇮🇹 意大利) 3
-      - 🇩🇪 德国)
-      - 🇺🇸 美国)
-      - 🇩🇪 德国) 2
-      - 🇩🇪 德国) 3
-      - 🇮🇹 意大利)
-      - 欧洲) 9
-      - 欧洲) 10
-      - 欧洲) 11
-      - 欧洲) 12
-      - 欧洲) 13
-      - 欧洲) 14
-      - 欧洲) 15
-      - 欧洲) 16
-      - 欧洲) 17
-      - 欧洲) 18
-      - 欧洲) 19
-      - 欧洲) 20
-      - 欧洲) 21
-      - 欧洲) 22
-      - 欧洲) 23
-      - 欧洲) 24
-      - 欧洲) 25
-      - 欧洲) 26
-      - 欧洲) 27
-      - 欧洲) 28
-      - 欧洲) 29
-      - 欧洲) 30
-      - 欧洲) 31
-      - 欧洲) 32
-      - 欧洲) 33
-      - 🇮🇳 印度)
-      - 欧洲) 34
-      - 欧洲) 35
-      - 🇮🇹 意大利) 4
-      - 罗马) 3
-      - 欧洲) 36
-      - 🇮🇹 意大利) 5
-      - 罗马) 4
-      - 🇨🇳 台湾)
-      - 🇨🇳 台湾) 2
-      - 🇮🇳 印度) 2
-      - 🇷🇺 俄罗斯)
-      - 欧洲) 37
-      - 🇨🇳 台湾) 3
-      - 欧洲) 38
-      - 欧洲) 39
-      - 罗马) 5
-      - 🇷🇺 俄罗斯) 2
-      - 罗马) 6
-      - 欧洲) 40
-      - 🇺🇸 美国) 2
-      - 欧洲) 41
-      - 欧洲) 42
-      - 🇨🇳 台湾) 4
-      - 🇺🇸 美国) 3
-      - 🇺🇸 美国) 4
-      - 🇺🇸 美国) 5
-      - 欧洲) 43
-      - 欧洲) 44
-      - 罗马) 7
-      - 欧洲) 45
-      - 欧洲) 46
-      - 🇮🇳 印度) 3
-      - 欧洲) 47
-      - 欧洲) 48
-      - 欧洲) 49
-      - 欧洲) 50
-      - 欧洲) 51
-      - 🇺🇸 美国) 6
-      - 🇨🇳 台湾) 5
-      - 欧洲) 52
-      - 欧洲) 53
-      - 欧洲) 54
-      - 🇺🇸 美国) 7
-      - 欧洲) 55
-      - 🇺🇸 美国) 8
-      - 罗马) 8
-      - 罗马) 9
-      - 🇺🇸 美国) 9
-      - 🇺🇸 美国) 10
-      - 罗马) 10
-      - 🇷🇺 俄罗斯) 3
-      - 欧洲) 56
-      - 欧洲) 57
-      - 欧洲) 58
-      - 🇨🇳 台湾) 6
-      - 🇨🇳 台湾) 7
-      - 罗马) 11
-      - 罗马) 12
-      - 🇮🇹 意大利) 6
-      - 欧洲) 59
-      - 欧洲) 60
-      - 欧洲) 61
-      - 欧洲) 62
-      - 🇺🇸 美国) 11
-      - 🇺🇸 美国) 12
-      - 🇷🇺 俄罗斯) 4
-      - 欧洲) 63
-      - 欧洲) 64
-      - 欧洲) 65
-      - 🇨🇳 台湾) 8
-      - 罗马) 13
-      - 罗马) 14
-      - 欧洲) 66
-      - 欧洲) 67
-      - 欧洲) 68
-      - 🇺🇸 美国) 13
-      - 🇷🇺 俄罗斯) 5
-      - 欧洲) 69
-      - 欧洲) 70
-      - 欧洲) 71
-      - 欧洲) 72
-      - 欧洲) 73
-      - 欧洲) 74
-      - 欧洲) 75
-      - 欧洲) 76
-      - 欧洲) 77
-      - 欧洲) 78
-      - 罗马) 15
-      - 罗马) 16
+      - 欧洲(！)
+      - 🇬🇧 英国(！)
+      - 欧洲(！) 2
+      - 欧洲(！) 3
+      - 🇺🇸 美国(！)
+      - 欧洲(！) 4
+      - 欧洲(！) 5
+      - 🇩🇪 德国(！)
+      - 欧洲(！) 6
+      - 🇩🇪 德国(！) 2
+      - 🇮🇹 意大利(！)
+      - 欧洲(！) 7
+      - 欧洲(！) 8
+      - 罗马(！)
+      - 罗马(！) 2
+      - 🇮🇹 意大利(！) 2
+      - 🇮🇹 意大利(！) 3
+      - 🇩🇪 德国(Youtube:工具大师！)
+      - 🇺🇸 美国(Youtube:工具大师！)
+      - 🇩🇪 德国(Youtube:工具大师！) 2
+      - 🇩🇪 德国(Youtube:工具大师！) 3
+      - 🇮🇹 意大利(Youtube:工具大师！)
+      - 欧洲(！) 9
+      - 欧洲(！) 10
+      - 欧洲(！) 11
+      - 欧洲(！) 12
+      - 欧洲(！) 13
+      - 欧洲(！) 14
+      - 欧洲(！) 15
+      - 欧洲(！) 16
+      - 欧洲(！) 17
+      - 欧洲(！) 18
+      - 欧洲(！) 19
+      - 欧洲(！) 20
+      - 欧洲(！) 21
+      - 欧洲(！) 22
+      - 欧洲(！) 23
+      - 欧洲(！) 24
+      - 欧洲(！) 25
+      - 欧洲(！) 26
+      - 欧洲(！) 27
+      - 欧洲(！) 28
+      - 欧洲(！) 29
+      - 欧洲(！) 30
+      - 欧洲(！) 31
+      - 欧洲(！) 32
+      - 欧洲(！) 33
+      - 🇮🇳 印度(！)
+      - 欧洲(！) 34
+      - 欧洲(！) 35
+      - 🇮🇹 意大利(！) 4
+      - 罗马(！) 3
+      - 欧洲(！) 36
+      - 🇮🇹 意大利(！) 5
+      - 罗马(！) 4
+      - 🇨🇳 台湾(！)
+      - 🇨🇳 台湾(！) 2
+      - 🇮🇳 印度(！) 2
+      - 🇷🇺 俄罗斯(！)
+      - 欧洲(！) 37
+      - 🇨🇳 台湾(！) 3
+      - 欧洲(！) 38
+      - 欧洲(！) 39
+      - 罗马(！) 5
+      - 🇷🇺 俄罗斯(！) 2
+      - 罗马(！) 6
+      - 欧洲(！) 40
+      - 🇺🇸 美国(！) 2
+      - 欧洲(！) 41
+      - 欧洲(！) 42
+      - 🇨🇳 台湾(！) 4
+      - 🇺🇸 美国(！) 3
+      - 🇺🇸 美国(！) 4
+      - 🇺🇸 美国(！) 5
+      - 欧洲(！) 43
+      - 欧洲(！) 44
+      - 罗马(！) 7
+      - 欧洲(！) 45
+      - 欧洲(！) 46
+      - 🇮🇳 印度(！) 3
+      - 欧洲(！) 47
+      - 欧洲(！) 48
+      - 欧洲(！) 49
+      - 欧洲(！) 50
+      - 欧洲(！) 51
+      - 🇺🇸 美国(！) 6
+      - 🇨🇳 台湾(！) 5
+      - 欧洲(！) 52
+      - 欧洲(！) 53
+      - 欧洲(！) 54
+      - 🇺🇸 美国(！) 7
+      - 欧洲(！) 55
+      - 🇺🇸 美国(！) 8
+      - 罗马(！) 8
+      - 罗马(！) 9
+      - 🇺🇸 美国(！) 9
+      - 🇺🇸 美国(！) 10
+      - 罗马(！) 10
+      - 🇷🇺 俄罗斯(！) 3
+      - 欧洲(！) 56
+      - 欧洲(！) 57
+      - 欧洲(！) 58
+      - 🇨🇳 台湾(！) 6
+      - 🇨🇳 台湾(！) 7
+      - 罗马(！) 11
+      - 罗马(！) 12
+      - 🇮🇹 意大利(！) 6
+      - 欧洲(！) 59
+      - 欧洲(！) 60
+      - 欧洲(！) 61
+      - 欧洲(！) 62
+      - 🇺🇸 美国(！) 11
+      - 🇺🇸 美国(！) 12
+      - 🇷🇺 俄罗斯(！) 4
+      - 欧洲(！) 63
+      - 欧洲(！) 64
+      - 欧洲(！) 65
+      - 🇨🇳 台湾(！) 8
+      - 罗马(！) 13
+      - 罗马(！) 14
+      - 欧洲(！) 66
+      - 欧洲(！) 67
+      - 欧洲(！) 68
+      - 🇺🇸 美国(！) 13
+      - 🇷🇺 俄罗斯(！) 5
+      - 欧洲(！) 69
+      - 欧洲(！) 70
+      - 欧洲(！) 71
+      - 欧洲(！) 72
+      - 欧洲(！) 73
+      - 欧洲(！) 74
+      - 欧洲(！) 75
+      - 欧洲(！) 76
+      - 欧洲(！) 77
+      - 欧洲(！) 78
+      - 罗马(！) 15
+      - 罗马(！) 16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1025,143 +1025,143 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲)
-      - 🇬🇧 英国)
-      - 欧洲) 2
-      - 欧洲) 3
-      - 🇺🇸 美国)
-      - 欧洲) 4
-      - 欧洲) 5
-      - 🇩🇪 德国)
-      - 欧洲) 6
-      - 🇩🇪 德国) 2
-      - 🇮🇹 意大利)
-      - 欧洲) 7
-      - 欧洲) 8
-      - 罗马)
-      - 罗马) 2
-      - 🇮🇹 意大利) 2
-      - 🇮🇹 意大利) 3
-      - 🇩🇪 德国)
-      - 🇺🇸 美国)
-      - 🇩🇪 德国) 2
-      - 🇩🇪 德国) 3
-      - 🇮🇹 意大利)
-      - 欧洲) 9
-      - 欧洲) 10
-      - 欧洲) 11
-      - 欧洲) 12
-      - 欧洲) 13
-      - 欧洲) 14
-      - 欧洲) 15
-      - 欧洲) 16
-      - 欧洲) 17
-      - 欧洲) 18
-      - 欧洲) 19
-      - 欧洲) 20
-      - 欧洲) 21
-      - 欧洲) 22
-      - 欧洲) 23
-      - 欧洲) 24
-      - 欧洲) 25
-      - 欧洲) 26
-      - 欧洲) 27
-      - 欧洲) 28
-      - 欧洲) 29
-      - 欧洲) 30
-      - 欧洲) 31
-      - 欧洲) 32
-      - 欧洲) 33
-      - 🇮🇳 印度)
-      - 欧洲) 34
-      - 欧洲) 35
-      - 🇮🇹 意大利) 4
-      - 罗马) 3
-      - 欧洲) 36
-      - 🇮🇹 意大利) 5
-      - 罗马) 4
-      - 🇨🇳 台湾)
-      - 🇨🇳 台湾) 2
-      - 🇮🇳 印度) 2
-      - 🇷🇺 俄罗斯)
-      - 欧洲) 37
-      - 🇨🇳 台湾) 3
-      - 欧洲) 38
-      - 欧洲) 39
-      - 罗马) 5
-      - 🇷🇺 俄罗斯) 2
-      - 罗马) 6
-      - 欧洲) 40
-      - 🇺🇸 美国) 2
-      - 欧洲) 41
-      - 欧洲) 42
-      - 🇨🇳 台湾) 4
-      - 🇺🇸 美国) 3
-      - 🇺🇸 美国) 4
-      - 🇺🇸 美国) 5
-      - 欧洲) 43
-      - 欧洲) 44
-      - 罗马) 7
-      - 欧洲) 45
-      - 欧洲) 46
-      - 🇮🇳 印度) 3
-      - 欧洲) 47
-      - 欧洲) 48
-      - 欧洲) 49
-      - 欧洲) 50
-      - 欧洲) 51
-      - 🇺🇸 美国) 6
-      - 🇨🇳 台湾) 5
-      - 欧洲) 52
-      - 欧洲) 53
-      - 欧洲) 54
-      - 🇺🇸 美国) 7
-      - 欧洲) 55
-      - 🇺🇸 美国) 8
-      - 罗马) 8
-      - 罗马) 9
-      - 🇺🇸 美国) 9
-      - 🇺🇸 美国) 10
-      - 罗马) 10
-      - 🇷🇺 俄罗斯) 3
-      - 欧洲) 56
-      - 欧洲) 57
-      - 欧洲) 58
-      - 🇨🇳 台湾) 6
-      - 🇨🇳 台湾) 7
-      - 罗马) 11
-      - 罗马) 12
-      - 🇮🇹 意大利) 6
-      - 欧洲) 59
-      - 欧洲) 60
-      - 欧洲) 61
-      - 欧洲) 62
-      - 🇺🇸 美国) 11
-      - 🇺🇸 美国) 12
-      - 🇷🇺 俄罗斯) 4
-      - 欧洲) 63
-      - 欧洲) 64
-      - 欧洲) 65
-      - 🇨🇳 台湾) 8
-      - 罗马) 13
-      - 罗马) 14
-      - 欧洲) 66
-      - 欧洲) 67
-      - 欧洲) 68
-      - 🇺🇸 美国) 13
-      - 🇷🇺 俄罗斯) 5
-      - 欧洲) 69
-      - 欧洲) 70
-      - 欧洲) 71
-      - 欧洲) 72
-      - 欧洲) 73
-      - 欧洲) 74
-      - 欧洲) 75
-      - 欧洲) 76
-      - 欧洲) 77
-      - 欧洲) 78
-      - 罗马) 15
-      - 罗马) 16
+      - 欧洲(！)
+      - 🇬🇧 英国(！)
+      - 欧洲(！) 2
+      - 欧洲(！) 3
+      - 🇺🇸 美国(！)
+      - 欧洲(！) 4
+      - 欧洲(！) 5
+      - 🇩🇪 德国(！)
+      - 欧洲(！) 6
+      - 🇩🇪 德国(！) 2
+      - 🇮🇹 意大利(！)
+      - 欧洲(！) 7
+      - 欧洲(！) 8
+      - 罗马(！)
+      - 罗马(！) 2
+      - 🇮🇹 意大利(！) 2
+      - 🇮🇹 意大利(！) 3
+      - 🇩🇪 德国(Youtube:工具大师！)
+      - 🇺🇸 美国(Youtube:工具大师！)
+      - 🇩🇪 德国(Youtube:工具大师！) 2
+      - 🇩🇪 德国(Youtube:工具大师！) 3
+      - 🇮🇹 意大利(Youtube:工具大师！)
+      - 欧洲(！) 9
+      - 欧洲(！) 10
+      - 欧洲(！) 11
+      - 欧洲(！) 12
+      - 欧洲(！) 13
+      - 欧洲(！) 14
+      - 欧洲(！) 15
+      - 欧洲(！) 16
+      - 欧洲(！) 17
+      - 欧洲(！) 18
+      - 欧洲(！) 19
+      - 欧洲(！) 20
+      - 欧洲(！) 21
+      - 欧洲(！) 22
+      - 欧洲(！) 23
+      - 欧洲(！) 24
+      - 欧洲(！) 25
+      - 欧洲(！) 26
+      - 欧洲(！) 27
+      - 欧洲(！) 28
+      - 欧洲(！) 29
+      - 欧洲(！) 30
+      - 欧洲(！) 31
+      - 欧洲(！) 32
+      - 欧洲(！) 33
+      - 🇮🇳 印度(！)
+      - 欧洲(！) 34
+      - 欧洲(！) 35
+      - 🇮🇹 意大利(！) 4
+      - 罗马(！) 3
+      - 欧洲(！) 36
+      - 🇮🇹 意大利(！) 5
+      - 罗马(！) 4
+      - 🇨🇳 台湾(！)
+      - 🇨🇳 台湾(！) 2
+      - 🇮🇳 印度(！) 2
+      - 🇷🇺 俄罗斯(！)
+      - 欧洲(！) 37
+      - 🇨🇳 台湾(！) 3
+      - 欧洲(！) 38
+      - 欧洲(！) 39
+      - 罗马(！) 5
+      - 🇷🇺 俄罗斯(！) 2
+      - 罗马(！) 6
+      - 欧洲(！) 40
+      - 🇺🇸 美国(！) 2
+      - 欧洲(！) 41
+      - 欧洲(！) 42
+      - 🇨🇳 台湾(！) 4
+      - 🇺🇸 美国(！) 3
+      - 🇺🇸 美国(！) 4
+      - 🇺🇸 美国(！) 5
+      - 欧洲(！) 43
+      - 欧洲(！) 44
+      - 罗马(！) 7
+      - 欧洲(！) 45
+      - 欧洲(！) 46
+      - 🇮🇳 印度(！) 3
+      - 欧洲(！) 47
+      - 欧洲(！) 48
+      - 欧洲(！) 49
+      - 欧洲(！) 50
+      - 欧洲(！) 51
+      - 🇺🇸 美国(！) 6
+      - 🇨🇳 台湾(！) 5
+      - 欧洲(！) 52
+      - 欧洲(！) 53
+      - 欧洲(！) 54
+      - 🇺🇸 美国(！) 7
+      - 欧洲(！) 55
+      - 🇺🇸 美国(！) 8
+      - 罗马(！) 8
+      - 罗马(！) 9
+      - 🇺🇸 美国(！) 9
+      - 🇺🇸 美国(！) 10
+      - 罗马(！) 10
+      - 🇷🇺 俄罗斯(！) 3
+      - 欧洲(！) 56
+      - 欧洲(！) 57
+      - 欧洲(！) 58
+      - 🇨🇳 台湾(！) 6
+      - 🇨🇳 台湾(！) 7
+      - 罗马(！) 11
+      - 罗马(！) 12
+      - 🇮🇹 意大利(！) 6
+      - 欧洲(！) 59
+      - 欧洲(！) 60
+      - 欧洲(！) 61
+      - 欧洲(！) 62
+      - 🇺🇸 美国(！) 11
+      - 🇺🇸 美国(！) 12
+      - 🇷🇺 俄罗斯(！) 4
+      - 欧洲(！) 63
+      - 欧洲(！) 64
+      - 欧洲(！) 65
+      - 🇨🇳 台湾(！) 8
+      - 罗马(！) 13
+      - 罗马(！) 14
+      - 欧洲(！) 66
+      - 欧洲(！) 67
+      - 欧洲(！) 68
+      - 🇺🇸 美国(！) 13
+      - 🇷🇺 俄罗斯(！) 5
+      - 欧洲(！) 69
+      - 欧洲(！) 70
+      - 欧洲(！) 71
+      - 欧洲(！) 72
+      - 欧洲(！) 73
+      - 欧洲(！) 74
+      - 欧洲(！) 75
+      - 欧洲(！) 76
+      - 欧洲(！) 77
+      - 欧洲(！) 78
+      - 罗马(！) 15
+      - 罗马(！) 16
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
