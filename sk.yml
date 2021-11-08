@@ -5,1484 +5,1340 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '新加坡🚀_1', server: 54.251.230.216, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: '罗马尼亚🚀_2', server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: '香港🚀_3', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_4', server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '瑞典🚀_5', server: 167.88.63.11, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '瑞典🚀_6', server: 167.88.63.119, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '瑞典🚀_7', server: 167.88.63.119, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '瑞典🚀_8', server: 167.88.63.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '加拿大🚀_9', server: 198.57.27.225, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国🚀_10', server: 172.99.190.35, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '加拿大🚀_11', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '瑞典🚀_12', server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '加拿大🚀_13', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '加拿大🚀_14', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '加拿大🚀_15', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '瑞典🚀_16', server: 167.88.63.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_17', server: 167.88.63.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '德国🚀_18', server: 193.108.118.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '加拿大🚀_19', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '德国🚀_20', server: 193.108.118.2, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '德国🚀_21', server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '瑞典🚀_22', server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '瑞典🚀_23', server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国🚀_24', server: 167.88.63.82, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '瑞典🚀_25', server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '瑞典🚀_26', server: 167.88.63.11, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '瑞典🚀_27', server: 167.88.63.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '加拿大🚀_28', server: 198.57.27.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_29', server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国🚀_30', server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '加拿大🚀_31', server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: '瑞典🚀_32', server: 167.88.63.82, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_33', server: 167.88.63.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国🚀_34', server: 172.99.190.35, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_35', server: 172.99.190.35, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国🚀_36', server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国🚀_37', server: 172.99.190.139, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国🚀_38', server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '瑞典🚀_39', server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_40', server: 38.107.226.146, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_41', server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_42', server: 172.99.190.139, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '澳大利亚🚀_43', server: 172.105.172.41, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '加拿大🚀_44', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国🚀_45', server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国🚀_46', server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_47', server: 172.99.190.35, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '澳大利亚🚀_48', server: 172.105.167.214, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '澳大利亚🚀_49', server: 172.105.172.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国🚀_50', server: 172.99.190.153, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '瑞典🚀_51', server: 167.88.63.119, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '澳大利亚🚀_52', server: 172.105.172.37, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国🚀_53', server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '澳大利亚🚀_54', server: 172.105.172.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '澳大利亚🚀_55', server: 172.105.172.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '澳大利亚🚀_56', server: 172.105.172.37, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '意大利🚀_57', server: 82.102.26.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: '美国🚀_58', server: 172.99.190.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '澳大利亚🚀_59', server: 172.105.167.214, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '澳大利亚🚀_60', server: 172.105.172.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '澳大利亚🚀_61', server: 172.105.172.41, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '澳大利亚🚀_62', server: 172.105.172.41, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '澳大利亚🚀_63', server: 172.105.172.41, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '澳大利亚🚀_64', server: 172.105.167.214, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '澳大利亚🚀_65', server: 172.105.172.41, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '澳大利亚🚀_66', server: 172.105.172.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '澳大利亚🚀_67', server: 172.105.172.41, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '澳大利亚🚀_68', server: 172.105.172.41, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国🚀_69', server: 172.99.190.35, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '印度🚀_70', server: 82.102.26.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: '加拿大🚀_71', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '澳大利亚🚀_72', server: 172.105.172.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '澳大利亚🚀_73', server: 172.105.167.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '印度🚀_74', server: 172.105.38.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '法国🚀_75', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国🚀_76', server: 38.107.226.146, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国🚀_77', server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国🚀_78', server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '澳大利亚🚀_79', server: 172.105.172.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '德国🚀_80', server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: '美国🚀_81', server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '德国🚀_82', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度🚀_83', server: 172.105.38.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '澳大利亚🚀_84', server: 172.105.167.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '印度🚀_85', server: 172.105.38.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '德国🚀_86', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '瑞典🚀_87', server: 167.88.63.82, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_88', server: 172.99.190.153, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '加拿大🚀_89', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '印度🚀_90', server: 172.105.59.32, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '印度🚀_91', server: 172.105.38.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '印度🚀_92', server: 172.105.38.55, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度🚀_93', server: 172.105.59.32, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '澳大利亚🚀_94', server: 172.105.172.41, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度🚀_95', server: 172.105.59.32, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '印度🚀_96', server: 172.105.59.32, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '印度🚀_97', server: 172.105.38.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度🚀_98', server: 172.105.59.32, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度🚀_99', server: 172.105.38.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '挪威🚀_100', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '印度🚀_101', server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度🚀_102', server: 172.105.59.32, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '印度🚀_103', server: 172.105.57.249, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度🚀_104', server: 172.105.59.32, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '瑞典🚀_105', server: 167.88.63.82, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '瑞典🚀_106', server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国🚀_107', server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国🚀_108', server: 38.107.226.146, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度🚀_109', server: 172.105.59.32, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '瑞典🚀_110', server: 167.88.63.99, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '挪威🚀_111', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度🚀_112', server: 172.105.38.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '加拿大🚀_113', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国🚀_114', server: 172.99.190.35, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '美国🚀_115', server: 13.213.251.185, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: '加拿大🚀_116', server: 198.57.27.225, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '挪威🚀_117', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '挪威🚀_118', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '挪威🚀_119', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '挪威🚀_120', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '挪威🚀_121', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '欧洲🚀_122', server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: '挪威🚀_123', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度🚀_124', server: 172.105.59.32, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '瑞典🚀_125', server: 167.88.63.82, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国🚀_126', server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国🚀_127', server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: '美国🚀_128', server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: '印度🚀_129', server: 172.105.55.72, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '英国🚀_130', server: 185.44.76.188, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: '美国🚀_131', server: 45.79.122.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国🚀_132', server: 45.79.122.28, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '美国🚀_133', server: 45.79.122.28, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '印度🚀_134', server: 172.105.55.72, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '印度🚀_135', server: 172.105.55.72, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '瑞典🚀_136', server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_137', server: 45.79.122.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_138', server: 198.8.92.84, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
-  - {name: '美国🚀_139', server: 198.8.92.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: '美国🚀_140', server: 45.79.122.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '印度🚀_141', server: 172.105.55.72, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度🚀_142', server: 172.105.55.72, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '印度🚀_143', server: 172.105.55.72, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '印度🚀_144', server: 172.105.55.72, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '美国🚀_145', server: 198.8.92.84, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
-  - {name: '美国🚀_146', server: 198.8.92.84, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
-  - {name: '美国🚀_147', server: 198.8.92.84, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: '美国🚀_148', server: 198.8.92.84, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
-  - {name: '俄罗斯🚀_149', server: 2.59.214.204, port: 152, type: ss, cipher: aes-128-gcm, password: 6d6d99b0-be8a-43bc-ad73-2fb0f1595793}
-  - {name: '美国🚀_150', server: 45.79.122.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '印度🚀_151', server: 172.105.55.72, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '印度🚀_152', server: 172.105.55.72, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '俄罗斯🚀_153', server: 45.89.229.223, port: 152, type: ss, cipher: aes-128-gcm, password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9}
-  - {name: '香港🚀_154', server: 1.transit.t.qjnodeip.xyz, port: 61610, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 5, cipher: auto, tls: true, network: ws, ws-path: /C1zmqibh, ws-headers: {Host: hkyz.iuhbhgg.xyz}}
-  - {name: '台湾🚀_155', server: 139.155.22.227, port: 49110, type: vmess, uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d, alterId: 64, cipher: auto, tls: false, network: tcp}
-  - {name: '美国🚀_156', server: zoomlogin.hostmeetingnow.tk, port: 8880, type: vmess, uuid: 8cf979a4-7d96-4915-abf9-167f295b3fa7, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /45ufd6, ws-headers: {Host: zoomlogin.hostmeetingnow.tk}}
-  - {name: '美国🚀_157', server: 1.transit.t.qjnodeip.xyz, port: 15140, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Ub6w, ws-headers: {Host: usa04.dadwff.xyz}}
-  - {name: '美国🚀_158', server: uusss1111.liuwei01.tk, port: 443, type: vmess, uuid: 0fab5928-9d70-4666-b351-5debff8a15de, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: uusss1111.liuwei01.tk}}
-  - {name: '美国🚀_159', server: 1.transit.t.qjnodeip.xyz, port: 49676, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /JS6dq, ws-headers: {Host: xjp2.iuhbhgg.xyz}}
-  - {name: '美国🚀_160', server: 1.transit.t.qjnodeip.xyz, port: 27435, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /JP03W, ws-headers: {Host: xjp03.cswtw.xyz}}
-  - {name: '美国🚀_161', server: 1.transit.t.qjnodeip.xyz, port: 62329, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /usa1Z, ws-headers: {Host: usa03.dadwff.xyz}}
-  - {name: '英国🚀_162', server: 46.101.28.98, port: 12222, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '土耳其🚀_163', server: 185.247.138.25, port: 15079, type: vmess, uuid: a1d846ec-9bef-4ffd-e34a-43bb06323ac3, alterId: 64, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: '美国🚀_164', server: 1.transit.t.qjnodeip.xyz, port: 29236, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /Jg012, ws-headers: {Host: jnd01.wxyidc001.space}}
-  - {name: '俄罗斯🚀_165', server: v4.ssrsub.com, port: 158, type: vmess, uuid: 5b092e88-82d8-47eb-a7a2-98bcf02754e9, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '俄罗斯🚀_166', server: v4.ssrsub.com, port: 158, type: vmess, uuid: 6d6d99b0-be8a-43bc-ad73-2fb0f1595793, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '新加坡🚀_167', server: 120.240.86.53, port: 28592, type: vmess, uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool, ws-headers: {Host: t.me/vpnhat}}
-  - {name: '美国🚀_168', server: inapus.mooncloud.bike, port: 10020, type: vmess, uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
-  - {name: '美国🚀_169', server: v2.ssrsub.com, port: 158, type: vmess, uuid: 5b092e88-82d8-47eb-a7a2-98bcf02754e9, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '荷兰🚀_170', server: 45.58.148.46, port: 443, type: vmess, uuid: 910c4255-2442-4ede-9070-6f06b85b32d8, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/323127100515, ws-headers: {Host: www.17974655.xyz}}
-  - {name: '俄罗斯🚀_171', server: v7.ssrsub.com, port: 158, type: vmess, uuid: 6d6d99b0-be8a-43bc-ad73-2fb0f1595793, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '法国🚀_172', server: 109.238.12.153, port: 17961, type: vmess, uuid: 450fc2ff-6429-4278-febe-aa01c9f9a0e6, alterId: 0, cipher: auto, tls: false, network: tcp}
-  - {name: '俄罗斯🚀_173', server: v7.ssrsub.com, port: 158, type: vmess, uuid: 5b092e88-82d8-47eb-a7a2-98bcf02754e9, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '俄罗斯🚀_174', server: v3.ssrsub.com, port: 158, type: vmess, uuid: 6d6d99b0-be8a-43bc-ad73-2fb0f1595793, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub}
-  - {name: '俄罗斯🚀_175', server: t4.ssrsub.com, port: 8443, type: trojan, password: 6d6d99b0-be8a-43bc-ad73-2fb0f1595793}
-  - {name: '俄罗斯🚀_176', server: t5.ssrsub.com, port: 8443, type: trojan, password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9}
-  - {name: '美国🚀_177', server: t7.ssrsub.com, port: 8443, type: trojan, password: 6d6d99b0-be8a-43bc-ad73-2fb0f1595793, sni: t7.ssrsub.com}
-  - {name: '俄罗斯🚀_178', server: t4.ssrsub.com, port: 8443, type: trojan, password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9}
-  - {name: '俄罗斯🚀_179', server: t7.ssrsub.com, port: 8443, type: trojan, password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9}
-  - {name: '俄罗斯🚀_180', server: t3.ssrsub.com, port: 8443, type: trojan, password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9}
+  - {name: '澳大利亚_1', server: 172.252.64.57, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '美国_2', server: 156.146.62.37, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
+  - {name: '美国_3', server: 156.146.62.37, port: 46412, type: ss, cipher: aes-256-gcm, password: GEqk9WGyybeyXW97YEdanDYs}
+  - {name: '美国_4', server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '法国_5', server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国_6', server: 45.89.173.205, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '美国_7', server: 156.146.62.37, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: '美国_8', server: 156.146.62.37, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
+  - {name: '美国_9', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '美国_10', server: 45.89.173.205, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: '美国_11', server: 156.146.62.37, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: '俄罗斯_12', server: ss6.ssrsub.com, port: 3443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: '美国_13', server: 66.115.154.131, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: '美国_14', server: 66.115.154.131, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '美国_15', server: 156.146.62.37, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: '美国_16', server: 45.89.173.205, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: '美国_17', server: 156.146.62.37, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: '美国_18', server: 45.89.173.205, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: '美国_19', server: 156.146.33.74, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: '俄罗斯_20', server: 172.252.64.50, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '加拿大_21', server: 46.101.28.98, port: 12222, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 46.101.28.98}}
+  - {name: '美国_22', server: 45.89.173.205, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '美国_23', server: 116.163.10.104, port: 19600, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '美国_24', server: 156.146.62.37, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: '欧洲_25', server: 134.195.196.51, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '加拿大_26', server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '欧洲_27', server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '加拿大_28', server: 72.140.224.197, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '英国_29', server: 46.101.28.98, port: 12222, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '美国_30', server: 156.146.62.37, port: 48089, type: ss, cipher: aes-256-gcm, password: apqQgXJyVDsdJMAYV4xspRFK}
+  - {name: '美国_31', server: 156.146.62.37, port: 40711, type: ss, cipher: aes-256-gcm, password: rnngxSTJrXWKXHkvrF3npp9B}
+  - {name: '美国_32', server: 45.89.173.205, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: '挪威_33', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '美国_34', server: 156.146.62.37, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC}
+  - {name: '美国_35', server: 45.89.173.205, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: '美国_36', server: 156.146.62.37, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
+  - {name: '美国_37', server: 156.146.62.37, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: '美国_38', server: 156.146.62.37, port: 35371, type: ss, cipher: aes-256-gcm, password: pjeDhAJGuML8xKUxcjRqq6a9}
+  - {name: '台湾_39', server: 122.192.189.8, port: 19610, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '香港_40', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '香港_41', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '美国_42', server: 156.146.62.37, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: '美国_43', server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '俄罗斯_44', server: ruml.jjyun.ren, port: 88, type: vmess, uuid: 2d3da8ad-c555-44f8-b4a0-0899763ce938, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: '美国_45', server: 156.146.62.37, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: '美国_46', server: 156.146.62.37, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
+  - {name: '美国_47', server: 45.89.173.205, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: '美国_48', server: 156.146.62.37, port: 43963, type: ss, cipher: aes-256-gcm, password: Tuw6zzZM6JwWNZyYF9ckC4JZ}
+  - {name: '香港_49', server: 118.107.244.110, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '俄罗斯_50', server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国_51', server: 156.146.62.37, port: 42166, type: ss, cipher: aes-256-gcm, password: H9Dbn3szZMqLR3NpgEFEPCKb}
+  - {name: '香港_52', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '俄罗斯_53', server: 116.163.10.104, port: 19607, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '美国_54', server: 198.8.92.84, port: 39720, type: ss, cipher: aes-256-gcm, password: kq8xQKC3K4jYQPwLXTNbJjm6}
+  - {name: '英国_55', server: ukdll.52jjyun.top, port: 80, type: vmess, uuid: 5dcae266-79f7-40a3-92d4-82acfbad06c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: '美国_56', server: 156.146.62.37, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: '美国_57', server: 156.146.62.37, port: 44628, type: ss, cipher: aes-256-gcm, password: VASQbVcukHfdBGmeS9L7Z8TT}
+  - {name: '俄罗斯_58', server: ruml.jjyun.ren, port: 88, type: vmess, uuid: 97fd527c-f1c6-43b2-8bb2-b729bbdbcde3, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: '美国_59', server: 156.146.62.37, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: '俄罗斯_60', server: 172.252.99.15, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: '美国_61', server: 156.146.62.37, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: '美国_62', server: 198.8.92.84, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: '美国_63', server: 156.146.62.37, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh}
+  - {name: '美国_64', server: 156.146.62.37, port: 44742, type: ss, cipher: aes-256-gcm, password: QCStKzZ56SHBc4tL7stCEqqd}
+  - {name: '欧洲_65', server: 1.transit.t.qjnodeip.xyz, port: 62329, type: vmess, uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0, alterId: 8, cipher: auto, tls: true, network: ws, ws-path: /usa1Z, ws-headers: {Host: usa03.dadwff.xyz}}
+  - {name: '美国_66', server: 156.146.62.37, port: 38747, type: ss, cipher: aes-256-gcm, password: RtbLkxbJZpUQ6m8y4qAeLYZj}
+  - {name: '美国_67', server: 156.146.62.37, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: '法国_68', server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国_69', server: 45.89.173.205, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: '美国_70', server: 156.146.62.37, port: 39556, type: ss, cipher: aes-256-gcm, password: g4AfpNELpdYEeLYhM8XCX9se}
+  - {name: '俄罗斯_71', server: 122.192.189.8, port: 19710, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '美国_72', server: 156.146.62.37, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: '美国_73', server: 156.146.62.37, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: '美国_74', server: 156.146.62.37, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
+  - {name: '美国_75', server: 156.146.62.37, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: '欧洲_76', server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国_77', server: 66.115.154.131, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '美国_78', server: 156.146.62.37, port: 49719, type: ss, cipher: aes-256-gcm, password: 42SjT9vBF6ma9eFF3URaJpQ4}
+  - {name: '美国_79', server: 156.146.62.37, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: '美国_80', server: 66.115.154.131, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: '美国_81', server: 198.8.92.84, port: 46726, type: ss, cipher: aes-256-gcm, password: 2fqKbFPGHpcmMTJzGsUbsfYf}
+  - {name: '台湾_82', server: 122.192.189.8, port: 19707, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '美国_83', server: 156.146.62.37, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: '欧洲_84', server: 134.195.196.51, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '俄罗斯_85', server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国_86', server: 198.8.92.84, port: 37559, type: ss, cipher: aes-256-gcm, password: Qbt22F6JsxzFGqcsK5SaR8q3}
+  - {name: '俄罗斯_87', server: t2.ssrsub.com, port: 833, type: trojan, password: d8aacec8-e256-427b-a927-0c6013f6595b, sni: t2.ssrsub.com}
+  - {name: '美国_88', server: 122.192.189.8, port: 19600, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '美国_89', server: 156.146.62.37, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: '法国_90', server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国_91', server: 156.146.62.37, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: '加拿大_92', server: 104.245.96.123, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool}
+  - {name: '美国_93', server: 156.146.62.37, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: '加拿大_94', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '美国_95', server: 156.146.62.37, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: '美国_96', server: 156.146.62.37, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ}
+  - {name: '美国_97', server: 198.8.92.84, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: '欧洲_98', server: 34.247.174.236, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '美国_99', server: 156.146.62.37, port: 39171, type: ss, cipher: aes-256-gcm, password: z4pM2gA9QEEC6NRmqTQubm6Z}
+  - {name: '俄罗斯_100', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '挪威_101', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '香港_102', server: 122.192.189.8, port: 19701, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '法国_103', server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '美国_104', server: 66.115.154.131, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: '欧洲_105', server: 5.187.49.187, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: '美国_106', server: 66.115.154.131, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: '美国_107', server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国_108', server: 156.146.62.37, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '美国_109', server: 156.146.33.74, port: 44102, type: ss, cipher: aes-256-gcm, password: zHKYS9DeAjvv43EwgDfyEg4d}
+  - {name: '美国_110', server: 156.146.62.37, port: 50181, type: ss, cipher: aes-256-gcm, password: d9adRr9UxymNSysYahMtpFpd}
+  - {name: '俄罗斯_111', server: 5.187.49.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '美国_112', server: 156.146.62.37, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: '美国_113', server: 156.146.62.37, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: '挪威_114', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '欧洲_115', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '韩国_116', server: 116.163.10.104, port: 19610, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '俄罗斯_117', server: 122.192.189.8, port: 19712, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '美国_118', server: 198.8.92.84, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: '俄罗斯_119', server: ukml.52jjyun.top, port: 88, type: vmess, uuid: 97fd527c-f1c6-43b2-8bb2-b729bbdbcde3, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: '美国_120', server: 116.163.10.104, port: 19611, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '美国_121', server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: '美国_122', server: 107.181.184.117, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: '美国_123', server: 156.146.62.37, port: 41372, type: ss, cipher: aes-256-gcm, password: 5kGAhC3AmVC35GbruHjSrZf2}
+  - {name: '俄罗斯_124', server: ruml.jjyun.ren, port: 88, type: vmess, uuid: 5dcae266-79f7-40a3-92d4-82acfbad06c5, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: '韩国_125', server: 122.192.189.8, port: 19612, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '美国_126', server: 156.146.62.37, port: 49202, type: ss, cipher: aes-256-gcm, password: btzEYXKZxnR7g6H2vFTQK5TD}
+  - {name: '欧洲_127', server: 46.101.28.98, port: 12222, type: vmess, uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '澳大利亚_128', server: 194.76.137.112, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '英国_129', server: 92.119.16.204, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '挪威_130', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '俄罗斯_131', server: ruml.jjyun.ren, port: 88, type: vmess, uuid: a67c9248-6b4d-478b-b441-be671cf2fb41, alterId: 10, cipher: auto, tls: false, network: ws, ws-path: /jjyun}
+  - {name: '美国_132', server: 156.146.62.37, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
+  - {name: '俄罗斯_133', server: 212.102.54.160, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: '欧洲_134', server: 212.102.54.160, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: '韩国_135', server: 212.102.54.160, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: '美国_136', server: 156.146.62.37, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: '台湾省_137', server: 122.192.189.8, port: 19711, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '美国_138', server: 156.146.62.37, port: 46354, type: ss, cipher: aes-256-gcm, password: MYPKdC7n6qjL6xmJBBcrzzqS}
+  - {name: '美国_139', server: 122.192.189.8, port: 19611, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '美国_140', server: 156.146.62.37, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: '美国_141', server: 156.146.62.37, port: 47861, type: ss, cipher: aes-256-gcm, password: LJcChRsGQRhywrtXUU55TLTu}
+  - {name: '美国_142', server: 66.115.154.131, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: '美国_143', server: 156.146.62.37, port: 50232, type: ss, cipher: aes-256-gcm, password: CjchzpwdSjRtDjezYMwx9BKM}
+  - {name: '俄罗斯_144', server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国_145', server: 156.146.62.37, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
+  - {name: '欧洲_146', server: 134.195.196.51, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '欧洲_147', server: 134.195.196.51, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国_148', server: 156.146.62.37, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: '欧洲_149', server: 134.195.196.51, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '俄罗斯_150', server: 61.74.222.77, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3}
+  - {name: '美国_151', server: 156.146.62.37, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: '欧洲_152', server: 134.195.196.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '欧洲_153', server: 134.195.196.44, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '美国_154', server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '美国_155', server: 156.146.62.37, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: '香港_156', server: 122.192.189.8, port: 19700, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '俄罗斯_157', server: 122.192.189.8, port: 19607, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '美国_158', server: 122.192.189.8, port: 19602, type: vmess, uuid: c0f4d26f-b870-3b0d-a77e-1786fcf52e50, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /download}
+  - {name: '美国_159', server: 156.146.62.37, port: 41306, type: ss, cipher: aes-256-gcm, password: pzB5Y2twNtqFzWhEbBsPJMjj}
+  - {name: '韩国_160', server: 82.102.26.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: '美国_161', server: 156.146.62.37, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
+  - {name: '美国_162', server: 198.8.92.84, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡🚀_1
-      - 罗马尼亚🚀_2
-      - 香港🚀_3
-      - 美国🚀_4
-      - 瑞典🚀_5
-      - 瑞典🚀_6
-      - 瑞典🚀_7
-      - 瑞典🚀_8
-      - 加拿大🚀_9
-      - 美国🚀_10
-      - 加拿大🚀_11
-      - 瑞典🚀_12
-      - 加拿大🚀_13
-      - 加拿大🚀_14
-      - 加拿大🚀_15
-      - 瑞典🚀_16
-      - 美国🚀_17
-      - 德国🚀_18
-      - 加拿大🚀_19
-      - 德国🚀_20
-      - 德国🚀_21
-      - 瑞典🚀_22
-      - 瑞典🚀_23
-      - 美国🚀_24
-      - 瑞典🚀_25
-      - 瑞典🚀_26
-      - 瑞典🚀_27
-      - 加拿大🚀_28
-      - 美国🚀_29
-      - 美国🚀_30
-      - 加拿大🚀_31
-      - 瑞典🚀_32
-      - 美国🚀_33
-      - 美国🚀_34
-      - 美国🚀_35
-      - 美国🚀_36
-      - 美国🚀_37
-      - 美国🚀_38
-      - 瑞典🚀_39
-      - 美国🚀_40
-      - 美国🚀_41
-      - 美国🚀_42
-      - 澳大利亚🚀_43
-      - 加拿大🚀_44
-      - 美国🚀_45
-      - 美国🚀_46
-      - 美国🚀_47
-      - 澳大利亚🚀_48
-      - 澳大利亚🚀_49
-      - 美国🚀_50
-      - 瑞典🚀_51
-      - 澳大利亚🚀_52
-      - 美国🚀_53
-      - 澳大利亚🚀_54
-      - 澳大利亚🚀_55
-      - 澳大利亚🚀_56
-      - 意大利🚀_57
-      - 美国🚀_58
-      - 澳大利亚🚀_59
-      - 澳大利亚🚀_60
-      - 澳大利亚🚀_61
-      - 澳大利亚🚀_62
-      - 澳大利亚🚀_63
-      - 澳大利亚🚀_64
-      - 澳大利亚🚀_65
-      - 澳大利亚🚀_66
-      - 澳大利亚🚀_67
-      - 澳大利亚🚀_68
-      - 美国🚀_69
-      - 印度🚀_70
-      - 加拿大🚀_71
-      - 澳大利亚🚀_72
-      - 澳大利亚🚀_73
-      - 印度🚀_74
-      - 法国🚀_75
-      - 美国🚀_76
-      - 美国🚀_77
-      - 美国🚀_78
-      - 澳大利亚🚀_79
-      - 德国🚀_80
-      - 美国🚀_81
-      - 德国🚀_82
-      - 印度🚀_83
-      - 澳大利亚🚀_84
-      - 印度🚀_85
-      - 德国🚀_86
-      - 瑞典🚀_87
-      - 美国🚀_88
-      - 加拿大🚀_89
-      - 印度🚀_90
-      - 印度🚀_91
-      - 印度🚀_92
-      - 印度🚀_93
-      - 澳大利亚🚀_94
-      - 印度🚀_95
-      - 印度🚀_96
-      - 印度🚀_97
-      - 印度🚀_98
-      - 印度🚀_99
-      - 挪威🚀_100
-      - 印度🚀_101
-      - 印度🚀_102
-      - 印度🚀_103
-      - 印度🚀_104
-      - 瑞典🚀_105
-      - 瑞典🚀_106
-      - 美国🚀_107
-      - 美国🚀_108
-      - 印度🚀_109
-      - 瑞典🚀_110
-      - 挪威🚀_111
-      - 印度🚀_112
-      - 加拿大🚀_113
-      - 美国🚀_114
-      - 美国🚀_115
-      - 加拿大🚀_116
-      - 挪威🚀_117
-      - 挪威🚀_118
-      - 挪威🚀_119
-      - 挪威🚀_120
-      - 挪威🚀_121
-      - 欧洲🚀_122
-      - 挪威🚀_123
-      - 印度🚀_124
-      - 瑞典🚀_125
-      - 美国🚀_126
-      - 美国🚀_127
-      - 美国🚀_128
-      - 印度🚀_129
-      - 英国🚀_130
-      - 美国🚀_131
-      - 美国🚀_132
-      - 美国🚀_133
-      - 印度🚀_134
-      - 印度🚀_135
-      - 瑞典🚀_136
-      - 美国🚀_137
-      - 美国🚀_138
-      - 美国🚀_139
-      - 美国🚀_140
-      - 印度🚀_141
-      - 印度🚀_142
-      - 印度🚀_143
-      - 印度🚀_144
-      - 美国🚀_145
-      - 美国🚀_146
-      - 美国🚀_147
-      - 美国🚀_148
-      - 俄罗斯🚀_149
-      - 美国🚀_150
-      - 印度🚀_151
-      - 印度🚀_152
-      - 俄罗斯🚀_153
-      - 香港🚀_154
-      - 台湾🚀_155
-      - 美国🚀_156
-      - 美国🚀_157
-      - 美国🚀_158
-      - 美国🚀_159
-      - 美国🚀_160
-      - 美国🚀_161
-      - 英国🚀_162
-      - 土耳其🚀_163
-      - 美国🚀_164
-      - 俄罗斯🚀_165
-      - 俄罗斯🚀_166
-      - 新加坡🚀_167
-      - 美国🚀_168
-      - 美国🚀_169
-      - 荷兰🚀_170
-      - 俄罗斯🚀_171
-      - 法国🚀_172
-      - 俄罗斯🚀_173
-      - 俄罗斯🚀_174
-      - 俄罗斯🚀_175
-      - 俄罗斯🚀_176
-      - 美国🚀_177
-      - 俄罗斯🚀_178
-      - 俄罗斯🚀_179
-      - 俄罗斯🚀_180
+      - 澳大利亚_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 法国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 俄罗斯_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 俄罗斯_20
+      - 加拿大_21
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 欧洲_25
+      - 加拿大_26
+      - 欧洲_27
+      - 加拿大_28
+      - 英国_29
+      - 美国_30
+      - 美国_31
+      - 美国_32
+      - 挪威_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 台湾_39
+      - 香港_40
+      - 香港_41
+      - 美国_42
+      - 美国_43
+      - 俄罗斯_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 香港_49
+      - 俄罗斯_50
+      - 美国_51
+      - 香港_52
+      - 俄罗斯_53
+      - 美国_54
+      - 英国_55
+      - 美国_56
+      - 美国_57
+      - 俄罗斯_58
+      - 美国_59
+      - 俄罗斯_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 欧洲_65
+      - 美国_66
+      - 美国_67
+      - 法国_68
+      - 美国_69
+      - 美国_70
+      - 俄罗斯_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 欧洲_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 台湾_82
+      - 美国_83
+      - 欧洲_84
+      - 俄罗斯_85
+      - 美国_86
+      - 俄罗斯_87
+      - 美国_88
+      - 美国_89
+      - 法国_90
+      - 美国_91
+      - 加拿大_92
+      - 美国_93
+      - 加拿大_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 欧洲_98
+      - 美国_99
+      - 俄罗斯_100
+      - 挪威_101
+      - 香港_102
+      - 法国_103
+      - 美国_104
+      - 欧洲_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 俄罗斯_111
+      - 美国_112
+      - 美国_113
+      - 挪威_114
+      - 欧洲_115
+      - 韩国_116
+      - 俄罗斯_117
+      - 美国_118
+      - 俄罗斯_119
+      - 美国_120
+      - 美国_121
+      - 美国_122
+      - 美国_123
+      - 俄罗斯_124
+      - 韩国_125
+      - 美国_126
+      - 欧洲_127
+      - 澳大利亚_128
+      - 英国_129
+      - 挪威_130
+      - 俄罗斯_131
+      - 美国_132
+      - 俄罗斯_133
+      - 欧洲_134
+      - 韩国_135
+      - 美国_136
+      - 台湾省_137
+      - 美国_138
+      - 美国_139
+      - 美国_140
+      - 美国_141
+      - 美国_142
+      - 美国_143
+      - 俄罗斯_144
+      - 美国_145
+      - 欧洲_146
+      - 欧洲_147
+      - 美国_148
+      - 欧洲_149
+      - 俄罗斯_150
+      - 美国_151
+      - 欧洲_152
+      - 欧洲_153
+      - 美国_154
+      - 美国_155
+      - 香港_156
+      - 俄罗斯_157
+      - 美国_158
+      - 美国_159
+      - 韩国_160
+      - 美国_161
+      - 美国_162
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡🚀_1
-      - 罗马尼亚🚀_2
-      - 香港🚀_3
-      - 美国🚀_4
-      - 瑞典🚀_5
-      - 瑞典🚀_6
-      - 瑞典🚀_7
-      - 瑞典🚀_8
-      - 加拿大🚀_9
-      - 美国🚀_10
-      - 加拿大🚀_11
-      - 瑞典🚀_12
-      - 加拿大🚀_13
-      - 加拿大🚀_14
-      - 加拿大🚀_15
-      - 瑞典🚀_16
-      - 美国🚀_17
-      - 德国🚀_18
-      - 加拿大🚀_19
-      - 德国🚀_20
-      - 德国🚀_21
-      - 瑞典🚀_22
-      - 瑞典🚀_23
-      - 美国🚀_24
-      - 瑞典🚀_25
-      - 瑞典🚀_26
-      - 瑞典🚀_27
-      - 加拿大🚀_28
-      - 美国🚀_29
-      - 美国🚀_30
-      - 加拿大🚀_31
-      - 瑞典🚀_32
-      - 美国🚀_33
-      - 美国🚀_34
-      - 美国🚀_35
-      - 美国🚀_36
-      - 美国🚀_37
-      - 美国🚀_38
-      - 瑞典🚀_39
-      - 美国🚀_40
-      - 美国🚀_41
-      - 美国🚀_42
-      - 澳大利亚🚀_43
-      - 加拿大🚀_44
-      - 美国🚀_45
-      - 美国🚀_46
-      - 美国🚀_47
-      - 澳大利亚🚀_48
-      - 澳大利亚🚀_49
-      - 美国🚀_50
-      - 瑞典🚀_51
-      - 澳大利亚🚀_52
-      - 美国🚀_53
-      - 澳大利亚🚀_54
-      - 澳大利亚🚀_55
-      - 澳大利亚🚀_56
-      - 意大利🚀_57
-      - 美国🚀_58
-      - 澳大利亚🚀_59
-      - 澳大利亚🚀_60
-      - 澳大利亚🚀_61
-      - 澳大利亚🚀_62
-      - 澳大利亚🚀_63
-      - 澳大利亚🚀_64
-      - 澳大利亚🚀_65
-      - 澳大利亚🚀_66
-      - 澳大利亚🚀_67
-      - 澳大利亚🚀_68
-      - 美国🚀_69
-      - 印度🚀_70
-      - 加拿大🚀_71
-      - 澳大利亚🚀_72
-      - 澳大利亚🚀_73
-      - 印度🚀_74
-      - 法国🚀_75
-      - 美国🚀_76
-      - 美国🚀_77
-      - 美国🚀_78
-      - 澳大利亚🚀_79
-      - 德国🚀_80
-      - 美国🚀_81
-      - 德国🚀_82
-      - 印度🚀_83
-      - 澳大利亚🚀_84
-      - 印度🚀_85
-      - 德国🚀_86
-      - 瑞典🚀_87
-      - 美国🚀_88
-      - 加拿大🚀_89
-      - 印度🚀_90
-      - 印度🚀_91
-      - 印度🚀_92
-      - 印度🚀_93
-      - 澳大利亚🚀_94
-      - 印度🚀_95
-      - 印度🚀_96
-      - 印度🚀_97
-      - 印度🚀_98
-      - 印度🚀_99
-      - 挪威🚀_100
-      - 印度🚀_101
-      - 印度🚀_102
-      - 印度🚀_103
-      - 印度🚀_104
-      - 瑞典🚀_105
-      - 瑞典🚀_106
-      - 美国🚀_107
-      - 美国🚀_108
-      - 印度🚀_109
-      - 瑞典🚀_110
-      - 挪威🚀_111
-      - 印度🚀_112
-      - 加拿大🚀_113
-      - 美国🚀_114
-      - 美国🚀_115
-      - 加拿大🚀_116
-      - 挪威🚀_117
-      - 挪威🚀_118
-      - 挪威🚀_119
-      - 挪威🚀_120
-      - 挪威🚀_121
-      - 欧洲🚀_122
-      - 挪威🚀_123
-      - 印度🚀_124
-      - 瑞典🚀_125
-      - 美国🚀_126
-      - 美国🚀_127
-      - 美国🚀_128
-      - 印度🚀_129
-      - 英国🚀_130
-      - 美国🚀_131
-      - 美国🚀_132
-      - 美国🚀_133
-      - 印度🚀_134
-      - 印度🚀_135
-      - 瑞典🚀_136
-      - 美国🚀_137
-      - 美国🚀_138
-      - 美国🚀_139
-      - 美国🚀_140
-      - 印度🚀_141
-      - 印度🚀_142
-      - 印度🚀_143
-      - 印度🚀_144
-      - 美国🚀_145
-      - 美国🚀_146
-      - 美国🚀_147
-      - 美国🚀_148
-      - 俄罗斯🚀_149
-      - 美国🚀_150
-      - 印度🚀_151
-      - 印度🚀_152
-      - 俄罗斯🚀_153
-      - 香港🚀_154
-      - 台湾🚀_155
-      - 美国🚀_156
-      - 美国🚀_157
-      - 美国🚀_158
-      - 美国🚀_159
-      - 美国🚀_160
-      - 美国🚀_161
-      - 英国🚀_162
-      - 土耳其🚀_163
-      - 美国🚀_164
-      - 俄罗斯🚀_165
-      - 俄罗斯🚀_166
-      - 新加坡🚀_167
-      - 美国🚀_168
-      - 美国🚀_169
-      - 荷兰🚀_170
-      - 俄罗斯🚀_171
-      - 法国🚀_172
-      - 俄罗斯🚀_173
-      - 俄罗斯🚀_174
-      - 俄罗斯🚀_175
-      - 俄罗斯🚀_176
-      - 美国🚀_177
-      - 俄罗斯🚀_178
-      - 俄罗斯🚀_179
-      - 俄罗斯🚀_180
+      - 澳大利亚_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 法国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 俄罗斯_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 俄罗斯_20
+      - 加拿大_21
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 欧洲_25
+      - 加拿大_26
+      - 欧洲_27
+      - 加拿大_28
+      - 英国_29
+      - 美国_30
+      - 美国_31
+      - 美国_32
+      - 挪威_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 台湾_39
+      - 香港_40
+      - 香港_41
+      - 美国_42
+      - 美国_43
+      - 俄罗斯_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 香港_49
+      - 俄罗斯_50
+      - 美国_51
+      - 香港_52
+      - 俄罗斯_53
+      - 美国_54
+      - 英国_55
+      - 美国_56
+      - 美国_57
+      - 俄罗斯_58
+      - 美国_59
+      - 俄罗斯_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 欧洲_65
+      - 美国_66
+      - 美国_67
+      - 法国_68
+      - 美国_69
+      - 美国_70
+      - 俄罗斯_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 欧洲_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 台湾_82
+      - 美国_83
+      - 欧洲_84
+      - 俄罗斯_85
+      - 美国_86
+      - 俄罗斯_87
+      - 美国_88
+      - 美国_89
+      - 法国_90
+      - 美国_91
+      - 加拿大_92
+      - 美国_93
+      - 加拿大_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 欧洲_98
+      - 美国_99
+      - 俄罗斯_100
+      - 挪威_101
+      - 香港_102
+      - 法国_103
+      - 美国_104
+      - 欧洲_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 俄罗斯_111
+      - 美国_112
+      - 美国_113
+      - 挪威_114
+      - 欧洲_115
+      - 韩国_116
+      - 俄罗斯_117
+      - 美国_118
+      - 俄罗斯_119
+      - 美国_120
+      - 美国_121
+      - 美国_122
+      - 美国_123
+      - 俄罗斯_124
+      - 韩国_125
+      - 美国_126
+      - 欧洲_127
+      - 澳大利亚_128
+      - 英国_129
+      - 挪威_130
+      - 俄罗斯_131
+      - 美国_132
+      - 俄罗斯_133
+      - 欧洲_134
+      - 韩国_135
+      - 美国_136
+      - 台湾省_137
+      - 美国_138
+      - 美国_139
+      - 美国_140
+      - 美国_141
+      - 美国_142
+      - 美国_143
+      - 俄罗斯_144
+      - 美国_145
+      - 欧洲_146
+      - 欧洲_147
+      - 美国_148
+      - 欧洲_149
+      - 俄罗斯_150
+      - 美国_151
+      - 欧洲_152
+      - 欧洲_153
+      - 美国_154
+      - 美国_155
+      - 香港_156
+      - 俄罗斯_157
+      - 美国_158
+      - 美国_159
+      - 韩国_160
+      - 美国_161
+      - 美国_162
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡🚀_1
-      - 罗马尼亚🚀_2
-      - 香港🚀_3
-      - 美国🚀_4
-      - 瑞典🚀_5
-      - 瑞典🚀_6
-      - 瑞典🚀_7
-      - 瑞典🚀_8
-      - 加拿大🚀_9
-      - 美国🚀_10
-      - 加拿大🚀_11
-      - 瑞典🚀_12
-      - 加拿大🚀_13
-      - 加拿大🚀_14
-      - 加拿大🚀_15
-      - 瑞典🚀_16
-      - 美国🚀_17
-      - 德国🚀_18
-      - 加拿大🚀_19
-      - 德国🚀_20
-      - 德国🚀_21
-      - 瑞典🚀_22
-      - 瑞典🚀_23
-      - 美国🚀_24
-      - 瑞典🚀_25
-      - 瑞典🚀_26
-      - 瑞典🚀_27
-      - 加拿大🚀_28
-      - 美国🚀_29
-      - 美国🚀_30
-      - 加拿大🚀_31
-      - 瑞典🚀_32
-      - 美国🚀_33
-      - 美国🚀_34
-      - 美国🚀_35
-      - 美国🚀_36
-      - 美国🚀_37
-      - 美国🚀_38
-      - 瑞典🚀_39
-      - 美国🚀_40
-      - 美国🚀_41
-      - 美国🚀_42
-      - 澳大利亚🚀_43
-      - 加拿大🚀_44
-      - 美国🚀_45
-      - 美国🚀_46
-      - 美国🚀_47
-      - 澳大利亚🚀_48
-      - 澳大利亚🚀_49
-      - 美国🚀_50
-      - 瑞典🚀_51
-      - 澳大利亚🚀_52
-      - 美国🚀_53
-      - 澳大利亚🚀_54
-      - 澳大利亚🚀_55
-      - 澳大利亚🚀_56
-      - 意大利🚀_57
-      - 美国🚀_58
-      - 澳大利亚🚀_59
-      - 澳大利亚🚀_60
-      - 澳大利亚🚀_61
-      - 澳大利亚🚀_62
-      - 澳大利亚🚀_63
-      - 澳大利亚🚀_64
-      - 澳大利亚🚀_65
-      - 澳大利亚🚀_66
-      - 澳大利亚🚀_67
-      - 澳大利亚🚀_68
-      - 美国🚀_69
-      - 印度🚀_70
-      - 加拿大🚀_71
-      - 澳大利亚🚀_72
-      - 澳大利亚🚀_73
-      - 印度🚀_74
-      - 法国🚀_75
-      - 美国🚀_76
-      - 美国🚀_77
-      - 美国🚀_78
-      - 澳大利亚🚀_79
-      - 德国🚀_80
-      - 美国🚀_81
-      - 德国🚀_82
-      - 印度🚀_83
-      - 澳大利亚🚀_84
-      - 印度🚀_85
-      - 德国🚀_86
-      - 瑞典🚀_87
-      - 美国🚀_88
-      - 加拿大🚀_89
-      - 印度🚀_90
-      - 印度🚀_91
-      - 印度🚀_92
-      - 印度🚀_93
-      - 澳大利亚🚀_94
-      - 印度🚀_95
-      - 印度🚀_96
-      - 印度🚀_97
-      - 印度🚀_98
-      - 印度🚀_99
-      - 挪威🚀_100
-      - 印度🚀_101
-      - 印度🚀_102
-      - 印度🚀_103
-      - 印度🚀_104
-      - 瑞典🚀_105
-      - 瑞典🚀_106
-      - 美国🚀_107
-      - 美国🚀_108
-      - 印度🚀_109
-      - 瑞典🚀_110
-      - 挪威🚀_111
-      - 印度🚀_112
-      - 加拿大🚀_113
-      - 美国🚀_114
-      - 美国🚀_115
-      - 加拿大🚀_116
-      - 挪威🚀_117
-      - 挪威🚀_118
-      - 挪威🚀_119
-      - 挪威🚀_120
-      - 挪威🚀_121
-      - 欧洲🚀_122
-      - 挪威🚀_123
-      - 印度🚀_124
-      - 瑞典🚀_125
-      - 美国🚀_126
-      - 美国🚀_127
-      - 美国🚀_128
-      - 印度🚀_129
-      - 英国🚀_130
-      - 美国🚀_131
-      - 美国🚀_132
-      - 美国🚀_133
-      - 印度🚀_134
-      - 印度🚀_135
-      - 瑞典🚀_136
-      - 美国🚀_137
-      - 美国🚀_138
-      - 美国🚀_139
-      - 美国🚀_140
-      - 印度🚀_141
-      - 印度🚀_142
-      - 印度🚀_143
-      - 印度🚀_144
-      - 美国🚀_145
-      - 美国🚀_146
-      - 美国🚀_147
-      - 美国🚀_148
-      - 俄罗斯🚀_149
-      - 美国🚀_150
-      - 印度🚀_151
-      - 印度🚀_152
-      - 俄罗斯🚀_153
-      - 香港🚀_154
-      - 台湾🚀_155
-      - 美国🚀_156
-      - 美国🚀_157
-      - 美国🚀_158
-      - 美国🚀_159
-      - 美国🚀_160
-      - 美国🚀_161
-      - 英国🚀_162
-      - 土耳其🚀_163
-      - 美国🚀_164
-      - 俄罗斯🚀_165
-      - 俄罗斯🚀_166
-      - 新加坡🚀_167
-      - 美国🚀_168
-      - 美国🚀_169
-      - 荷兰🚀_170
-      - 俄罗斯🚀_171
-      - 法国🚀_172
-      - 俄罗斯🚀_173
-      - 俄罗斯🚀_174
-      - 俄罗斯🚀_175
-      - 俄罗斯🚀_176
-      - 美国🚀_177
-      - 俄罗斯🚀_178
-      - 俄罗斯🚀_179
-      - 俄罗斯🚀_180
+      - 澳大利亚_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 法国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 俄罗斯_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 俄罗斯_20
+      - 加拿大_21
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 欧洲_25
+      - 加拿大_26
+      - 欧洲_27
+      - 加拿大_28
+      - 英国_29
+      - 美国_30
+      - 美国_31
+      - 美国_32
+      - 挪威_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 台湾_39
+      - 香港_40
+      - 香港_41
+      - 美国_42
+      - 美国_43
+      - 俄罗斯_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 香港_49
+      - 俄罗斯_50
+      - 美国_51
+      - 香港_52
+      - 俄罗斯_53
+      - 美国_54
+      - 英国_55
+      - 美国_56
+      - 美国_57
+      - 俄罗斯_58
+      - 美国_59
+      - 俄罗斯_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 欧洲_65
+      - 美国_66
+      - 美国_67
+      - 法国_68
+      - 美国_69
+      - 美国_70
+      - 俄罗斯_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 欧洲_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 台湾_82
+      - 美国_83
+      - 欧洲_84
+      - 俄罗斯_85
+      - 美国_86
+      - 俄罗斯_87
+      - 美国_88
+      - 美国_89
+      - 法国_90
+      - 美国_91
+      - 加拿大_92
+      - 美国_93
+      - 加拿大_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 欧洲_98
+      - 美国_99
+      - 俄罗斯_100
+      - 挪威_101
+      - 香港_102
+      - 法国_103
+      - 美国_104
+      - 欧洲_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 俄罗斯_111
+      - 美国_112
+      - 美国_113
+      - 挪威_114
+      - 欧洲_115
+      - 韩国_116
+      - 俄罗斯_117
+      - 美国_118
+      - 俄罗斯_119
+      - 美国_120
+      - 美国_121
+      - 美国_122
+      - 美国_123
+      - 俄罗斯_124
+      - 韩国_125
+      - 美国_126
+      - 欧洲_127
+      - 澳大利亚_128
+      - 英国_129
+      - 挪威_130
+      - 俄罗斯_131
+      - 美国_132
+      - 俄罗斯_133
+      - 欧洲_134
+      - 韩国_135
+      - 美国_136
+      - 台湾省_137
+      - 美国_138
+      - 美国_139
+      - 美国_140
+      - 美国_141
+      - 美国_142
+      - 美国_143
+      - 俄罗斯_144
+      - 美国_145
+      - 欧洲_146
+      - 欧洲_147
+      - 美国_148
+      - 欧洲_149
+      - 俄罗斯_150
+      - 美国_151
+      - 欧洲_152
+      - 欧洲_153
+      - 美国_154
+      - 美国_155
+      - 香港_156
+      - 俄罗斯_157
+      - 美国_158
+      - 美国_159
+      - 韩国_160
+      - 美国_161
+      - 美国_162
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡🚀_1
-      - 罗马尼亚🚀_2
-      - 香港🚀_3
-      - 美国🚀_4
-      - 瑞典🚀_5
-      - 瑞典🚀_6
-      - 瑞典🚀_7
-      - 瑞典🚀_8
-      - 加拿大🚀_9
-      - 美国🚀_10
-      - 加拿大🚀_11
-      - 瑞典🚀_12
-      - 加拿大🚀_13
-      - 加拿大🚀_14
-      - 加拿大🚀_15
-      - 瑞典🚀_16
-      - 美国🚀_17
-      - 德国🚀_18
-      - 加拿大🚀_19
-      - 德国🚀_20
-      - 德国🚀_21
-      - 瑞典🚀_22
-      - 瑞典🚀_23
-      - 美国🚀_24
-      - 瑞典🚀_25
-      - 瑞典🚀_26
-      - 瑞典🚀_27
-      - 加拿大🚀_28
-      - 美国🚀_29
-      - 美国🚀_30
-      - 加拿大🚀_31
-      - 瑞典🚀_32
-      - 美国🚀_33
-      - 美国🚀_34
-      - 美国🚀_35
-      - 美国🚀_36
-      - 美国🚀_37
-      - 美国🚀_38
-      - 瑞典🚀_39
-      - 美国🚀_40
-      - 美国🚀_41
-      - 美国🚀_42
-      - 澳大利亚🚀_43
-      - 加拿大🚀_44
-      - 美国🚀_45
-      - 美国🚀_46
-      - 美国🚀_47
-      - 澳大利亚🚀_48
-      - 澳大利亚🚀_49
-      - 美国🚀_50
-      - 瑞典🚀_51
-      - 澳大利亚🚀_52
-      - 美国🚀_53
-      - 澳大利亚🚀_54
-      - 澳大利亚🚀_55
-      - 澳大利亚🚀_56
-      - 意大利🚀_57
-      - 美国🚀_58
-      - 澳大利亚🚀_59
-      - 澳大利亚🚀_60
-      - 澳大利亚🚀_61
-      - 澳大利亚🚀_62
-      - 澳大利亚🚀_63
-      - 澳大利亚🚀_64
-      - 澳大利亚🚀_65
-      - 澳大利亚🚀_66
-      - 澳大利亚🚀_67
-      - 澳大利亚🚀_68
-      - 美国🚀_69
-      - 印度🚀_70
-      - 加拿大🚀_71
-      - 澳大利亚🚀_72
-      - 澳大利亚🚀_73
-      - 印度🚀_74
-      - 法国🚀_75
-      - 美国🚀_76
-      - 美国🚀_77
-      - 美国🚀_78
-      - 澳大利亚🚀_79
-      - 德国🚀_80
-      - 美国🚀_81
-      - 德国🚀_82
-      - 印度🚀_83
-      - 澳大利亚🚀_84
-      - 印度🚀_85
-      - 德国🚀_86
-      - 瑞典🚀_87
-      - 美国🚀_88
-      - 加拿大🚀_89
-      - 印度🚀_90
-      - 印度🚀_91
-      - 印度🚀_92
-      - 印度🚀_93
-      - 澳大利亚🚀_94
-      - 印度🚀_95
-      - 印度🚀_96
-      - 印度🚀_97
-      - 印度🚀_98
-      - 印度🚀_99
-      - 挪威🚀_100
-      - 印度🚀_101
-      - 印度🚀_102
-      - 印度🚀_103
-      - 印度🚀_104
-      - 瑞典🚀_105
-      - 瑞典🚀_106
-      - 美国🚀_107
-      - 美国🚀_108
-      - 印度🚀_109
-      - 瑞典🚀_110
-      - 挪威🚀_111
-      - 印度🚀_112
-      - 加拿大🚀_113
-      - 美国🚀_114
-      - 美国🚀_115
-      - 加拿大🚀_116
-      - 挪威🚀_117
-      - 挪威🚀_118
-      - 挪威🚀_119
-      - 挪威🚀_120
-      - 挪威🚀_121
-      - 欧洲🚀_122
-      - 挪威🚀_123
-      - 印度🚀_124
-      - 瑞典🚀_125
-      - 美国🚀_126
-      - 美国🚀_127
-      - 美国🚀_128
-      - 印度🚀_129
-      - 英国🚀_130
-      - 美国🚀_131
-      - 美国🚀_132
-      - 美国🚀_133
-      - 印度🚀_134
-      - 印度🚀_135
-      - 瑞典🚀_136
-      - 美国🚀_137
-      - 美国🚀_138
-      - 美国🚀_139
-      - 美国🚀_140
-      - 印度🚀_141
-      - 印度🚀_142
-      - 印度🚀_143
-      - 印度🚀_144
-      - 美国🚀_145
-      - 美国🚀_146
-      - 美国🚀_147
-      - 美国🚀_148
-      - 俄罗斯🚀_149
-      - 美国🚀_150
-      - 印度🚀_151
-      - 印度🚀_152
-      - 俄罗斯🚀_153
-      - 香港🚀_154
-      - 台湾🚀_155
-      - 美国🚀_156
-      - 美国🚀_157
-      - 美国🚀_158
-      - 美国🚀_159
-      - 美国🚀_160
-      - 美国🚀_161
-      - 英国🚀_162
-      - 土耳其🚀_163
-      - 美国🚀_164
-      - 俄罗斯🚀_165
-      - 俄罗斯🚀_166
-      - 新加坡🚀_167
-      - 美国🚀_168
-      - 美国🚀_169
-      - 荷兰🚀_170
-      - 俄罗斯🚀_171
-      - 法国🚀_172
-      - 俄罗斯🚀_173
-      - 俄罗斯🚀_174
-      - 俄罗斯🚀_175
-      - 俄罗斯🚀_176
-      - 美国🚀_177
-      - 俄罗斯🚀_178
-      - 俄罗斯🚀_179
-      - 俄罗斯🚀_180
+      - 澳大利亚_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 法国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 俄罗斯_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 俄罗斯_20
+      - 加拿大_21
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 欧洲_25
+      - 加拿大_26
+      - 欧洲_27
+      - 加拿大_28
+      - 英国_29
+      - 美国_30
+      - 美国_31
+      - 美国_32
+      - 挪威_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 台湾_39
+      - 香港_40
+      - 香港_41
+      - 美国_42
+      - 美国_43
+      - 俄罗斯_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 香港_49
+      - 俄罗斯_50
+      - 美国_51
+      - 香港_52
+      - 俄罗斯_53
+      - 美国_54
+      - 英国_55
+      - 美国_56
+      - 美国_57
+      - 俄罗斯_58
+      - 美国_59
+      - 俄罗斯_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 欧洲_65
+      - 美国_66
+      - 美国_67
+      - 法国_68
+      - 美国_69
+      - 美国_70
+      - 俄罗斯_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 欧洲_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 台湾_82
+      - 美国_83
+      - 欧洲_84
+      - 俄罗斯_85
+      - 美国_86
+      - 俄罗斯_87
+      - 美国_88
+      - 美国_89
+      - 法国_90
+      - 美国_91
+      - 加拿大_92
+      - 美国_93
+      - 加拿大_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 欧洲_98
+      - 美国_99
+      - 俄罗斯_100
+      - 挪威_101
+      - 香港_102
+      - 法国_103
+      - 美国_104
+      - 欧洲_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 俄罗斯_111
+      - 美国_112
+      - 美国_113
+      - 挪威_114
+      - 欧洲_115
+      - 韩国_116
+      - 俄罗斯_117
+      - 美国_118
+      - 俄罗斯_119
+      - 美国_120
+      - 美国_121
+      - 美国_122
+      - 美国_123
+      - 俄罗斯_124
+      - 韩国_125
+      - 美国_126
+      - 欧洲_127
+      - 澳大利亚_128
+      - 英国_129
+      - 挪威_130
+      - 俄罗斯_131
+      - 美国_132
+      - 俄罗斯_133
+      - 欧洲_134
+      - 韩国_135
+      - 美国_136
+      - 台湾省_137
+      - 美国_138
+      - 美国_139
+      - 美国_140
+      - 美国_141
+      - 美国_142
+      - 美国_143
+      - 俄罗斯_144
+      - 美国_145
+      - 欧洲_146
+      - 欧洲_147
+      - 美国_148
+      - 欧洲_149
+      - 俄罗斯_150
+      - 美国_151
+      - 欧洲_152
+      - 欧洲_153
+      - 美国_154
+      - 美国_155
+      - 香港_156
+      - 俄罗斯_157
+      - 美国_158
+      - 美国_159
+      - 韩国_160
+      - 美国_161
+      - 美国_162
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡🚀_1
-      - 罗马尼亚🚀_2
-      - 香港🚀_3
-      - 美国🚀_4
-      - 瑞典🚀_5
-      - 瑞典🚀_6
-      - 瑞典🚀_7
-      - 瑞典🚀_8
-      - 加拿大🚀_9
-      - 美国🚀_10
-      - 加拿大🚀_11
-      - 瑞典🚀_12
-      - 加拿大🚀_13
-      - 加拿大🚀_14
-      - 加拿大🚀_15
-      - 瑞典🚀_16
-      - 美国🚀_17
-      - 德国🚀_18
-      - 加拿大🚀_19
-      - 德国🚀_20
-      - 德国🚀_21
-      - 瑞典🚀_22
-      - 瑞典🚀_23
-      - 美国🚀_24
-      - 瑞典🚀_25
-      - 瑞典🚀_26
-      - 瑞典🚀_27
-      - 加拿大🚀_28
-      - 美国🚀_29
-      - 美国🚀_30
-      - 加拿大🚀_31
-      - 瑞典🚀_32
-      - 美国🚀_33
-      - 美国🚀_34
-      - 美国🚀_35
-      - 美国🚀_36
-      - 美国🚀_37
-      - 美国🚀_38
-      - 瑞典🚀_39
-      - 美国🚀_40
-      - 美国🚀_41
-      - 美国🚀_42
-      - 澳大利亚🚀_43
-      - 加拿大🚀_44
-      - 美国🚀_45
-      - 美国🚀_46
-      - 美国🚀_47
-      - 澳大利亚🚀_48
-      - 澳大利亚🚀_49
-      - 美国🚀_50
-      - 瑞典🚀_51
-      - 澳大利亚🚀_52
-      - 美国🚀_53
-      - 澳大利亚🚀_54
-      - 澳大利亚🚀_55
-      - 澳大利亚🚀_56
-      - 意大利🚀_57
-      - 美国🚀_58
-      - 澳大利亚🚀_59
-      - 澳大利亚🚀_60
-      - 澳大利亚🚀_61
-      - 澳大利亚🚀_62
-      - 澳大利亚🚀_63
-      - 澳大利亚🚀_64
-      - 澳大利亚🚀_65
-      - 澳大利亚🚀_66
-      - 澳大利亚🚀_67
-      - 澳大利亚🚀_68
-      - 美国🚀_69
-      - 印度🚀_70
-      - 加拿大🚀_71
-      - 澳大利亚🚀_72
-      - 澳大利亚🚀_73
-      - 印度🚀_74
-      - 法国🚀_75
-      - 美国🚀_76
-      - 美国🚀_77
-      - 美国🚀_78
-      - 澳大利亚🚀_79
-      - 德国🚀_80
-      - 美国🚀_81
-      - 德国🚀_82
-      - 印度🚀_83
-      - 澳大利亚🚀_84
-      - 印度🚀_85
-      - 德国🚀_86
-      - 瑞典🚀_87
-      - 美国🚀_88
-      - 加拿大🚀_89
-      - 印度🚀_90
-      - 印度🚀_91
-      - 印度🚀_92
-      - 印度🚀_93
-      - 澳大利亚🚀_94
-      - 印度🚀_95
-      - 印度🚀_96
-      - 印度🚀_97
-      - 印度🚀_98
-      - 印度🚀_99
-      - 挪威🚀_100
-      - 印度🚀_101
-      - 印度🚀_102
-      - 印度🚀_103
-      - 印度🚀_104
-      - 瑞典🚀_105
-      - 瑞典🚀_106
-      - 美国🚀_107
-      - 美国🚀_108
-      - 印度🚀_109
-      - 瑞典🚀_110
-      - 挪威🚀_111
-      - 印度🚀_112
-      - 加拿大🚀_113
-      - 美国🚀_114
-      - 美国🚀_115
-      - 加拿大🚀_116
-      - 挪威🚀_117
-      - 挪威🚀_118
-      - 挪威🚀_119
-      - 挪威🚀_120
-      - 挪威🚀_121
-      - 欧洲🚀_122
-      - 挪威🚀_123
-      - 印度🚀_124
-      - 瑞典🚀_125
-      - 美国🚀_126
-      - 美国🚀_127
-      - 美国🚀_128
-      - 印度🚀_129
-      - 英国🚀_130
-      - 美国🚀_131
-      - 美国🚀_132
-      - 美国🚀_133
-      - 印度🚀_134
-      - 印度🚀_135
-      - 瑞典🚀_136
-      - 美国🚀_137
-      - 美国🚀_138
-      - 美国🚀_139
-      - 美国🚀_140
-      - 印度🚀_141
-      - 印度🚀_142
-      - 印度🚀_143
-      - 印度🚀_144
-      - 美国🚀_145
-      - 美国🚀_146
-      - 美国🚀_147
-      - 美国🚀_148
-      - 俄罗斯🚀_149
-      - 美国🚀_150
-      - 印度🚀_151
-      - 印度🚀_152
-      - 俄罗斯🚀_153
-      - 香港🚀_154
-      - 台湾🚀_155
-      - 美国🚀_156
-      - 美国🚀_157
-      - 美国🚀_158
-      - 美国🚀_159
-      - 美国🚀_160
-      - 美国🚀_161
-      - 英国🚀_162
-      - 土耳其🚀_163
-      - 美国🚀_164
-      - 俄罗斯🚀_165
-      - 俄罗斯🚀_166
-      - 新加坡🚀_167
-      - 美国🚀_168
-      - 美国🚀_169
-      - 荷兰🚀_170
-      - 俄罗斯🚀_171
-      - 法国🚀_172
-      - 俄罗斯🚀_173
-      - 俄罗斯🚀_174
-      - 俄罗斯🚀_175
-      - 俄罗斯🚀_176
-      - 美国🚀_177
-      - 俄罗斯🚀_178
-      - 俄罗斯🚀_179
-      - 俄罗斯🚀_180
+      - 澳大利亚_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 法国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 俄罗斯_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 俄罗斯_20
+      - 加拿大_21
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 欧洲_25
+      - 加拿大_26
+      - 欧洲_27
+      - 加拿大_28
+      - 英国_29
+      - 美国_30
+      - 美国_31
+      - 美国_32
+      - 挪威_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 台湾_39
+      - 香港_40
+      - 香港_41
+      - 美国_42
+      - 美国_43
+      - 俄罗斯_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 香港_49
+      - 俄罗斯_50
+      - 美国_51
+      - 香港_52
+      - 俄罗斯_53
+      - 美国_54
+      - 英国_55
+      - 美国_56
+      - 美国_57
+      - 俄罗斯_58
+      - 美国_59
+      - 俄罗斯_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 欧洲_65
+      - 美国_66
+      - 美国_67
+      - 法国_68
+      - 美国_69
+      - 美国_70
+      - 俄罗斯_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 欧洲_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 台湾_82
+      - 美国_83
+      - 欧洲_84
+      - 俄罗斯_85
+      - 美国_86
+      - 俄罗斯_87
+      - 美国_88
+      - 美国_89
+      - 法国_90
+      - 美国_91
+      - 加拿大_92
+      - 美国_93
+      - 加拿大_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 欧洲_98
+      - 美国_99
+      - 俄罗斯_100
+      - 挪威_101
+      - 香港_102
+      - 法国_103
+      - 美国_104
+      - 欧洲_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 俄罗斯_111
+      - 美国_112
+      - 美国_113
+      - 挪威_114
+      - 欧洲_115
+      - 韩国_116
+      - 俄罗斯_117
+      - 美国_118
+      - 俄罗斯_119
+      - 美国_120
+      - 美国_121
+      - 美国_122
+      - 美国_123
+      - 俄罗斯_124
+      - 韩国_125
+      - 美国_126
+      - 欧洲_127
+      - 澳大利亚_128
+      - 英国_129
+      - 挪威_130
+      - 俄罗斯_131
+      - 美国_132
+      - 俄罗斯_133
+      - 欧洲_134
+      - 韩国_135
+      - 美国_136
+      - 台湾省_137
+      - 美国_138
+      - 美国_139
+      - 美国_140
+      - 美国_141
+      - 美国_142
+      - 美国_143
+      - 俄罗斯_144
+      - 美国_145
+      - 欧洲_146
+      - 欧洲_147
+      - 美国_148
+      - 欧洲_149
+      - 俄罗斯_150
+      - 美国_151
+      - 欧洲_152
+      - 欧洲_153
+      - 美国_154
+      - 美国_155
+      - 香港_156
+      - 俄罗斯_157
+      - 美国_158
+      - 美国_159
+      - 韩国_160
+      - 美国_161
+      - 美国_162
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡🚀_1
-      - 罗马尼亚🚀_2
-      - 香港🚀_3
-      - 美国🚀_4
-      - 瑞典🚀_5
-      - 瑞典🚀_6
-      - 瑞典🚀_7
-      - 瑞典🚀_8
-      - 加拿大🚀_9
-      - 美国🚀_10
-      - 加拿大🚀_11
-      - 瑞典🚀_12
-      - 加拿大🚀_13
-      - 加拿大🚀_14
-      - 加拿大🚀_15
-      - 瑞典🚀_16
-      - 美国🚀_17
-      - 德国🚀_18
-      - 加拿大🚀_19
-      - 德国🚀_20
-      - 德国🚀_21
-      - 瑞典🚀_22
-      - 瑞典🚀_23
-      - 美国🚀_24
-      - 瑞典🚀_25
-      - 瑞典🚀_26
-      - 瑞典🚀_27
-      - 加拿大🚀_28
-      - 美国🚀_29
-      - 美国🚀_30
-      - 加拿大🚀_31
-      - 瑞典🚀_32
-      - 美国🚀_33
-      - 美国🚀_34
-      - 美国🚀_35
-      - 美国🚀_36
-      - 美国🚀_37
-      - 美国🚀_38
-      - 瑞典🚀_39
-      - 美国🚀_40
-      - 美国🚀_41
-      - 美国🚀_42
-      - 澳大利亚🚀_43
-      - 加拿大🚀_44
-      - 美国🚀_45
-      - 美国🚀_46
-      - 美国🚀_47
-      - 澳大利亚🚀_48
-      - 澳大利亚🚀_49
-      - 美国🚀_50
-      - 瑞典🚀_51
-      - 澳大利亚🚀_52
-      - 美国🚀_53
-      - 澳大利亚🚀_54
-      - 澳大利亚🚀_55
-      - 澳大利亚🚀_56
-      - 意大利🚀_57
-      - 美国🚀_58
-      - 澳大利亚🚀_59
-      - 澳大利亚🚀_60
-      - 澳大利亚🚀_61
-      - 澳大利亚🚀_62
-      - 澳大利亚🚀_63
-      - 澳大利亚🚀_64
-      - 澳大利亚🚀_65
-      - 澳大利亚🚀_66
-      - 澳大利亚🚀_67
-      - 澳大利亚🚀_68
-      - 美国🚀_69
-      - 印度🚀_70
-      - 加拿大🚀_71
-      - 澳大利亚🚀_72
-      - 澳大利亚🚀_73
-      - 印度🚀_74
-      - 法国🚀_75
-      - 美国🚀_76
-      - 美国🚀_77
-      - 美国🚀_78
-      - 澳大利亚🚀_79
-      - 德国🚀_80
-      - 美国🚀_81
-      - 德国🚀_82
-      - 印度🚀_83
-      - 澳大利亚🚀_84
-      - 印度🚀_85
-      - 德国🚀_86
-      - 瑞典🚀_87
-      - 美国🚀_88
-      - 加拿大🚀_89
-      - 印度🚀_90
-      - 印度🚀_91
-      - 印度🚀_92
-      - 印度🚀_93
-      - 澳大利亚🚀_94
-      - 印度🚀_95
-      - 印度🚀_96
-      - 印度🚀_97
-      - 印度🚀_98
-      - 印度🚀_99
-      - 挪威🚀_100
-      - 印度🚀_101
-      - 印度🚀_102
-      - 印度🚀_103
-      - 印度🚀_104
-      - 瑞典🚀_105
-      - 瑞典🚀_106
-      - 美国🚀_107
-      - 美国🚀_108
-      - 印度🚀_109
-      - 瑞典🚀_110
-      - 挪威🚀_111
-      - 印度🚀_112
-      - 加拿大🚀_113
-      - 美国🚀_114
-      - 美国🚀_115
-      - 加拿大🚀_116
-      - 挪威🚀_117
-      - 挪威🚀_118
-      - 挪威🚀_119
-      - 挪威🚀_120
-      - 挪威🚀_121
-      - 欧洲🚀_122
-      - 挪威🚀_123
-      - 印度🚀_124
-      - 瑞典🚀_125
-      - 美国🚀_126
-      - 美国🚀_127
-      - 美国🚀_128
-      - 印度🚀_129
-      - 英国🚀_130
-      - 美国🚀_131
-      - 美国🚀_132
-      - 美国🚀_133
-      - 印度🚀_134
-      - 印度🚀_135
-      - 瑞典🚀_136
-      - 美国🚀_137
-      - 美国🚀_138
-      - 美国🚀_139
-      - 美国🚀_140
-      - 印度🚀_141
-      - 印度🚀_142
-      - 印度🚀_143
-      - 印度🚀_144
-      - 美国🚀_145
-      - 美国🚀_146
-      - 美国🚀_147
-      - 美国🚀_148
-      - 俄罗斯🚀_149
-      - 美国🚀_150
-      - 印度🚀_151
-      - 印度🚀_152
-      - 俄罗斯🚀_153
-      - 香港🚀_154
-      - 台湾🚀_155
-      - 美国🚀_156
-      - 美国🚀_157
-      - 美国🚀_158
-      - 美国🚀_159
-      - 美国🚀_160
-      - 美国🚀_161
-      - 英国🚀_162
-      - 土耳其🚀_163
-      - 美国🚀_164
-      - 俄罗斯🚀_165
-      - 俄罗斯🚀_166
-      - 新加坡🚀_167
-      - 美国🚀_168
-      - 美国🚀_169
-      - 荷兰🚀_170
-      - 俄罗斯🚀_171
-      - 法国🚀_172
-      - 俄罗斯🚀_173
-      - 俄罗斯🚀_174
-      - 俄罗斯🚀_175
-      - 俄罗斯🚀_176
-      - 美国🚀_177
-      - 俄罗斯🚀_178
-      - 俄罗斯🚀_179
-      - 俄罗斯🚀_180
+      - 澳大利亚_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 法国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 俄罗斯_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 俄罗斯_20
+      - 加拿大_21
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 欧洲_25
+      - 加拿大_26
+      - 欧洲_27
+      - 加拿大_28
+      - 英国_29
+      - 美国_30
+      - 美国_31
+      - 美国_32
+      - 挪威_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 台湾_39
+      - 香港_40
+      - 香港_41
+      - 美国_42
+      - 美国_43
+      - 俄罗斯_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 香港_49
+      - 俄罗斯_50
+      - 美国_51
+      - 香港_52
+      - 俄罗斯_53
+      - 美国_54
+      - 英国_55
+      - 美国_56
+      - 美国_57
+      - 俄罗斯_58
+      - 美国_59
+      - 俄罗斯_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 欧洲_65
+      - 美国_66
+      - 美国_67
+      - 法国_68
+      - 美国_69
+      - 美国_70
+      - 俄罗斯_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 欧洲_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 台湾_82
+      - 美国_83
+      - 欧洲_84
+      - 俄罗斯_85
+      - 美国_86
+      - 俄罗斯_87
+      - 美国_88
+      - 美国_89
+      - 法国_90
+      - 美国_91
+      - 加拿大_92
+      - 美国_93
+      - 加拿大_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 欧洲_98
+      - 美国_99
+      - 俄罗斯_100
+      - 挪威_101
+      - 香港_102
+      - 法国_103
+      - 美国_104
+      - 欧洲_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 俄罗斯_111
+      - 美国_112
+      - 美国_113
+      - 挪威_114
+      - 欧洲_115
+      - 韩国_116
+      - 俄罗斯_117
+      - 美国_118
+      - 俄罗斯_119
+      - 美国_120
+      - 美国_121
+      - 美国_122
+      - 美国_123
+      - 俄罗斯_124
+      - 韩国_125
+      - 美国_126
+      - 欧洲_127
+      - 澳大利亚_128
+      - 英国_129
+      - 挪威_130
+      - 俄罗斯_131
+      - 美国_132
+      - 俄罗斯_133
+      - 欧洲_134
+      - 韩国_135
+      - 美国_136
+      - 台湾省_137
+      - 美国_138
+      - 美国_139
+      - 美国_140
+      - 美国_141
+      - 美国_142
+      - 美国_143
+      - 俄罗斯_144
+      - 美国_145
+      - 欧洲_146
+      - 欧洲_147
+      - 美国_148
+      - 欧洲_149
+      - 俄罗斯_150
+      - 美国_151
+      - 欧洲_152
+      - 欧洲_153
+      - 美国_154
+      - 美国_155
+      - 香港_156
+      - 俄罗斯_157
+      - 美国_158
+      - 美国_159
+      - 韩国_160
+      - 美国_161
+      - 美国_162
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡🚀_1
-      - 罗马尼亚🚀_2
-      - 香港🚀_3
-      - 美国🚀_4
-      - 瑞典🚀_5
-      - 瑞典🚀_6
-      - 瑞典🚀_7
-      - 瑞典🚀_8
-      - 加拿大🚀_9
-      - 美国🚀_10
-      - 加拿大🚀_11
-      - 瑞典🚀_12
-      - 加拿大🚀_13
-      - 加拿大🚀_14
-      - 加拿大🚀_15
-      - 瑞典🚀_16
-      - 美国🚀_17
-      - 德国🚀_18
-      - 加拿大🚀_19
-      - 德国🚀_20
-      - 德国🚀_21
-      - 瑞典🚀_22
-      - 瑞典🚀_23
-      - 美国🚀_24
-      - 瑞典🚀_25
-      - 瑞典🚀_26
-      - 瑞典🚀_27
-      - 加拿大🚀_28
-      - 美国🚀_29
-      - 美国🚀_30
-      - 加拿大🚀_31
-      - 瑞典🚀_32
-      - 美国🚀_33
-      - 美国🚀_34
-      - 美国🚀_35
-      - 美国🚀_36
-      - 美国🚀_37
-      - 美国🚀_38
-      - 瑞典🚀_39
-      - 美国🚀_40
-      - 美国🚀_41
-      - 美国🚀_42
-      - 澳大利亚🚀_43
-      - 加拿大🚀_44
-      - 美国🚀_45
-      - 美国🚀_46
-      - 美国🚀_47
-      - 澳大利亚🚀_48
-      - 澳大利亚🚀_49
-      - 美国🚀_50
-      - 瑞典🚀_51
-      - 澳大利亚🚀_52
-      - 美国🚀_53
-      - 澳大利亚🚀_54
-      - 澳大利亚🚀_55
-      - 澳大利亚🚀_56
-      - 意大利🚀_57
-      - 美国🚀_58
-      - 澳大利亚🚀_59
-      - 澳大利亚🚀_60
-      - 澳大利亚🚀_61
-      - 澳大利亚🚀_62
-      - 澳大利亚🚀_63
-      - 澳大利亚🚀_64
-      - 澳大利亚🚀_65
-      - 澳大利亚🚀_66
-      - 澳大利亚🚀_67
-      - 澳大利亚🚀_68
-      - 美国🚀_69
-      - 印度🚀_70
-      - 加拿大🚀_71
-      - 澳大利亚🚀_72
-      - 澳大利亚🚀_73
-      - 印度🚀_74
-      - 法国🚀_75
-      - 美国🚀_76
-      - 美国🚀_77
-      - 美国🚀_78
-      - 澳大利亚🚀_79
-      - 德国🚀_80
-      - 美国🚀_81
-      - 德国🚀_82
-      - 印度🚀_83
-      - 澳大利亚🚀_84
-      - 印度🚀_85
-      - 德国🚀_86
-      - 瑞典🚀_87
-      - 美国🚀_88
-      - 加拿大🚀_89
-      - 印度🚀_90
-      - 印度🚀_91
-      - 印度🚀_92
-      - 印度🚀_93
-      - 澳大利亚🚀_94
-      - 印度🚀_95
-      - 印度🚀_96
-      - 印度🚀_97
-      - 印度🚀_98
-      - 印度🚀_99
-      - 挪威🚀_100
-      - 印度🚀_101
-      - 印度🚀_102
-      - 印度🚀_103
-      - 印度🚀_104
-      - 瑞典🚀_105
-      - 瑞典🚀_106
-      - 美国🚀_107
-      - 美国🚀_108
-      - 印度🚀_109
-      - 瑞典🚀_110
-      - 挪威🚀_111
-      - 印度🚀_112
-      - 加拿大🚀_113
-      - 美国🚀_114
-      - 美国🚀_115
-      - 加拿大🚀_116
-      - 挪威🚀_117
-      - 挪威🚀_118
-      - 挪威🚀_119
-      - 挪威🚀_120
-      - 挪威🚀_121
-      - 欧洲🚀_122
-      - 挪威🚀_123
-      - 印度🚀_124
-      - 瑞典🚀_125
-      - 美国🚀_126
-      - 美国🚀_127
-      - 美国🚀_128
-      - 印度🚀_129
-      - 英国🚀_130
-      - 美国🚀_131
-      - 美国🚀_132
-      - 美国🚀_133
-      - 印度🚀_134
-      - 印度🚀_135
-      - 瑞典🚀_136
-      - 美国🚀_137
-      - 美国🚀_138
-      - 美国🚀_139
-      - 美国🚀_140
-      - 印度🚀_141
-      - 印度🚀_142
-      - 印度🚀_143
-      - 印度🚀_144
-      - 美国🚀_145
-      - 美国🚀_146
-      - 美国🚀_147
-      - 美国🚀_148
-      - 俄罗斯🚀_149
-      - 美国🚀_150
-      - 印度🚀_151
-      - 印度🚀_152
-      - 俄罗斯🚀_153
-      - 香港🚀_154
-      - 台湾🚀_155
-      - 美国🚀_156
-      - 美国🚀_157
-      - 美国🚀_158
-      - 美国🚀_159
-      - 美国🚀_160
-      - 美国🚀_161
-      - 英国🚀_162
-      - 土耳其🚀_163
-      - 美国🚀_164
-      - 俄罗斯🚀_165
-      - 俄罗斯🚀_166
-      - 新加坡🚀_167
-      - 美国🚀_168
-      - 美国🚀_169
-      - 荷兰🚀_170
-      - 俄罗斯🚀_171
-      - 法国🚀_172
-      - 俄罗斯🚀_173
-      - 俄罗斯🚀_174
-      - 俄罗斯🚀_175
-      - 俄罗斯🚀_176
-      - 美国🚀_177
-      - 俄罗斯🚀_178
-      - 俄罗斯🚀_179
-      - 俄罗斯🚀_180
+      - 澳大利亚_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 法国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 俄罗斯_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 俄罗斯_20
+      - 加拿大_21
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 欧洲_25
+      - 加拿大_26
+      - 欧洲_27
+      - 加拿大_28
+      - 英国_29
+      - 美国_30
+      - 美国_31
+      - 美国_32
+      - 挪威_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 台湾_39
+      - 香港_40
+      - 香港_41
+      - 美国_42
+      - 美国_43
+      - 俄罗斯_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 香港_49
+      - 俄罗斯_50
+      - 美国_51
+      - 香港_52
+      - 俄罗斯_53
+      - 美国_54
+      - 英国_55
+      - 美国_56
+      - 美国_57
+      - 俄罗斯_58
+      - 美国_59
+      - 俄罗斯_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 欧洲_65
+      - 美国_66
+      - 美国_67
+      - 法国_68
+      - 美国_69
+      - 美国_70
+      - 俄罗斯_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 欧洲_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 台湾_82
+      - 美国_83
+      - 欧洲_84
+      - 俄罗斯_85
+      - 美国_86
+      - 俄罗斯_87
+      - 美国_88
+      - 美国_89
+      - 法国_90
+      - 美国_91
+      - 加拿大_92
+      - 美国_93
+      - 加拿大_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 欧洲_98
+      - 美国_99
+      - 俄罗斯_100
+      - 挪威_101
+      - 香港_102
+      - 法国_103
+      - 美国_104
+      - 欧洲_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 俄罗斯_111
+      - 美国_112
+      - 美国_113
+      - 挪威_114
+      - 欧洲_115
+      - 韩国_116
+      - 俄罗斯_117
+      - 美国_118
+      - 俄罗斯_119
+      - 美国_120
+      - 美国_121
+      - 美国_122
+      - 美国_123
+      - 俄罗斯_124
+      - 韩国_125
+      - 美国_126
+      - 欧洲_127
+      - 澳大利亚_128
+      - 英国_129
+      - 挪威_130
+      - 俄罗斯_131
+      - 美国_132
+      - 俄罗斯_133
+      - 欧洲_134
+      - 韩国_135
+      - 美国_136
+      - 台湾省_137
+      - 美国_138
+      - 美国_139
+      - 美国_140
+      - 美国_141
+      - 美国_142
+      - 美国_143
+      - 俄罗斯_144
+      - 美国_145
+      - 欧洲_146
+      - 欧洲_147
+      - 美国_148
+      - 欧洲_149
+      - 俄罗斯_150
+      - 美国_151
+      - 欧洲_152
+      - 欧洲_153
+      - 美国_154
+      - 美国_155
+      - 香港_156
+      - 俄罗斯_157
+      - 美国_158
+      - 美国_159
+      - 韩国_160
+      - 美国_161
+      - 美国_162
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1498,186 +1354,168 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡🚀_1
-      - 罗马尼亚🚀_2
-      - 香港🚀_3
-      - 美国🚀_4
-      - 瑞典🚀_5
-      - 瑞典🚀_6
-      - 瑞典🚀_7
-      - 瑞典🚀_8
-      - 加拿大🚀_9
-      - 美国🚀_10
-      - 加拿大🚀_11
-      - 瑞典🚀_12
-      - 加拿大🚀_13
-      - 加拿大🚀_14
-      - 加拿大🚀_15
-      - 瑞典🚀_16
-      - 美国🚀_17
-      - 德国🚀_18
-      - 加拿大🚀_19
-      - 德国🚀_20
-      - 德国🚀_21
-      - 瑞典🚀_22
-      - 瑞典🚀_23
-      - 美国🚀_24
-      - 瑞典🚀_25
-      - 瑞典🚀_26
-      - 瑞典🚀_27
-      - 加拿大🚀_28
-      - 美国🚀_29
-      - 美国🚀_30
-      - 加拿大🚀_31
-      - 瑞典🚀_32
-      - 美国🚀_33
-      - 美国🚀_34
-      - 美国🚀_35
-      - 美国🚀_36
-      - 美国🚀_37
-      - 美国🚀_38
-      - 瑞典🚀_39
-      - 美国🚀_40
-      - 美国🚀_41
-      - 美国🚀_42
-      - 澳大利亚🚀_43
-      - 加拿大🚀_44
-      - 美国🚀_45
-      - 美国🚀_46
-      - 美国🚀_47
-      - 澳大利亚🚀_48
-      - 澳大利亚🚀_49
-      - 美国🚀_50
-      - 瑞典🚀_51
-      - 澳大利亚🚀_52
-      - 美国🚀_53
-      - 澳大利亚🚀_54
-      - 澳大利亚🚀_55
-      - 澳大利亚🚀_56
-      - 意大利🚀_57
-      - 美国🚀_58
-      - 澳大利亚🚀_59
-      - 澳大利亚🚀_60
-      - 澳大利亚🚀_61
-      - 澳大利亚🚀_62
-      - 澳大利亚🚀_63
-      - 澳大利亚🚀_64
-      - 澳大利亚🚀_65
-      - 澳大利亚🚀_66
-      - 澳大利亚🚀_67
-      - 澳大利亚🚀_68
-      - 美国🚀_69
-      - 印度🚀_70
-      - 加拿大🚀_71
-      - 澳大利亚🚀_72
-      - 澳大利亚🚀_73
-      - 印度🚀_74
-      - 法国🚀_75
-      - 美国🚀_76
-      - 美国🚀_77
-      - 美国🚀_78
-      - 澳大利亚🚀_79
-      - 德国🚀_80
-      - 美国🚀_81
-      - 德国🚀_82
-      - 印度🚀_83
-      - 澳大利亚🚀_84
-      - 印度🚀_85
-      - 德国🚀_86
-      - 瑞典🚀_87
-      - 美国🚀_88
-      - 加拿大🚀_89
-      - 印度🚀_90
-      - 印度🚀_91
-      - 印度🚀_92
-      - 印度🚀_93
-      - 澳大利亚🚀_94
-      - 印度🚀_95
-      - 印度🚀_96
-      - 印度🚀_97
-      - 印度🚀_98
-      - 印度🚀_99
-      - 挪威🚀_100
-      - 印度🚀_101
-      - 印度🚀_102
-      - 印度🚀_103
-      - 印度🚀_104
-      - 瑞典🚀_105
-      - 瑞典🚀_106
-      - 美国🚀_107
-      - 美国🚀_108
-      - 印度🚀_109
-      - 瑞典🚀_110
-      - 挪威🚀_111
-      - 印度🚀_112
-      - 加拿大🚀_113
-      - 美国🚀_114
-      - 美国🚀_115
-      - 加拿大🚀_116
-      - 挪威🚀_117
-      - 挪威🚀_118
-      - 挪威🚀_119
-      - 挪威🚀_120
-      - 挪威🚀_121
-      - 欧洲🚀_122
-      - 挪威🚀_123
-      - 印度🚀_124
-      - 瑞典🚀_125
-      - 美国🚀_126
-      - 美国🚀_127
-      - 美国🚀_128
-      - 印度🚀_129
-      - 英国🚀_130
-      - 美国🚀_131
-      - 美国🚀_132
-      - 美国🚀_133
-      - 印度🚀_134
-      - 印度🚀_135
-      - 瑞典🚀_136
-      - 美国🚀_137
-      - 美国🚀_138
-      - 美国🚀_139
-      - 美国🚀_140
-      - 印度🚀_141
-      - 印度🚀_142
-      - 印度🚀_143
-      - 印度🚀_144
-      - 美国🚀_145
-      - 美国🚀_146
-      - 美国🚀_147
-      - 美国🚀_148
-      - 俄罗斯🚀_149
-      - 美国🚀_150
-      - 印度🚀_151
-      - 印度🚀_152
-      - 俄罗斯🚀_153
-      - 香港🚀_154
-      - 台湾🚀_155
-      - 美国🚀_156
-      - 美国🚀_157
-      - 美国🚀_158
-      - 美国🚀_159
-      - 美国🚀_160
-      - 美国🚀_161
-      - 英国🚀_162
-      - 土耳其🚀_163
-      - 美国🚀_164
-      - 俄罗斯🚀_165
-      - 俄罗斯🚀_166
-      - 新加坡🚀_167
-      - 美国🚀_168
-      - 美国🚀_169
-      - 荷兰🚀_170
-      - 俄罗斯🚀_171
-      - 法国🚀_172
-      - 俄罗斯🚀_173
-      - 俄罗斯🚀_174
-      - 俄罗斯🚀_175
-      - 俄罗斯🚀_176
-      - 美国🚀_177
-      - 俄罗斯🚀_178
-      - 俄罗斯🚀_179
-      - 俄罗斯🚀_180
+      - 澳大利亚_1
+      - 美国_2
+      - 美国_3
+      - 美国_4
+      - 法国_5
+      - 美国_6
+      - 美国_7
+      - 美国_8
+      - 美国_9
+      - 美国_10
+      - 美国_11
+      - 俄罗斯_12
+      - 美国_13
+      - 美国_14
+      - 美国_15
+      - 美国_16
+      - 美国_17
+      - 美国_18
+      - 美国_19
+      - 俄罗斯_20
+      - 加拿大_21
+      - 美国_22
+      - 美国_23
+      - 美国_24
+      - 欧洲_25
+      - 加拿大_26
+      - 欧洲_27
+      - 加拿大_28
+      - 英国_29
+      - 美国_30
+      - 美国_31
+      - 美国_32
+      - 挪威_33
+      - 美国_34
+      - 美国_35
+      - 美国_36
+      - 美国_37
+      - 美国_38
+      - 台湾_39
+      - 香港_40
+      - 香港_41
+      - 美国_42
+      - 美国_43
+      - 俄罗斯_44
+      - 美国_45
+      - 美国_46
+      - 美国_47
+      - 美国_48
+      - 香港_49
+      - 俄罗斯_50
+      - 美国_51
+      - 香港_52
+      - 俄罗斯_53
+      - 美国_54
+      - 英国_55
+      - 美国_56
+      - 美国_57
+      - 俄罗斯_58
+      - 美国_59
+      - 俄罗斯_60
+      - 美国_61
+      - 美国_62
+      - 美国_63
+      - 美国_64
+      - 欧洲_65
+      - 美国_66
+      - 美国_67
+      - 法国_68
+      - 美国_69
+      - 美国_70
+      - 俄罗斯_71
+      - 美国_72
+      - 美国_73
+      - 美国_74
+      - 美国_75
+      - 欧洲_76
+      - 美国_77
+      - 美国_78
+      - 美国_79
+      - 美国_80
+      - 美国_81
+      - 台湾_82
+      - 美国_83
+      - 欧洲_84
+      - 俄罗斯_85
+      - 美国_86
+      - 俄罗斯_87
+      - 美国_88
+      - 美国_89
+      - 法国_90
+      - 美国_91
+      - 加拿大_92
+      - 美国_93
+      - 加拿大_94
+      - 美国_95
+      - 美国_96
+      - 美国_97
+      - 欧洲_98
+      - 美国_99
+      - 俄罗斯_100
+      - 挪威_101
+      - 香港_102
+      - 法国_103
+      - 美国_104
+      - 欧洲_105
+      - 美国_106
+      - 美国_107
+      - 美国_108
+      - 美国_109
+      - 美国_110
+      - 俄罗斯_111
+      - 美国_112
+      - 美国_113
+      - 挪威_114
+      - 欧洲_115
+      - 韩国_116
+      - 俄罗斯_117
+      - 美国_118
+      - 俄罗斯_119
+      - 美国_120
+      - 美国_121
+      - 美国_122
+      - 美国_123
+      - 俄罗斯_124
+      - 韩国_125
+      - 美国_126
+      - 欧洲_127
+      - 澳大利亚_128
+      - 英国_129
+      - 挪威_130
+      - 俄罗斯_131
+      - 美国_132
+      - 俄罗斯_133
+      - 欧洲_134
+      - 韩国_135
+      - 美国_136
+      - 台湾省_137
+      - 美国_138
+      - 美国_139
+      - 美国_140
+      - 美国_141
+      - 美国_142
+      - 美国_143
+      - 俄罗斯_144
+      - 美国_145
+      - 欧洲_146
+      - 欧洲_147
+      - 美国_148
+      - 欧洲_149
+      - 俄罗斯_150
+      - 美国_151
+      - 欧洲_152
+      - 欧洲_153
+      - 美国_154
+      - 美国_155
+      - 香港_156
+      - 俄罗斯_157
+      - 美国_158
+      - 美国_159
+      - 韩国_160
+      - 美国_161
+      - 美国_162
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
