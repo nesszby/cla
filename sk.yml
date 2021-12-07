@@ -5,644 +5,516 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_1', server: 167.88.61.130, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_2', server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_3', server: 38.75.136.58, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_4', server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_5', server: 38.75.137.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_6', server: 142.202.48.43, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_7', server: 142.202.48.43, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_8', server: 134.195.196.154, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_9', server: 134.195.196.154, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_10', server: 172.105.59.32, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_11', server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_12', server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_13', server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_14', server: 38.75.136.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_15', server: 38.75.136.45, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_16', server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_17', server: 142.202.48.43, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_18', server: 38.68.134.191, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_19', server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇨🇳_CN_wmt（21.12.5）AM_20', server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_21', server: 134.195.198.250, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_22', server: 167.88.61.130, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_23', server: 134.195.196.68, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_24', server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_25', server: 172.105.59.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_26', server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_27', server: 167.88.63.61, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_28', server: 134.195.196.154, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_29', server: 142.202.48.43, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰_HK_wmt（21.12.5）AM_30', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇷🇺_RU_wmt（21.12.5）AM_31', server: 45.89.228.53, port: 443, type: vmess, uuid: e64c6f7c-48eb-4852-9b29-778faef14212, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /319285eb2d/, ws-headers: {Host: free-russian-cdn.xiaohouzi.club}}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_32', server: 167.88.61.130, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_33', server: 38.68.134.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_34', server: 167.88.63.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_35', server: 38.91.101.221, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_36', server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_37', server: 134.195.196.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_38', server: 134.195.196.154, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_39', server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_40', server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_41', server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_42', server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_43', server: 134.195.196.154, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_44', server: 134.195.196.154, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_45', server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_46', server: 38.114.114.68, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_47', server: 167.88.61.130, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_48', server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_49', server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_50', server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_51', server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_52', server: 167.88.61.130, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_53', server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_54', server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_55', server: 38.68.134.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_56', server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_57', server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_58', server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_59', server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_60', server: 134.195.196.199, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_61', server: 134.195.196.154, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_62', server: 167.88.63.61, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇩🇪_DE_wmt（21.12.5）AM_63', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_64', server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_65', server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_66', server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_67', server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇩🇪_DE_wmt（21.12.5）AM_68', server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_69', server: 38.75.136.116, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_70', server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_71', server: 167.88.63.61, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦_CA_wmt（21.12.5）AM_72', server: 134.195.198.252, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_73', server: 142.202.48.43, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_74', server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇺🇸_US_wmt（21.12.5）AM_75', server: 172.107.233.230, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏳_NON_wmt（21.12.6）PM_1', server: 1116hk.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: '🇳🇱_NL_wmt（21.12.6）PM_2', server: 139.162.24.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦_CA_wmt（21.12.6）PM_3', server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_4', server: 38.68.134.202, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_5', server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_6', server: 38.75.136.45, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_7', server: 38.75.136.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇳🇴_NO_wmt（21.12.6）PM_8', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦_CA_wmt（21.12.6）PM_9', server: 134.195.198.252, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🏳_NON_wmt（21.12.6）PM_10', server: 1030us.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1030us.fans8.xyz}}
+  - {name: '🏳_NON_wmt（21.12.6）PM_11', server: 103.62.49.141, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_12', server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_13', server: 38.75.137.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_14', server: 38.75.137.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦_CA_wmt（21.12.6）PM_15', server: 71.19.249.109, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QBLw4rLXQ6ebxpWwSKDL}
+  - {name: '🏳_NON_wmt（21.12.6）PM_16', server: 38.75.137.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_17', server: 142.zikgu.com, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: 6c21f43e}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_18', server: fus1.uuv2.co.uk, port: 2082, type: vmess, uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /media/, ws-headers: {Host: download.jianguoyun.com}}
+  - {name: '🏳_NON_wmt（21.12.6）PM_19', server: 145.239.7.164, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_wmt（21.12.6）PM_20', server: cu.cheapv2.xyz, port: 23308, type: vmess, uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}}
+  - {name: '🏳_NON_wmt（21.12.6）PM_21', server: 61.74.222.77, port: 10100, type: ss, cipher: aes-256-gcm, password: a78172b3}
+  - {name: '🇫🇷_FR_wmt（21.12.6）PM_22', server: 145.239.7.164, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_wmt（21.12.6）PM_23', server: 198.57.27.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🏳_NON_wmt（21.12.6）PM_24', server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_25', server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_26', server: 38.68.134.190, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇫🇷_FR_wmt（21.12.6）PM_27', server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇫🇷_FR_wmt（21.12.6）PM_28', server: 145.239.7.164, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🏳_NON_wmt（21.12.6）PM_29', server: 38.68.134.202, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🏳_NON_wmt（21.12.6）PM_30', server: 172.105.251.193, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦_CA_wmt（21.12.6）PM_31', server: 198.57.27.191, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷_FR_wmt（21.12.6）PM_32', server: 145.239.7.164, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷_FR_wmt（21.12.6）PM_33', server: 141.95.0.23, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🏳_NON_wmt（21.12.6）PM_34', server: 141.95.0.23, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇫🇷_FR_wmt（21.12.6）PM_35', server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_36', server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_37', server: 167.88.63.61, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_38', server: 38.68.134.190, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_39', server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_40', server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_41', server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🏳_NON_wmt（21.12.6）PM_42', server: 141.95.0.23, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🏳_NON_wmt（21.12.6）PM_43', server: 145.239.7.164, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇳_CN_wmt（21.12.6）PM_44', server: 120.197.85.52, port: 16631, type: vmess, uuid: 1fff330e-1645-4580-b331-23bd8b51f7af, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇨🇳_CN_wmt（21.12.6）PM_45', server: 120.197.85.52, port: 16618, type: vmess, uuid: 1fff330e-1645-4580-b331-23bd8b51f7af, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🏳_NON_wmt（21.12.6）PM_46', server: 112.82.144.173, port: 16631, type: vmess, uuid: 1fff330e-1645-4580-b331-23bd8b51f7af, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇨🇳_CN_wmt（21.12.6）PM_47', server: 520yyds.zhqt.xyz, port: 30007, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 135.zhqt.xyz}}
+  - {name: '🇨🇦_CA_wmt（21.12.6）PM_48', server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, network: tcp}
+  - {name: '🇨🇳_CN_wmt（21.12.6）PM_49', server: 520yyds.zhqt.xyz, port: 30004, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
+  - {name: '🏳_NON_wmt（21.12.6）PM_50', server: 520yyds.zhqt.xyz, port: 11069, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free-5.joker007.top}}
+  - {name: '🇨🇳_CN_wmt（21.12.6）PM_51', server: 120.197.85.52, port: 16620, type: vmess, uuid: 1fff330e-1645-4580-b331-23bd8b51f7af, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇨🇳_CN_wmt（21.12.6）PM_52', server: ngzyd-1.okex-tradebot.xyz, port: 30014, type: vmess, uuid: 80e17f00-3449-406c-bdd1-17a3fc7947f3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_53', server: 74.servermoa.com, port: 10039, type: ss, cipher: aes-256-gcm, password: 6c21f43e}
+  - {name: '🇺🇸_US_wmt（21.12.6）PM_54', server: zhuzhu12.com, port: 10156, type: vmess, uuid: b66d502c-5d3a-381f-9e49-fe8afdac9968, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /zz, ws-headers: {Host: t.me/vpnhat}}
+  - {name: '🇨🇳_CN_wmt（21.12.6）PM_55', server: cu-cs.okvpn.xyz, port: 30013, type: vmess, uuid: a637de21-40e1-4881-a309-1d10fcc2b5ae, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cu-cs.okvpn.xyz}}
+  - {name: '🇨🇳_CN_wmt（21.12.6）PM_56', server: 120.232.173.154, port: 30007, type: vmess, uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 135.zhqt.xyz}}
+  - {name: '🇨🇦_CA_wmt（21.12.6）PM_57', server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: '🇨🇳_CN_wmt（21.12.6）PM_58', server: 120.197.85.12, port: 16622, type: vmess, uuid: 1fff330e-1645-4580-b331-23bd8b51f7af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /}
+  - {name: '🇨🇦_CA_wmt（21.12.6）PM_59', server: c23s801.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 8, cipher: auto, tls: false, network: tcp, ws-path: /}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_wmt（21.12.5）AM_1
-      - 🇺🇸_US_wmt（21.12.5）AM_2
-      - 🇺🇸_US_wmt（21.12.5）AM_3
-      - 🇨🇦_CA_wmt（21.12.5）AM_4
-      - 🇺🇸_US_wmt（21.12.5）AM_5
-      - 🇺🇸_US_wmt（21.12.5）AM_6
-      - 🇺🇸_US_wmt（21.12.5）AM_7
-      - 🇨🇦_CA_wmt（21.12.5）AM_8
-      - 🇨🇦_CA_wmt（21.12.5）AM_9
-      - 🇺🇸_US_wmt（21.12.5）AM_10
-      - 🇨🇦_CA_wmt（21.12.5）AM_11
-      - 🇺🇸_US_wmt（21.12.5）AM_12
-      - 🇺🇸_US_wmt（21.12.5）AM_13
-      - 🇺🇸_US_wmt（21.12.5）AM_14
-      - 🇺🇸_US_wmt（21.12.5）AM_15
-      - 🇺🇸_US_wmt（21.12.5）AM_16
-      - 🇺🇸_US_wmt（21.12.5）AM_17
-      - 🇺🇸_US_wmt（21.12.5）AM_18
-      - 🇺🇸_US_wmt（21.12.5）AM_19
-      - 🇨🇳_CN_wmt（21.12.5）AM_20
-      - 🇨🇦_CA_wmt（21.12.5）AM_21
-      - 🇺🇸_US_wmt（21.12.5）AM_22
-      - 🇨🇦_CA_wmt（21.12.5）AM_23
-      - 🇨🇦_CA_wmt（21.12.5）AM_24
-      - 🇺🇸_US_wmt（21.12.5）AM_25
-      - 🇺🇸_US_wmt（21.12.5）AM_26
-      - 🇺🇸_US_wmt（21.12.5）AM_27
-      - 🇨🇦_CA_wmt（21.12.5）AM_28
-      - 🇺🇸_US_wmt（21.12.5）AM_29
-      - 🇭🇰_HK_wmt（21.12.5）AM_30
-      - 🇷🇺_RU_wmt（21.12.5）AM_31
-      - 🇺🇸_US_wmt（21.12.5）AM_32
-      - 🇺🇸_US_wmt（21.12.5）AM_33
-      - 🇺🇸_US_wmt（21.12.5）AM_34
-      - 🇺🇸_US_wmt（21.12.5）AM_35
-      - 🇺🇸_US_wmt（21.12.5）AM_36
-      - 🇨🇦_CA_wmt（21.12.5）AM_37
-      - 🇨🇦_CA_wmt（21.12.5）AM_38
-      - 🇺🇸_US_wmt（21.12.5）AM_39
-      - 🇺🇸_US_wmt（21.12.5）AM_40
-      - 🇺🇸_US_wmt（21.12.5）AM_41
-      - 🇺🇸_US_wmt（21.12.5）AM_42
-      - 🇨🇦_CA_wmt（21.12.5）AM_43
-      - 🇨🇦_CA_wmt（21.12.5）AM_44
-      - 🇺🇸_US_wmt（21.12.5）AM_45
-      - 🇺🇸_US_wmt（21.12.5）AM_46
-      - 🇺🇸_US_wmt（21.12.5）AM_47
-      - 🇺🇸_US_wmt（21.12.5）AM_48
-      - 🇨🇦_CA_wmt（21.12.5）AM_49
-      - 🇨🇦_CA_wmt（21.12.5）AM_50
-      - 🇺🇸_US_wmt（21.12.5）AM_51
-      - 🇺🇸_US_wmt（21.12.5）AM_52
-      - 🇺🇸_US_wmt（21.12.5）AM_53
-      - 🇺🇸_US_wmt（21.12.5）AM_54
-      - 🇺🇸_US_wmt（21.12.5）AM_55
-      - 🇺🇸_US_wmt（21.12.5）AM_56
-      - 🇨🇦_CA_wmt（21.12.5）AM_57
-      - 🇨🇦_CA_wmt（21.12.5）AM_58
-      - 🇨🇦_CA_wmt（21.12.5）AM_59
-      - 🇨🇦_CA_wmt（21.12.5）AM_60
-      - 🇨🇦_CA_wmt（21.12.5）AM_61
-      - 🇺🇸_US_wmt（21.12.5）AM_62
-      - 🇩🇪_DE_wmt（21.12.5）AM_63
-      - 🇨🇦_CA_wmt（21.12.5）AM_64
-      - 🇺🇸_US_wmt（21.12.5）AM_65
-      - 🇺🇸_US_wmt（21.12.5）AM_66
-      - 🇺🇸_US_wmt（21.12.5）AM_67
-      - 🇩🇪_DE_wmt（21.12.5）AM_68
-      - 🇺🇸_US_wmt（21.12.5）AM_69
-      - 🇨🇦_CA_wmt（21.12.5）AM_70
-      - 🇺🇸_US_wmt（21.12.5）AM_71
-      - 🇨🇦_CA_wmt（21.12.5）AM_72
-      - 🇺🇸_US_wmt（21.12.5）AM_73
-      - 🇺🇸_US_wmt（21.12.5）AM_74
-      - 🇺🇸_US_wmt（21.12.5）AM_75
+      - 🏳_NON_wmt（21.12.6）PM_1
+      - 🇳🇱_NL_wmt（21.12.6）PM_2
+      - 🇨🇦_CA_wmt（21.12.6）PM_3
+      - 🇺🇸_US_wmt（21.12.6）PM_4
+      - 🇺🇸_US_wmt（21.12.6）PM_5
+      - 🇺🇸_US_wmt（21.12.6）PM_6
+      - 🇺🇸_US_wmt（21.12.6）PM_7
+      - 🇳🇴_NO_wmt（21.12.6）PM_8
+      - 🇨🇦_CA_wmt（21.12.6）PM_9
+      - 🏳_NON_wmt（21.12.6）PM_10
+      - 🏳_NON_wmt（21.12.6）PM_11
+      - 🇺🇸_US_wmt（21.12.6）PM_12
+      - 🇺🇸_US_wmt（21.12.6）PM_13
+      - 🇺🇸_US_wmt（21.12.6）PM_14
+      - 🇨🇦_CA_wmt（21.12.6）PM_15
+      - 🏳_NON_wmt（21.12.6）PM_16
+      - 🇺🇸_US_wmt（21.12.6）PM_17
+      - 🇺🇸_US_wmt（21.12.6）PM_18
+      - 🏳_NON_wmt（21.12.6）PM_19
+      - 🏳_NON_wmt（21.12.6）PM_20
+      - 🏳_NON_wmt（21.12.6）PM_21
+      - 🇫🇷_FR_wmt（21.12.6）PM_22
+      - 🇨🇦_CA_wmt（21.12.6）PM_23
+      - 🏳_NON_wmt（21.12.6）PM_24
+      - 🇺🇸_US_wmt（21.12.6）PM_25
+      - 🇺🇸_US_wmt（21.12.6）PM_26
+      - 🇫🇷_FR_wmt（21.12.6）PM_27
+      - 🇫🇷_FR_wmt（21.12.6）PM_28
+      - 🏳_NON_wmt（21.12.6）PM_29
+      - 🏳_NON_wmt（21.12.6）PM_30
+      - 🇨🇦_CA_wmt（21.12.6）PM_31
+      - 🇫🇷_FR_wmt（21.12.6）PM_32
+      - 🇫🇷_FR_wmt（21.12.6）PM_33
+      - 🏳_NON_wmt（21.12.6）PM_34
+      - 🇫🇷_FR_wmt（21.12.6）PM_35
+      - 🇺🇸_US_wmt（21.12.6）PM_36
+      - 🇺🇸_US_wmt（21.12.6）PM_37
+      - 🇺🇸_US_wmt（21.12.6）PM_38
+      - 🇺🇸_US_wmt（21.12.6）PM_39
+      - 🇺🇸_US_wmt（21.12.6）PM_40
+      - 🇺🇸_US_wmt（21.12.6）PM_41
+      - 🏳_NON_wmt（21.12.6）PM_42
+      - 🏳_NON_wmt（21.12.6）PM_43
+      - 🇨🇳_CN_wmt（21.12.6）PM_44
+      - 🇨🇳_CN_wmt（21.12.6）PM_45
+      - 🏳_NON_wmt（21.12.6）PM_46
+      - 🇨🇳_CN_wmt（21.12.6）PM_47
+      - 🇨🇦_CA_wmt（21.12.6）PM_48
+      - 🇨🇳_CN_wmt（21.12.6）PM_49
+      - 🏳_NON_wmt（21.12.6）PM_50
+      - 🇨🇳_CN_wmt（21.12.6）PM_51
+      - 🇨🇳_CN_wmt（21.12.6）PM_52
+      - 🇺🇸_US_wmt（21.12.6）PM_53
+      - 🇺🇸_US_wmt（21.12.6）PM_54
+      - 🇨🇳_CN_wmt（21.12.6）PM_55
+      - 🇨🇳_CN_wmt（21.12.6）PM_56
+      - 🇨🇦_CA_wmt（21.12.6）PM_57
+      - 🇨🇳_CN_wmt（21.12.6）PM_58
+      - 🇨🇦_CA_wmt（21.12.6）PM_59
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_wmt（21.12.5）AM_1
-      - 🇺🇸_US_wmt（21.12.5）AM_2
-      - 🇺🇸_US_wmt（21.12.5）AM_3
-      - 🇨🇦_CA_wmt（21.12.5）AM_4
-      - 🇺🇸_US_wmt（21.12.5）AM_5
-      - 🇺🇸_US_wmt（21.12.5）AM_6
-      - 🇺🇸_US_wmt（21.12.5）AM_7
-      - 🇨🇦_CA_wmt（21.12.5）AM_8
-      - 🇨🇦_CA_wmt（21.12.5）AM_9
-      - 🇺🇸_US_wmt（21.12.5）AM_10
-      - 🇨🇦_CA_wmt（21.12.5）AM_11
-      - 🇺🇸_US_wmt（21.12.5）AM_12
-      - 🇺🇸_US_wmt（21.12.5）AM_13
-      - 🇺🇸_US_wmt（21.12.5）AM_14
-      - 🇺🇸_US_wmt（21.12.5）AM_15
-      - 🇺🇸_US_wmt（21.12.5）AM_16
-      - 🇺🇸_US_wmt（21.12.5）AM_17
-      - 🇺🇸_US_wmt（21.12.5）AM_18
-      - 🇺🇸_US_wmt（21.12.5）AM_19
-      - 🇨🇳_CN_wmt（21.12.5）AM_20
-      - 🇨🇦_CA_wmt（21.12.5）AM_21
-      - 🇺🇸_US_wmt（21.12.5）AM_22
-      - 🇨🇦_CA_wmt（21.12.5）AM_23
-      - 🇨🇦_CA_wmt（21.12.5）AM_24
-      - 🇺🇸_US_wmt（21.12.5）AM_25
-      - 🇺🇸_US_wmt（21.12.5）AM_26
-      - 🇺🇸_US_wmt（21.12.5）AM_27
-      - 🇨🇦_CA_wmt（21.12.5）AM_28
-      - 🇺🇸_US_wmt（21.12.5）AM_29
-      - 🇭🇰_HK_wmt（21.12.5）AM_30
-      - 🇷🇺_RU_wmt（21.12.5）AM_31
-      - 🇺🇸_US_wmt（21.12.5）AM_32
-      - 🇺🇸_US_wmt（21.12.5）AM_33
-      - 🇺🇸_US_wmt（21.12.5）AM_34
-      - 🇺🇸_US_wmt（21.12.5）AM_35
-      - 🇺🇸_US_wmt（21.12.5）AM_36
-      - 🇨🇦_CA_wmt（21.12.5）AM_37
-      - 🇨🇦_CA_wmt（21.12.5）AM_38
-      - 🇺🇸_US_wmt（21.12.5）AM_39
-      - 🇺🇸_US_wmt（21.12.5）AM_40
-      - 🇺🇸_US_wmt（21.12.5）AM_41
-      - 🇺🇸_US_wmt（21.12.5）AM_42
-      - 🇨🇦_CA_wmt（21.12.5）AM_43
-      - 🇨🇦_CA_wmt（21.12.5）AM_44
-      - 🇺🇸_US_wmt（21.12.5）AM_45
-      - 🇺🇸_US_wmt（21.12.5）AM_46
-      - 🇺🇸_US_wmt（21.12.5）AM_47
-      - 🇺🇸_US_wmt（21.12.5）AM_48
-      - 🇨🇦_CA_wmt（21.12.5）AM_49
-      - 🇨🇦_CA_wmt（21.12.5）AM_50
-      - 🇺🇸_US_wmt（21.12.5）AM_51
-      - 🇺🇸_US_wmt（21.12.5）AM_52
-      - 🇺🇸_US_wmt（21.12.5）AM_53
-      - 🇺🇸_US_wmt（21.12.5）AM_54
-      - 🇺🇸_US_wmt（21.12.5）AM_55
-      - 🇺🇸_US_wmt（21.12.5）AM_56
-      - 🇨🇦_CA_wmt（21.12.5）AM_57
-      - 🇨🇦_CA_wmt（21.12.5）AM_58
-      - 🇨🇦_CA_wmt（21.12.5）AM_59
-      - 🇨🇦_CA_wmt（21.12.5）AM_60
-      - 🇨🇦_CA_wmt（21.12.5）AM_61
-      - 🇺🇸_US_wmt（21.12.5）AM_62
-      - 🇩🇪_DE_wmt（21.12.5）AM_63
-      - 🇨🇦_CA_wmt（21.12.5）AM_64
-      - 🇺🇸_US_wmt（21.12.5）AM_65
-      - 🇺🇸_US_wmt（21.12.5）AM_66
-      - 🇺🇸_US_wmt（21.12.5）AM_67
-      - 🇩🇪_DE_wmt（21.12.5）AM_68
-      - 🇺🇸_US_wmt（21.12.5）AM_69
-      - 🇨🇦_CA_wmt（21.12.5）AM_70
-      - 🇺🇸_US_wmt（21.12.5）AM_71
-      - 🇨🇦_CA_wmt（21.12.5）AM_72
-      - 🇺🇸_US_wmt（21.12.5）AM_73
-      - 🇺🇸_US_wmt（21.12.5）AM_74
-      - 🇺🇸_US_wmt（21.12.5）AM_75
+      - 🏳_NON_wmt（21.12.6）PM_1
+      - 🇳🇱_NL_wmt（21.12.6）PM_2
+      - 🇨🇦_CA_wmt（21.12.6）PM_3
+      - 🇺🇸_US_wmt（21.12.6）PM_4
+      - 🇺🇸_US_wmt（21.12.6）PM_5
+      - 🇺🇸_US_wmt（21.12.6）PM_6
+      - 🇺🇸_US_wmt（21.12.6）PM_7
+      - 🇳🇴_NO_wmt（21.12.6）PM_8
+      - 🇨🇦_CA_wmt（21.12.6）PM_9
+      - 🏳_NON_wmt（21.12.6）PM_10
+      - 🏳_NON_wmt（21.12.6）PM_11
+      - 🇺🇸_US_wmt（21.12.6）PM_12
+      - 🇺🇸_US_wmt（21.12.6）PM_13
+      - 🇺🇸_US_wmt（21.12.6）PM_14
+      - 🇨🇦_CA_wmt（21.12.6）PM_15
+      - 🏳_NON_wmt（21.12.6）PM_16
+      - 🇺🇸_US_wmt（21.12.6）PM_17
+      - 🇺🇸_US_wmt（21.12.6）PM_18
+      - 🏳_NON_wmt（21.12.6）PM_19
+      - 🏳_NON_wmt（21.12.6）PM_20
+      - 🏳_NON_wmt（21.12.6）PM_21
+      - 🇫🇷_FR_wmt（21.12.6）PM_22
+      - 🇨🇦_CA_wmt（21.12.6）PM_23
+      - 🏳_NON_wmt（21.12.6）PM_24
+      - 🇺🇸_US_wmt（21.12.6）PM_25
+      - 🇺🇸_US_wmt（21.12.6）PM_26
+      - 🇫🇷_FR_wmt（21.12.6）PM_27
+      - 🇫🇷_FR_wmt（21.12.6）PM_28
+      - 🏳_NON_wmt（21.12.6）PM_29
+      - 🏳_NON_wmt（21.12.6）PM_30
+      - 🇨🇦_CA_wmt（21.12.6）PM_31
+      - 🇫🇷_FR_wmt（21.12.6）PM_32
+      - 🇫🇷_FR_wmt（21.12.6）PM_33
+      - 🏳_NON_wmt（21.12.6）PM_34
+      - 🇫🇷_FR_wmt（21.12.6）PM_35
+      - 🇺🇸_US_wmt（21.12.6）PM_36
+      - 🇺🇸_US_wmt（21.12.6）PM_37
+      - 🇺🇸_US_wmt（21.12.6）PM_38
+      - 🇺🇸_US_wmt（21.12.6）PM_39
+      - 🇺🇸_US_wmt（21.12.6）PM_40
+      - 🇺🇸_US_wmt（21.12.6）PM_41
+      - 🏳_NON_wmt（21.12.6）PM_42
+      - 🏳_NON_wmt（21.12.6）PM_43
+      - 🇨🇳_CN_wmt（21.12.6）PM_44
+      - 🇨🇳_CN_wmt（21.12.6）PM_45
+      - 🏳_NON_wmt（21.12.6）PM_46
+      - 🇨🇳_CN_wmt（21.12.6）PM_47
+      - 🇨🇦_CA_wmt（21.12.6）PM_48
+      - 🇨🇳_CN_wmt（21.12.6）PM_49
+      - 🏳_NON_wmt（21.12.6）PM_50
+      - 🇨🇳_CN_wmt（21.12.6）PM_51
+      - 🇨🇳_CN_wmt（21.12.6）PM_52
+      - 🇺🇸_US_wmt（21.12.6）PM_53
+      - 🇺🇸_US_wmt（21.12.6）PM_54
+      - 🇨🇳_CN_wmt（21.12.6）PM_55
+      - 🇨🇳_CN_wmt（21.12.6）PM_56
+      - 🇨🇦_CA_wmt（21.12.6）PM_57
+      - 🇨🇳_CN_wmt（21.12.6）PM_58
+      - 🇨🇦_CA_wmt（21.12.6）PM_59
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_wmt（21.12.5）AM_1
-      - 🇺🇸_US_wmt（21.12.5）AM_2
-      - 🇺🇸_US_wmt（21.12.5）AM_3
-      - 🇨🇦_CA_wmt（21.12.5）AM_4
-      - 🇺🇸_US_wmt（21.12.5）AM_5
-      - 🇺🇸_US_wmt（21.12.5）AM_6
-      - 🇺🇸_US_wmt（21.12.5）AM_7
-      - 🇨🇦_CA_wmt（21.12.5）AM_8
-      - 🇨🇦_CA_wmt（21.12.5）AM_9
-      - 🇺🇸_US_wmt（21.12.5）AM_10
-      - 🇨🇦_CA_wmt（21.12.5）AM_11
-      - 🇺🇸_US_wmt（21.12.5）AM_12
-      - 🇺🇸_US_wmt（21.12.5）AM_13
-      - 🇺🇸_US_wmt（21.12.5）AM_14
-      - 🇺🇸_US_wmt（21.12.5）AM_15
-      - 🇺🇸_US_wmt（21.12.5）AM_16
-      - 🇺🇸_US_wmt（21.12.5）AM_17
-      - 🇺🇸_US_wmt（21.12.5）AM_18
-      - 🇺🇸_US_wmt（21.12.5）AM_19
-      - 🇨🇳_CN_wmt（21.12.5）AM_20
-      - 🇨🇦_CA_wmt（21.12.5）AM_21
-      - 🇺🇸_US_wmt（21.12.5）AM_22
-      - 🇨🇦_CA_wmt（21.12.5）AM_23
-      - 🇨🇦_CA_wmt（21.12.5）AM_24
-      - 🇺🇸_US_wmt（21.12.5）AM_25
-      - 🇺🇸_US_wmt（21.12.5）AM_26
-      - 🇺🇸_US_wmt（21.12.5）AM_27
-      - 🇨🇦_CA_wmt（21.12.5）AM_28
-      - 🇺🇸_US_wmt（21.12.5）AM_29
-      - 🇭🇰_HK_wmt（21.12.5）AM_30
-      - 🇷🇺_RU_wmt（21.12.5）AM_31
-      - 🇺🇸_US_wmt（21.12.5）AM_32
-      - 🇺🇸_US_wmt（21.12.5）AM_33
-      - 🇺🇸_US_wmt（21.12.5）AM_34
-      - 🇺🇸_US_wmt（21.12.5）AM_35
-      - 🇺🇸_US_wmt（21.12.5）AM_36
-      - 🇨🇦_CA_wmt（21.12.5）AM_37
-      - 🇨🇦_CA_wmt（21.12.5）AM_38
-      - 🇺🇸_US_wmt（21.12.5）AM_39
-      - 🇺🇸_US_wmt（21.12.5）AM_40
-      - 🇺🇸_US_wmt（21.12.5）AM_41
-      - 🇺🇸_US_wmt（21.12.5）AM_42
-      - 🇨🇦_CA_wmt（21.12.5）AM_43
-      - 🇨🇦_CA_wmt（21.12.5）AM_44
-      - 🇺🇸_US_wmt（21.12.5）AM_45
-      - 🇺🇸_US_wmt（21.12.5）AM_46
-      - 🇺🇸_US_wmt（21.12.5）AM_47
-      - 🇺🇸_US_wmt（21.12.5）AM_48
-      - 🇨🇦_CA_wmt（21.12.5）AM_49
-      - 🇨🇦_CA_wmt（21.12.5）AM_50
-      - 🇺🇸_US_wmt（21.12.5）AM_51
-      - 🇺🇸_US_wmt（21.12.5）AM_52
-      - 🇺🇸_US_wmt（21.12.5）AM_53
-      - 🇺🇸_US_wmt（21.12.5）AM_54
-      - 🇺🇸_US_wmt（21.12.5）AM_55
-      - 🇺🇸_US_wmt（21.12.5）AM_56
-      - 🇨🇦_CA_wmt（21.12.5）AM_57
-      - 🇨🇦_CA_wmt（21.12.5）AM_58
-      - 🇨🇦_CA_wmt（21.12.5）AM_59
-      - 🇨🇦_CA_wmt（21.12.5）AM_60
-      - 🇨🇦_CA_wmt（21.12.5）AM_61
-      - 🇺🇸_US_wmt（21.12.5）AM_62
-      - 🇩🇪_DE_wmt（21.12.5）AM_63
-      - 🇨🇦_CA_wmt（21.12.5）AM_64
-      - 🇺🇸_US_wmt（21.12.5）AM_65
-      - 🇺🇸_US_wmt（21.12.5）AM_66
-      - 🇺🇸_US_wmt（21.12.5）AM_67
-      - 🇩🇪_DE_wmt（21.12.5）AM_68
-      - 🇺🇸_US_wmt（21.12.5）AM_69
-      - 🇨🇦_CA_wmt（21.12.5）AM_70
-      - 🇺🇸_US_wmt（21.12.5）AM_71
-      - 🇨🇦_CA_wmt（21.12.5）AM_72
-      - 🇺🇸_US_wmt（21.12.5）AM_73
-      - 🇺🇸_US_wmt（21.12.5）AM_74
-      - 🇺🇸_US_wmt（21.12.5）AM_75
+      - 🏳_NON_wmt（21.12.6）PM_1
+      - 🇳🇱_NL_wmt（21.12.6）PM_2
+      - 🇨🇦_CA_wmt（21.12.6）PM_3
+      - 🇺🇸_US_wmt（21.12.6）PM_4
+      - 🇺🇸_US_wmt（21.12.6）PM_5
+      - 🇺🇸_US_wmt（21.12.6）PM_6
+      - 🇺🇸_US_wmt（21.12.6）PM_7
+      - 🇳🇴_NO_wmt（21.12.6）PM_8
+      - 🇨🇦_CA_wmt（21.12.6）PM_9
+      - 🏳_NON_wmt（21.12.6）PM_10
+      - 🏳_NON_wmt（21.12.6）PM_11
+      - 🇺🇸_US_wmt（21.12.6）PM_12
+      - 🇺🇸_US_wmt（21.12.6）PM_13
+      - 🇺🇸_US_wmt（21.12.6）PM_14
+      - 🇨🇦_CA_wmt（21.12.6）PM_15
+      - 🏳_NON_wmt（21.12.6）PM_16
+      - 🇺🇸_US_wmt（21.12.6）PM_17
+      - 🇺🇸_US_wmt（21.12.6）PM_18
+      - 🏳_NON_wmt（21.12.6）PM_19
+      - 🏳_NON_wmt（21.12.6）PM_20
+      - 🏳_NON_wmt（21.12.6）PM_21
+      - 🇫🇷_FR_wmt（21.12.6）PM_22
+      - 🇨🇦_CA_wmt（21.12.6）PM_23
+      - 🏳_NON_wmt（21.12.6）PM_24
+      - 🇺🇸_US_wmt（21.12.6）PM_25
+      - 🇺🇸_US_wmt（21.12.6）PM_26
+      - 🇫🇷_FR_wmt（21.12.6）PM_27
+      - 🇫🇷_FR_wmt（21.12.6）PM_28
+      - 🏳_NON_wmt（21.12.6）PM_29
+      - 🏳_NON_wmt（21.12.6）PM_30
+      - 🇨🇦_CA_wmt（21.12.6）PM_31
+      - 🇫🇷_FR_wmt（21.12.6）PM_32
+      - 🇫🇷_FR_wmt（21.12.6）PM_33
+      - 🏳_NON_wmt（21.12.6）PM_34
+      - 🇫🇷_FR_wmt（21.12.6）PM_35
+      - 🇺🇸_US_wmt（21.12.6）PM_36
+      - 🇺🇸_US_wmt（21.12.6）PM_37
+      - 🇺🇸_US_wmt（21.12.6）PM_38
+      - 🇺🇸_US_wmt（21.12.6）PM_39
+      - 🇺🇸_US_wmt（21.12.6）PM_40
+      - 🇺🇸_US_wmt（21.12.6）PM_41
+      - 🏳_NON_wmt（21.12.6）PM_42
+      - 🏳_NON_wmt（21.12.6）PM_43
+      - 🇨🇳_CN_wmt（21.12.6）PM_44
+      - 🇨🇳_CN_wmt（21.12.6）PM_45
+      - 🏳_NON_wmt（21.12.6）PM_46
+      - 🇨🇳_CN_wmt（21.12.6）PM_47
+      - 🇨🇦_CA_wmt（21.12.6）PM_48
+      - 🇨🇳_CN_wmt（21.12.6）PM_49
+      - 🏳_NON_wmt（21.12.6）PM_50
+      - 🇨🇳_CN_wmt（21.12.6）PM_51
+      - 🇨🇳_CN_wmt（21.12.6）PM_52
+      - 🇺🇸_US_wmt（21.12.6）PM_53
+      - 🇺🇸_US_wmt（21.12.6）PM_54
+      - 🇨🇳_CN_wmt（21.12.6）PM_55
+      - 🇨🇳_CN_wmt（21.12.6）PM_56
+      - 🇨🇦_CA_wmt（21.12.6）PM_57
+      - 🇨🇳_CN_wmt（21.12.6）PM_58
+      - 🇨🇦_CA_wmt（21.12.6）PM_59
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_wmt（21.12.5）AM_1
-      - 🇺🇸_US_wmt（21.12.5）AM_2
-      - 🇺🇸_US_wmt（21.12.5）AM_3
-      - 🇨🇦_CA_wmt（21.12.5）AM_4
-      - 🇺🇸_US_wmt（21.12.5）AM_5
-      - 🇺🇸_US_wmt（21.12.5）AM_6
-      - 🇺🇸_US_wmt（21.12.5）AM_7
-      - 🇨🇦_CA_wmt（21.12.5）AM_8
-      - 🇨🇦_CA_wmt（21.12.5）AM_9
-      - 🇺🇸_US_wmt（21.12.5）AM_10
-      - 🇨🇦_CA_wmt（21.12.5）AM_11
-      - 🇺🇸_US_wmt（21.12.5）AM_12
-      - 🇺🇸_US_wmt（21.12.5）AM_13
-      - 🇺🇸_US_wmt（21.12.5）AM_14
-      - 🇺🇸_US_wmt（21.12.5）AM_15
-      - 🇺🇸_US_wmt（21.12.5）AM_16
-      - 🇺🇸_US_wmt（21.12.5）AM_17
-      - 🇺🇸_US_wmt（21.12.5）AM_18
-      - 🇺🇸_US_wmt（21.12.5）AM_19
-      - 🇨🇳_CN_wmt（21.12.5）AM_20
-      - 🇨🇦_CA_wmt（21.12.5）AM_21
-      - 🇺🇸_US_wmt（21.12.5）AM_22
-      - 🇨🇦_CA_wmt（21.12.5）AM_23
-      - 🇨🇦_CA_wmt（21.12.5）AM_24
-      - 🇺🇸_US_wmt（21.12.5）AM_25
-      - 🇺🇸_US_wmt（21.12.5）AM_26
-      - 🇺🇸_US_wmt（21.12.5）AM_27
-      - 🇨🇦_CA_wmt（21.12.5）AM_28
-      - 🇺🇸_US_wmt（21.12.5）AM_29
-      - 🇭🇰_HK_wmt（21.12.5）AM_30
-      - 🇷🇺_RU_wmt（21.12.5）AM_31
-      - 🇺🇸_US_wmt（21.12.5）AM_32
-      - 🇺🇸_US_wmt（21.12.5）AM_33
-      - 🇺🇸_US_wmt（21.12.5）AM_34
-      - 🇺🇸_US_wmt（21.12.5）AM_35
-      - 🇺🇸_US_wmt（21.12.5）AM_36
-      - 🇨🇦_CA_wmt（21.12.5）AM_37
-      - 🇨🇦_CA_wmt（21.12.5）AM_38
-      - 🇺🇸_US_wmt（21.12.5）AM_39
-      - 🇺🇸_US_wmt（21.12.5）AM_40
-      - 🇺🇸_US_wmt（21.12.5）AM_41
-      - 🇺🇸_US_wmt（21.12.5）AM_42
-      - 🇨🇦_CA_wmt（21.12.5）AM_43
-      - 🇨🇦_CA_wmt（21.12.5）AM_44
-      - 🇺🇸_US_wmt（21.12.5）AM_45
-      - 🇺🇸_US_wmt（21.12.5）AM_46
-      - 🇺🇸_US_wmt（21.12.5）AM_47
-      - 🇺🇸_US_wmt（21.12.5）AM_48
-      - 🇨🇦_CA_wmt（21.12.5）AM_49
-      - 🇨🇦_CA_wmt（21.12.5）AM_50
-      - 🇺🇸_US_wmt（21.12.5）AM_51
-      - 🇺🇸_US_wmt（21.12.5）AM_52
-      - 🇺🇸_US_wmt（21.12.5）AM_53
-      - 🇺🇸_US_wmt（21.12.5）AM_54
-      - 🇺🇸_US_wmt（21.12.5）AM_55
-      - 🇺🇸_US_wmt（21.12.5）AM_56
-      - 🇨🇦_CA_wmt（21.12.5）AM_57
-      - 🇨🇦_CA_wmt（21.12.5）AM_58
-      - 🇨🇦_CA_wmt（21.12.5）AM_59
-      - 🇨🇦_CA_wmt（21.12.5）AM_60
-      - 🇨🇦_CA_wmt（21.12.5）AM_61
-      - 🇺🇸_US_wmt（21.12.5）AM_62
-      - 🇩🇪_DE_wmt（21.12.5）AM_63
-      - 🇨🇦_CA_wmt（21.12.5）AM_64
-      - 🇺🇸_US_wmt（21.12.5）AM_65
-      - 🇺🇸_US_wmt（21.12.5）AM_66
-      - 🇺🇸_US_wmt（21.12.5）AM_67
-      - 🇩🇪_DE_wmt（21.12.5）AM_68
-      - 🇺🇸_US_wmt（21.12.5）AM_69
-      - 🇨🇦_CA_wmt（21.12.5）AM_70
-      - 🇺🇸_US_wmt（21.12.5）AM_71
-      - 🇨🇦_CA_wmt（21.12.5）AM_72
-      - 🇺🇸_US_wmt（21.12.5）AM_73
-      - 🇺🇸_US_wmt（21.12.5）AM_74
-      - 🇺🇸_US_wmt（21.12.5）AM_75
+      - 🏳_NON_wmt（21.12.6）PM_1
+      - 🇳🇱_NL_wmt（21.12.6）PM_2
+      - 🇨🇦_CA_wmt（21.12.6）PM_3
+      - 🇺🇸_US_wmt（21.12.6）PM_4
+      - 🇺🇸_US_wmt（21.12.6）PM_5
+      - 🇺🇸_US_wmt（21.12.6）PM_6
+      - 🇺🇸_US_wmt（21.12.6）PM_7
+      - 🇳🇴_NO_wmt（21.12.6）PM_8
+      - 🇨🇦_CA_wmt（21.12.6）PM_9
+      - 🏳_NON_wmt（21.12.6）PM_10
+      - 🏳_NON_wmt（21.12.6）PM_11
+      - 🇺🇸_US_wmt（21.12.6）PM_12
+      - 🇺🇸_US_wmt（21.12.6）PM_13
+      - 🇺🇸_US_wmt（21.12.6）PM_14
+      - 🇨🇦_CA_wmt（21.12.6）PM_15
+      - 🏳_NON_wmt（21.12.6）PM_16
+      - 🇺🇸_US_wmt（21.12.6）PM_17
+      - 🇺🇸_US_wmt（21.12.6）PM_18
+      - 🏳_NON_wmt（21.12.6）PM_19
+      - 🏳_NON_wmt（21.12.6）PM_20
+      - 🏳_NON_wmt（21.12.6）PM_21
+      - 🇫🇷_FR_wmt（21.12.6）PM_22
+      - 🇨🇦_CA_wmt（21.12.6）PM_23
+      - 🏳_NON_wmt（21.12.6）PM_24
+      - 🇺🇸_US_wmt（21.12.6）PM_25
+      - 🇺🇸_US_wmt（21.12.6）PM_26
+      - 🇫🇷_FR_wmt（21.12.6）PM_27
+      - 🇫🇷_FR_wmt（21.12.6）PM_28
+      - 🏳_NON_wmt（21.12.6）PM_29
+      - 🏳_NON_wmt（21.12.6）PM_30
+      - 🇨🇦_CA_wmt（21.12.6）PM_31
+      - 🇫🇷_FR_wmt（21.12.6）PM_32
+      - 🇫🇷_FR_wmt（21.12.6）PM_33
+      - 🏳_NON_wmt（21.12.6）PM_34
+      - 🇫🇷_FR_wmt（21.12.6）PM_35
+      - 🇺🇸_US_wmt（21.12.6）PM_36
+      - 🇺🇸_US_wmt（21.12.6）PM_37
+      - 🇺🇸_US_wmt（21.12.6）PM_38
+      - 🇺🇸_US_wmt（21.12.6）PM_39
+      - 🇺🇸_US_wmt（21.12.6）PM_40
+      - 🇺🇸_US_wmt（21.12.6）PM_41
+      - 🏳_NON_wmt（21.12.6）PM_42
+      - 🏳_NON_wmt（21.12.6）PM_43
+      - 🇨🇳_CN_wmt（21.12.6）PM_44
+      - 🇨🇳_CN_wmt（21.12.6）PM_45
+      - 🏳_NON_wmt（21.12.6）PM_46
+      - 🇨🇳_CN_wmt（21.12.6）PM_47
+      - 🇨🇦_CA_wmt（21.12.6）PM_48
+      - 🇨🇳_CN_wmt（21.12.6）PM_49
+      - 🏳_NON_wmt（21.12.6）PM_50
+      - 🇨🇳_CN_wmt（21.12.6）PM_51
+      - 🇨🇳_CN_wmt（21.12.6）PM_52
+      - 🇺🇸_US_wmt（21.12.6）PM_53
+      - 🇺🇸_US_wmt（21.12.6）PM_54
+      - 🇨🇳_CN_wmt（21.12.6）PM_55
+      - 🇨🇳_CN_wmt（21.12.6）PM_56
+      - 🇨🇦_CA_wmt（21.12.6）PM_57
+      - 🇨🇳_CN_wmt（21.12.6）PM_58
+      - 🇨🇦_CA_wmt（21.12.6）PM_59
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_wmt（21.12.5）AM_1
-      - 🇺🇸_US_wmt（21.12.5）AM_2
-      - 🇺🇸_US_wmt（21.12.5）AM_3
-      - 🇨🇦_CA_wmt（21.12.5）AM_4
-      - 🇺🇸_US_wmt（21.12.5）AM_5
-      - 🇺🇸_US_wmt（21.12.5）AM_6
-      - 🇺🇸_US_wmt（21.12.5）AM_7
-      - 🇨🇦_CA_wmt（21.12.5）AM_8
-      - 🇨🇦_CA_wmt（21.12.5）AM_9
-      - 🇺🇸_US_wmt（21.12.5）AM_10
-      - 🇨🇦_CA_wmt（21.12.5）AM_11
-      - 🇺🇸_US_wmt（21.12.5）AM_12
-      - 🇺🇸_US_wmt（21.12.5）AM_13
-      - 🇺🇸_US_wmt（21.12.5）AM_14
-      - 🇺🇸_US_wmt（21.12.5）AM_15
-      - 🇺🇸_US_wmt（21.12.5）AM_16
-      - 🇺🇸_US_wmt（21.12.5）AM_17
-      - 🇺🇸_US_wmt（21.12.5）AM_18
-      - 🇺🇸_US_wmt（21.12.5）AM_19
-      - 🇨🇳_CN_wmt（21.12.5）AM_20
-      - 🇨🇦_CA_wmt（21.12.5）AM_21
-      - 🇺🇸_US_wmt（21.12.5）AM_22
-      - 🇨🇦_CA_wmt（21.12.5）AM_23
-      - 🇨🇦_CA_wmt（21.12.5）AM_24
-      - 🇺🇸_US_wmt（21.12.5）AM_25
-      - 🇺🇸_US_wmt（21.12.5）AM_26
-      - 🇺🇸_US_wmt（21.12.5）AM_27
-      - 🇨🇦_CA_wmt（21.12.5）AM_28
-      - 🇺🇸_US_wmt（21.12.5）AM_29
-      - 🇭🇰_HK_wmt（21.12.5）AM_30
-      - 🇷🇺_RU_wmt（21.12.5）AM_31
-      - 🇺🇸_US_wmt（21.12.5）AM_32
-      - 🇺🇸_US_wmt（21.12.5）AM_33
-      - 🇺🇸_US_wmt（21.12.5）AM_34
-      - 🇺🇸_US_wmt（21.12.5）AM_35
-      - 🇺🇸_US_wmt（21.12.5）AM_36
-      - 🇨🇦_CA_wmt（21.12.5）AM_37
-      - 🇨🇦_CA_wmt（21.12.5）AM_38
-      - 🇺🇸_US_wmt（21.12.5）AM_39
-      - 🇺🇸_US_wmt（21.12.5）AM_40
-      - 🇺🇸_US_wmt（21.12.5）AM_41
-      - 🇺🇸_US_wmt（21.12.5）AM_42
-      - 🇨🇦_CA_wmt（21.12.5）AM_43
-      - 🇨🇦_CA_wmt（21.12.5）AM_44
-      - 🇺🇸_US_wmt（21.12.5）AM_45
-      - 🇺🇸_US_wmt（21.12.5）AM_46
-      - 🇺🇸_US_wmt（21.12.5）AM_47
-      - 🇺🇸_US_wmt（21.12.5）AM_48
-      - 🇨🇦_CA_wmt（21.12.5）AM_49
-      - 🇨🇦_CA_wmt（21.12.5）AM_50
-      - 🇺🇸_US_wmt（21.12.5）AM_51
-      - 🇺🇸_US_wmt（21.12.5）AM_52
-      - 🇺🇸_US_wmt（21.12.5）AM_53
-      - 🇺🇸_US_wmt（21.12.5）AM_54
-      - 🇺🇸_US_wmt（21.12.5）AM_55
-      - 🇺🇸_US_wmt（21.12.5）AM_56
-      - 🇨🇦_CA_wmt（21.12.5）AM_57
-      - 🇨🇦_CA_wmt（21.12.5）AM_58
-      - 🇨🇦_CA_wmt（21.12.5）AM_59
-      - 🇨🇦_CA_wmt（21.12.5）AM_60
-      - 🇨🇦_CA_wmt（21.12.5）AM_61
-      - 🇺🇸_US_wmt（21.12.5）AM_62
-      - 🇩🇪_DE_wmt（21.12.5）AM_63
-      - 🇨🇦_CA_wmt（21.12.5）AM_64
-      - 🇺🇸_US_wmt（21.12.5）AM_65
-      - 🇺🇸_US_wmt（21.12.5）AM_66
-      - 🇺🇸_US_wmt（21.12.5）AM_67
-      - 🇩🇪_DE_wmt（21.12.5）AM_68
-      - 🇺🇸_US_wmt（21.12.5）AM_69
-      - 🇨🇦_CA_wmt（21.12.5）AM_70
-      - 🇺🇸_US_wmt（21.12.5）AM_71
-      - 🇨🇦_CA_wmt（21.12.5）AM_72
-      - 🇺🇸_US_wmt（21.12.5）AM_73
-      - 🇺🇸_US_wmt（21.12.5）AM_74
-      - 🇺🇸_US_wmt（21.12.5）AM_75
+      - 🏳_NON_wmt（21.12.6）PM_1
+      - 🇳🇱_NL_wmt（21.12.6）PM_2
+      - 🇨🇦_CA_wmt（21.12.6）PM_3
+      - 🇺🇸_US_wmt（21.12.6）PM_4
+      - 🇺🇸_US_wmt（21.12.6）PM_5
+      - 🇺🇸_US_wmt（21.12.6）PM_6
+      - 🇺🇸_US_wmt（21.12.6）PM_7
+      - 🇳🇴_NO_wmt（21.12.6）PM_8
+      - 🇨🇦_CA_wmt（21.12.6）PM_9
+      - 🏳_NON_wmt（21.12.6）PM_10
+      - 🏳_NON_wmt（21.12.6）PM_11
+      - 🇺🇸_US_wmt（21.12.6）PM_12
+      - 🇺🇸_US_wmt（21.12.6）PM_13
+      - 🇺🇸_US_wmt（21.12.6）PM_14
+      - 🇨🇦_CA_wmt（21.12.6）PM_15
+      - 🏳_NON_wmt（21.12.6）PM_16
+      - 🇺🇸_US_wmt（21.12.6）PM_17
+      - 🇺🇸_US_wmt（21.12.6）PM_18
+      - 🏳_NON_wmt（21.12.6）PM_19
+      - 🏳_NON_wmt（21.12.6）PM_20
+      - 🏳_NON_wmt（21.12.6）PM_21
+      - 🇫🇷_FR_wmt（21.12.6）PM_22
+      - 🇨🇦_CA_wmt（21.12.6）PM_23
+      - 🏳_NON_wmt（21.12.6）PM_24
+      - 🇺🇸_US_wmt（21.12.6）PM_25
+      - 🇺🇸_US_wmt（21.12.6）PM_26
+      - 🇫🇷_FR_wmt（21.12.6）PM_27
+      - 🇫🇷_FR_wmt（21.12.6）PM_28
+      - 🏳_NON_wmt（21.12.6）PM_29
+      - 🏳_NON_wmt（21.12.6）PM_30
+      - 🇨🇦_CA_wmt（21.12.6）PM_31
+      - 🇫🇷_FR_wmt（21.12.6）PM_32
+      - 🇫🇷_FR_wmt（21.12.6）PM_33
+      - 🏳_NON_wmt（21.12.6）PM_34
+      - 🇫🇷_FR_wmt（21.12.6）PM_35
+      - 🇺🇸_US_wmt（21.12.6）PM_36
+      - 🇺🇸_US_wmt（21.12.6）PM_37
+      - 🇺🇸_US_wmt（21.12.6）PM_38
+      - 🇺🇸_US_wmt（21.12.6）PM_39
+      - 🇺🇸_US_wmt（21.12.6）PM_40
+      - 🇺🇸_US_wmt（21.12.6）PM_41
+      - 🏳_NON_wmt（21.12.6）PM_42
+      - 🏳_NON_wmt（21.12.6）PM_43
+      - 🇨🇳_CN_wmt（21.12.6）PM_44
+      - 🇨🇳_CN_wmt（21.12.6）PM_45
+      - 🏳_NON_wmt（21.12.6）PM_46
+      - 🇨🇳_CN_wmt（21.12.6）PM_47
+      - 🇨🇦_CA_wmt（21.12.6）PM_48
+      - 🇨🇳_CN_wmt（21.12.6）PM_49
+      - 🏳_NON_wmt（21.12.6）PM_50
+      - 🇨🇳_CN_wmt（21.12.6）PM_51
+      - 🇨🇳_CN_wmt（21.12.6）PM_52
+      - 🇺🇸_US_wmt（21.12.6）PM_53
+      - 🇺🇸_US_wmt（21.12.6）PM_54
+      - 🇨🇳_CN_wmt（21.12.6）PM_55
+      - 🇨🇳_CN_wmt（21.12.6）PM_56
+      - 🇨🇦_CA_wmt（21.12.6）PM_57
+      - 🇨🇳_CN_wmt（21.12.6）PM_58
+      - 🇨🇦_CA_wmt（21.12.6）PM_59
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_wmt（21.12.5）AM_1
-      - 🇺🇸_US_wmt（21.12.5）AM_2
-      - 🇺🇸_US_wmt（21.12.5）AM_3
-      - 🇨🇦_CA_wmt（21.12.5）AM_4
-      - 🇺🇸_US_wmt（21.12.5）AM_5
-      - 🇺🇸_US_wmt（21.12.5）AM_6
-      - 🇺🇸_US_wmt（21.12.5）AM_7
-      - 🇨🇦_CA_wmt（21.12.5）AM_8
-      - 🇨🇦_CA_wmt（21.12.5）AM_9
-      - 🇺🇸_US_wmt（21.12.5）AM_10
-      - 🇨🇦_CA_wmt（21.12.5）AM_11
-      - 🇺🇸_US_wmt（21.12.5）AM_12
-      - 🇺🇸_US_wmt（21.12.5）AM_13
-      - 🇺🇸_US_wmt（21.12.5）AM_14
-      - 🇺🇸_US_wmt（21.12.5）AM_15
-      - 🇺🇸_US_wmt（21.12.5）AM_16
-      - 🇺🇸_US_wmt（21.12.5）AM_17
-      - 🇺🇸_US_wmt（21.12.5）AM_18
-      - 🇺🇸_US_wmt（21.12.5）AM_19
-      - 🇨🇳_CN_wmt（21.12.5）AM_20
-      - 🇨🇦_CA_wmt（21.12.5）AM_21
-      - 🇺🇸_US_wmt（21.12.5）AM_22
-      - 🇨🇦_CA_wmt（21.12.5）AM_23
-      - 🇨🇦_CA_wmt（21.12.5）AM_24
-      - 🇺🇸_US_wmt（21.12.5）AM_25
-      - 🇺🇸_US_wmt（21.12.5）AM_26
-      - 🇺🇸_US_wmt（21.12.5）AM_27
-      - 🇨🇦_CA_wmt（21.12.5）AM_28
-      - 🇺🇸_US_wmt（21.12.5）AM_29
-      - 🇭🇰_HK_wmt（21.12.5）AM_30
-      - 🇷🇺_RU_wmt（21.12.5）AM_31
-      - 🇺🇸_US_wmt（21.12.5）AM_32
-      - 🇺🇸_US_wmt（21.12.5）AM_33
-      - 🇺🇸_US_wmt（21.12.5）AM_34
-      - 🇺🇸_US_wmt（21.12.5）AM_35
-      - 🇺🇸_US_wmt（21.12.5）AM_36
-      - 🇨🇦_CA_wmt（21.12.5）AM_37
-      - 🇨🇦_CA_wmt（21.12.5）AM_38
-      - 🇺🇸_US_wmt（21.12.5）AM_39
-      - 🇺🇸_US_wmt（21.12.5）AM_40
-      - 🇺🇸_US_wmt（21.12.5）AM_41
-      - 🇺🇸_US_wmt（21.12.5）AM_42
-      - 🇨🇦_CA_wmt（21.12.5）AM_43
-      - 🇨🇦_CA_wmt（21.12.5）AM_44
-      - 🇺🇸_US_wmt（21.12.5）AM_45
-      - 🇺🇸_US_wmt（21.12.5）AM_46
-      - 🇺🇸_US_wmt（21.12.5）AM_47
-      - 🇺🇸_US_wmt（21.12.5）AM_48
-      - 🇨🇦_CA_wmt（21.12.5）AM_49
-      - 🇨🇦_CA_wmt（21.12.5）AM_50
-      - 🇺🇸_US_wmt（21.12.5）AM_51
-      - 🇺🇸_US_wmt（21.12.5）AM_52
-      - 🇺🇸_US_wmt（21.12.5）AM_53
-      - 🇺🇸_US_wmt（21.12.5）AM_54
-      - 🇺🇸_US_wmt（21.12.5）AM_55
-      - 🇺🇸_US_wmt（21.12.5）AM_56
-      - 🇨🇦_CA_wmt（21.12.5）AM_57
-      - 🇨🇦_CA_wmt（21.12.5）AM_58
-      - 🇨🇦_CA_wmt（21.12.5）AM_59
-      - 🇨🇦_CA_wmt（21.12.5）AM_60
-      - 🇨🇦_CA_wmt（21.12.5）AM_61
-      - 🇺🇸_US_wmt（21.12.5）AM_62
-      - 🇩🇪_DE_wmt（21.12.5）AM_63
-      - 🇨🇦_CA_wmt（21.12.5）AM_64
-      - 🇺🇸_US_wmt（21.12.5）AM_65
-      - 🇺🇸_US_wmt（21.12.5）AM_66
-      - 🇺🇸_US_wmt（21.12.5）AM_67
-      - 🇩🇪_DE_wmt（21.12.5）AM_68
-      - 🇺🇸_US_wmt（21.12.5）AM_69
-      - 🇨🇦_CA_wmt（21.12.5）AM_70
-      - 🇺🇸_US_wmt（21.12.5）AM_71
-      - 🇨🇦_CA_wmt（21.12.5）AM_72
-      - 🇺🇸_US_wmt（21.12.5）AM_73
-      - 🇺🇸_US_wmt（21.12.5）AM_74
-      - 🇺🇸_US_wmt（21.12.5）AM_75
+      - 🏳_NON_wmt（21.12.6）PM_1
+      - 🇳🇱_NL_wmt（21.12.6）PM_2
+      - 🇨🇦_CA_wmt（21.12.6）PM_3
+      - 🇺🇸_US_wmt（21.12.6）PM_4
+      - 🇺🇸_US_wmt（21.12.6）PM_5
+      - 🇺🇸_US_wmt（21.12.6）PM_6
+      - 🇺🇸_US_wmt（21.12.6）PM_7
+      - 🇳🇴_NO_wmt（21.12.6）PM_8
+      - 🇨🇦_CA_wmt（21.12.6）PM_9
+      - 🏳_NON_wmt（21.12.6）PM_10
+      - 🏳_NON_wmt（21.12.6）PM_11
+      - 🇺🇸_US_wmt（21.12.6）PM_12
+      - 🇺🇸_US_wmt（21.12.6）PM_13
+      - 🇺🇸_US_wmt（21.12.6）PM_14
+      - 🇨🇦_CA_wmt（21.12.6）PM_15
+      - 🏳_NON_wmt（21.12.6）PM_16
+      - 🇺🇸_US_wmt（21.12.6）PM_17
+      - 🇺🇸_US_wmt（21.12.6）PM_18
+      - 🏳_NON_wmt（21.12.6）PM_19
+      - 🏳_NON_wmt（21.12.6）PM_20
+      - 🏳_NON_wmt（21.12.6）PM_21
+      - 🇫🇷_FR_wmt（21.12.6）PM_22
+      - 🇨🇦_CA_wmt（21.12.6）PM_23
+      - 🏳_NON_wmt（21.12.6）PM_24
+      - 🇺🇸_US_wmt（21.12.6）PM_25
+      - 🇺🇸_US_wmt（21.12.6）PM_26
+      - 🇫🇷_FR_wmt（21.12.6）PM_27
+      - 🇫🇷_FR_wmt（21.12.6）PM_28
+      - 🏳_NON_wmt（21.12.6）PM_29
+      - 🏳_NON_wmt（21.12.6）PM_30
+      - 🇨🇦_CA_wmt（21.12.6）PM_31
+      - 🇫🇷_FR_wmt（21.12.6）PM_32
+      - 🇫🇷_FR_wmt（21.12.6）PM_33
+      - 🏳_NON_wmt（21.12.6）PM_34
+      - 🇫🇷_FR_wmt（21.12.6）PM_35
+      - 🇺🇸_US_wmt（21.12.6）PM_36
+      - 🇺🇸_US_wmt（21.12.6）PM_37
+      - 🇺🇸_US_wmt（21.12.6）PM_38
+      - 🇺🇸_US_wmt（21.12.6）PM_39
+      - 🇺🇸_US_wmt（21.12.6）PM_40
+      - 🇺🇸_US_wmt（21.12.6）PM_41
+      - 🏳_NON_wmt（21.12.6）PM_42
+      - 🏳_NON_wmt（21.12.6）PM_43
+      - 🇨🇳_CN_wmt（21.12.6）PM_44
+      - 🇨🇳_CN_wmt（21.12.6）PM_45
+      - 🏳_NON_wmt（21.12.6）PM_46
+      - 🇨🇳_CN_wmt（21.12.6）PM_47
+      - 🇨🇦_CA_wmt（21.12.6）PM_48
+      - 🇨🇳_CN_wmt（21.12.6）PM_49
+      - 🏳_NON_wmt（21.12.6）PM_50
+      - 🇨🇳_CN_wmt（21.12.6）PM_51
+      - 🇨🇳_CN_wmt（21.12.6）PM_52
+      - 🇺🇸_US_wmt（21.12.6）PM_53
+      - 🇺🇸_US_wmt（21.12.6）PM_54
+      - 🇨🇳_CN_wmt（21.12.6）PM_55
+      - 🇨🇳_CN_wmt（21.12.6）PM_56
+      - 🇨🇦_CA_wmt（21.12.6）PM_57
+      - 🇨🇳_CN_wmt（21.12.6）PM_58
+      - 🇨🇦_CA_wmt（21.12.6）PM_59
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_wmt（21.12.5）AM_1
-      - 🇺🇸_US_wmt（21.12.5）AM_2
-      - 🇺🇸_US_wmt（21.12.5）AM_3
-      - 🇨🇦_CA_wmt（21.12.5）AM_4
-      - 🇺🇸_US_wmt（21.12.5）AM_5
-      - 🇺🇸_US_wmt（21.12.5）AM_6
-      - 🇺🇸_US_wmt（21.12.5）AM_7
-      - 🇨🇦_CA_wmt（21.12.5）AM_8
-      - 🇨🇦_CA_wmt（21.12.5）AM_9
-      - 🇺🇸_US_wmt（21.12.5）AM_10
-      - 🇨🇦_CA_wmt（21.12.5）AM_11
-      - 🇺🇸_US_wmt（21.12.5）AM_12
-      - 🇺🇸_US_wmt（21.12.5）AM_13
-      - 🇺🇸_US_wmt（21.12.5）AM_14
-      - 🇺🇸_US_wmt（21.12.5）AM_15
-      - 🇺🇸_US_wmt（21.12.5）AM_16
-      - 🇺🇸_US_wmt（21.12.5）AM_17
-      - 🇺🇸_US_wmt（21.12.5）AM_18
-      - 🇺🇸_US_wmt（21.12.5）AM_19
-      - 🇨🇳_CN_wmt（21.12.5）AM_20
-      - 🇨🇦_CA_wmt（21.12.5）AM_21
-      - 🇺🇸_US_wmt（21.12.5）AM_22
-      - 🇨🇦_CA_wmt（21.12.5）AM_23
-      - 🇨🇦_CA_wmt（21.12.5）AM_24
-      - 🇺🇸_US_wmt（21.12.5）AM_25
-      - 🇺🇸_US_wmt（21.12.5）AM_26
-      - 🇺🇸_US_wmt（21.12.5）AM_27
-      - 🇨🇦_CA_wmt（21.12.5）AM_28
-      - 🇺🇸_US_wmt（21.12.5）AM_29
-      - 🇭🇰_HK_wmt（21.12.5）AM_30
-      - 🇷🇺_RU_wmt（21.12.5）AM_31
-      - 🇺🇸_US_wmt（21.12.5）AM_32
-      - 🇺🇸_US_wmt（21.12.5）AM_33
-      - 🇺🇸_US_wmt（21.12.5）AM_34
-      - 🇺🇸_US_wmt（21.12.5）AM_35
-      - 🇺🇸_US_wmt（21.12.5）AM_36
-      - 🇨🇦_CA_wmt（21.12.5）AM_37
-      - 🇨🇦_CA_wmt（21.12.5）AM_38
-      - 🇺🇸_US_wmt（21.12.5）AM_39
-      - 🇺🇸_US_wmt（21.12.5）AM_40
-      - 🇺🇸_US_wmt（21.12.5）AM_41
-      - 🇺🇸_US_wmt（21.12.5）AM_42
-      - 🇨🇦_CA_wmt（21.12.5）AM_43
-      - 🇨🇦_CA_wmt（21.12.5）AM_44
-      - 🇺🇸_US_wmt（21.12.5）AM_45
-      - 🇺🇸_US_wmt（21.12.5）AM_46
-      - 🇺🇸_US_wmt（21.12.5）AM_47
-      - 🇺🇸_US_wmt（21.12.5）AM_48
-      - 🇨🇦_CA_wmt（21.12.5）AM_49
-      - 🇨🇦_CA_wmt（21.12.5）AM_50
-      - 🇺🇸_US_wmt（21.12.5）AM_51
-      - 🇺🇸_US_wmt（21.12.5）AM_52
-      - 🇺🇸_US_wmt（21.12.5）AM_53
-      - 🇺🇸_US_wmt（21.12.5）AM_54
-      - 🇺🇸_US_wmt（21.12.5）AM_55
-      - 🇺🇸_US_wmt（21.12.5）AM_56
-      - 🇨🇦_CA_wmt（21.12.5）AM_57
-      - 🇨🇦_CA_wmt（21.12.5）AM_58
-      - 🇨🇦_CA_wmt（21.12.5）AM_59
-      - 🇨🇦_CA_wmt（21.12.5）AM_60
-      - 🇨🇦_CA_wmt（21.12.5）AM_61
-      - 🇺🇸_US_wmt（21.12.5）AM_62
-      - 🇩🇪_DE_wmt（21.12.5）AM_63
-      - 🇨🇦_CA_wmt（21.12.5）AM_64
-      - 🇺🇸_US_wmt（21.12.5）AM_65
-      - 🇺🇸_US_wmt（21.12.5）AM_66
-      - 🇺🇸_US_wmt（21.12.5）AM_67
-      - 🇩🇪_DE_wmt（21.12.5）AM_68
-      - 🇺🇸_US_wmt（21.12.5）AM_69
-      - 🇨🇦_CA_wmt（21.12.5）AM_70
-      - 🇺🇸_US_wmt（21.12.5）AM_71
-      - 🇨🇦_CA_wmt（21.12.5）AM_72
-      - 🇺🇸_US_wmt（21.12.5）AM_73
-      - 🇺🇸_US_wmt（21.12.5）AM_74
-      - 🇺🇸_US_wmt（21.12.5）AM_75
+      - 🏳_NON_wmt（21.12.6）PM_1
+      - 🇳🇱_NL_wmt（21.12.6）PM_2
+      - 🇨🇦_CA_wmt（21.12.6）PM_3
+      - 🇺🇸_US_wmt（21.12.6）PM_4
+      - 🇺🇸_US_wmt（21.12.6）PM_5
+      - 🇺🇸_US_wmt（21.12.6）PM_6
+      - 🇺🇸_US_wmt（21.12.6）PM_7
+      - 🇳🇴_NO_wmt（21.12.6）PM_8
+      - 🇨🇦_CA_wmt（21.12.6）PM_9
+      - 🏳_NON_wmt（21.12.6）PM_10
+      - 🏳_NON_wmt（21.12.6）PM_11
+      - 🇺🇸_US_wmt（21.12.6）PM_12
+      - 🇺🇸_US_wmt（21.12.6）PM_13
+      - 🇺🇸_US_wmt（21.12.6）PM_14
+      - 🇨🇦_CA_wmt（21.12.6）PM_15
+      - 🏳_NON_wmt（21.12.6）PM_16
+      - 🇺🇸_US_wmt（21.12.6）PM_17
+      - 🇺🇸_US_wmt（21.12.6）PM_18
+      - 🏳_NON_wmt（21.12.6）PM_19
+      - 🏳_NON_wmt（21.12.6）PM_20
+      - 🏳_NON_wmt（21.12.6）PM_21
+      - 🇫🇷_FR_wmt（21.12.6）PM_22
+      - 🇨🇦_CA_wmt（21.12.6）PM_23
+      - 🏳_NON_wmt（21.12.6）PM_24
+      - 🇺🇸_US_wmt（21.12.6）PM_25
+      - 🇺🇸_US_wmt（21.12.6）PM_26
+      - 🇫🇷_FR_wmt（21.12.6）PM_27
+      - 🇫🇷_FR_wmt（21.12.6）PM_28
+      - 🏳_NON_wmt（21.12.6）PM_29
+      - 🏳_NON_wmt（21.12.6）PM_30
+      - 🇨🇦_CA_wmt（21.12.6）PM_31
+      - 🇫🇷_FR_wmt（21.12.6）PM_32
+      - 🇫🇷_FR_wmt（21.12.6）PM_33
+      - 🏳_NON_wmt（21.12.6）PM_34
+      - 🇫🇷_FR_wmt（21.12.6）PM_35
+      - 🇺🇸_US_wmt（21.12.6）PM_36
+      - 🇺🇸_US_wmt（21.12.6）PM_37
+      - 🇺🇸_US_wmt（21.12.6）PM_38
+      - 🇺🇸_US_wmt（21.12.6）PM_39
+      - 🇺🇸_US_wmt（21.12.6）PM_40
+      - 🇺🇸_US_wmt（21.12.6）PM_41
+      - 🏳_NON_wmt（21.12.6）PM_42
+      - 🏳_NON_wmt（21.12.6）PM_43
+      - 🇨🇳_CN_wmt（21.12.6）PM_44
+      - 🇨🇳_CN_wmt（21.12.6）PM_45
+      - 🏳_NON_wmt（21.12.6）PM_46
+      - 🇨🇳_CN_wmt（21.12.6）PM_47
+      - 🇨🇦_CA_wmt（21.12.6）PM_48
+      - 🇨🇳_CN_wmt（21.12.6）PM_49
+      - 🏳_NON_wmt（21.12.6）PM_50
+      - 🇨🇳_CN_wmt（21.12.6）PM_51
+      - 🇨🇳_CN_wmt（21.12.6）PM_52
+      - 🇺🇸_US_wmt（21.12.6）PM_53
+      - 🇺🇸_US_wmt（21.12.6）PM_54
+      - 🇨🇳_CN_wmt（21.12.6）PM_55
+      - 🇨🇳_CN_wmt（21.12.6）PM_56
+      - 🇨🇦_CA_wmt（21.12.6）PM_57
+      - 🇨🇳_CN_wmt（21.12.6）PM_58
+      - 🇨🇦_CA_wmt（21.12.6）PM_59
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -658,81 +530,65 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_wmt（21.12.5）AM_1
-      - 🇺🇸_US_wmt（21.12.5）AM_2
-      - 🇺🇸_US_wmt（21.12.5）AM_3
-      - 🇨🇦_CA_wmt（21.12.5）AM_4
-      - 🇺🇸_US_wmt（21.12.5）AM_5
-      - 🇺🇸_US_wmt（21.12.5）AM_6
-      - 🇺🇸_US_wmt（21.12.5）AM_7
-      - 🇨🇦_CA_wmt（21.12.5）AM_8
-      - 🇨🇦_CA_wmt（21.12.5）AM_9
-      - 🇺🇸_US_wmt（21.12.5）AM_10
-      - 🇨🇦_CA_wmt（21.12.5）AM_11
-      - 🇺🇸_US_wmt（21.12.5）AM_12
-      - 🇺🇸_US_wmt（21.12.5）AM_13
-      - 🇺🇸_US_wmt（21.12.5）AM_14
-      - 🇺🇸_US_wmt（21.12.5）AM_15
-      - 🇺🇸_US_wmt（21.12.5）AM_16
-      - 🇺🇸_US_wmt（21.12.5）AM_17
-      - 🇺🇸_US_wmt（21.12.5）AM_18
-      - 🇺🇸_US_wmt（21.12.5）AM_19
-      - 🇨🇳_CN_wmt（21.12.5）AM_20
-      - 🇨🇦_CA_wmt（21.12.5）AM_21
-      - 🇺🇸_US_wmt（21.12.5）AM_22
-      - 🇨🇦_CA_wmt（21.12.5）AM_23
-      - 🇨🇦_CA_wmt（21.12.5）AM_24
-      - 🇺🇸_US_wmt（21.12.5）AM_25
-      - 🇺🇸_US_wmt（21.12.5）AM_26
-      - 🇺🇸_US_wmt（21.12.5）AM_27
-      - 🇨🇦_CA_wmt（21.12.5）AM_28
-      - 🇺🇸_US_wmt（21.12.5）AM_29
-      - 🇭🇰_HK_wmt（21.12.5）AM_30
-      - 🇷🇺_RU_wmt（21.12.5）AM_31
-      - 🇺🇸_US_wmt（21.12.5）AM_32
-      - 🇺🇸_US_wmt（21.12.5）AM_33
-      - 🇺🇸_US_wmt（21.12.5）AM_34
-      - 🇺🇸_US_wmt（21.12.5）AM_35
-      - 🇺🇸_US_wmt（21.12.5）AM_36
-      - 🇨🇦_CA_wmt（21.12.5）AM_37
-      - 🇨🇦_CA_wmt（21.12.5）AM_38
-      - 🇺🇸_US_wmt（21.12.5）AM_39
-      - 🇺🇸_US_wmt（21.12.5）AM_40
-      - 🇺🇸_US_wmt（21.12.5）AM_41
-      - 🇺🇸_US_wmt（21.12.5）AM_42
-      - 🇨🇦_CA_wmt（21.12.5）AM_43
-      - 🇨🇦_CA_wmt（21.12.5）AM_44
-      - 🇺🇸_US_wmt（21.12.5）AM_45
-      - 🇺🇸_US_wmt（21.12.5）AM_46
-      - 🇺🇸_US_wmt（21.12.5）AM_47
-      - 🇺🇸_US_wmt（21.12.5）AM_48
-      - 🇨🇦_CA_wmt（21.12.5）AM_49
-      - 🇨🇦_CA_wmt（21.12.5）AM_50
-      - 🇺🇸_US_wmt（21.12.5）AM_51
-      - 🇺🇸_US_wmt（21.12.5）AM_52
-      - 🇺🇸_US_wmt（21.12.5）AM_53
-      - 🇺🇸_US_wmt（21.12.5）AM_54
-      - 🇺🇸_US_wmt（21.12.5）AM_55
-      - 🇺🇸_US_wmt（21.12.5）AM_56
-      - 🇨🇦_CA_wmt（21.12.5）AM_57
-      - 🇨🇦_CA_wmt（21.12.5）AM_58
-      - 🇨🇦_CA_wmt（21.12.5）AM_59
-      - 🇨🇦_CA_wmt（21.12.5）AM_60
-      - 🇨🇦_CA_wmt（21.12.5）AM_61
-      - 🇺🇸_US_wmt（21.12.5）AM_62
-      - 🇩🇪_DE_wmt（21.12.5）AM_63
-      - 🇨🇦_CA_wmt（21.12.5）AM_64
-      - 🇺🇸_US_wmt（21.12.5）AM_65
-      - 🇺🇸_US_wmt（21.12.5）AM_66
-      - 🇺🇸_US_wmt（21.12.5）AM_67
-      - 🇩🇪_DE_wmt（21.12.5）AM_68
-      - 🇺🇸_US_wmt（21.12.5）AM_69
-      - 🇨🇦_CA_wmt（21.12.5）AM_70
-      - 🇺🇸_US_wmt（21.12.5）AM_71
-      - 🇨🇦_CA_wmt（21.12.5）AM_72
-      - 🇺🇸_US_wmt（21.12.5）AM_73
-      - 🇺🇸_US_wmt（21.12.5）AM_74
-      - 🇺🇸_US_wmt（21.12.5）AM_75
+      - 🏳_NON_wmt（21.12.6）PM_1
+      - 🇳🇱_NL_wmt（21.12.6）PM_2
+      - 🇨🇦_CA_wmt（21.12.6）PM_3
+      - 🇺🇸_US_wmt（21.12.6）PM_4
+      - 🇺🇸_US_wmt（21.12.6）PM_5
+      - 🇺🇸_US_wmt（21.12.6）PM_6
+      - 🇺🇸_US_wmt（21.12.6）PM_7
+      - 🇳🇴_NO_wmt（21.12.6）PM_8
+      - 🇨🇦_CA_wmt（21.12.6）PM_9
+      - 🏳_NON_wmt（21.12.6）PM_10
+      - 🏳_NON_wmt（21.12.6）PM_11
+      - 🇺🇸_US_wmt（21.12.6）PM_12
+      - 🇺🇸_US_wmt（21.12.6）PM_13
+      - 🇺🇸_US_wmt（21.12.6）PM_14
+      - 🇨🇦_CA_wmt（21.12.6）PM_15
+      - 🏳_NON_wmt（21.12.6）PM_16
+      - 🇺🇸_US_wmt（21.12.6）PM_17
+      - 🇺🇸_US_wmt（21.12.6）PM_18
+      - 🏳_NON_wmt（21.12.6）PM_19
+      - 🏳_NON_wmt（21.12.6）PM_20
+      - 🏳_NON_wmt（21.12.6）PM_21
+      - 🇫🇷_FR_wmt（21.12.6）PM_22
+      - 🇨🇦_CA_wmt（21.12.6）PM_23
+      - 🏳_NON_wmt（21.12.6）PM_24
+      - 🇺🇸_US_wmt（21.12.6）PM_25
+      - 🇺🇸_US_wmt（21.12.6）PM_26
+      - 🇫🇷_FR_wmt（21.12.6）PM_27
+      - 🇫🇷_FR_wmt（21.12.6）PM_28
+      - 🏳_NON_wmt（21.12.6）PM_29
+      - 🏳_NON_wmt（21.12.6）PM_30
+      - 🇨🇦_CA_wmt（21.12.6）PM_31
+      - 🇫🇷_FR_wmt（21.12.6）PM_32
+      - 🇫🇷_FR_wmt（21.12.6）PM_33
+      - 🏳_NON_wmt（21.12.6）PM_34
+      - 🇫🇷_FR_wmt（21.12.6）PM_35
+      - 🇺🇸_US_wmt（21.12.6）PM_36
+      - 🇺🇸_US_wmt（21.12.6）PM_37
+      - 🇺🇸_US_wmt（21.12.6）PM_38
+      - 🇺🇸_US_wmt（21.12.6）PM_39
+      - 🇺🇸_US_wmt（21.12.6）PM_40
+      - 🇺🇸_US_wmt（21.12.6）PM_41
+      - 🏳_NON_wmt（21.12.6）PM_42
+      - 🏳_NON_wmt（21.12.6）PM_43
+      - 🇨🇳_CN_wmt（21.12.6）PM_44
+      - 🇨🇳_CN_wmt（21.12.6）PM_45
+      - 🏳_NON_wmt（21.12.6）PM_46
+      - 🇨🇳_CN_wmt（21.12.6）PM_47
+      - 🇨🇦_CA_wmt（21.12.6）PM_48
+      - 🇨🇳_CN_wmt（21.12.6）PM_49
+      - 🏳_NON_wmt（21.12.6）PM_50
+      - 🇨🇳_CN_wmt（21.12.6）PM_51
+      - 🇨🇳_CN_wmt（21.12.6）PM_52
+      - 🇺🇸_US_wmt（21.12.6）PM_53
+      - 🇺🇸_US_wmt（21.12.6）PM_54
+      - 🇨🇳_CN_wmt（21.12.6）PM_55
+      - 🇨🇳_CN_wmt（21.12.6）PM_56
+      - 🇨🇦_CA_wmt（21.12.6）PM_57
+      - 🇨🇳_CN_wmt（21.12.6）PM_58
+      - 🇨🇦_CA_wmt（21.12.6）PM_59
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10442,3 +10298,318 @@ rules:
   - DOMAIN-SUFFIX,taobao.com,🎯 全球直连
   - DOMAIN-SUFFIX,tmall.com,🎯 全球直连
   - DOMAIN-SUFFIX,tmall.hk,🎯 全球直连
+  - DOMAIN-SUFFIX,ykimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,youku.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiami.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiami.net,🎯 全球直连
+  - DOMAIN-SUFFIX,aaplimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,apple.co,🎯 全球直连
+  - DOMAIN-SUFFIX,apple.com,🎯 全球直连
+  - DOMAIN-SUFFIX,apple-cloudkit.com,🎯 全球直连
+  - DOMAIN-SUFFIX,appstore.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cdn-apple.com,🎯 全球直连
+  - DOMAIN-SUFFIX,icloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,icloud-content.com,🎯 全球直连
+  - DOMAIN-SUFFIX,me.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mzstatic.com,🎯 全球直连
+  - DOMAIN-KEYWORD,apple.com.akadns.net,🎯 全球直连
+  - DOMAIN-KEYWORD,icloud.com.akadns.net,🎯 全球直连
+  - DOMAIN-SUFFIX,baidu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidubcr.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidupan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,baidupcs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bdstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yunjiasu-cdn.net,🎯 全球直连
+  - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
+  - DOMAIN-SUFFIX,feiliao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pstatp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,snssdk.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iesdouyin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,toutiao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cctv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cctvpic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,livechina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,didialift.com,🎯 全球直连
+  - DOMAIN-SUFFIX,didiglobal.com,🎯 全球直连
+  - DOMAIN-SUFFIX,udache.com,🎯 全球直连
+  - DOMAIN-SUFFIX,21cn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hitv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mgtv.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iqiyi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iqiyipic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,71.am,🎯 全球直连
+  - DOMAIN-SUFFIX,jd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jd.hk,🎯 全球直连
+  - DOMAIN-SUFFIX,jdpay.com,🎯 全球直连
+  - DOMAIN-SUFFIX,360buyimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,iciba.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ksosoft.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meitu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meitudata.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meitustat.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meipai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,duokan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mi-img.com,🎯 全球直连
+  - DOMAIN-SUFFIX,miui.com,🎯 全球直连
+  - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaomi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaomi.net,🎯 全球直连
+  - DOMAIN-SUFFIX,hotmail.com,🎯 全球直连
+  - DOMAIN-SUFFIX,microsoft.com,🎯 全球直连
+  - DOMAIN-SUFFIX,msecnd.net,🎯 全球直连
+  - DOMAIN-SUFFIX,office365.com,🎯 全球直连
+  - DOMAIN-SUFFIX,outlook.com,🎯 全球直连
+  - DOMAIN-SUFFIX,s-microsoft.com,🎯 全球直连
+  - DOMAIN-SUFFIX,visualstudio.com,🎯 全球直连
+  - DOMAIN-SUFFIX,windows.com,🎯 全球直连
+  - DOMAIN-SUFFIX,windowsupdate.com,🎯 全球直连
+  - DOMAIN-SUFFIX,163.com,🎯 全球直连
+  - DOMAIN-SUFFIX,126.com,🎯 全球直连
+  - DOMAIN-SUFFIX,126.net,🎯 全球直连
+  - DOMAIN-SUFFIX,127.net,🎯 全球直连
+  - DOMAIN-SUFFIX,163yun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lofter.com,🎯 全球直连
+  - DOMAIN-SUFFIX,netease.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ydstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
+  - DOMAIN-SUFFIX,paypal.me,🎯 全球直连
+  - DOMAIN-SUFFIX,paypalobjects.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weibo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weibocdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohucs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sohu-inc.com,🎯 全球直连
+  - DOMAIN-SUFFIX,v-56.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sogo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sogou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sogoucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steampowered.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,igamecj.com,🎯 全球直连
+  - DOMAIN-SUFFIX,myapp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,myqcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qq.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qqmail.com,🎯 全球直连
+  - DOMAIN-SUFFIX,servicewechat.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tencent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tencent-cloud.net,🎯 全球直连
+  - DOMAIN-SUFFIX,tenpay.com,🎯 全球直连
+  - DOMAIN-SUFFIX,wechat.com,🎯 全球直连
+  - DOMAIN,file-igamecj.akamaized.net,🎯 全球直连
+  - DOMAIN-SUFFIX,ccgslb.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ccgslb.net,🎯 全球直连
+  - DOMAIN-SUFFIX,chinanetcenter.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meixincdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,staticdn.net,🎯 全球直连
+  - DOMAIN-SUFFIX,wangsu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ipip.net,🎯 全球直连
+  - DOMAIN-SUFFIX,ip.la,🎯 全球直连
+  - DOMAIN-SUFFIX,ip.sb,🎯 全球直连
+  - DOMAIN-SUFFIX,ip-cdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ipv6-test.com,🎯 全球直连
+  - DOMAIN-SUFFIX,test-ipv6.com,🎯 全球直连
+  - DOMAIN-SUFFIX,whatismyip.com,🎯 全球直连
+  - DOMAIN,ip.istatmenus.app,🎯 全球直连
+  - DOMAIN-SUFFIX,netspeedtestmaster.com,🎯 全球直连
+  - DOMAIN,speedtest.macpaw.com,🎯 全球直连
+  - DOMAIN-SUFFIX,acg.rip,🎯 全球直连
+  - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
+  - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
+  - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
+  - DOMAIN-SUFFIX,comicat.org,🎯 全球直连
+  - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
+  - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
+  - DOMAIN-SUFFIX,hdbits.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hddolby.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
+  - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
+  - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
+  - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
+  - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
+  - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
+  - DOMAIN-SUFFIX,morethan.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,myanonamouse.net,🎯 全球直连
+  - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,open.cd,🎯 全球直连
+  - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
+  - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
+  - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
+  - DOMAIN-SUFFIX,pterclub.com,🎯 全球直连
+  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
+  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
+  - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
+  - DOMAIN-SUFFIX,343480.com,🎯 全球直连
+  - DOMAIN-SUFFIX,agefans.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,baduziyuan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cdn9-okzy.com,🎯 全球直连
+  - DOMAIN-SUFFIX,com-hs-hkdy.com,🎯 全球直连
+  - DOMAIN-SUFFIX,czybjz.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dandanzan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fjhps.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kuyunbo.club,🎯 全球直连
+  - DOMAIN-SUFFIX,nfmovies.com,🎯 全球直连
+  - DOMAIN-SUFFIX,okokbo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sd-dykj.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yhdm.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,youkutv.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,cn,🎯 全球直连
+  - DOMAIN-SUFFIX,115.com,🎯 全球直连
+  - DOMAIN-SUFFIX,360in.com,🎯 全球直连
+  - DOMAIN-SUFFIX,51ym.me,🎯 全球直连
+  - DOMAIN-SUFFIX,8686c.com,🎯 全球直连
+  - DOMAIN-SUFFIX,99.com,🎯 全球直连
+  - DOMAIN-SUFFIX,abchina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,accuweather.com,🎯 全球直连
+  - DOMAIN-SUFFIX,aicoinstorge.com,🎯 全球直连
+  - DOMAIN-SUFFIX,air-matters.com,🎯 全球直连
+  - DOMAIN-SUFFIX,air-matters.io,🎯 全球直连
+  - DOMAIN-SUFFIX,aixifan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,amd.com,🎯 全球直连
+  - DOMAIN-SUFFIX,b612.net,🎯 全球直连
+  - DOMAIN-SUFFIX,bdatu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,beitaichufang.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bjango.com,🎯 全球直连
+  - DOMAIN-SUFFIX,booking.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cailianpress.com,🎯 全球直连
+  - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chaoxing.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chaoxing.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chinaso.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chuimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,chunyu.mobi,🎯 全球直连
+  - DOMAIN-SUFFIX,cmbchina.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cmbimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ctrip.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dfcfw.com,🎯 全球直连
+  - DOMAIN-SUFFIX,docschina.org,🎯 全球直连
+  - DOMAIN-SUFFIX,douban.com,🎯 全球直连
+  - DOMAIN-SUFFIX,doubanio.com,🎯 全球直连
+  - DOMAIN-SUFFIX,douyu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dxycdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dytt8.net,🎯 全球直连
+  - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
+  - DOMAIN-SUFFIX,eudic.net,🎯 全球直连
+  - DOMAIN-SUFFIX,feng.com,🎯 全球直连
+  - DOMAIN-SUFFIX,fengkongcloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,frdic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,futu5.com,🎯 全球直连
+  - DOMAIN-SUFFIX,futunn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gandi.net,🎯 全球直连
+  - DOMAIN-SUFFIX,gcores.com,🎯 全球直连
+  - DOMAIN-SUFFIX,geilicdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,getpricetag.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gifshow.com,🎯 全球直连
+  - DOMAIN-SUFFIX,godic.net,🎯 全球直连
+  - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hongxiu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hostbuf.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huxiucdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,huya.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ibm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,infinitynewtab.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ithome.com,🎯 全球直连
+  - DOMAIN-SUFFIX,java.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jianguoyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jianshu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,jianshu.io,🎯 全球直连
+  - DOMAIN-SUFFIX,jidian.im,🎯 全球直连
+  - DOMAIN-SUFFIX,kaiyanapp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kaspersky-labs.com,🎯 全球直连
+  - DOMAIN-SUFFIX,keepcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,kkmh.com,🎯 全球直连
+  - DOMAIN-SUFFIX,lanzous.com,🎯 全球直连
+  - DOMAIN-SUFFIX,licdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,loli.net,🎯 全球直连
+  - DOMAIN-SUFFIX,luojilab.com,🎯 全球直连
+  - DOMAIN-SUFFIX,maoyan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,maoyun.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,meituan.com,🎯 全球直连
+  - DOMAIN-SUFFIX,meituan.net,🎯 全球直连
+  - DOMAIN-SUFFIX,mls-cdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mobike.com,🎯 全球直连
+  - DOMAIN-SUFFIX,moke.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mubu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,myzaker.com,🎯 全球直连
+  - DOMAIN-SUFFIX,nim-lang-cn.org,🎯 全球直连
+  - DOMAIN-SUFFIX,nvidia.com,🎯 全球直连
+  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
+  - DOMAIN-SUFFIX,plex.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,qdaily.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qidian.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qyer.com,🎯 全球直连
+  - DOMAIN-SUFFIX,qyerstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,raychase.net,🎯 全球直连
+  - DOMAIN-SUFFIX,ronghub.com,🎯 全球直连
+  - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sankuai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,scomper.me,🎯 全球直连
+  - DOMAIN-SUFFIX,seafile.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sm.ms,🎯 全球直连
+  - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
+  - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
+  - DOMAIN-SUFFIX,snwx.com,🎯 全球直连
+  - DOMAIN-SUFFIX,s-reader.com,🎯 全球直连
+  - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
+  - DOMAIN-SUFFIX,subhd.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,takungpao.com,🎯 全球直连
+  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tianyancha.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tophub.today,🎯 全球直连
+  - DOMAIN-SUFFIX,udacity.com,🎯 全球直连
+  - DOMAIN-SUFFIX,uning.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weather.com,🎯 全球直连
+  - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,weidian.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiachufang.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xiaoka.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,ximalaya.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xinhuanet.com,🎯 全球直连
+  - DOMAIN-SUFFIX,xmcdn.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yangkeduo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,yizhibo.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhangzishi.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhihuishu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
+  - DOMAIN,download.jetbrains.com,🎯 全球直连
+  - DOMAIN,images-cn.ssl-images-amazon.com,🎯 全球直连
+  - IP-CIDR,119.28.28.28/32,🎯 全球直连,no-resolve
+  - IP-CIDR,182.254.116.0/24,🎯 全球直连,no-resolve
+  - PROCESS-NAME,aria2c,🎯 全球直连
+  - PROCESS-NAME,fdm,🎯 全球直连
+  - PROCESS-NAME,Folx,🎯 全球直连
+  - PROCESS-NAME,NetTransport,🎯 全球直连
+  - PROCESS-NAME,Thunder,🎯 全球直连
+  - PROCESS-NAME,Transmission,🎯 全球直连
+  - PROCESS-NAME,uTorrent,🎯 全球直连
+  - PROCESS-NAME,WebTorrent,🎯 全球直连
+  - PROCESS-NAME,WebTorrent Helper,🎯 全球直连
+  - PROCESS-NAME,DownloadService,🎯 全球直连
+  - PROCESS-NAME,Weiyun,🎯 全球直连
+  - DOMAIN-KEYWORD,aria2,🎯 全球直连
+  - DOMAIN-KEYWORD,xunlei,🎯 全球直连
+  - DOMAIN-KEYWORD,yunpan,🎯 全球直连
+  - DOMAIN-KEYWORD,Thunder,🎯 全球直连
+  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
