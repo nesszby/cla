@@ -1,31 +1,4 @@
-Skip to content
-搜索或跳转到…
-拉取请求
-议题
-应用商城
-探索
  
-@nesszby 
-Chen-WH
-/
-Env-config
-公共
-代码
-议题
-拉取请求
-操作
-项目
-Wiki
-安全
-统计
-Env-config/clash/config.yaml
-@Chen-WH
-Chen-WH add tmux config in zshrc
-最新提交 9f5d252 4 周前
- 历史
- 1 贡献者
-1091 lines (1038 sloc)  35.8 KB
-   
 #---------------------------------------------------#
 ## 更新：2021-11-16 10:58:53
 ## 感谢：https://github.com/Hackl0us/SS-Rule-Snippet
@@ -1116,16 +1089,4 @@ rules:
 # GeoIP China
 - GEOIP,CN,Domestic
 
-- MATCH,Others
-© 2021 GitHub, Inc.
-服务条款
-隐私
-安全
-状态
-文档
-联系 GitHub
-价格
-API
-培训
-博客
-关于
+ MATCH,Others
