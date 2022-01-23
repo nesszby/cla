@@ -5,123 +5,343 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 菲律宾 免费节点(马尼拉)●, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 香港 广港国际以太网专线(AZ)●, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 印度尼西亚 VIP节点(雅加达)●, server: gz1.52168.xyz, port: 1104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 新加坡 VIP节点★, server: gz2.52168.xyz, port: 2106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 菲律宾 VIP节点(马尼拉)●, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 日本 VIP节点★, server: gz2.52168.xyz, port: 2107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 台湾 VIP节点(HINET)★, server: gz2.52168.xyz, port: 2105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 香港 免费节点(EC2负载均衡)★, server: gz2.52168.xyz, port: 2109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 瑞士 免费节点●, server: gz1.52168.xyz, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 俄罗斯 免费节点(TTK)★, server: gz2.52168.xyz, port: 2103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 土耳其 免费节点●, server: gz1.52168.xyz, port: 1115, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 土耳其 VIP节点★, server: gz2.52168.xyz, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 印度尼西亚 免费节点(雅加达)●, server: gz1.52168.xyz, port: 1103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 越南 VIP节点(胡志明)●, server: gz1.52168.xyz, port: 1108, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 越南 免费节点(胡志明)●, server: gz1.52168.xyz, port: 1107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 荷兰 免费节点●, server: gz1.52168.xyz, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 马来西亚 免费节点(吉隆坡)●, server: gz1.52168.xyz, port: 1105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 马来西亚 VIP节点(吉隆坡)●, server: gz1.52168.xyz, port: 1106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 美国 免费节点(洛杉矶)●, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: 香港 VIP节点(HKT1 500MB)●, server: gz1.52168.xyz, port: 1112, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
-  - {name: sealtw, server: 101.32.46.127, port: 60086, type: ssr, cipher: dummy, password: banananet904, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 2.27 MB/s 狗子快跑 俄罗斯-隧道中转, server: dog.newhost.cc, port: 10692, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 15755:4GYq0F, obfs-param: .microsoft.com, udp: true}
-  - {name: sealt w, server: 45.142.157.69, port: 64605, type: ssr, cipher: dummy, password: sealnet+305, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 4.31 MB/s QQ69027662的flyxxl新加坡 | 新加坡, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 543cb59a-aae3-4378-bf0e-d4b7530ad237, sni: sg27.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: 4.31 MB/s QQ641831428的flyxxl新加坡 | 新加坡, server: sg27.holiganfan.com, port: 10088, type: trojan, password: f07331dd-ed59-4bbf-a209-9e296d36ed44, sni: sg27.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: 5次_40, server: cm08.paofuvip.xyz, port: 5957, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_36, server: cm08.paofuvip.xyz, port: 5953, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_66, server: cm09.paofuvip.xyz, port: 5955, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_70, server: cm09.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_38, server: cm08.paofuvip.xyz, port: 5955, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_34, server: cm08.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_26, server: cm07.paofuvip.xyz, port: 5953, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_35, server: cm08.paofuvip.xyz, port: 5952, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_62, server: cm09.paofuvip.xyz, port: 5959, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_33, server: cm08.paofuvip.xyz, port: 5950, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_37, server: cm08.paofuvip.xyz, port: 5954, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_71, server: cm09.paofuvip.xyz, port: 5950, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_65, server: cm09.paofuvip.xyz, port: 5956, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_41, server: cm08.paofuvip.xyz, port: 5958, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_67, server: cm09.paofuvip.xyz, port: 5954, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_64, server: cm09.paofuvip.xyz, port: 5957, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_30, server: cm07.paofuvip.xyz, port: 5957, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_42, server: cm08.paofuvip.xyz, port: 5959, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_63, server: cm09.paofuvip.xyz, port: 5958, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_39, server: cm08.paofuvip.xyz, port: 5956, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_50, server: cm03.paofuvip.xyz, port: 1098, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_31, server: cm07.paofuvip.xyz, port: 5958, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_23, server: cm07.paofuvip.xyz, port: 5950, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_69, server: cm09.paofuvip.xyz, port: 5952, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_22, server: cm01.paofuvip.xyz, port: 1024, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_32, server: cm07.paofuvip.xyz, port: 5959, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_29, server: cm07.paofuvip.xyz, port: 5956, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_24, server: cm07.paofuvip.xyz, port: 5951, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_68, server: cm09.paofuvip.xyz, port: 5953, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_27, server: cm07.paofuvip.xyz, port: 5954, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_2, server: cm03.paofuvip.xyz, port: 1071, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_21, server: cm01.paofuvip.xyz, port: 1022, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_60, server: cm01.paofuvip.xyz, port: 1023, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_59, server: cm01.paofuvip.xyz, port: 1021, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_28, server: cm07.paofuvip.xyz, port: 5955, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_20, server: cm01.paofuvip.xyz, port: 1020, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_6, server: cm03.paofuvip.xyz, port: 1091, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_14, server: cm01.paofuvip.xyz, port: 1054, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_47, server: cm03.paofuvip.xyz, port: 1095, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_51, server: cm01.paofuvip.xyz, port: 1055, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_46, server: cm02.paofuvip.xyz, port: 1073, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_8, server: cm03.paofuvip.xyz, port: 1093, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_48, server: cm03.paofuvip.xyz, port: 1096, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_54, server: cm01.paofuvip.xyz, port: 1058, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_52, server: cm01.paofuvip.xyz, port: 1056, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_12, server: cm01.paofuvip.xyz, port: 1052, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_7, server: cm03.paofuvip.xyz, port: 1092, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_9, server: cm03.paofuvip.xyz, port: 1094, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_13, server: cm01.paofuvip.xyz, port: 1053, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_53, server: cm01.paofuvip.xyz, port: 1057, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_49, server: cm03.paofuvip.xyz, port: 1097, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_43, server: cm02.paofuvip.xyz, port: 1070, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_1, server: cm03.paofuvip.xyz, port: 1070, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_11, server: cm01.paofuvip.xyz, port: 1051, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_61, server: cm01.paofuvip.xyz, port: 1025, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_16, server: cm02.paofuvip.xyz, port: 1081, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_4, server: cm03.paofuvip.xyz, port: 1073, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_44, server: cm02.paofuvip.xyz, port: 1071, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_45, server: cm02.paofuvip.xyz, port: 1072, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_55, server: cm02.paofuvip.xyz, port: 1085, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_17, server: cm02.paofuvip.xyz, port: 1082, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_19, server: cm02.paofuvip.xyz, port: 1084, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_10, server: cm01.paofuvip.xyz, port: 1050, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_15, server: cm02.paofuvip.xyz, port: 1080, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_18, server: cm02.paofuvip.xyz, port: 1083, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_5, server: cm03.paofuvip.xyz, port: 1090, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: 5次_25, server: cm07.paofuvip.xyz, port: 5952, type: ssr, cipher: chacha20-ietf, password: 0yzag5ftrssb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 129169:4fp40oe08zp, obfs-param: e6b1d129169.microsoft.com, udp: true}
+  - {name: n_8.76 MB/s AA-V2ray-HK-HKT.01_12, server: cdn-cn.nekocloud.cn, port: 19094, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: n_9.65 MB/s AA-V2ray-HK-HKT.02_11, server: cdn-cn.nekocloud.cn, port: 19040, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: n_7.02 MB/s AA-V2ray-JP-NTT.03_8, server: cdn-cn.nekocloud.cn, port: 19055, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: n_16.98 MB/s AA-V2ray-HK-HKBN.02_14, server: cdn-cn.nekocloud.cn, port: 19092, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: n_3.22 MB/s AA-V2ray-HK-NTT.03_10, server: cdn-cn.nekocloud.cn, port: 19049, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: n_3.35 MB/s AA-V2ray-JP-NTT.01_5, server: cdn-cn.nekocloud.cn, port: 19050, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: n_5.75 MB/s AA-V2ray-HK-HKT.03_4, server: cdn-cn.nekocloud.cn, port: 10007, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: n_8.44 MB/s AA-V2ray-HK-HKBN_3, server: cdn-cn.nekocloud.cn, port: 19085, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: n_2.48 MB/s AA-V2ray-US-Fremont_15, server: cdn-cn.nekocloud.cn, port: 19016, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: n_4.99 MB/s AA-V2ray-TW-HiNet.05_9, server: cdn-cn.nekocloud.cn, port: 19045, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: n_3.11 MB/s AA-V2ray-US-HE.03_13, server: cdn-cn.nekocloud.cn, port: 19029, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: n_5.07 MB/s AA-V2ray-TW-HiNet.01_7, server: cdn-cn.nekocloud.cn, port: 19046, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: n_2.44 MB/s AA-V2ray-RU-Selectel_16, server: cdn-cn.nekocloud.cn, port: 19080, type: vmess, uuid: b1f64afe-67ae-3b44-bcb3-5ff2bc913170, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 菲律宾 免费节点(马尼拉)●
-      - 香港 广港国际以太网专线(AZ)●
-      - 印度尼西亚 VIP节点(雅加达)●
-      - 新加坡 VIP节点★
-      - 菲律宾 VIP节点(马尼拉)●
-      - 日本 VIP节点★
-      - 台湾 VIP节点(HINET)★
-      - 香港 免费节点(EC2负载均衡)★
-      - 瑞士 免费节点●
-      - 俄罗斯 免费节点(TTK)★
-      - 土耳其 免费节点●
-      - 土耳其 VIP节点★
-      - 印度尼西亚 免费节点(雅加达)●
-      - 越南 VIP节点(胡志明)●
-      - 越南 免费节点(胡志明)●
-      - 荷兰 免费节点●
-      - 马来西亚 免费节点(吉隆坡)●
-      - 马来西亚 VIP节点(吉隆坡)●
-      - 美国 免费节点(洛杉矶)●
-      - 香港 VIP节点(HKT1 500MB)●
-      - sealtw
-      - 2.27 MB/s 狗子快跑 俄罗斯-隧道中转
-      - sealt w
-      - 4.31 MB/s QQ69027662的flyxxl新加坡 | 新加坡
-      - 4.31 MB/s QQ641831428的flyxxl新加坡 | 新加坡
+      - 5次_40
+      - 5次_36
+      - 5次_66
+      - 5次_70
+      - 5次_38
+      - 5次_34
+      - 5次_26
+      - 5次_35
+      - 5次_62
+      - 5次_33
+      - 5次_37
+      - 5次_71
+      - 5次_65
+      - 5次_41
+      - 5次_67
+      - 5次_64
+      - 5次_30
+      - 5次_42
+      - 5次_63
+      - 5次_39
+      - 5次_50
+      - 5次_31
+      - 5次_23
+      - 5次_69
+      - 5次_22
+      - 5次_32
+      - 5次_29
+      - 5次_24
+      - 5次_68
+      - 5次_27
+      - 5次_2
+      - 5次_21
+      - 5次_60
+      - 5次_59
+      - 5次_28
+      - 5次_20
+      - 5次_6
+      - 5次_14
+      - 5次_47
+      - 5次_51
+      - 5次_46
+      - 5次_8
+      - 5次_48
+      - 5次_54
+      - 5次_52
+      - 5次_12
+      - 5次_7
+      - 5次_9
+      - 5次_13
+      - 5次_53
+      - 5次_49
+      - 5次_43
+      - 5次_1
+      - 5次_11
+      - 5次_61
+      - 5次_16
+      - 5次_4
+      - 5次_44
+      - 5次_45
+      - 5次_55
+      - 5次_17
+      - 5次_19
+      - 5次_10
+      - 5次_15
+      - 5次_18
+      - 5次_5
+      - 5次_25
+      - n_8.76 MB/s AA-V2ray-HK-HKT.01_12
+      - n_9.65 MB/s AA-V2ray-HK-HKT.02_11
+      - n_7.02 MB/s AA-V2ray-JP-NTT.03_8
+      - n_16.98 MB/s AA-V2ray-HK-HKBN.02_14
+      - n_3.22 MB/s AA-V2ray-HK-NTT.03_10
+      - n_3.35 MB/s AA-V2ray-JP-NTT.01_5
+      - n_5.75 MB/s AA-V2ray-HK-HKT.03_4
+      - n_8.44 MB/s AA-V2ray-HK-HKBN_3
+      - n_2.48 MB/s AA-V2ray-US-Fremont_15
+      - n_4.99 MB/s AA-V2ray-TW-HiNet.05_9
+      - n_3.11 MB/s AA-V2ray-US-HE.03_13
+      - n_5.07 MB/s AA-V2ray-TW-HiNet.01_7
+      - n_2.44 MB/s AA-V2ray-RU-Selectel_16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 菲律宾 免费节点(马尼拉)●
-      - 香港 广港国际以太网专线(AZ)●
-      - 印度尼西亚 VIP节点(雅加达)●
-      - 新加坡 VIP节点★
-      - 菲律宾 VIP节点(马尼拉)●
-      - 日本 VIP节点★
-      - 台湾 VIP节点(HINET)★
-      - 香港 免费节点(EC2负载均衡)★
-      - 瑞士 免费节点●
-      - 俄罗斯 免费节点(TTK)★
-      - 土耳其 免费节点●
-      - 土耳其 VIP节点★
-      - 印度尼西亚 免费节点(雅加达)●
-      - 越南 VIP节点(胡志明)●
-      - 越南 免费节点(胡志明)●
-      - 荷兰 免费节点●
-      - 马来西亚 免费节点(吉隆坡)●
-      - 马来西亚 VIP节点(吉隆坡)●
-      - 美国 免费节点(洛杉矶)●
-      - 香港 VIP节点(HKT1 500MB)●
-      - sealtw
-      - 2.27 MB/s 狗子快跑 俄罗斯-隧道中转
-      - sealt w
-      - 4.31 MB/s QQ69027662的flyxxl新加坡 | 新加坡
-      - 4.31 MB/s QQ641831428的flyxxl新加坡 | 新加坡
+      - 5次_40
+      - 5次_36
+      - 5次_66
+      - 5次_70
+      - 5次_38
+      - 5次_34
+      - 5次_26
+      - 5次_35
+      - 5次_62
+      - 5次_33
+      - 5次_37
+      - 5次_71
+      - 5次_65
+      - 5次_41
+      - 5次_67
+      - 5次_64
+      - 5次_30
+      - 5次_42
+      - 5次_63
+      - 5次_39
+      - 5次_50
+      - 5次_31
+      - 5次_23
+      - 5次_69
+      - 5次_22
+      - 5次_32
+      - 5次_29
+      - 5次_24
+      - 5次_68
+      - 5次_27
+      - 5次_2
+      - 5次_21
+      - 5次_60
+      - 5次_59
+      - 5次_28
+      - 5次_20
+      - 5次_6
+      - 5次_14
+      - 5次_47
+      - 5次_51
+      - 5次_46
+      - 5次_8
+      - 5次_48
+      - 5次_54
+      - 5次_52
+      - 5次_12
+      - 5次_7
+      - 5次_9
+      - 5次_13
+      - 5次_53
+      - 5次_49
+      - 5次_43
+      - 5次_1
+      - 5次_11
+      - 5次_61
+      - 5次_16
+      - 5次_4
+      - 5次_44
+      - 5次_45
+      - 5次_55
+      - 5次_17
+      - 5次_19
+      - 5次_10
+      - 5次_15
+      - 5次_18
+      - 5次_5
+      - 5次_25
+      - n_8.76 MB/s AA-V2ray-HK-HKT.01_12
+      - n_9.65 MB/s AA-V2ray-HK-HKT.02_11
+      - n_7.02 MB/s AA-V2ray-JP-NTT.03_8
+      - n_16.98 MB/s AA-V2ray-HK-HKBN.02_14
+      - n_3.22 MB/s AA-V2ray-HK-NTT.03_10
+      - n_3.35 MB/s AA-V2ray-JP-NTT.01_5
+      - n_5.75 MB/s AA-V2ray-HK-HKT.03_4
+      - n_8.44 MB/s AA-V2ray-HK-HKBN_3
+      - n_2.48 MB/s AA-V2ray-US-Fremont_15
+      - n_4.99 MB/s AA-V2ray-TW-HiNet.05_9
+      - n_3.11 MB/s AA-V2ray-US-HE.03_13
+      - n_5.07 MB/s AA-V2ray-TW-HiNet.01_7
+      - n_2.44 MB/s AA-V2ray-RU-Selectel_16
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 菲律宾 免费节点(马尼拉)●
-      - 香港 广港国际以太网专线(AZ)●
-      - 印度尼西亚 VIP节点(雅加达)●
-      - 新加坡 VIP节点★
-      - 菲律宾 VIP节点(马尼拉)●
-      - 日本 VIP节点★
-      - 台湾 VIP节点(HINET)★
-      - 香港 免费节点(EC2负载均衡)★
-      - 瑞士 免费节点●
-      - 俄罗斯 免费节点(TTK)★
-      - 土耳其 免费节点●
-      - 土耳其 VIP节点★
-      - 印度尼西亚 免费节点(雅加达)●
-      - 越南 VIP节点(胡志明)●
-      - 越南 免费节点(胡志明)●
-      - 荷兰 免费节点●
-      - 马来西亚 免费节点(吉隆坡)●
-      - 马来西亚 VIP节点(吉隆坡)●
-      - 美国 免费节点(洛杉矶)●
-      - 香港 VIP节点(HKT1 500MB)●
-      - sealtw
-      - 2.27 MB/s 狗子快跑 俄罗斯-隧道中转
-      - sealt w
-      - 4.31 MB/s QQ69027662的flyxxl新加坡 | 新加坡
-      - 4.31 MB/s QQ641831428的flyxxl新加坡 | 新加坡
+      - 5次_40
+      - 5次_36
+      - 5次_66
+      - 5次_70
+      - 5次_38
+      - 5次_34
+      - 5次_26
+      - 5次_35
+      - 5次_62
+      - 5次_33
+      - 5次_37
+      - 5次_71
+      - 5次_65
+      - 5次_41
+      - 5次_67
+      - 5次_64
+      - 5次_30
+      - 5次_42
+      - 5次_63
+      - 5次_39
+      - 5次_50
+      - 5次_31
+      - 5次_23
+      - 5次_69
+      - 5次_22
+      - 5次_32
+      - 5次_29
+      - 5次_24
+      - 5次_68
+      - 5次_27
+      - 5次_2
+      - 5次_21
+      - 5次_60
+      - 5次_59
+      - 5次_28
+      - 5次_20
+      - 5次_6
+      - 5次_14
+      - 5次_47
+      - 5次_51
+      - 5次_46
+      - 5次_8
+      - 5次_48
+      - 5次_54
+      - 5次_52
+      - 5次_12
+      - 5次_7
+      - 5次_9
+      - 5次_13
+      - 5次_53
+      - 5次_49
+      - 5次_43
+      - 5次_1
+      - 5次_11
+      - 5次_61
+      - 5次_16
+      - 5次_4
+      - 5次_44
+      - 5次_45
+      - 5次_55
+      - 5次_17
+      - 5次_19
+      - 5次_10
+      - 5次_15
+      - 5次_18
+      - 5次_5
+      - 5次_25
+      - n_8.76 MB/s AA-V2ray-HK-HKT.01_12
+      - n_9.65 MB/s AA-V2ray-HK-HKT.02_11
+      - n_7.02 MB/s AA-V2ray-JP-NTT.03_8
+      - n_16.98 MB/s AA-V2ray-HK-HKBN.02_14
+      - n_3.22 MB/s AA-V2ray-HK-NTT.03_10
+      - n_3.35 MB/s AA-V2ray-JP-NTT.01_5
+      - n_5.75 MB/s AA-V2ray-HK-HKT.03_4
+      - n_8.44 MB/s AA-V2ray-HK-HKBN_3
+      - n_2.48 MB/s AA-V2ray-US-Fremont_15
+      - n_4.99 MB/s AA-V2ray-TW-HiNet.05_9
+      - n_3.11 MB/s AA-V2ray-US-HE.03_13
+      - n_5.07 MB/s AA-V2ray-TW-HiNet.01_7
+      - n_2.44 MB/s AA-V2ray-RU-Selectel_16
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,132 +360,352 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 菲律宾 免费节点(马尼拉)●
-      - 香港 广港国际以太网专线(AZ)●
-      - 印度尼西亚 VIP节点(雅加达)●
-      - 新加坡 VIP节点★
-      - 菲律宾 VIP节点(马尼拉)●
-      - 日本 VIP节点★
-      - 台湾 VIP节点(HINET)★
-      - 香港 免费节点(EC2负载均衡)★
-      - 瑞士 免费节点●
-      - 俄罗斯 免费节点(TTK)★
-      - 土耳其 免费节点●
-      - 土耳其 VIP节点★
-      - 印度尼西亚 免费节点(雅加达)●
-      - 越南 VIP节点(胡志明)●
-      - 越南 免费节点(胡志明)●
-      - 荷兰 免费节点●
-      - 马来西亚 免费节点(吉隆坡)●
-      - 马来西亚 VIP节点(吉隆坡)●
-      - 美国 免费节点(洛杉矶)●
-      - 香港 VIP节点(HKT1 500MB)●
-      - sealtw
-      - 2.27 MB/s 狗子快跑 俄罗斯-隧道中转
-      - sealt w
-      - 4.31 MB/s QQ69027662的flyxxl新加坡 | 新加坡
-      - 4.31 MB/s QQ641831428的flyxxl新加坡 | 新加坡
+      - 5次_40
+      - 5次_36
+      - 5次_66
+      - 5次_70
+      - 5次_38
+      - 5次_34
+      - 5次_26
+      - 5次_35
+      - 5次_62
+      - 5次_33
+      - 5次_37
+      - 5次_71
+      - 5次_65
+      - 5次_41
+      - 5次_67
+      - 5次_64
+      - 5次_30
+      - 5次_42
+      - 5次_63
+      - 5次_39
+      - 5次_50
+      - 5次_31
+      - 5次_23
+      - 5次_69
+      - 5次_22
+      - 5次_32
+      - 5次_29
+      - 5次_24
+      - 5次_68
+      - 5次_27
+      - 5次_2
+      - 5次_21
+      - 5次_60
+      - 5次_59
+      - 5次_28
+      - 5次_20
+      - 5次_6
+      - 5次_14
+      - 5次_47
+      - 5次_51
+      - 5次_46
+      - 5次_8
+      - 5次_48
+      - 5次_54
+      - 5次_52
+      - 5次_12
+      - 5次_7
+      - 5次_9
+      - 5次_13
+      - 5次_53
+      - 5次_49
+      - 5次_43
+      - 5次_1
+      - 5次_11
+      - 5次_61
+      - 5次_16
+      - 5次_4
+      - 5次_44
+      - 5次_45
+      - 5次_55
+      - 5次_17
+      - 5次_19
+      - 5次_10
+      - 5次_15
+      - 5次_18
+      - 5次_5
+      - 5次_25
+      - n_8.76 MB/s AA-V2ray-HK-HKT.01_12
+      - n_9.65 MB/s AA-V2ray-HK-HKT.02_11
+      - n_7.02 MB/s AA-V2ray-JP-NTT.03_8
+      - n_16.98 MB/s AA-V2ray-HK-HKBN.02_14
+      - n_3.22 MB/s AA-V2ray-HK-NTT.03_10
+      - n_3.35 MB/s AA-V2ray-JP-NTT.01_5
+      - n_5.75 MB/s AA-V2ray-HK-HKT.03_4
+      - n_8.44 MB/s AA-V2ray-HK-HKBN_3
+      - n_2.48 MB/s AA-V2ray-US-Fremont_15
+      - n_4.99 MB/s AA-V2ray-TW-HiNet.05_9
+      - n_3.11 MB/s AA-V2ray-US-HE.03_13
+      - n_5.07 MB/s AA-V2ray-TW-HiNet.01_7
+      - n_2.44 MB/s AA-V2ray-RU-Selectel_16
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 广港国际以太网专线(AZ)●
-      - 台湾 VIP节点(HINET)★
-      - 香港 免费节点(EC2负载均衡)★
-      - 香港 VIP节点(HKT1 500MB)●
-      - sealtw
+      - n_8.76 MB/s AA-V2ray-HK-HKT.01_12
+      - n_9.65 MB/s AA-V2ray-HK-HKT.02_11
+      - n_16.98 MB/s AA-V2ray-HK-HKBN.02_14
+      - n_5.75 MB/s AA-V2ray-HK-HKT.03_4
+      - n_8.44 MB/s AA-V2ray-HK-HKBN_3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 菲律宾 免费节点(马尼拉)●
-      - 香港 广港国际以太网专线(AZ)●
-      - 印度尼西亚 VIP节点(雅加达)●
-      - 新加坡 VIP节点★
-      - 菲律宾 VIP节点(马尼拉)●
-      - 日本 VIP节点★
-      - 台湾 VIP节点(HINET)★
-      - 香港 免费节点(EC2负载均衡)★
-      - 瑞士 免费节点●
-      - 俄罗斯 免费节点(TTK)★
-      - 土耳其 免费节点●
-      - 土耳其 VIP节点★
-      - 印度尼西亚 免费节点(雅加达)●
-      - 越南 VIP节点(胡志明)●
-      - 越南 免费节点(胡志明)●
-      - 荷兰 免费节点●
-      - 马来西亚 免费节点(吉隆坡)●
-      - 马来西亚 VIP节点(吉隆坡)●
-      - 美国 免费节点(洛杉矶)●
-      - 香港 VIP节点(HKT1 500MB)●
-      - sealtw
-      - 2.27 MB/s 狗子快跑 俄罗斯-隧道中转
-      - sealt w
-      - 4.31 MB/s QQ69027662的flyxxl新加坡 | 新加坡
-      - 4.31 MB/s QQ641831428的flyxxl新加坡 | 新加坡
+      - 5次_40
+      - 5次_36
+      - 5次_66
+      - 5次_70
+      - 5次_38
+      - 5次_34
+      - 5次_26
+      - 5次_35
+      - 5次_62
+      - 5次_33
+      - 5次_37
+      - 5次_71
+      - 5次_65
+      - 5次_41
+      - 5次_67
+      - 5次_64
+      - 5次_30
+      - 5次_42
+      - 5次_63
+      - 5次_39
+      - 5次_50
+      - 5次_31
+      - 5次_23
+      - 5次_69
+      - 5次_22
+      - 5次_32
+      - 5次_29
+      - 5次_24
+      - 5次_68
+      - 5次_27
+      - 5次_2
+      - 5次_21
+      - 5次_60
+      - 5次_59
+      - 5次_28
+      - 5次_20
+      - 5次_6
+      - 5次_14
+      - 5次_47
+      - 5次_51
+      - 5次_46
+      - 5次_8
+      - 5次_48
+      - 5次_54
+      - 5次_52
+      - 5次_12
+      - 5次_7
+      - 5次_9
+      - 5次_13
+      - 5次_53
+      - 5次_49
+      - 5次_43
+      - 5次_1
+      - 5次_11
+      - 5次_61
+      - 5次_16
+      - 5次_4
+      - 5次_44
+      - 5次_45
+      - 5次_55
+      - 5次_17
+      - 5次_19
+      - 5次_10
+      - 5次_15
+      - 5次_18
+      - 5次_5
+      - 5次_25
+      - n_8.76 MB/s AA-V2ray-HK-HKT.01_12
+      - n_9.65 MB/s AA-V2ray-HK-HKT.02_11
+      - n_7.02 MB/s AA-V2ray-JP-NTT.03_8
+      - n_16.98 MB/s AA-V2ray-HK-HKBN.02_14
+      - n_3.22 MB/s AA-V2ray-HK-NTT.03_10
+      - n_3.35 MB/s AA-V2ray-JP-NTT.01_5
+      - n_5.75 MB/s AA-V2ray-HK-HKT.03_4
+      - n_8.44 MB/s AA-V2ray-HK-HKBN_3
+      - n_2.48 MB/s AA-V2ray-US-Fremont_15
+      - n_4.99 MB/s AA-V2ray-TW-HiNet.05_9
+      - n_3.11 MB/s AA-V2ray-US-HE.03_13
+      - n_5.07 MB/s AA-V2ray-TW-HiNet.01_7
+      - n_2.44 MB/s AA-V2ray-RU-Selectel_16
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 菲律宾 免费节点(马尼拉)●
-      - 香港 广港国际以太网专线(AZ)●
-      - 印度尼西亚 VIP节点(雅加达)●
-      - 新加坡 VIP节点★
-      - 菲律宾 VIP节点(马尼拉)●
-      - 日本 VIP节点★
-      - 台湾 VIP节点(HINET)★
-      - 香港 免费节点(EC2负载均衡)★
-      - 瑞士 免费节点●
-      - 俄罗斯 免费节点(TTK)★
-      - 土耳其 免费节点●
-      - 土耳其 VIP节点★
-      - 印度尼西亚 免费节点(雅加达)●
-      - 越南 VIP节点(胡志明)●
-      - 越南 免费节点(胡志明)●
-      - 荷兰 免费节点●
-      - 马来西亚 免费节点(吉隆坡)●
-      - 马来西亚 VIP节点(吉隆坡)●
-      - 美国 免费节点(洛杉矶)●
-      - 香港 VIP节点(HKT1 500MB)●
-      - sealtw
-      - 2.27 MB/s 狗子快跑 俄罗斯-隧道中转
-      - sealt w
-      - 4.31 MB/s QQ69027662的flyxxl新加坡 | 新加坡
-      - 4.31 MB/s QQ641831428的flyxxl新加坡 | 新加坡
+      - 5次_40
+      - 5次_36
+      - 5次_66
+      - 5次_70
+      - 5次_38
+      - 5次_34
+      - 5次_26
+      - 5次_35
+      - 5次_62
+      - 5次_33
+      - 5次_37
+      - 5次_71
+      - 5次_65
+      - 5次_41
+      - 5次_67
+      - 5次_64
+      - 5次_30
+      - 5次_42
+      - 5次_63
+      - 5次_39
+      - 5次_50
+      - 5次_31
+      - 5次_23
+      - 5次_69
+      - 5次_22
+      - 5次_32
+      - 5次_29
+      - 5次_24
+      - 5次_68
+      - 5次_27
+      - 5次_2
+      - 5次_21
+      - 5次_60
+      - 5次_59
+      - 5次_28
+      - 5次_20
+      - 5次_6
+      - 5次_14
+      - 5次_47
+      - 5次_51
+      - 5次_46
+      - 5次_8
+      - 5次_48
+      - 5次_54
+      - 5次_52
+      - 5次_12
+      - 5次_7
+      - 5次_9
+      - 5次_13
+      - 5次_53
+      - 5次_49
+      - 5次_43
+      - 5次_1
+      - 5次_11
+      - 5次_61
+      - 5次_16
+      - 5次_4
+      - 5次_44
+      - 5次_45
+      - 5次_55
+      - 5次_17
+      - 5次_19
+      - 5次_10
+      - 5次_15
+      - 5次_18
+      - 5次_5
+      - 5次_25
+      - n_8.76 MB/s AA-V2ray-HK-HKT.01_12
+      - n_9.65 MB/s AA-V2ray-HK-HKT.02_11
+      - n_7.02 MB/s AA-V2ray-JP-NTT.03_8
+      - n_16.98 MB/s AA-V2ray-HK-HKBN.02_14
+      - n_3.22 MB/s AA-V2ray-HK-NTT.03_10
+      - n_3.35 MB/s AA-V2ray-JP-NTT.01_5
+      - n_5.75 MB/s AA-V2ray-HK-HKT.03_4
+      - n_8.44 MB/s AA-V2ray-HK-HKBN_3
+      - n_2.48 MB/s AA-V2ray-US-Fremont_15
+      - n_4.99 MB/s AA-V2ray-TW-HiNet.05_9
+      - n_3.11 MB/s AA-V2ray-US-HE.03_13
+      - n_5.07 MB/s AA-V2ray-TW-HiNet.01_7
+      - n_2.44 MB/s AA-V2ray-RU-Selectel_16
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 菲律宾 免费节点(马尼拉)●
-      - 香港 广港国际以太网专线(AZ)●
-      - 印度尼西亚 VIP节点(雅加达)●
-      - 新加坡 VIP节点★
-      - 菲律宾 VIP节点(马尼拉)●
-      - 日本 VIP节点★
-      - 台湾 VIP节点(HINET)★
-      - 香港 免费节点(EC2负载均衡)★
-      - 瑞士 免费节点●
-      - 俄罗斯 免费节点(TTK)★
-      - 土耳其 免费节点●
-      - 土耳其 VIP节点★
-      - 印度尼西亚 免费节点(雅加达)●
-      - 越南 VIP节点(胡志明)●
-      - 越南 免费节点(胡志明)●
-      - 荷兰 免费节点●
-      - 马来西亚 免费节点(吉隆坡)●
-      - 马来西亚 VIP节点(吉隆坡)●
-      - 美国 免费节点(洛杉矶)●
-      - 香港 VIP节点(HKT1 500MB)●
-      - sealtw
-      - 2.27 MB/s 狗子快跑 俄罗斯-隧道中转
-      - sealt w
-      - 4.31 MB/s QQ69027662的flyxxl新加坡 | 新加坡
-      - 4.31 MB/s QQ641831428的flyxxl新加坡 | 新加坡
+      - 5次_40
+      - 5次_36
+      - 5次_66
+      - 5次_70
+      - 5次_38
+      - 5次_34
+      - 5次_26
+      - 5次_35
+      - 5次_62
+      - 5次_33
+      - 5次_37
+      - 5次_71
+      - 5次_65
+      - 5次_41
+      - 5次_67
+      - 5次_64
+      - 5次_30
+      - 5次_42
+      - 5次_63
+      - 5次_39
+      - 5次_50
+      - 5次_31
+      - 5次_23
+      - 5次_69
+      - 5次_22
+      - 5次_32
+      - 5次_29
+      - 5次_24
+      - 5次_68
+      - 5次_27
+      - 5次_2
+      - 5次_21
+      - 5次_60
+      - 5次_59
+      - 5次_28
+      - 5次_20
+      - 5次_6
+      - 5次_14
+      - 5次_47
+      - 5次_51
+      - 5次_46
+      - 5次_8
+      - 5次_48
+      - 5次_54
+      - 5次_52
+      - 5次_12
+      - 5次_7
+      - 5次_9
+      - 5次_13
+      - 5次_53
+      - 5次_49
+      - 5次_43
+      - 5次_1
+      - 5次_11
+      - 5次_61
+      - 5次_16
+      - 5次_4
+      - 5次_44
+      - 5次_45
+      - 5次_55
+      - 5次_17
+      - 5次_19
+      - 5次_10
+      - 5次_15
+      - 5次_18
+      - 5次_5
+      - 5次_25
+      - n_8.76 MB/s AA-V2ray-HK-HKT.01_12
+      - n_9.65 MB/s AA-V2ray-HK-HKT.02_11
+      - n_7.02 MB/s AA-V2ray-JP-NTT.03_8
+      - n_16.98 MB/s AA-V2ray-HK-HKBN.02_14
+      - n_3.22 MB/s AA-V2ray-HK-NTT.03_10
+      - n_3.35 MB/s AA-V2ray-JP-NTT.01_5
+      - n_5.75 MB/s AA-V2ray-HK-HKT.03_4
+      - n_8.44 MB/s AA-V2ray-HK-HKBN_3
+      - n_2.48 MB/s AA-V2ray-US-Fremont_15
+      - n_4.99 MB/s AA-V2ray-TW-HiNet.05_9
+      - n_3.11 MB/s AA-V2ray-US-HE.03_13
+      - n_5.07 MB/s AA-V2ray-TW-HiNet.01_7
+      - n_2.44 MB/s AA-V2ray-RU-Selectel_16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -281,31 +721,86 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 菲律宾 免费节点(马尼拉)●
-      - 香港 广港国际以太网专线(AZ)●
-      - 印度尼西亚 VIP节点(雅加达)●
-      - 新加坡 VIP节点★
-      - 菲律宾 VIP节点(马尼拉)●
-      - 日本 VIP节点★
-      - 台湾 VIP节点(HINET)★
-      - 香港 免费节点(EC2负载均衡)★
-      - 瑞士 免费节点●
-      - 俄罗斯 免费节点(TTK)★
-      - 土耳其 免费节点●
-      - 土耳其 VIP节点★
-      - 印度尼西亚 免费节点(雅加达)●
-      - 越南 VIP节点(胡志明)●
-      - 越南 免费节点(胡志明)●
-      - 荷兰 免费节点●
-      - 马来西亚 免费节点(吉隆坡)●
-      - 马来西亚 VIP节点(吉隆坡)●
-      - 美国 免费节点(洛杉矶)●
-      - 香港 VIP节点(HKT1 500MB)●
-      - sealtw
-      - 2.27 MB/s 狗子快跑 俄罗斯-隧道中转
-      - sealt w
-      - 4.31 MB/s QQ69027662的flyxxl新加坡 | 新加坡
-      - 4.31 MB/s QQ641831428的flyxxl新加坡 | 新加坡
+      - 5次_40
+      - 5次_36
+      - 5次_66
+      - 5次_70
+      - 5次_38
+      - 5次_34
+      - 5次_26
+      - 5次_35
+      - 5次_62
+      - 5次_33
+      - 5次_37
+      - 5次_71
+      - 5次_65
+      - 5次_41
+      - 5次_67
+      - 5次_64
+      - 5次_30
+      - 5次_42
+      - 5次_63
+      - 5次_39
+      - 5次_50
+      - 5次_31
+      - 5次_23
+      - 5次_69
+      - 5次_22
+      - 5次_32
+      - 5次_29
+      - 5次_24
+      - 5次_68
+      - 5次_27
+      - 5次_2
+      - 5次_21
+      - 5次_60
+      - 5次_59
+      - 5次_28
+      - 5次_20
+      - 5次_6
+      - 5次_14
+      - 5次_47
+      - 5次_51
+      - 5次_46
+      - 5次_8
+      - 5次_48
+      - 5次_54
+      - 5次_52
+      - 5次_12
+      - 5次_7
+      - 5次_9
+      - 5次_13
+      - 5次_53
+      - 5次_49
+      - 5次_43
+      - 5次_1
+      - 5次_11
+      - 5次_61
+      - 5次_16
+      - 5次_4
+      - 5次_44
+      - 5次_45
+      - 5次_55
+      - 5次_17
+      - 5次_19
+      - 5次_10
+      - 5次_15
+      - 5次_18
+      - 5次_5
+      - 5次_25
+      - n_8.76 MB/s AA-V2ray-HK-HKT.01_12
+      - n_9.65 MB/s AA-V2ray-HK-HKT.02_11
+      - n_7.02 MB/s AA-V2ray-JP-NTT.03_8
+      - n_16.98 MB/s AA-V2ray-HK-HKBN.02_14
+      - n_3.22 MB/s AA-V2ray-HK-NTT.03_10
+      - n_3.35 MB/s AA-V2ray-JP-NTT.01_5
+      - n_5.75 MB/s AA-V2ray-HK-HKT.03_4
+      - n_8.44 MB/s AA-V2ray-HK-HKBN_3
+      - n_2.48 MB/s AA-V2ray-US-Fremont_15
+      - n_4.99 MB/s AA-V2ray-TW-HiNet.05_9
+      - n_3.11 MB/s AA-V2ray-US-HE.03_13
+      - n_5.07 MB/s AA-V2ray-TW-HiNet.01_7
+      - n_2.44 MB/s AA-V2ray-RU-Selectel_16
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
