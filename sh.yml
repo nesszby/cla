@@ -5,127 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: V3-IEPL专线 香港HGC01 7x 原生IP, server: iplc01.dns2333.xyz, port: 3164, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V1-台湾 多台负载均衡 中继B 1.5x, server: in02.dns2333.xyz, port: 64088, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: V3-IEPL专线 香港FDC01 6x, server: iplc01.dns2333.xyz, port: 3174, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V1-香港 多台负载均衡 中继B | 2x, server: in02.dns2333.xyz, port: 64078, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: V1-香港 多台负载均衡 中继D | 2x, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: V2-香港 多台负载均衡 中继E | 2x, server: in05.dns2333.xyz, port: 64078, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: V3-IEPL专线 香港HKBGP01 | 8x, server: iplc01.dns2333.xyz, port: 3084, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V2-韩国01 中继D 2x, server: in04.dns2333.xyz, port: 64004, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-kr01.covid19.rip}, udp: true}
-  - {name: V2-台湾 多台负载均衡 中继E 1.5x, server: in05.dns2333.xyz, port: 64088, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: V3-IEPL专线 香港HKT01 | 7x 原生IP, server: iplc01.dns2333.xyz, port: 3144, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V1-日本 多台负载均衡 中继B 1.5x, server: in02.dns2333.xyz, port: 64086, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
-  - {name: V2-印度01 中继B 1.7x, server: in02.dns2333.xyz, port: 64051, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: biteb-in01.airport-v2.com}, udp: true}
-  - {name: V1-美国01 中继B | 1.5x, server: in02.dns2333.xyz, port: 64014, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: biteb-us01.covid19.rip}, udp: true}
-  - {name: V3-IEPL专线 新加坡03 | 8x, server: iplc01.dns2333.xyz, port: 3044, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V1-英国01 CDN 中继B 1.5x, server: in02.dns2333.xyz, port: 64021, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uk01-cdn.airport-v2.com}, udp: true}
-  - {name: V1-俄罗斯01 中继D 1.2x, server: in04.dns2333.xyz, port: 64071, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-ru01.myn1des.com}, udp: true}
-  - {name: V2-美国03 中继B 2x, server: in02.dns2333.xyz, port: 64069, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-us03.covid19.rip}, udp: true}
-  - {name: V3-IEPL专线 马来西亚02 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3194, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V2-日本03 CDN 中继B 1.7x, server: in02.dns2333.xyz, port: 64005, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: biteb-jp03.myn0des.com}, udp: true}
-  - {name: V3-IEPL专线 台湾03 Hinet | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3074, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V3-IEPL专线 马来西亚01 | 8x 原生IP, server: iplc01.dns2333.xyz, port: 3064, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V2-美国03 中继D 2x, server: in04.dns2333.xyz, port: 64069, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-us03.covid19.rip}, udp: true}
-  - {name: V2-美国03 中继E 2x, server: in05.dns2333.xyz, port: 64069, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-us03.covid19.rip}, udp: true}
-  - {name: V3-IEPL专线 日本04 | 7x, server: iplc01.dns2333.xyz, port: 3014, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V3-IEPL专线 韩国02 | 8x, server: iplc01.dns2333.xyz, port: 3094, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V1-波兰01 CDN 中继B 1.5x, server: in02.dns2333.xyz, port: 64077, type: vmess, uuid: 18476dd9-a245-3878-b6df-47adc5c51bbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pl01-cdn.myn0des.com}, udp: true}
+  - {name: "@nfeng6-日本-01", server: nf02.nfeng6.pp.ua, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: e167064641.microsoft.com, udp: true}
+  - {name: "@nfeng6-日本-03", server: nf02.nfeng6.pp.ua, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: e167064641.microsoft.com, udp: true}
+  - {name: "@nfeng6-香港-05", server: nf01.nfeng6.pp.ua, port: 2704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: e167064641.microsoft.com, udp: true}
+  - {name: "@nfeng6-香港-10", server: nf01.nfeng6.pp.ua, port: 2709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: e167064641.microsoft.com, udp: true}
+  - {name: "@nfeng6-香港-02", server: nf01.nfeng6.pp.ua, port: 2701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: e167064641.microsoft.com, udp: true}
+  - {name: "@nfeng6-香港-04", server: nf01.nfeng6.pp.ua, port: 2703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: e167064641.microsoft.com, udp: true}
+  - {name: "@nfeng6-香港-08", server: nf01.nfeng6.pp.ua, port: 2707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: e167064641.microsoft.com, udp: true}
+  - {name: "@nfeng6-香港-06", server: nf01.nfeng6.pp.ua, port: 2705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: e167064641.microsoft.com, udp: true}
+  - {name: "@nfeng6-香港-09", server: nf01.nfeng6.pp.ua, port: 2708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: e167064641.microsoft.com, udp: true}
+  - {name: "@nfeng6-香港-07", server: nf01.nfeng6.pp.ua, port: 2706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: e167064641.microsoft.com, udp: true}
+  - {name: "@nfeng6-新加坡-03", server: nf02.nfeng6.pp.ua, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: e167064641.microsoft.com, udp: true}
+  - {name: "@nfeng6-新加坡-08", server: nf02.nfeng6.pp.ua, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 64641:3LNaSS, obfs-param: e167064641.microsoft.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V3-IEPL专线 香港HGC01 7x 原生IP
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V3-IEPL专线 香港FDC01 6x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V2-香港 多台负载均衡 中继E | 2x
-      - V3-IEPL专线 香港HKBGP01 | 8x
-      - V2-韩国01 中继D 2x
-      - V2-台湾 多台负载均衡 中继E 1.5x
-      - V3-IEPL专线 香港HKT01 | 7x 原生IP
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V2-印度01 中继B 1.7x
-      - V1-美国01 中继B | 1.5x
-      - V3-IEPL专线 新加坡03 | 8x
-      - V1-英国01 CDN 中继B 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - V2-美国03 中继B 2x
-      - V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - V2-日本03 CDN 中继B 1.7x
-      - V3-IEPL专线 台湾03 Hinet | 8x 原生IP
-      - V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - V2-美国03 中继D 2x
-      - V2-美国03 中继E 2x
-      - V3-IEPL专线 日本04 | 7x
-      - V3-IEPL专线 韩国02 | 8x
-      - V1-波兰01 CDN 中继B 1.5x
+      - "@nfeng6-日本-01"
+      - "@nfeng6-日本-03"
+      - "@nfeng6-香港-05"
+      - "@nfeng6-香港-10"
+      - "@nfeng6-香港-02"
+      - "@nfeng6-香港-04"
+      - "@nfeng6-香港-08"
+      - "@nfeng6-香港-06"
+      - "@nfeng6-香港-09"
+      - "@nfeng6-香港-07"
+      - "@nfeng6-新加坡-03"
+      - "@nfeng6-新加坡-08"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - V3-IEPL专线 香港HGC01 7x 原生IP
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V3-IEPL专线 香港FDC01 6x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V2-香港 多台负载均衡 中继E | 2x
-      - V3-IEPL专线 香港HKBGP01 | 8x
-      - V2-韩国01 中继D 2x
-      - V2-台湾 多台负载均衡 中继E 1.5x
-      - V3-IEPL专线 香港HKT01 | 7x 原生IP
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V2-印度01 中继B 1.7x
-      - V1-美国01 中继B | 1.5x
-      - V3-IEPL专线 新加坡03 | 8x
-      - V1-英国01 CDN 中继B 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - V2-美国03 中继B 2x
-      - V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - V2-日本03 CDN 中继B 1.7x
-      - V3-IEPL专线 台湾03 Hinet | 8x 原生IP
-      - V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - V2-美国03 中继D 2x
-      - V2-美国03 中继E 2x
-      - V3-IEPL专线 日本04 | 7x
-      - V3-IEPL专线 韩国02 | 8x
-      - V1-波兰01 CDN 中继B 1.5x
+      - "@nfeng6-日本-01"
+      - "@nfeng6-日本-03"
+      - "@nfeng6-香港-05"
+      - "@nfeng6-香港-10"
+      - "@nfeng6-香港-02"
+      - "@nfeng6-香港-04"
+      - "@nfeng6-香港-08"
+      - "@nfeng6-香港-06"
+      - "@nfeng6-香港-09"
+      - "@nfeng6-香港-07"
+      - "@nfeng6-新加坡-03"
+      - "@nfeng6-新加坡-08"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V3-IEPL专线 香港HGC01 7x 原生IP
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V3-IEPL专线 香港FDC01 6x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V2-香港 多台负载均衡 中继E | 2x
-      - V3-IEPL专线 香港HKBGP01 | 8x
-      - V2-韩国01 中继D 2x
-      - V2-台湾 多台负载均衡 中继E 1.5x
-      - V3-IEPL专线 香港HKT01 | 7x 原生IP
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V2-印度01 中继B 1.7x
-      - V1-美国01 中继B | 1.5x
-      - V3-IEPL专线 新加坡03 | 8x
-      - V1-英国01 CDN 中继B 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - V2-美国03 中继B 2x
-      - V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - V2-日本03 CDN 中继B 1.7x
-      - V3-IEPL专线 台湾03 Hinet | 8x 原生IP
-      - V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - V2-美国03 中继D 2x
-      - V2-美国03 中继E 2x
-      - V3-IEPL专线 日本04 | 7x
-      - V3-IEPL专线 韩国02 | 8x
-      - V1-波兰01 CDN 中继B 1.5x
+      - "@nfeng6-日本-01"
+      - "@nfeng6-日本-03"
+      - "@nfeng6-香港-05"
+      - "@nfeng6-香港-10"
+      - "@nfeng6-香港-02"
+      - "@nfeng6-香港-04"
+      - "@nfeng6-香港-08"
+      - "@nfeng6-香港-06"
+      - "@nfeng6-香港-09"
+      - "@nfeng6-香港-07"
+      - "@nfeng6-新加坡-03"
+      - "@nfeng6-新加坡-08"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -144,142 +88,83 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V3-IEPL专线 香港HGC01 7x 原生IP
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V3-IEPL专线 香港FDC01 6x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V2-香港 多台负载均衡 中继E | 2x
-      - V3-IEPL专线 香港HKBGP01 | 8x
-      - V2-韩国01 中继D 2x
-      - V2-台湾 多台负载均衡 中继E 1.5x
-      - V3-IEPL专线 香港HKT01 | 7x 原生IP
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V2-印度01 中继B 1.7x
-      - V1-美国01 中继B | 1.5x
-      - V3-IEPL专线 新加坡03 | 8x
-      - V1-英国01 CDN 中继B 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - V2-美国03 中继B 2x
-      - V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - V2-日本03 CDN 中继B 1.7x
-      - V3-IEPL专线 台湾03 Hinet | 8x 原生IP
-      - V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - V2-美国03 中继D 2x
-      - V2-美国03 中继E 2x
-      - V3-IEPL专线 日本04 | 7x
-      - V3-IEPL专线 韩国02 | 8x
-      - V1-波兰01 CDN 中继B 1.5x
+      - "@nfeng6-日本-01"
+      - "@nfeng6-日本-03"
+      - "@nfeng6-香港-05"
+      - "@nfeng6-香港-10"
+      - "@nfeng6-香港-02"
+      - "@nfeng6-香港-04"
+      - "@nfeng6-香港-08"
+      - "@nfeng6-香港-06"
+      - "@nfeng6-香港-09"
+      - "@nfeng6-香港-07"
+      - "@nfeng6-新加坡-03"
+      - "@nfeng6-新加坡-08"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - V3-IEPL专线 香港HGC01 7x 原生IP
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V3-IEPL专线 香港FDC01 6x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V2-香港 多台负载均衡 中继E | 2x
-      - V3-IEPL专线 香港HKBGP01 | 8x
-      - V2-台湾 多台负载均衡 中继E 1.5x
-      - V3-IEPL专线 香港HKT01 | 7x 原生IP
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V3-IEPL专线 台湾03 Hinet | 8x 原生IP
+      - "@nfeng6-香港-05"
+      - "@nfeng6-香港-10"
+      - "@nfeng6-香港-02"
+      - "@nfeng6-香港-04"
+      - "@nfeng6-香港-08"
+      - "@nfeng6-香港-06"
+      - "@nfeng6-香港-09"
+      - "@nfeng6-香港-07"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - V3-IEPL专线 香港HGC01 7x 原生IP
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V3-IEPL专线 香港FDC01 6x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V2-香港 多台负载均衡 中继E | 2x
-      - V3-IEPL专线 香港HKBGP01 | 8x
-      - V2-韩国01 中继D 2x
-      - V2-台湾 多台负载均衡 中继E 1.5x
-      - V3-IEPL专线 香港HKT01 | 7x 原生IP
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V2-印度01 中继B 1.7x
-      - V1-美国01 中继B | 1.5x
-      - V3-IEPL专线 新加坡03 | 8x
-      - V1-英国01 CDN 中继B 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - V2-美国03 中继B 2x
-      - V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - V2-日本03 CDN 中继B 1.7x
-      - V3-IEPL专线 台湾03 Hinet | 8x 原生IP
-      - V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - V2-美国03 中继D 2x
-      - V2-美国03 中继E 2x
-      - V3-IEPL专线 日本04 | 7x
-      - V3-IEPL专线 韩国02 | 8x
-      - V1-波兰01 CDN 中继B 1.5x
+      - "@nfeng6-日本-01"
+      - "@nfeng6-日本-03"
+      - "@nfeng6-香港-05"
+      - "@nfeng6-香港-10"
+      - "@nfeng6-香港-02"
+      - "@nfeng6-香港-04"
+      - "@nfeng6-香港-08"
+      - "@nfeng6-香港-06"
+      - "@nfeng6-香港-09"
+      - "@nfeng6-香港-07"
+      - "@nfeng6-新加坡-03"
+      - "@nfeng6-新加坡-08"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - V3-IEPL专线 香港HGC01 7x 原生IP
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V3-IEPL专线 香港FDC01 6x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V2-香港 多台负载均衡 中继E | 2x
-      - V3-IEPL专线 香港HKBGP01 | 8x
-      - V2-韩国01 中继D 2x
-      - V2-台湾 多台负载均衡 中继E 1.5x
-      - V3-IEPL专线 香港HKT01 | 7x 原生IP
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V2-印度01 中继B 1.7x
-      - V1-美国01 中继B | 1.5x
-      - V3-IEPL专线 新加坡03 | 8x
-      - V1-英国01 CDN 中继B 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - V2-美国03 中继B 2x
-      - V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - V2-日本03 CDN 中继B 1.7x
-      - V3-IEPL专线 台湾03 Hinet | 8x 原生IP
-      - V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - V2-美国03 中继D 2x
-      - V2-美国03 中继E 2x
-      - V3-IEPL专线 日本04 | 7x
-      - V3-IEPL专线 韩国02 | 8x
-      - V1-波兰01 CDN 中继B 1.5x
+      - "@nfeng6-日本-01"
+      - "@nfeng6-日本-03"
+      - "@nfeng6-香港-05"
+      - "@nfeng6-香港-10"
+      - "@nfeng6-香港-02"
+      - "@nfeng6-香港-04"
+      - "@nfeng6-香港-08"
+      - "@nfeng6-香港-06"
+      - "@nfeng6-香港-09"
+      - "@nfeng6-香港-07"
+      - "@nfeng6-新加坡-03"
+      - "@nfeng6-新加坡-08"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V3-IEPL专线 香港HGC01 7x 原生IP
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V3-IEPL专线 香港FDC01 6x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V2-香港 多台负载均衡 中继E | 2x
-      - V3-IEPL专线 香港HKBGP01 | 8x
-      - V2-韩国01 中继D 2x
-      - V2-台湾 多台负载均衡 中继E 1.5x
-      - V3-IEPL专线 香港HKT01 | 7x 原生IP
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V2-印度01 中继B 1.7x
-      - V1-美国01 中继B | 1.5x
-      - V3-IEPL专线 新加坡03 | 8x
-      - V1-英国01 CDN 中继B 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - V2-美国03 中继B 2x
-      - V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - V2-日本03 CDN 中继B 1.7x
-      - V3-IEPL专线 台湾03 Hinet | 8x 原生IP
-      - V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - V2-美国03 中继D 2x
-      - V2-美国03 中继E 2x
-      - V3-IEPL专线 日本04 | 7x
-      - V3-IEPL专线 韩国02 | 8x
-      - V1-波兰01 CDN 中继B 1.5x
+      - "@nfeng6-日本-01"
+      - "@nfeng6-日本-03"
+      - "@nfeng6-香港-05"
+      - "@nfeng6-香港-10"
+      - "@nfeng6-香港-02"
+      - "@nfeng6-香港-04"
+      - "@nfeng6-香港-08"
+      - "@nfeng6-香港-06"
+      - "@nfeng6-香港-09"
+      - "@nfeng6-香港-07"
+      - "@nfeng6-新加坡-03"
+      - "@nfeng6-新加坡-08"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -295,32 +180,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V3-IEPL专线 香港HGC01 7x 原生IP
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V3-IEPL专线 香港FDC01 6x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V2-香港 多台负载均衡 中继E | 2x
-      - V3-IEPL专线 香港HKBGP01 | 8x
-      - V2-韩国01 中继D 2x
-      - V2-台湾 多台负载均衡 中继E 1.5x
-      - V3-IEPL专线 香港HKT01 | 7x 原生IP
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V2-印度01 中继B 1.7x
-      - V1-美国01 中继B | 1.5x
-      - V3-IEPL专线 新加坡03 | 8x
-      - V1-英国01 CDN 中继B 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - V2-美国03 中继B 2x
-      - V3-IEPL专线 马来西亚02 | 8x 原生IP
-      - V2-日本03 CDN 中继B 1.7x
-      - V3-IEPL专线 台湾03 Hinet | 8x 原生IP
-      - V3-IEPL专线 马来西亚01 | 8x 原生IP
-      - V2-美国03 中继D 2x
-      - V2-美国03 中继E 2x
-      - V3-IEPL专线 日本04 | 7x
-      - V3-IEPL专线 韩国02 | 8x
-      - V1-波兰01 CDN 中继B 1.5x
+      - "@nfeng6-日本-01"
+      - "@nfeng6-日本-03"
+      - "@nfeng6-香港-05"
+      - "@nfeng6-香港-10"
+      - "@nfeng6-香港-02"
+      - "@nfeng6-香港-04"
+      - "@nfeng6-香港-08"
+      - "@nfeng6-香港-06"
+      - "@nfeng6-香港-09"
+      - "@nfeng6-香港-07"
+      - "@nfeng6-新加坡-03"
+      - "@nfeng6-新加坡-08"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
