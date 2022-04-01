@@ -5,203 +5,119 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Az香港 | 免费-01 10x, server: azm1.lingfeiling.tk, port: 52363, type: ss, cipher: chacha20-ietf-poly1305, password: 13c8556d-1293-4084-a008-1d0ca1fe876f, udp: true}
-  - {name: "@nfeng6美国-中继-07", server: yy01.nfeng6.pp.ua, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6新加坡-中继-01", server: yy01.nfeng6.pp.ua, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6新加坡-中继-02", server: yy01.nfeng6.pp.ua, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6台湾 -中继-04", server: yy01.nfeng6.pp.ua, port: 5703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6台湾 -中继-05", server: yy01.nfeng6.pp.ua, port: 5704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6台湾 -中继-01", server: yy01.nfeng6.pp.ua, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6新加坡-中继-05", server: yy01.nfeng6.pp.ua, port: 6704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6新加坡-中继-10", server: yy01.nfeng6.pp.ua, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6韩国-中继-01", server: yy01.nfeng6.pp.ua, port: 4000, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 日本-中继-09, server: yy01.nfeng6.pp.ua, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6台湾 -中继-06", server: yy01.nfeng6.pp.ua, port: 5705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 日本-中继-03, server: yy01.nfeng6.pp.ua, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6 香港-中继-10", server: yy02.nfeng6.pp.ua, port: 2709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6 香港-中继-03", server: yy02.nfeng6.pp.ua, port: 2702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 新加坡+|+免费-02+5x, server: sg3.lingfeiling.tk, port: 25367, type: ss, cipher: chacha20-ietf-poly1305, password: 13c8556d-1293-4084-a008-1d0ca1fe876f, udp: true}
-  - {name: 新加坡+|+免费-03+5x, server: sg4.lingfeiling.tk, port: 14364, type: ss, cipher: chacha20-ietf-poly1305, password: 13c8556d-1293-4084-a008-1d0ca1fe876f, udp: true}
-  - {name: "@nfeng6 香港-中继-09", server: yy02.nfeng6.pp.ua, port: 2708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6 香港-中继-06", server: yy02.nfeng6.pp.ua, port: 2705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6 香港-中继-08", server: yy02.nfeng6.pp.ua, port: 2707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6 香港-中继-04", server: yy02.nfeng6.pp.ua, port: 2703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6新加坡-中继-07", server: yy01.nfeng6.pp.ua, port: 6706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 香港, server: yy02.nfeng6.pp.ua, port: 2700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 日本-中继-08, server: yy01.nfeng6.pp.ua, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 日本-中继-02, server: yy01.nfeng6.pp.ua, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 新加坡+|+免费-04+5x, server: sg5.lingfeiling.tk, port: 2578, type: ss, cipher: chacha20-ietf-poly1305, password: 13c8556d-1293-4084-a008-1d0ca1fe876f, udp: true}
-  - {name: 日本-中继-07, server: yy01.nfeng6.pp.ua, port: 3706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6 香港-中继-02", server: yy02.nfeng6.pp.ua, port: 2701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6 香港-中继-05", server: yy02.nfeng6.pp.ua, port: 2704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6美国-中继-05", server: yy01.nfeng6.pp.ua, port: 7704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6美国-中继-03", server: yy01.nfeng6.pp.ua, port: 7702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6美国-中继-09", server: yy01.nfeng6.pp.ua, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6美国-中继-08", server: yy01.nfeng6.pp.ua, port: 7707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6美国-中继-02", server: yy01.nfeng6.pp.ua, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6台湾 -中继-02", server: yy01.nfeng6.pp.ua, port: 5701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 韩国+|+免费-01+5x, server: kr1.lingfeiling.tk, port: 25841, type: ss, cipher: chacha20-ietf-poly1305, password: 13c8556d-1293-4084-a008-1d0ca1fe876f, udp: true}
-  - {name: "@nfeng6新加坡-中继-04", server: yy01.nfeng6.pp.ua, port: 6703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6美国-中继-01", server: yy01.nfeng6.pp.ua, port: 7700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6 香港-中继-07", server: yy02.nfeng6.pp.ua, port: 2706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6韩国-中继-02", server: yy01.nfeng6.pp.ua, port: 4001, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6韩国-中继-03", server: yy01.nfeng6.pp.ua, port: 4002, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 新加坡+|+免费-01+5x, server: sg2.lingfeiling.tk, port: 35642, type: ss, cipher: chacha20-ietf-poly1305, password: 13c8556d-1293-4084-a008-1d0ca1fe876f, udp: true}
-  - {name: "@nfeng6美国-中继-10", server: yy01.nfeng6.pp.ua, port: 7709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6新加坡-中继-08", server: yy01.nfeng6.pp.ua, port: 6707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: "@nfeng6新加坡-中继-09", server: yy01.nfeng6.pp.ua, port: 6708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
+  - {name: 香港家庭宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 4e3ce97e-79a2-4541-961d-c304ad9836f0, udp: true}
+  - {name: 新加坡IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 4e3ce97e-79a2-4541-961d-c304ad9836f0, udp: true}
+  - {name: 台湾家庭宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 日本IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 新加坡IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 香港IDC宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45015, type: ss, cipher: chacha20-ietf-poly1305, password: 4e3ce97e-79a2-4541-961d-c304ad9836f0, udp: true}
+  - {name: 新加坡IDC宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 4e3ce97e-79a2-4541-961d-c304ad9836f0, udp: true}
+  - {name: 香港家庭宽频|NF解锁|V2|B01, server: hz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 香港家庭宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45016, type: ss, cipher: chacha20-ietf-poly1305, password: 4e3ce97e-79a2-4541-961d-c304ad9836f0, udp: true}
+  - {name: 香港IDC宽频|NF解锁|V2|B01, server: hz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 台湾家庭宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 4e3ce97e-79a2-4541-961d-c304ad9836f0, udp: true}
+  - {name: 台湾家庭宽频|NF解锁|V2|B01, server: hz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 新加坡IDC宽频|NF解锁|V2|B01, server: hz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 日本IDC宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 4e3ce97e-79a2-4541-961d-c304ad9836f0, udp: true}
+  - {name: 日本IDC宽频|NF解锁|V2|B01, server: hz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 美国IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: 4e3ce97e-79a2-4541-961d-c304ad9836f0, udp: true}
+  - {name: 美国IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 美国IDC宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: 4e3ce97e-79a2-4541-961d-c304ad9836f0, udp: true}
+  - {name: 免费|美国1, server: node.relay.az.naiun.pw, port: 25082, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: node.free.usa.naiun.pw}, udp: true}
+  - {name: 美国IDC宽频|NF解锁|V2|B01, server: hz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 日本IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 4e3ce97e-79a2-4541-961d-c304ad9836f0, udp: true}
+  - {name: 香港IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 香港家庭宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 4e3ce97e-79a2-4541-961d-c304ad9836f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 香港IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 4e3ce97e-79a2-4541-961d-c304ad9836f0, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Az香港 | 免费-01 10x
-      - "@nfeng6美国-中继-07"
-      - "@nfeng6新加坡-中继-01"
-      - "@nfeng6新加坡-中继-02"
-      - "@nfeng6台湾 -中继-04"
-      - "@nfeng6台湾 -中继-05"
-      - "@nfeng6台湾 -中继-01"
-      - "@nfeng6新加坡-中继-05"
-      - "@nfeng6新加坡-中继-10"
-      - "@nfeng6韩国-中继-01"
-      - 日本-中继-09
-      - "@nfeng6台湾 -中继-06"
-      - 日本-中继-03
-      - "@nfeng6 香港-中继-10"
-      - "@nfeng6 香港-中继-03"
-      - 新加坡+|+免费-02+5x
-      - 新加坡+|+免费-03+5x
-      - "@nfeng6 香港-中继-09"
-      - "@nfeng6 香港-中继-06"
-      - "@nfeng6 香港-中继-08"
-      - "@nfeng6 香港-中继-04"
-      - "@nfeng6新加坡-中继-07"
-      - 香港
-      - 日本-中继-08
-      - 日本-中继-02
-      - 新加坡+|+免费-04+5x
-      - 日本-中继-07
-      - "@nfeng6 香港-中继-02"
-      - "@nfeng6 香港-中继-05"
-      - "@nfeng6美国-中继-05"
-      - "@nfeng6美国-中继-03"
-      - "@nfeng6美国-中继-09"
-      - "@nfeng6美国-中继-08"
-      - "@nfeng6美国-中继-02"
-      - "@nfeng6台湾 -中继-02"
-      - 韩国+|+免费-01+5x
-      - "@nfeng6新加坡-中继-04"
-      - "@nfeng6美国-中继-01"
-      - "@nfeng6 香港-中继-07"
-      - "@nfeng6韩国-中继-02"
-      - "@nfeng6韩国-中继-03"
-      - 新加坡+|+免费-01+5x
-      - "@nfeng6美国-中继-10"
-      - "@nfeng6新加坡-中继-08"
-      - "@nfeng6新加坡-中继-09"
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|B01
+      - 新加坡IDC宽频|NF解锁|SS|B01
+      - 香港家庭宽频|NF解锁|V2|B01
+      - 香港家庭宽频|NF解锁|SS|B01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 台湾家庭宽频|NF解锁|SS|B01
+      - 台湾家庭宽频|NF解锁|V2|B01
+      - 新加坡IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|B01
+      - 日本IDC宽频|NF解锁|V2|B01
+      - 美国IDC宽频|NF解锁|SS|A01
+      - 美国IDC宽频|NF解锁|V2|A01
+      - 美国IDC宽频|NF解锁|SS|B01
+      - 免费|美国1
+      - 美国IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Az香港 | 免费-01 10x
-      - "@nfeng6美国-中继-07"
-      - "@nfeng6新加坡-中继-01"
-      - "@nfeng6新加坡-中继-02"
-      - "@nfeng6台湾 -中继-04"
-      - "@nfeng6台湾 -中继-05"
-      - "@nfeng6台湾 -中继-01"
-      - "@nfeng6新加坡-中继-05"
-      - "@nfeng6新加坡-中继-10"
-      - "@nfeng6韩国-中继-01"
-      - 日本-中继-09
-      - "@nfeng6台湾 -中继-06"
-      - 日本-中继-03
-      - "@nfeng6 香港-中继-10"
-      - "@nfeng6 香港-中继-03"
-      - 新加坡+|+免费-02+5x
-      - 新加坡+|+免费-03+5x
-      - "@nfeng6 香港-中继-09"
-      - "@nfeng6 香港-中继-06"
-      - "@nfeng6 香港-中继-08"
-      - "@nfeng6 香港-中继-04"
-      - "@nfeng6新加坡-中继-07"
-      - 香港
-      - 日本-中继-08
-      - 日本-中继-02
-      - 新加坡+|+免费-04+5x
-      - 日本-中继-07
-      - "@nfeng6 香港-中继-02"
-      - "@nfeng6 香港-中继-05"
-      - "@nfeng6美国-中继-05"
-      - "@nfeng6美国-中继-03"
-      - "@nfeng6美国-中继-09"
-      - "@nfeng6美国-中继-08"
-      - "@nfeng6美国-中继-02"
-      - "@nfeng6台湾 -中继-02"
-      - 韩国+|+免费-01+5x
-      - "@nfeng6新加坡-中继-04"
-      - "@nfeng6美国-中继-01"
-      - "@nfeng6 香港-中继-07"
-      - "@nfeng6韩国-中继-02"
-      - "@nfeng6韩国-中继-03"
-      - 新加坡+|+免费-01+5x
-      - "@nfeng6美国-中继-10"
-      - "@nfeng6新加坡-中继-08"
-      - "@nfeng6新加坡-中继-09"
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|B01
+      - 新加坡IDC宽频|NF解锁|SS|B01
+      - 香港家庭宽频|NF解锁|V2|B01
+      - 香港家庭宽频|NF解锁|SS|B01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 台湾家庭宽频|NF解锁|SS|B01
+      - 台湾家庭宽频|NF解锁|V2|B01
+      - 新加坡IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|B01
+      - 日本IDC宽频|NF解锁|V2|B01
+      - 美国IDC宽频|NF解锁|SS|A01
+      - 美国IDC宽频|NF解锁|V2|A01
+      - 美国IDC宽频|NF解锁|SS|B01
+      - 免费|美国1
+      - 美国IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Az香港 | 免费-01 10x
-      - "@nfeng6美国-中继-07"
-      - "@nfeng6新加坡-中继-01"
-      - "@nfeng6新加坡-中继-02"
-      - "@nfeng6台湾 -中继-04"
-      - "@nfeng6台湾 -中继-05"
-      - "@nfeng6台湾 -中继-01"
-      - "@nfeng6新加坡-中继-05"
-      - "@nfeng6新加坡-中继-10"
-      - "@nfeng6韩国-中继-01"
-      - 日本-中继-09
-      - "@nfeng6台湾 -中继-06"
-      - 日本-中继-03
-      - "@nfeng6 香港-中继-10"
-      - "@nfeng6 香港-中继-03"
-      - 新加坡+|+免费-02+5x
-      - 新加坡+|+免费-03+5x
-      - "@nfeng6 香港-中继-09"
-      - "@nfeng6 香港-中继-06"
-      - "@nfeng6 香港-中继-08"
-      - "@nfeng6 香港-中继-04"
-      - "@nfeng6新加坡-中继-07"
-      - 香港
-      - 日本-中继-08
-      - 日本-中继-02
-      - 新加坡+|+免费-04+5x
-      - 日本-中继-07
-      - "@nfeng6 香港-中继-02"
-      - "@nfeng6 香港-中继-05"
-      - "@nfeng6美国-中继-05"
-      - "@nfeng6美国-中继-03"
-      - "@nfeng6美国-中继-09"
-      - "@nfeng6美国-中继-08"
-      - "@nfeng6美国-中继-02"
-      - "@nfeng6台湾 -中继-02"
-      - 韩国+|+免费-01+5x
-      - "@nfeng6新加坡-中继-04"
-      - "@nfeng6美国-中继-01"
-      - "@nfeng6 香港-中继-07"
-      - "@nfeng6韩国-中继-02"
-      - "@nfeng6韩国-中继-03"
-      - 新加坡+|+免费-01+5x
-      - "@nfeng6美国-中继-10"
-      - "@nfeng6新加坡-中继-08"
-      - "@nfeng6新加坡-中继-09"
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|B01
+      - 新加坡IDC宽频|NF解锁|SS|B01
+      - 香港家庭宽频|NF解锁|V2|B01
+      - 香港家庭宽频|NF解锁|SS|B01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 台湾家庭宽频|NF解锁|SS|B01
+      - 台湾家庭宽频|NF解锁|V2|B01
+      - 新加坡IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|B01
+      - 日本IDC宽频|NF解锁|V2|B01
+      - 美国IDC宽频|NF解锁|SS|A01
+      - 美国IDC宽频|NF解锁|V2|A01
+      - 美国IDC宽频|NF解锁|SS|B01
+      - 免费|美国1
+      - 美国IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -220,223 +136,134 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Az香港 | 免费-01 10x
-      - "@nfeng6美国-中继-07"
-      - "@nfeng6新加坡-中继-01"
-      - "@nfeng6新加坡-中继-02"
-      - "@nfeng6台湾 -中继-04"
-      - "@nfeng6台湾 -中继-05"
-      - "@nfeng6台湾 -中继-01"
-      - "@nfeng6新加坡-中继-05"
-      - "@nfeng6新加坡-中继-10"
-      - "@nfeng6韩国-中继-01"
-      - 日本-中继-09
-      - "@nfeng6台湾 -中继-06"
-      - 日本-中继-03
-      - "@nfeng6 香港-中继-10"
-      - "@nfeng6 香港-中继-03"
-      - 新加坡+|+免费-02+5x
-      - 新加坡+|+免费-03+5x
-      - "@nfeng6 香港-中继-09"
-      - "@nfeng6 香港-中继-06"
-      - "@nfeng6 香港-中继-08"
-      - "@nfeng6 香港-中继-04"
-      - "@nfeng6新加坡-中继-07"
-      - 香港
-      - 日本-中继-08
-      - 日本-中继-02
-      - 新加坡+|+免费-04+5x
-      - 日本-中继-07
-      - "@nfeng6 香港-中继-02"
-      - "@nfeng6 香港-中继-05"
-      - "@nfeng6美国-中继-05"
-      - "@nfeng6美国-中继-03"
-      - "@nfeng6美国-中继-09"
-      - "@nfeng6美国-中继-08"
-      - "@nfeng6美国-中继-02"
-      - "@nfeng6台湾 -中继-02"
-      - 韩国+|+免费-01+5x
-      - "@nfeng6新加坡-中继-04"
-      - "@nfeng6美国-中继-01"
-      - "@nfeng6 香港-中继-07"
-      - "@nfeng6韩国-中继-02"
-      - "@nfeng6韩国-中继-03"
-      - 新加坡+|+免费-01+5x
-      - "@nfeng6美国-中继-10"
-      - "@nfeng6新加坡-中继-08"
-      - "@nfeng6新加坡-中继-09"
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|B01
+      - 新加坡IDC宽频|NF解锁|SS|B01
+      - 香港家庭宽频|NF解锁|V2|B01
+      - 香港家庭宽频|NF解锁|SS|B01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 台湾家庭宽频|NF解锁|SS|B01
+      - 台湾家庭宽频|NF解锁|V2|B01
+      - 新加坡IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|B01
+      - 日本IDC宽频|NF解锁|V2|B01
+      - 美国IDC宽频|NF解锁|SS|A01
+      - 美国IDC宽频|NF解锁|V2|A01
+      - 美国IDC宽频|NF解锁|SS|B01
+      - 免费|美国1
+      - 美国IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Az香港 | 免费-01 10x
-      - "@nfeng6台湾 -中继-04"
-      - "@nfeng6台湾 -中继-05"
-      - "@nfeng6台湾 -中继-01"
-      - "@nfeng6台湾 -中继-06"
-      - "@nfeng6 香港-中继-10"
-      - "@nfeng6 香港-中继-03"
-      - "@nfeng6 香港-中继-09"
-      - "@nfeng6 香港-中继-06"
-      - "@nfeng6 香港-中继-08"
-      - "@nfeng6 香港-中继-04"
-      - 香港
-      - "@nfeng6 香港-中继-02"
-      - "@nfeng6 香港-中继-05"
-      - "@nfeng6台湾 -中继-02"
-      - "@nfeng6 香港-中继-07"
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|B01
+      - 香港家庭宽频|NF解锁|V2|B01
+      - 香港家庭宽频|NF解锁|SS|B01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 台湾家庭宽频|NF解锁|SS|B01
+      - 台湾家庭宽频|NF解锁|V2|B01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Az香港 | 免费-01 10x
-      - "@nfeng6美国-中继-07"
-      - "@nfeng6新加坡-中继-01"
-      - "@nfeng6新加坡-中继-02"
-      - "@nfeng6台湾 -中继-04"
-      - "@nfeng6台湾 -中继-05"
-      - "@nfeng6台湾 -中继-01"
-      - "@nfeng6新加坡-中继-05"
-      - "@nfeng6新加坡-中继-10"
-      - "@nfeng6韩国-中继-01"
-      - 日本-中继-09
-      - "@nfeng6台湾 -中继-06"
-      - 日本-中继-03
-      - "@nfeng6 香港-中继-10"
-      - "@nfeng6 香港-中继-03"
-      - 新加坡+|+免费-02+5x
-      - 新加坡+|+免费-03+5x
-      - "@nfeng6 香港-中继-09"
-      - "@nfeng6 香港-中继-06"
-      - "@nfeng6 香港-中继-08"
-      - "@nfeng6 香港-中继-04"
-      - "@nfeng6新加坡-中继-07"
-      - 香港
-      - 日本-中继-08
-      - 日本-中继-02
-      - 新加坡+|+免费-04+5x
-      - 日本-中继-07
-      - "@nfeng6 香港-中继-02"
-      - "@nfeng6 香港-中继-05"
-      - "@nfeng6美国-中继-05"
-      - "@nfeng6美国-中继-03"
-      - "@nfeng6美国-中继-09"
-      - "@nfeng6美国-中继-08"
-      - "@nfeng6美国-中继-02"
-      - "@nfeng6台湾 -中继-02"
-      - 韩国+|+免费-01+5x
-      - "@nfeng6新加坡-中继-04"
-      - "@nfeng6美国-中继-01"
-      - "@nfeng6 香港-中继-07"
-      - "@nfeng6韩国-中继-02"
-      - "@nfeng6韩国-中继-03"
-      - 新加坡+|+免费-01+5x
-      - "@nfeng6美国-中继-10"
-      - "@nfeng6新加坡-中继-08"
-      - "@nfeng6新加坡-中继-09"
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|B01
+      - 新加坡IDC宽频|NF解锁|SS|B01
+      - 香港家庭宽频|NF解锁|V2|B01
+      - 香港家庭宽频|NF解锁|SS|B01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 台湾家庭宽频|NF解锁|SS|B01
+      - 台湾家庭宽频|NF解锁|V2|B01
+      - 新加坡IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|B01
+      - 日本IDC宽频|NF解锁|V2|B01
+      - 美国IDC宽频|NF解锁|SS|A01
+      - 美国IDC宽频|NF解锁|V2|A01
+      - 美国IDC宽频|NF解锁|SS|B01
+      - 免费|美国1
+      - 美国IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Az香港 | 免费-01 10x
-      - "@nfeng6美国-中继-07"
-      - "@nfeng6新加坡-中继-01"
-      - "@nfeng6新加坡-中继-02"
-      - "@nfeng6台湾 -中继-04"
-      - "@nfeng6台湾 -中继-05"
-      - "@nfeng6台湾 -中继-01"
-      - "@nfeng6新加坡-中继-05"
-      - "@nfeng6新加坡-中继-10"
-      - "@nfeng6韩国-中继-01"
-      - 日本-中继-09
-      - "@nfeng6台湾 -中继-06"
-      - 日本-中继-03
-      - "@nfeng6 香港-中继-10"
-      - "@nfeng6 香港-中继-03"
-      - 新加坡+|+免费-02+5x
-      - 新加坡+|+免费-03+5x
-      - "@nfeng6 香港-中继-09"
-      - "@nfeng6 香港-中继-06"
-      - "@nfeng6 香港-中继-08"
-      - "@nfeng6 香港-中继-04"
-      - "@nfeng6新加坡-中继-07"
-      - 香港
-      - 日本-中继-08
-      - 日本-中继-02
-      - 新加坡+|+免费-04+5x
-      - 日本-中继-07
-      - "@nfeng6 香港-中继-02"
-      - "@nfeng6 香港-中继-05"
-      - "@nfeng6美国-中继-05"
-      - "@nfeng6美国-中继-03"
-      - "@nfeng6美国-中继-09"
-      - "@nfeng6美国-中继-08"
-      - "@nfeng6美国-中继-02"
-      - "@nfeng6台湾 -中继-02"
-      - 韩国+|+免费-01+5x
-      - "@nfeng6新加坡-中继-04"
-      - "@nfeng6美国-中继-01"
-      - "@nfeng6 香港-中继-07"
-      - "@nfeng6韩国-中继-02"
-      - "@nfeng6韩国-中继-03"
-      - 新加坡+|+免费-01+5x
-      - "@nfeng6美国-中继-10"
-      - "@nfeng6新加坡-中继-08"
-      - "@nfeng6新加坡-中继-09"
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|B01
+      - 新加坡IDC宽频|NF解锁|SS|B01
+      - 香港家庭宽频|NF解锁|V2|B01
+      - 香港家庭宽频|NF解锁|SS|B01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 台湾家庭宽频|NF解锁|SS|B01
+      - 台湾家庭宽频|NF解锁|V2|B01
+      - 新加坡IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|B01
+      - 日本IDC宽频|NF解锁|V2|B01
+      - 美国IDC宽频|NF解锁|SS|A01
+      - 美国IDC宽频|NF解锁|V2|A01
+      - 美国IDC宽频|NF解锁|SS|B01
+      - 免费|美国1
+      - 美国IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Az香港 | 免费-01 10x
-      - "@nfeng6美国-中继-07"
-      - "@nfeng6新加坡-中继-01"
-      - "@nfeng6新加坡-中继-02"
-      - "@nfeng6台湾 -中继-04"
-      - "@nfeng6台湾 -中继-05"
-      - "@nfeng6台湾 -中继-01"
-      - "@nfeng6新加坡-中继-05"
-      - "@nfeng6新加坡-中继-10"
-      - "@nfeng6韩国-中继-01"
-      - 日本-中继-09
-      - "@nfeng6台湾 -中继-06"
-      - 日本-中继-03
-      - "@nfeng6 香港-中继-10"
-      - "@nfeng6 香港-中继-03"
-      - 新加坡+|+免费-02+5x
-      - 新加坡+|+免费-03+5x
-      - "@nfeng6 香港-中继-09"
-      - "@nfeng6 香港-中继-06"
-      - "@nfeng6 香港-中继-08"
-      - "@nfeng6 香港-中继-04"
-      - "@nfeng6新加坡-中继-07"
-      - 香港
-      - 日本-中继-08
-      - 日本-中继-02
-      - 新加坡+|+免费-04+5x
-      - 日本-中继-07
-      - "@nfeng6 香港-中继-02"
-      - "@nfeng6 香港-中继-05"
-      - "@nfeng6美国-中继-05"
-      - "@nfeng6美国-中继-03"
-      - "@nfeng6美国-中继-09"
-      - "@nfeng6美国-中继-08"
-      - "@nfeng6美国-中继-02"
-      - "@nfeng6台湾 -中继-02"
-      - 韩国+|+免费-01+5x
-      - "@nfeng6新加坡-中继-04"
-      - "@nfeng6美国-中继-01"
-      - "@nfeng6 香港-中继-07"
-      - "@nfeng6韩国-中继-02"
-      - "@nfeng6韩国-中继-03"
-      - 新加坡+|+免费-01+5x
-      - "@nfeng6美国-中继-10"
-      - "@nfeng6新加坡-中继-08"
-      - "@nfeng6新加坡-中继-09"
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|B01
+      - 新加坡IDC宽频|NF解锁|SS|B01
+      - 香港家庭宽频|NF解锁|V2|B01
+      - 香港家庭宽频|NF解锁|SS|B01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 台湾家庭宽频|NF解锁|SS|B01
+      - 台湾家庭宽频|NF解锁|V2|B01
+      - 新加坡IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|B01
+      - 日本IDC宽频|NF解锁|V2|B01
+      - 美国IDC宽频|NF解锁|SS|A01
+      - 美国IDC宽频|NF解锁|V2|A01
+      - 美国IDC宽频|NF解锁|SS|B01
+      - 免费|美国1
+      - 美国IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -452,51 +279,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Az香港 | 免费-01 10x
-      - "@nfeng6美国-中继-07"
-      - "@nfeng6新加坡-中继-01"
-      - "@nfeng6新加坡-中继-02"
-      - "@nfeng6台湾 -中继-04"
-      - "@nfeng6台湾 -中继-05"
-      - "@nfeng6台湾 -中继-01"
-      - "@nfeng6新加坡-中继-05"
-      - "@nfeng6新加坡-中继-10"
-      - "@nfeng6韩国-中继-01"
-      - 日本-中继-09
-      - "@nfeng6台湾 -中继-06"
-      - 日本-中继-03
-      - "@nfeng6 香港-中继-10"
-      - "@nfeng6 香港-中继-03"
-      - 新加坡+|+免费-02+5x
-      - 新加坡+|+免费-03+5x
-      - "@nfeng6 香港-中继-09"
-      - "@nfeng6 香港-中继-06"
-      - "@nfeng6 香港-中继-08"
-      - "@nfeng6 香港-中继-04"
-      - "@nfeng6新加坡-中继-07"
-      - 香港
-      - 日本-中继-08
-      - 日本-中继-02
-      - 新加坡+|+免费-04+5x
-      - 日本-中继-07
-      - "@nfeng6 香港-中继-02"
-      - "@nfeng6 香港-中继-05"
-      - "@nfeng6美国-中继-05"
-      - "@nfeng6美国-中继-03"
-      - "@nfeng6美国-中继-09"
-      - "@nfeng6美国-中继-08"
-      - "@nfeng6美国-中继-02"
-      - "@nfeng6台湾 -中继-02"
-      - 韩国+|+免费-01+5x
-      - "@nfeng6新加坡-中继-04"
-      - "@nfeng6美国-中继-01"
-      - "@nfeng6 香港-中继-07"
-      - "@nfeng6韩国-中继-02"
-      - "@nfeng6韩国-中继-03"
-      - 新加坡+|+免费-01+5x
-      - "@nfeng6美国-中继-10"
-      - "@nfeng6新加坡-中继-08"
-      - "@nfeng6新加坡-中继-09"
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|B01
+      - 新加坡IDC宽频|NF解锁|SS|B01
+      - 香港家庭宽频|NF解锁|V2|B01
+      - 香港家庭宽频|NF解锁|SS|B01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 台湾家庭宽频|NF解锁|SS|B01
+      - 台湾家庭宽频|NF解锁|V2|B01
+      - 新加坡IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|B01
+      - 日本IDC宽频|NF解锁|V2|B01
+      - 美国IDC宽频|NF解锁|SS|A01
+      - 美国IDC宽频|NF解锁|V2|A01
+      - 美国IDC宽频|NF解锁|SS|B01
+      - 免费|美国1
+      - 美国IDC宽频|NF解锁|V2|B01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
