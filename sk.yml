@@ -5,107 +5,159 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _TW_台湾_订阅XM科技_45, server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡_订阅XM科技_47, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga, skip-cert-verify: true, udp: true}
-  - {name: "@nfeng6新加坡-中继-01", server: yy01.nfeng6.pp.ua, port: 6700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
-  - {name: 圣河西1|华中联通|1.5x, server: centralchina1.cloudlink123.com, port: 37009, type: ss, cipher: aes-128-gcm, password: ebe73659-fff0-4a3b-bcf5-4a2d1e89d0bf, udp: true}
-  - {name: 台湾1|华中联通|HiNet|1x, server: centralchina1.cloudlink123.com, port: 37006, type: ss, cipher: aes-128-gcm, password: ebe73659-fff0-4a3b-bcf5-4a2d1e89d0bf, udp: true}
-  - {name: 迪拜|中南联通1.5x, server: centralchina1.cloudlink123.com, port: 37000, type: ss, cipher: aes-128-gcm, password: ebe73659-fff0-4a3b-bcf5-4a2d1e89d0bf, udp: true}
-  - {name: GLaDOS-N2-07, server: 8bb24b8.ph.gladns.com, port: 3389, type: trojan, password: 82409648721799c5, sni: 8bb24b8.ph.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-02, server: 8bb24b8.pc.gladns.com, port: 3389, type: trojan, password: 82409648721799c5, sni: 8bb24b8.pc.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-06, server: 8bb24b8.pg.gladns.com, port: 3389, type: trojan, password: 82409648721799c5, sni: 8bb24b8.pg.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-04, server: 8bb24b8.pe.gladns.com, port: 3389, type: trojan, password: 82409648721799c5, sni: 8bb24b8.pe.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: HK-GLaDOS-GEO-02, server: 8bb24b8.gc.gladns.com, port: 3384, type: trojan, password: 82409648721799c5, sni: 8bb24b8.gc.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: HK-GLaDOS-GEO-00, server: 8bb24b8.ga.gladns.com, port: 3384, type: trojan, password: 82409648721799c5, sni: 8bb24b8.ga.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: HK-GLaDOS-GEO-01, server: 8bb24b8.gb.gladns.com, port: 3384, type: trojan, password: 82409648721799c5, sni: 8bb24b8.gb.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: TW-GLaDOS-GEO-01, server: 8bb24b8.gb.gladns.com, port: 3383, type: trojan, password: 82409648721799c5, sni: 8bb24b8.gb.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-05, server: 8bb24b8.pf.gladns.com, port: 3389, type: trojan, password: 82409648721799c5, sni: 8bb24b8.pf.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: GLaDOS-N2-01, server: 8bb24b8.pb.gladns.com, port: 3389, type: trojan, password: 82409648721799c5, sni: 8bb24b8.pb.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: TW-GLaDOS-GEO-00, server: 8bb24b8.ga.gladns.com, port: 3383, type: trojan, password: 82409648721799c5, sni: 8bb24b8.ga.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: TW-GLaDOS-GEO-02, server: 8bb24b8.gc.gladns.com, port: 3383, type: trojan, password: 82409648721799c5, sni: 8bb24b8.gc.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: SG-GLaDOS-GEO-02, server: 8bb24b8.gc.gladns.com, port: 3385, type: trojan, password: 82409648721799c5, sni: 8bb24b8.gc.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: JP-GLaDOS-GEO-02, server: 8bb24b8.gc.gladns.com, port: 3382, type: trojan, password: 82409648721799c5, sni: 8bb24b8.gc.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: JP-GLaDOS-GEO-01, server: 8bb24b8.gb.gladns.com, port: 3382, type: trojan, password: 82409648721799c5, sni: 8bb24b8.gb.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 新加坡IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, udp: true}
+  - {name: 香港家庭宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 香港家庭宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, udp: true}
+  - {name: 香港IDC宽频|NF解锁|V2|B01, server: hz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 香港IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 香港IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, udp: true}
+  - {name: 香港1, server: hk.dadiangan.xyz, port: 45634, type: vmess, uuid: 1de4f59c-d20e-49a4-b746-3a70a210ddd0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dadiangan, ws-headers: {Host: hk.dadiangan.xyz}, udp: true}
+  - {name: 台湾家庭宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 台湾家庭宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, udp: true}
+  - {name: 日本IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
+  - {name: 日本IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_551, server: cdn-cn.nekocloud.cn, port: 19092, type: vmess, uuid: e1bdbb56-25e4-351c-b039-247394961abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_527, server: cdn-cn.nekocloud.cn, port: 19083, type: vmess, uuid: e1bdbb56-25e4-351c-b039-247394961abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_520, server: cdn-cn.nekocloud.cn, port: 19085, type: vmess, uuid: e1bdbb56-25e4-351c-b039-247394961abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_517, server: cdn-cn.nekocloud.cn, port: 19094, type: vmess, uuid: e1bdbb56-25e4-351c-b039-247394961abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_515, server: cdn-cn.nekocloud.cn, port: 19040, type: vmess, uuid: e1bdbb56-25e4-351c-b039-247394961abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_484, server: 211.99.115.24, port: 11016, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_482, server: 211.99.115.24, port: 11014, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_476, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_475, server: 211.99.115.24, port: 11004, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_473, server: 211.99.115.24, port: 11006, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_466, server: 211.99.115.24, port: 11015, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_465, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_464, server: 211.99.115.24, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_461, server: 211.99.115.24, port: 11008, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_460, server: 211.99.115.24, port: 11003, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_459, server: 211.99.115.24, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_455, server: 211.99.115.24, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_444, server: 211.99.115.24, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_439, server: 211.99.115.24, port: 11012, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_438, server: 211.99.115.24, port: 11013, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_432, server: 211.99.115.24, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_423, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _TW_台湾_订阅XM科技_45
-      - _SG_新加坡_订阅XM科技_47
-      - "@nfeng6新加坡-中继-01"
-      - 圣河西1|华中联通|1.5x
-      - 台湾1|华中联通|HiNet|1x
-      - 迪拜|中南联通1.5x
-      - GLaDOS-N2-07
-      - GLaDOS-N2-02
-      - GLaDOS-N2-06
-      - GLaDOS-N2-04
-      - HK-GLaDOS-GEO-02
-      - HK-GLaDOS-GEO-00
-      - HK-GLaDOS-GEO-01
-      - TW-GLaDOS-GEO-01
-      - GLaDOS-N2-05
-      - GLaDOS-N2-01
-      - TW-GLaDOS-GEO-00
-      - TW-GLaDOS-GEO-02
-      - SG-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
+      - 香港1
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 台湾家庭宽频|NF解锁|SS|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - Relay_🇨🇳CN-🇭🇰HK_551
+      - Relay_🇨🇳CN-🇭🇰HK_527
+      - Relay_🇨🇳CN-🇭🇰HK_520
+      - Relay_🇨🇳CN-🇭🇰HK_517
+      - Relay_🇨🇳CN-🇭🇰HK_515
+      - Relay_🇨🇳CN-🇭🇰HK_484
+      - Relay_🇨🇳CN-🇭🇰HK_482
+      - Relay_🇨🇳CN-🇭🇰HK_476
+      - Relay_🇨🇳CN-🇭🇰HK_475
+      - Relay_🇨🇳CN-🇭🇰HK_473
+      - Relay_🇨🇳CN-🇭🇰HK_466
+      - Relay_🇨🇳CN-🇭🇰HK_465
+      - Relay_🇨🇳CN-🇭🇰HK_464
+      - Relay_🇨🇳CN-🇭🇰HK_461
+      - Relay_🇨🇳CN-🇭🇰HK_460
+      - Relay_🇨🇳CN-🇭🇰HK_459
+      - Relay_🇨🇳CN-🇭🇰HK_455
+      - Relay_🇨🇳CN-🇭🇰HK_444
+      - Relay_🇨🇳CN-🇭🇰HK_439
+      - Relay_🇨🇳CN-🇭🇰HK_438
+      - Relay_🇨🇳CN-🇭🇰HK_432
+      - Relay_🇨🇳CN-🇭🇰HK_423
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _TW_台湾_订阅XM科技_45
-      - _SG_新加坡_订阅XM科技_47
-      - "@nfeng6新加坡-中继-01"
-      - 圣河西1|华中联通|1.5x
-      - 台湾1|华中联通|HiNet|1x
-      - 迪拜|中南联通1.5x
-      - GLaDOS-N2-07
-      - GLaDOS-N2-02
-      - GLaDOS-N2-06
-      - GLaDOS-N2-04
-      - HK-GLaDOS-GEO-02
-      - HK-GLaDOS-GEO-00
-      - HK-GLaDOS-GEO-01
-      - TW-GLaDOS-GEO-01
-      - GLaDOS-N2-05
-      - GLaDOS-N2-01
-      - TW-GLaDOS-GEO-00
-      - TW-GLaDOS-GEO-02
-      - SG-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
+      - 香港1
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 台湾家庭宽频|NF解锁|SS|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - Relay_🇨🇳CN-🇭🇰HK_551
+      - Relay_🇨🇳CN-🇭🇰HK_527
+      - Relay_🇨🇳CN-🇭🇰HK_520
+      - Relay_🇨🇳CN-🇭🇰HK_517
+      - Relay_🇨🇳CN-🇭🇰HK_515
+      - Relay_🇨🇳CN-🇭🇰HK_484
+      - Relay_🇨🇳CN-🇭🇰HK_482
+      - Relay_🇨🇳CN-🇭🇰HK_476
+      - Relay_🇨🇳CN-🇭🇰HK_475
+      - Relay_🇨🇳CN-🇭🇰HK_473
+      - Relay_🇨🇳CN-🇭🇰HK_466
+      - Relay_🇨🇳CN-🇭🇰HK_465
+      - Relay_🇨🇳CN-🇭🇰HK_464
+      - Relay_🇨🇳CN-🇭🇰HK_461
+      - Relay_🇨🇳CN-🇭🇰HK_460
+      - Relay_🇨🇳CN-🇭🇰HK_459
+      - Relay_🇨🇳CN-🇭🇰HK_455
+      - Relay_🇨🇳CN-🇭🇰HK_444
+      - Relay_🇨🇳CN-🇭🇰HK_439
+      - Relay_🇨🇳CN-🇭🇰HK_438
+      - Relay_🇨🇳CN-🇭🇰HK_432
+      - Relay_🇨🇳CN-🇭🇰HK_423
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _TW_台湾_订阅XM科技_45
-      - _SG_新加坡_订阅XM科技_47
-      - "@nfeng6新加坡-中继-01"
-      - 圣河西1|华中联通|1.5x
-      - 台湾1|华中联通|HiNet|1x
-      - 迪拜|中南联通1.5x
-      - GLaDOS-N2-07
-      - GLaDOS-N2-02
-      - GLaDOS-N2-06
-      - GLaDOS-N2-04
-      - HK-GLaDOS-GEO-02
-      - HK-GLaDOS-GEO-00
-      - HK-GLaDOS-GEO-01
-      - TW-GLaDOS-GEO-01
-      - GLaDOS-N2-05
-      - GLaDOS-N2-01
-      - TW-GLaDOS-GEO-00
-      - TW-GLaDOS-GEO-02
-      - SG-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
+      - 香港1
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 台湾家庭宽频|NF解锁|SS|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - Relay_🇨🇳CN-🇭🇰HK_551
+      - Relay_🇨🇳CN-🇭🇰HK_527
+      - Relay_🇨🇳CN-🇭🇰HK_520
+      - Relay_🇨🇳CN-🇭🇰HK_517
+      - Relay_🇨🇳CN-🇭🇰HK_515
+      - Relay_🇨🇳CN-🇭🇰HK_484
+      - Relay_🇨🇳CN-🇭🇰HK_482
+      - Relay_🇨🇳CN-🇭🇰HK_476
+      - Relay_🇨🇳CN-🇭🇰HK_475
+      - Relay_🇨🇳CN-🇭🇰HK_473
+      - Relay_🇨🇳CN-🇭🇰HK_466
+      - Relay_🇨🇳CN-🇭🇰HK_465
+      - Relay_🇨🇳CN-🇭🇰HK_464
+      - Relay_🇨🇳CN-🇭🇰HK_461
+      - Relay_🇨🇳CN-🇭🇰HK_460
+      - Relay_🇨🇳CN-🇭🇰HK_459
+      - Relay_🇨🇳CN-🇭🇰HK_455
+      - Relay_🇨🇳CN-🇭🇰HK_444
+      - Relay_🇨🇳CN-🇭🇰HK_439
+      - Relay_🇨🇳CN-🇭🇰HK_438
+      - Relay_🇨🇳CN-🇭🇰HK_432
+      - Relay_🇨🇳CN-🇭🇰HK_423
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,113 +176,171 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _TW_台湾_订阅XM科技_45
-      - _SG_新加坡_订阅XM科技_47
-      - "@nfeng6新加坡-中继-01"
-      - 圣河西1|华中联通|1.5x
-      - 台湾1|华中联通|HiNet|1x
-      - 迪拜|中南联通1.5x
-      - GLaDOS-N2-07
-      - GLaDOS-N2-02
-      - GLaDOS-N2-06
-      - GLaDOS-N2-04
-      - HK-GLaDOS-GEO-02
-      - HK-GLaDOS-GEO-00
-      - HK-GLaDOS-GEO-01
-      - TW-GLaDOS-GEO-01
-      - GLaDOS-N2-05
-      - GLaDOS-N2-01
-      - TW-GLaDOS-GEO-00
-      - TW-GLaDOS-GEO-02
-      - SG-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
+      - 香港1
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 台湾家庭宽频|NF解锁|SS|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - Relay_🇨🇳CN-🇭🇰HK_551
+      - Relay_🇨🇳CN-🇭🇰HK_527
+      - Relay_🇨🇳CN-🇭🇰HK_520
+      - Relay_🇨🇳CN-🇭🇰HK_517
+      - Relay_🇨🇳CN-🇭🇰HK_515
+      - Relay_🇨🇳CN-🇭🇰HK_484
+      - Relay_🇨🇳CN-🇭🇰HK_482
+      - Relay_🇨🇳CN-🇭🇰HK_476
+      - Relay_🇨🇳CN-🇭🇰HK_475
+      - Relay_🇨🇳CN-🇭🇰HK_473
+      - Relay_🇨🇳CN-🇭🇰HK_466
+      - Relay_🇨🇳CN-🇭🇰HK_465
+      - Relay_🇨🇳CN-🇭🇰HK_464
+      - Relay_🇨🇳CN-🇭🇰HK_461
+      - Relay_🇨🇳CN-🇭🇰HK_460
+      - Relay_🇨🇳CN-🇭🇰HK_459
+      - Relay_🇨🇳CN-🇭🇰HK_455
+      - Relay_🇨🇳CN-🇭🇰HK_444
+      - Relay_🇨🇳CN-🇭🇰HK_439
+      - Relay_🇨🇳CN-🇭🇰HK_438
+      - Relay_🇨🇳CN-🇭🇰HK_432
+      - Relay_🇨🇳CN-🇭🇰HK_423
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _TW_台湾_订阅XM科技_45
-      - 台湾1|华中联通|HiNet|1x
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
+      - 香港1
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 台湾家庭宽频|NF解锁|SS|A01
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _TW_台湾_订阅XM科技_45
-      - _SG_新加坡_订阅XM科技_47
-      - "@nfeng6新加坡-中继-01"
-      - 圣河西1|华中联通|1.5x
-      - 台湾1|华中联通|HiNet|1x
-      - 迪拜|中南联通1.5x
-      - GLaDOS-N2-07
-      - GLaDOS-N2-02
-      - GLaDOS-N2-06
-      - GLaDOS-N2-04
-      - HK-GLaDOS-GEO-02
-      - HK-GLaDOS-GEO-00
-      - HK-GLaDOS-GEO-01
-      - TW-GLaDOS-GEO-01
-      - GLaDOS-N2-05
-      - GLaDOS-N2-01
-      - TW-GLaDOS-GEO-00
-      - TW-GLaDOS-GEO-02
-      - SG-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
+      - 香港1
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 台湾家庭宽频|NF解锁|SS|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - Relay_🇨🇳CN-🇭🇰HK_551
+      - Relay_🇨🇳CN-🇭🇰HK_527
+      - Relay_🇨🇳CN-🇭🇰HK_520
+      - Relay_🇨🇳CN-🇭🇰HK_517
+      - Relay_🇨🇳CN-🇭🇰HK_515
+      - Relay_🇨🇳CN-🇭🇰HK_484
+      - Relay_🇨🇳CN-🇭🇰HK_482
+      - Relay_🇨🇳CN-🇭🇰HK_476
+      - Relay_🇨🇳CN-🇭🇰HK_475
+      - Relay_🇨🇳CN-🇭🇰HK_473
+      - Relay_🇨🇳CN-🇭🇰HK_466
+      - Relay_🇨🇳CN-🇭🇰HK_465
+      - Relay_🇨🇳CN-🇭🇰HK_464
+      - Relay_🇨🇳CN-🇭🇰HK_461
+      - Relay_🇨🇳CN-🇭🇰HK_460
+      - Relay_🇨🇳CN-🇭🇰HK_459
+      - Relay_🇨🇳CN-🇭🇰HK_455
+      - Relay_🇨🇳CN-🇭🇰HK_444
+      - Relay_🇨🇳CN-🇭🇰HK_439
+      - Relay_🇨🇳CN-🇭🇰HK_438
+      - Relay_🇨🇳CN-🇭🇰HK_432
+      - Relay_🇨🇳CN-🇭🇰HK_423
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _TW_台湾_订阅XM科技_45
-      - _SG_新加坡_订阅XM科技_47
-      - "@nfeng6新加坡-中继-01"
-      - 圣河西1|华中联通|1.5x
-      - 台湾1|华中联通|HiNet|1x
-      - 迪拜|中南联通1.5x
-      - GLaDOS-N2-07
-      - GLaDOS-N2-02
-      - GLaDOS-N2-06
-      - GLaDOS-N2-04
-      - HK-GLaDOS-GEO-02
-      - HK-GLaDOS-GEO-00
-      - HK-GLaDOS-GEO-01
-      - TW-GLaDOS-GEO-01
-      - GLaDOS-N2-05
-      - GLaDOS-N2-01
-      - TW-GLaDOS-GEO-00
-      - TW-GLaDOS-GEO-02
-      - SG-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
+      - 香港1
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 台湾家庭宽频|NF解锁|SS|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - Relay_🇨🇳CN-🇭🇰HK_551
+      - Relay_🇨🇳CN-🇭🇰HK_527
+      - Relay_🇨🇳CN-🇭🇰HK_520
+      - Relay_🇨🇳CN-🇭🇰HK_517
+      - Relay_🇨🇳CN-🇭🇰HK_515
+      - Relay_🇨🇳CN-🇭🇰HK_484
+      - Relay_🇨🇳CN-🇭🇰HK_482
+      - Relay_🇨🇳CN-🇭🇰HK_476
+      - Relay_🇨🇳CN-🇭🇰HK_475
+      - Relay_🇨🇳CN-🇭🇰HK_473
+      - Relay_🇨🇳CN-🇭🇰HK_466
+      - Relay_🇨🇳CN-🇭🇰HK_465
+      - Relay_🇨🇳CN-🇭🇰HK_464
+      - Relay_🇨🇳CN-🇭🇰HK_461
+      - Relay_🇨🇳CN-🇭🇰HK_460
+      - Relay_🇨🇳CN-🇭🇰HK_459
+      - Relay_🇨🇳CN-🇭🇰HK_455
+      - Relay_🇨🇳CN-🇭🇰HK_444
+      - Relay_🇨🇳CN-🇭🇰HK_439
+      - Relay_🇨🇳CN-🇭🇰HK_438
+      - Relay_🇨🇳CN-🇭🇰HK_432
+      - Relay_🇨🇳CN-🇭🇰HK_423
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _TW_台湾_订阅XM科技_45
-      - _SG_新加坡_订阅XM科技_47
-      - "@nfeng6新加坡-中继-01"
-      - 圣河西1|华中联通|1.5x
-      - 台湾1|华中联通|HiNet|1x
-      - 迪拜|中南联通1.5x
-      - GLaDOS-N2-07
-      - GLaDOS-N2-02
-      - GLaDOS-N2-06
-      - GLaDOS-N2-04
-      - HK-GLaDOS-GEO-02
-      - HK-GLaDOS-GEO-00
-      - HK-GLaDOS-GEO-01
-      - TW-GLaDOS-GEO-01
-      - GLaDOS-N2-05
-      - GLaDOS-N2-01
-      - TW-GLaDOS-GEO-00
-      - TW-GLaDOS-GEO-02
-      - SG-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
+      - 香港1
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 台湾家庭宽频|NF解锁|SS|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - Relay_🇨🇳CN-🇭🇰HK_551
+      - Relay_🇨🇳CN-🇭🇰HK_527
+      - Relay_🇨🇳CN-🇭🇰HK_520
+      - Relay_🇨🇳CN-🇭🇰HK_517
+      - Relay_🇨🇳CN-🇭🇰HK_515
+      - Relay_🇨🇳CN-🇭🇰HK_484
+      - Relay_🇨🇳CN-🇭🇰HK_482
+      - Relay_🇨🇳CN-🇭🇰HK_476
+      - Relay_🇨🇳CN-🇭🇰HK_475
+      - Relay_🇨🇳CN-🇭🇰HK_473
+      - Relay_🇨🇳CN-🇭🇰HK_466
+      - Relay_🇨🇳CN-🇭🇰HK_465
+      - Relay_🇨🇳CN-🇭🇰HK_464
+      - Relay_🇨🇳CN-🇭🇰HK_461
+      - Relay_🇨🇳CN-🇭🇰HK_460
+      - Relay_🇨🇳CN-🇭🇰HK_459
+      - Relay_🇨🇳CN-🇭🇰HK_455
+      - Relay_🇨🇳CN-🇭🇰HK_444
+      - Relay_🇨🇳CN-🇭🇰HK_439
+      - Relay_🇨🇳CN-🇭🇰HK_438
+      - Relay_🇨🇳CN-🇭🇰HK_432
+      - Relay_🇨🇳CN-🇭🇰HK_423
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -246,27 +356,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _TW_台湾_订阅XM科技_45
-      - _SG_新加坡_订阅XM科技_47
-      - "@nfeng6新加坡-中继-01"
-      - 圣河西1|华中联通|1.5x
-      - 台湾1|华中联通|HiNet|1x
-      - 迪拜|中南联通1.5x
-      - GLaDOS-N2-07
-      - GLaDOS-N2-02
-      - GLaDOS-N2-06
-      - GLaDOS-N2-04
-      - HK-GLaDOS-GEO-02
-      - HK-GLaDOS-GEO-00
-      - HK-GLaDOS-GEO-01
-      - TW-GLaDOS-GEO-01
-      - GLaDOS-N2-05
-      - GLaDOS-N2-01
-      - TW-GLaDOS-GEO-00
-      - TW-GLaDOS-GEO-02
-      - SG-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-02
-      - JP-GLaDOS-GEO-01
+      - 新加坡IDC宽频|NF解锁|V2|A01
+      - 新加坡IDC宽频|NF解锁|SS|A01
+      - 香港家庭宽频|NF解锁|V2|A01
+      - 香港家庭宽频|NF解锁|SS|A01
+      - 香港IDC宽频|NF解锁|V2|B01
+      - 香港IDC宽频|NF解锁|V2|A01
+      - 香港IDC宽频|NF解锁|SS|A01
+      - 香港1
+      - 台湾家庭宽频|NF解锁|V2|A01
+      - 台湾家庭宽频|NF解锁|SS|A01
+      - 日本IDC宽频|NF解锁|V2|A01
+      - 日本IDC宽频|NF解锁|SS|A01
+      - Relay_🇨🇳CN-🇭🇰HK_551
+      - Relay_🇨🇳CN-🇭🇰HK_527
+      - Relay_🇨🇳CN-🇭🇰HK_520
+      - Relay_🇨🇳CN-🇭🇰HK_517
+      - Relay_🇨🇳CN-🇭🇰HK_515
+      - Relay_🇨🇳CN-🇭🇰HK_484
+      - Relay_🇨🇳CN-🇭🇰HK_482
+      - Relay_🇨🇳CN-🇭🇰HK_476
+      - Relay_🇨🇳CN-🇭🇰HK_475
+      - Relay_🇨🇳CN-🇭🇰HK_473
+      - Relay_🇨🇳CN-🇭🇰HK_466
+      - Relay_🇨🇳CN-🇭🇰HK_465
+      - Relay_🇨🇳CN-🇭🇰HK_464
+      - Relay_🇨🇳CN-🇭🇰HK_461
+      - Relay_🇨🇳CN-🇭🇰HK_460
+      - Relay_🇨🇳CN-🇭🇰HK_459
+      - Relay_🇨🇳CN-🇭🇰HK_455
+      - Relay_🇨🇳CN-🇭🇰HK_444
+      - Relay_🇨🇳CN-🇭🇰HK_439
+      - Relay_🇨🇳CN-🇭🇰HK_438
+      - Relay_🇨🇳CN-🇭🇰HK_432
+      - Relay_🇨🇳CN-🇭🇰HK_423
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
