@@ -5,159 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
-  - {name: 新加坡IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, udp: true}
-  - {name: 香港家庭宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
-  - {name: 香港家庭宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, udp: true}
-  - {name: 香港IDC宽频|NF解锁|V2|B01, server: hz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hz.bgp.rx.naiun.pw}, udp: true}
-  - {name: 香港IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
-  - {name: 香港IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, udp: true}
-  - {name: 香港1, server: hk.dadiangan.xyz, port: 45634, type: vmess, uuid: 1de4f59c-d20e-49a4-b746-3a70a210ddd0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dadiangan, ws-headers: {Host: hk.dadiangan.xyz}, udp: true}
-  - {name: 台湾家庭宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
-  - {name: 台湾家庭宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, udp: true}
-  - {name: 日本IDC宽频|NF解锁|V2|A01, server: gz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gz.bgp.rx.naiun.pw}, udp: true}
-  - {name: 日本IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 4249c4b9-f6cc-49ff-94b7-18e9229d29c5, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_551, server: cdn-cn.nekocloud.cn, port: 19092, type: vmess, uuid: e1bdbb56-25e4-351c-b039-247394961abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_527, server: cdn-cn.nekocloud.cn, port: 19083, type: vmess, uuid: e1bdbb56-25e4-351c-b039-247394961abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_520, server: cdn-cn.nekocloud.cn, port: 19085, type: vmess, uuid: e1bdbb56-25e4-351c-b039-247394961abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_517, server: cdn-cn.nekocloud.cn, port: 19094, type: vmess, uuid: e1bdbb56-25e4-351c-b039-247394961abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_515, server: cdn-cn.nekocloud.cn, port: 19040, type: vmess, uuid: e1bdbb56-25e4-351c-b039-247394961abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_484, server: 211.99.115.24, port: 11016, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_482, server: 211.99.115.24, port: 11014, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_476, server: 211.99.115.24, port: 11001, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_475, server: 211.99.115.24, port: 11004, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_473, server: 211.99.115.24, port: 11006, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_466, server: 211.99.115.24, port: 11015, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_465, server: 211.99.115.24, port: 11009, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_464, server: 211.99.115.24, port: 11005, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_461, server: 211.99.115.24, port: 11008, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_460, server: 211.99.115.24, port: 11003, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_459, server: 211.99.115.24, port: 11007, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_455, server: 211.99.115.24, port: 11018, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_444, server: 211.99.115.24, port: 11010, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_439, server: 211.99.115.24, port: 11012, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_438, server: 211.99.115.24, port: 11013, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_432, server: 211.99.115.24, port: 11002, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_423, server: 211.99.115.24, port: 11017, type: ss, cipher: aes-256-gcm, password: zAdhDSabeh, udp: true}
+  - {name: "[CT/CM]香港 12", server: cnrelaycm.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 11", server: shusacu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 04", server: shcu001online.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 14", server: shusacu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 韩国高速接入A, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 17", server: shcu002online.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 新加坡B, server: shallaz.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 09", server: cnrelaycm.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 16", server: shsuconpro.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 俄罗斯c RT, server: relaypro.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 02", server: shcu002online.proconcn.xyz, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 新加坡E, server: shallaz.proconcn.xyz, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 俄罗斯b RT, server: relaypro.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 新加坡C, server: shallaz.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 新加坡D, server: shallaz.proconcn.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 美国 优化-10, server: usastart.proconcn.xyz, port: 569, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 美国 优化-3, server: shusa.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 美国 优化-1, server: shusa.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 美国 优化-5, server: usastart.proconcn.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 新加坡A, server: shallaz.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 土耳其, server: relaypro.procncon.xyz, port: 620, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 俄罗斯a RT, server: relaypro.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 美国 优化-7, server: usastart.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: 美国 优化-4, server: shusa.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
+  - {name: "[CT/CM]香港 06", server: hzrelaycu.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52794:123456, obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡IDC宽频|NF解锁|V2|A01
-      - 新加坡IDC宽频|NF解锁|SS|A01
-      - 香港家庭宽频|NF解锁|V2|A01
-      - 香港家庭宽频|NF解锁|SS|A01
-      - 香港IDC宽频|NF解锁|V2|B01
-      - 香港IDC宽频|NF解锁|V2|A01
-      - 香港IDC宽频|NF解锁|SS|A01
-      - 香港1
-      - 台湾家庭宽频|NF解锁|V2|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 日本IDC宽频|NF解锁|V2|A01
-      - 日本IDC宽频|NF解锁|SS|A01
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇭🇰HK_527
-      - Relay_🇨🇳CN-🇭🇰HK_520
-      - Relay_🇨🇳CN-🇭🇰HK_517
-      - Relay_🇨🇳CN-🇭🇰HK_515
-      - Relay_🇨🇳CN-🇭🇰HK_484
-      - Relay_🇨🇳CN-🇭🇰HK_482
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_475
-      - Relay_🇨🇳CN-🇭🇰HK_473
-      - Relay_🇨🇳CN-🇭🇰HK_466
-      - Relay_🇨🇳CN-🇭🇰HK_465
-      - Relay_🇨🇳CN-🇭🇰HK_464
-      - Relay_🇨🇳CN-🇭🇰HK_461
-      - Relay_🇨🇳CN-🇭🇰HK_460
-      - Relay_🇨🇳CN-🇭🇰HK_459
-      - Relay_🇨🇳CN-🇭🇰HK_455
-      - Relay_🇨🇳CN-🇭🇰HK_444
-      - Relay_🇨🇳CN-🇭🇰HK_439
-      - Relay_🇨🇳CN-🇭🇰HK_438
-      - Relay_🇨🇳CN-🇭🇰HK_432
-      - Relay_🇨🇳CN-🇭🇰HK_423
+      - "[CT/CM]香港 12"
+      - "[CT/CM]香港 11"
+      - "[CT/CM]香港 04"
+      - "[CT/CM]香港 14"
+      - 韩国高速接入A
+      - "[CT/CM]香港 17"
+      - 新加坡B
+      - "[CT/CM]香港 09"
+      - "[CT/CM]香港 16"
+      - 俄罗斯c RT
+      - "[CT/CM]香港 02"
+      - 新加坡E
+      - 俄罗斯b RT
+      - 新加坡C
+      - 新加坡D
+      - 美国 优化-10
+      - 美国 优化-3
+      - 美国 优化-1
+      - 美国 优化-5
+      - 新加坡A
+      - 土耳其
+      - 俄罗斯a RT
+      - 美国 优化-7
+      - 美国 优化-4
+      - "[CT/CM]香港 06"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡IDC宽频|NF解锁|V2|A01
-      - 新加坡IDC宽频|NF解锁|SS|A01
-      - 香港家庭宽频|NF解锁|V2|A01
-      - 香港家庭宽频|NF解锁|SS|A01
-      - 香港IDC宽频|NF解锁|V2|B01
-      - 香港IDC宽频|NF解锁|V2|A01
-      - 香港IDC宽频|NF解锁|SS|A01
-      - 香港1
-      - 台湾家庭宽频|NF解锁|V2|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 日本IDC宽频|NF解锁|V2|A01
-      - 日本IDC宽频|NF解锁|SS|A01
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇭🇰HK_527
-      - Relay_🇨🇳CN-🇭🇰HK_520
-      - Relay_🇨🇳CN-🇭🇰HK_517
-      - Relay_🇨🇳CN-🇭🇰HK_515
-      - Relay_🇨🇳CN-🇭🇰HK_484
-      - Relay_🇨🇳CN-🇭🇰HK_482
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_475
-      - Relay_🇨🇳CN-🇭🇰HK_473
-      - Relay_🇨🇳CN-🇭🇰HK_466
-      - Relay_🇨🇳CN-🇭🇰HK_465
-      - Relay_🇨🇳CN-🇭🇰HK_464
-      - Relay_🇨🇳CN-🇭🇰HK_461
-      - Relay_🇨🇳CN-🇭🇰HK_460
-      - Relay_🇨🇳CN-🇭🇰HK_459
-      - Relay_🇨🇳CN-🇭🇰HK_455
-      - Relay_🇨🇳CN-🇭🇰HK_444
-      - Relay_🇨🇳CN-🇭🇰HK_439
-      - Relay_🇨🇳CN-🇭🇰HK_438
-      - Relay_🇨🇳CN-🇭🇰HK_432
-      - Relay_🇨🇳CN-🇭🇰HK_423
+      - "[CT/CM]香港 12"
+      - "[CT/CM]香港 11"
+      - "[CT/CM]香港 04"
+      - "[CT/CM]香港 14"
+      - 韩国高速接入A
+      - "[CT/CM]香港 17"
+      - 新加坡B
+      - "[CT/CM]香港 09"
+      - "[CT/CM]香港 16"
+      - 俄罗斯c RT
+      - "[CT/CM]香港 02"
+      - 新加坡E
+      - 俄罗斯b RT
+      - 新加坡C
+      - 新加坡D
+      - 美国 优化-10
+      - 美国 优化-3
+      - 美国 优化-1
+      - 美国 优化-5
+      - 新加坡A
+      - 土耳其
+      - 俄罗斯a RT
+      - 美国 优化-7
+      - 美国 优化-4
+      - "[CT/CM]香港 06"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡IDC宽频|NF解锁|V2|A01
-      - 新加坡IDC宽频|NF解锁|SS|A01
-      - 香港家庭宽频|NF解锁|V2|A01
-      - 香港家庭宽频|NF解锁|SS|A01
-      - 香港IDC宽频|NF解锁|V2|B01
-      - 香港IDC宽频|NF解锁|V2|A01
-      - 香港IDC宽频|NF解锁|SS|A01
-      - 香港1
-      - 台湾家庭宽频|NF解锁|V2|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 日本IDC宽频|NF解锁|V2|A01
-      - 日本IDC宽频|NF解锁|SS|A01
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇭🇰HK_527
-      - Relay_🇨🇳CN-🇭🇰HK_520
-      - Relay_🇨🇳CN-🇭🇰HK_517
-      - Relay_🇨🇳CN-🇭🇰HK_515
-      - Relay_🇨🇳CN-🇭🇰HK_484
-      - Relay_🇨🇳CN-🇭🇰HK_482
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_475
-      - Relay_🇨🇳CN-🇭🇰HK_473
-      - Relay_🇨🇳CN-🇭🇰HK_466
-      - Relay_🇨🇳CN-🇭🇰HK_465
-      - Relay_🇨🇳CN-🇭🇰HK_464
-      - Relay_🇨🇳CN-🇭🇰HK_461
-      - Relay_🇨🇳CN-🇭🇰HK_460
-      - Relay_🇨🇳CN-🇭🇰HK_459
-      - Relay_🇨🇳CN-🇭🇰HK_455
-      - Relay_🇨🇳CN-🇭🇰HK_444
-      - Relay_🇨🇳CN-🇭🇰HK_439
-      - Relay_🇨🇳CN-🇭🇰HK_438
-      - Relay_🇨🇳CN-🇭🇰HK_432
-      - Relay_🇨🇳CN-🇭🇰HK_423
+      - "[CT/CM]香港 12"
+      - "[CT/CM]香港 11"
+      - "[CT/CM]香港 04"
+      - "[CT/CM]香港 14"
+      - 韩国高速接入A
+      - "[CT/CM]香港 17"
+      - 新加坡B
+      - "[CT/CM]香港 09"
+      - "[CT/CM]香港 16"
+      - 俄罗斯c RT
+      - "[CT/CM]香港 02"
+      - 新加坡E
+      - 俄罗斯b RT
+      - 新加坡C
+      - 新加坡D
+      - 美国 优化-10
+      - 美国 优化-3
+      - 美国 优化-1
+      - 美国 优化-5
+      - 新加坡A
+      - 土耳其
+      - 俄罗斯a RT
+      - 美国 优化-7
+      - 美国 优化-4
+      - "[CT/CM]香港 06"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -176,171 +140,136 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡IDC宽频|NF解锁|V2|A01
-      - 新加坡IDC宽频|NF解锁|SS|A01
-      - 香港家庭宽频|NF解锁|V2|A01
-      - 香港家庭宽频|NF解锁|SS|A01
-      - 香港IDC宽频|NF解锁|V2|B01
-      - 香港IDC宽频|NF解锁|V2|A01
-      - 香港IDC宽频|NF解锁|SS|A01
-      - 香港1
-      - 台湾家庭宽频|NF解锁|V2|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 日本IDC宽频|NF解锁|V2|A01
-      - 日本IDC宽频|NF解锁|SS|A01
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇭🇰HK_527
-      - Relay_🇨🇳CN-🇭🇰HK_520
-      - Relay_🇨🇳CN-🇭🇰HK_517
-      - Relay_🇨🇳CN-🇭🇰HK_515
-      - Relay_🇨🇳CN-🇭🇰HK_484
-      - Relay_🇨🇳CN-🇭🇰HK_482
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_475
-      - Relay_🇨🇳CN-🇭🇰HK_473
-      - Relay_🇨🇳CN-🇭🇰HK_466
-      - Relay_🇨🇳CN-🇭🇰HK_465
-      - Relay_🇨🇳CN-🇭🇰HK_464
-      - Relay_🇨🇳CN-🇭🇰HK_461
-      - Relay_🇨🇳CN-🇭🇰HK_460
-      - Relay_🇨🇳CN-🇭🇰HK_459
-      - Relay_🇨🇳CN-🇭🇰HK_455
-      - Relay_🇨🇳CN-🇭🇰HK_444
-      - Relay_🇨🇳CN-🇭🇰HK_439
-      - Relay_🇨🇳CN-🇭🇰HK_438
-      - Relay_🇨🇳CN-🇭🇰HK_432
-      - Relay_🇨🇳CN-🇭🇰HK_423
+      - "[CT/CM]香港 12"
+      - "[CT/CM]香港 11"
+      - "[CT/CM]香港 04"
+      - "[CT/CM]香港 14"
+      - 韩国高速接入A
+      - "[CT/CM]香港 17"
+      - 新加坡B
+      - "[CT/CM]香港 09"
+      - "[CT/CM]香港 16"
+      - 俄罗斯c RT
+      - "[CT/CM]香港 02"
+      - 新加坡E
+      - 俄罗斯b RT
+      - 新加坡C
+      - 新加坡D
+      - 美国 优化-10
+      - 美国 优化-3
+      - 美国 优化-1
+      - 美国 优化-5
+      - 新加坡A
+      - 土耳其
+      - 俄罗斯a RT
+      - 美国 优化-7
+      - 美国 优化-4
+      - "[CT/CM]香港 06"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港家庭宽频|NF解锁|V2|A01
-      - 香港家庭宽频|NF解锁|SS|A01
-      - 香港IDC宽频|NF解锁|V2|B01
-      - 香港IDC宽频|NF解锁|V2|A01
-      - 香港IDC宽频|NF解锁|SS|A01
-      - 香港1
-      - 台湾家庭宽频|NF解锁|V2|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
+      - "[CT/CM]香港 12"
+      - "[CT/CM]香港 11"
+      - "[CT/CM]香港 04"
+      - "[CT/CM]香港 14"
+      - "[CT/CM]香港 17"
+      - "[CT/CM]香港 09"
+      - "[CT/CM]香港 16"
+      - "[CT/CM]香港 02"
+      - "[CT/CM]香港 06"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡IDC宽频|NF解锁|V2|A01
-      - 新加坡IDC宽频|NF解锁|SS|A01
-      - 香港家庭宽频|NF解锁|V2|A01
-      - 香港家庭宽频|NF解锁|SS|A01
-      - 香港IDC宽频|NF解锁|V2|B01
-      - 香港IDC宽频|NF解锁|V2|A01
-      - 香港IDC宽频|NF解锁|SS|A01
-      - 香港1
-      - 台湾家庭宽频|NF解锁|V2|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 日本IDC宽频|NF解锁|V2|A01
-      - 日本IDC宽频|NF解锁|SS|A01
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇭🇰HK_527
-      - Relay_🇨🇳CN-🇭🇰HK_520
-      - Relay_🇨🇳CN-🇭🇰HK_517
-      - Relay_🇨🇳CN-🇭🇰HK_515
-      - Relay_🇨🇳CN-🇭🇰HK_484
-      - Relay_🇨🇳CN-🇭🇰HK_482
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_475
-      - Relay_🇨🇳CN-🇭🇰HK_473
-      - Relay_🇨🇳CN-🇭🇰HK_466
-      - Relay_🇨🇳CN-🇭🇰HK_465
-      - Relay_🇨🇳CN-🇭🇰HK_464
-      - Relay_🇨🇳CN-🇭🇰HK_461
-      - Relay_🇨🇳CN-🇭🇰HK_460
-      - Relay_🇨🇳CN-🇭🇰HK_459
-      - Relay_🇨🇳CN-🇭🇰HK_455
-      - Relay_🇨🇳CN-🇭🇰HK_444
-      - Relay_🇨🇳CN-🇭🇰HK_439
-      - Relay_🇨🇳CN-🇭🇰HK_438
-      - Relay_🇨🇳CN-🇭🇰HK_432
-      - Relay_🇨🇳CN-🇭🇰HK_423
+      - "[CT/CM]香港 12"
+      - "[CT/CM]香港 11"
+      - "[CT/CM]香港 04"
+      - "[CT/CM]香港 14"
+      - 韩国高速接入A
+      - "[CT/CM]香港 17"
+      - 新加坡B
+      - "[CT/CM]香港 09"
+      - "[CT/CM]香港 16"
+      - 俄罗斯c RT
+      - "[CT/CM]香港 02"
+      - 新加坡E
+      - 俄罗斯b RT
+      - 新加坡C
+      - 新加坡D
+      - 美国 优化-10
+      - 美国 优化-3
+      - 美国 优化-1
+      - 美国 优化-5
+      - 新加坡A
+      - 土耳其
+      - 俄罗斯a RT
+      - 美国 优化-7
+      - 美国 优化-4
+      - "[CT/CM]香港 06"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡IDC宽频|NF解锁|V2|A01
-      - 新加坡IDC宽频|NF解锁|SS|A01
-      - 香港家庭宽频|NF解锁|V2|A01
-      - 香港家庭宽频|NF解锁|SS|A01
-      - 香港IDC宽频|NF解锁|V2|B01
-      - 香港IDC宽频|NF解锁|V2|A01
-      - 香港IDC宽频|NF解锁|SS|A01
-      - 香港1
-      - 台湾家庭宽频|NF解锁|V2|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 日本IDC宽频|NF解锁|V2|A01
-      - 日本IDC宽频|NF解锁|SS|A01
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇭🇰HK_527
-      - Relay_🇨🇳CN-🇭🇰HK_520
-      - Relay_🇨🇳CN-🇭🇰HK_517
-      - Relay_🇨🇳CN-🇭🇰HK_515
-      - Relay_🇨🇳CN-🇭🇰HK_484
-      - Relay_🇨🇳CN-🇭🇰HK_482
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_475
-      - Relay_🇨🇳CN-🇭🇰HK_473
-      - Relay_🇨🇳CN-🇭🇰HK_466
-      - Relay_🇨🇳CN-🇭🇰HK_465
-      - Relay_🇨🇳CN-🇭🇰HK_464
-      - Relay_🇨🇳CN-🇭🇰HK_461
-      - Relay_🇨🇳CN-🇭🇰HK_460
-      - Relay_🇨🇳CN-🇭🇰HK_459
-      - Relay_🇨🇳CN-🇭🇰HK_455
-      - Relay_🇨🇳CN-🇭🇰HK_444
-      - Relay_🇨🇳CN-🇭🇰HK_439
-      - Relay_🇨🇳CN-🇭🇰HK_438
-      - Relay_🇨🇳CN-🇭🇰HK_432
-      - Relay_🇨🇳CN-🇭🇰HK_423
+      - "[CT/CM]香港 12"
+      - "[CT/CM]香港 11"
+      - "[CT/CM]香港 04"
+      - "[CT/CM]香港 14"
+      - 韩国高速接入A
+      - "[CT/CM]香港 17"
+      - 新加坡B
+      - "[CT/CM]香港 09"
+      - "[CT/CM]香港 16"
+      - 俄罗斯c RT
+      - "[CT/CM]香港 02"
+      - 新加坡E
+      - 俄罗斯b RT
+      - 新加坡C
+      - 新加坡D
+      - 美国 优化-10
+      - 美国 优化-3
+      - 美国 优化-1
+      - 美国 优化-5
+      - 新加坡A
+      - 土耳其
+      - 俄罗斯a RT
+      - 美国 优化-7
+      - 美国 优化-4
+      - "[CT/CM]香港 06"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡IDC宽频|NF解锁|V2|A01
-      - 新加坡IDC宽频|NF解锁|SS|A01
-      - 香港家庭宽频|NF解锁|V2|A01
-      - 香港家庭宽频|NF解锁|SS|A01
-      - 香港IDC宽频|NF解锁|V2|B01
-      - 香港IDC宽频|NF解锁|V2|A01
-      - 香港IDC宽频|NF解锁|SS|A01
-      - 香港1
-      - 台湾家庭宽频|NF解锁|V2|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 日本IDC宽频|NF解锁|V2|A01
-      - 日本IDC宽频|NF解锁|SS|A01
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇭🇰HK_527
-      - Relay_🇨🇳CN-🇭🇰HK_520
-      - Relay_🇨🇳CN-🇭🇰HK_517
-      - Relay_🇨🇳CN-🇭🇰HK_515
-      - Relay_🇨🇳CN-🇭🇰HK_484
-      - Relay_🇨🇳CN-🇭🇰HK_482
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_475
-      - Relay_🇨🇳CN-🇭🇰HK_473
-      - Relay_🇨🇳CN-🇭🇰HK_466
-      - Relay_🇨🇳CN-🇭🇰HK_465
-      - Relay_🇨🇳CN-🇭🇰HK_464
-      - Relay_🇨🇳CN-🇭🇰HK_461
-      - Relay_🇨🇳CN-🇭🇰HK_460
-      - Relay_🇨🇳CN-🇭🇰HK_459
-      - Relay_🇨🇳CN-🇭🇰HK_455
-      - Relay_🇨🇳CN-🇭🇰HK_444
-      - Relay_🇨🇳CN-🇭🇰HK_439
-      - Relay_🇨🇳CN-🇭🇰HK_438
-      - Relay_🇨🇳CN-🇭🇰HK_432
-      - Relay_🇨🇳CN-🇭🇰HK_423
+      - "[CT/CM]香港 12"
+      - "[CT/CM]香港 11"
+      - "[CT/CM]香港 04"
+      - "[CT/CM]香港 14"
+      - 韩国高速接入A
+      - "[CT/CM]香港 17"
+      - 新加坡B
+      - "[CT/CM]香港 09"
+      - "[CT/CM]香港 16"
+      - 俄罗斯c RT
+      - "[CT/CM]香港 02"
+      - 新加坡E
+      - 俄罗斯b RT
+      - 新加坡C
+      - 新加坡D
+      - 美国 优化-10
+      - 美国 优化-3
+      - 美国 优化-1
+      - 美国 优化-5
+      - 新加坡A
+      - 土耳其
+      - 俄罗斯a RT
+      - 美国 优化-7
+      - 美国 优化-4
+      - "[CT/CM]香港 06"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -356,40 +285,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡IDC宽频|NF解锁|V2|A01
-      - 新加坡IDC宽频|NF解锁|SS|A01
-      - 香港家庭宽频|NF解锁|V2|A01
-      - 香港家庭宽频|NF解锁|SS|A01
-      - 香港IDC宽频|NF解锁|V2|B01
-      - 香港IDC宽频|NF解锁|V2|A01
-      - 香港IDC宽频|NF解锁|SS|A01
-      - 香港1
-      - 台湾家庭宽频|NF解锁|V2|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 日本IDC宽频|NF解锁|V2|A01
-      - 日本IDC宽频|NF解锁|SS|A01
-      - Relay_🇨🇳CN-🇭🇰HK_551
-      - Relay_🇨🇳CN-🇭🇰HK_527
-      - Relay_🇨🇳CN-🇭🇰HK_520
-      - Relay_🇨🇳CN-🇭🇰HK_517
-      - Relay_🇨🇳CN-🇭🇰HK_515
-      - Relay_🇨🇳CN-🇭🇰HK_484
-      - Relay_🇨🇳CN-🇭🇰HK_482
-      - Relay_🇨🇳CN-🇭🇰HK_476
-      - Relay_🇨🇳CN-🇭🇰HK_475
-      - Relay_🇨🇳CN-🇭🇰HK_473
-      - Relay_🇨🇳CN-🇭🇰HK_466
-      - Relay_🇨🇳CN-🇭🇰HK_465
-      - Relay_🇨🇳CN-🇭🇰HK_464
-      - Relay_🇨🇳CN-🇭🇰HK_461
-      - Relay_🇨🇳CN-🇭🇰HK_460
-      - Relay_🇨🇳CN-🇭🇰HK_459
-      - Relay_🇨🇳CN-🇭🇰HK_455
-      - Relay_🇨🇳CN-🇭🇰HK_444
-      - Relay_🇨🇳CN-🇭🇰HK_439
-      - Relay_🇨🇳CN-🇭🇰HK_438
-      - Relay_🇨🇳CN-🇭🇰HK_432
-      - Relay_🇨🇳CN-🇭🇰HK_423
+      - "[CT/CM]香港 12"
+      - "[CT/CM]香港 11"
+      - "[CT/CM]香港 04"
+      - "[CT/CM]香港 14"
+      - 韩国高速接入A
+      - "[CT/CM]香港 17"
+      - 新加坡B
+      - "[CT/CM]香港 09"
+      - "[CT/CM]香港 16"
+      - 俄罗斯c RT
+      - "[CT/CM]香港 02"
+      - 新加坡E
+      - 俄罗斯b RT
+      - 新加坡C
+      - 新加坡D
+      - 美国 优化-10
+      - 美国 优化-3
+      - 美国 优化-1
+      - 美国 优化-5
+      - 新加坡A
+      - 土耳其
+      - 俄罗斯a RT
+      - 美国 优化-7
+      - 美国 优化-4
+      - "[CT/CM]香港 06"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
