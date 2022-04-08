@@ -5,67 +5,91 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: iGG-JP - 上海|日本- 倍率 1, server: jpgithub.edgehelper.com, port: 53900, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: iGG-HK - 香港WTT - 09- 倍率 0.5, server: imgU140111366548.hk.huawei-cacahe.com, port: 20224, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: imgU140111366548.hk.huawei-cacahe.com}, udp: true}
-  - {name: iGG-HK - 香港HKBN - 03- 倍率 0.5, server: fsU140111366548.harmonyoscloudcdn.com, port: 30555, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: iGG-HK - 香港HGC - 08- 倍率 1, server: hgc3.edgehelper.com, port: 34500, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hgc3.edgehelper.com}, udp: true}
-  - {name: iGG-HK - 香港HKBN - 06- 倍率 1, server: cdn.cache.netvigators.xyz, port: 23800, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn.cache.netvigators.xyz}, udp: true}
-  - {name: VN01|越南|SS|x1.0, server: colagzcm.jumpwallsocks.online, port: 43004, type: ss, cipher: chacha20-ietf-poly1305, password: 05f716d4-af2e-4c8f-8ae2-d2cf04d1af0f, udp: true}
-  - {name: iGG-TW - 台湾01- 倍率 1, server: tw2.iggfastweb.com, port: 21600, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw2.iggfastweb.com}, udp: true}
-  - {name: iGG-HK - 香港原生 - 11- 倍率 1, server: hkthome2.iggfastweb.com, port: 30776, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkthome2.iggfastweb.com}, udp: true}
-  - {name: HK04|香港|x1.0, server: colagzcm.jumpwallsocks.online, port: 30004, type: trojan, password: 05f716d4-af2e-4c8f-8ae2-d2cf04d1af0f, sni: colagzcm.jumpwallsocks.online, skip-cert-verify: true, udp: true}
-  - {name: iGG-TW - 台湾原生 - 02- 倍率 1, server: tw3.edgehelper.com, port: 21700, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw3.edgehelper.com}, udp: true}
-  - {name: HK02|香港|SS|x1.0, server: colagzcm.jumpwallsocks.online, port: 40002, type: ss, cipher: chacha20-ietf-poly1305, password: 05f716d4-af2e-4c8f-8ae2-d2cf04d1af0f, udp: true}
+  - {name: 香港_Tg频道:https://t.me/bpjzx2_8, server: cncusouth.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 香港_Tg频道:https://t.me/bpjzx2_6, server: shonlinesandcu02.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 香港_Tg频道:https://t.me/bpjzx2_5, server: cusouthcmhk.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 香港_Tg频道:https://t.me/bpjzx2_7, server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 香港_Tg频道:https://t.me/bpjzx2_3, server: cncusouth.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 香港_Tg频道:https://t.me/bpjzx2_1, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 台湾_Tg频道:https://t.me/bpjzx2_2, server: cstwrelay.onlineto.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 台湾_Tg频道:https://t.me/bpjzx2_4, server: cstwrelay.onlineto.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 台湾_Tg频道:https://t.me/bpjzx2_3, server: cstwrelay.onlineto.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 台湾_Tg频道:https://t.me/bpjzx2_8, server: shallaz2.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 台湾_Tg频道:https://t.me/bpjzx2_7, server: shallaz2.proconcn.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 台湾_Tg频道:https://t.me/bpjzx2_12, server: shallaz2.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 台湾_Tg频道:https://t.me/bpjzx2_10, server: shallaz2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 台湾_Tg频道:https://t.me/bpjzx2_1, server: cstwrelay.onlineto.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 台湾_Tg频道:https://t.me/bpjzx2_6, server: shallaz2.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 台湾_Tg频道:https://t.me/bpjzx2_5, server: shallaz2.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
+  - {name: 香港_Tg频道:https://t.me/bpjzx2_2, server: cncusouth.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8052:Sean1225, obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - iGG-JP - 上海|日本- 倍率 1
-      - iGG-HK - 香港WTT - 09- 倍率 0.5
-      - iGG-HK - 香港HKBN - 03- 倍率 0.5
-      - iGG-HK - 香港HGC - 08- 倍率 1
-      - iGG-HK - 香港HKBN - 06- 倍率 1
-      - VN01|越南|SS|x1.0
-      - iGG-TW - 台湾01- 倍率 1
-      - iGG-HK - 香港原生 - 11- 倍率 1
-      - HK04|香港|x1.0
-      - iGG-TW - 台湾原生 - 02- 倍率 1
-      - HK02|香港|SS|x1.0
+      - 香港_Tg频道:https://t.me/bpjzx2_8
+      - 香港_Tg频道:https://t.me/bpjzx2_6
+      - 香港_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_7
+      - 香港_Tg频道:https://t.me/bpjzx2_3
+      - 香港_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_2
+      - 台湾_Tg频道:https://t.me/bpjzx2_4
+      - 台湾_Tg频道:https://t.me/bpjzx2_3
+      - 台湾_Tg频道:https://t.me/bpjzx2_8
+      - 台湾_Tg频道:https://t.me/bpjzx2_7
+      - 台湾_Tg频道:https://t.me/bpjzx2_12
+      - 台湾_Tg频道:https://t.me/bpjzx2_10
+      - 台湾_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_6
+      - 台湾_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - iGG-JP - 上海|日本- 倍率 1
-      - iGG-HK - 香港WTT - 09- 倍率 0.5
-      - iGG-HK - 香港HKBN - 03- 倍率 0.5
-      - iGG-HK - 香港HGC - 08- 倍率 1
-      - iGG-HK - 香港HKBN - 06- 倍率 1
-      - VN01|越南|SS|x1.0
-      - iGG-TW - 台湾01- 倍率 1
-      - iGG-HK - 香港原生 - 11- 倍率 1
-      - HK04|香港|x1.0
-      - iGG-TW - 台湾原生 - 02- 倍率 1
-      - HK02|香港|SS|x1.0
+      - 香港_Tg频道:https://t.me/bpjzx2_8
+      - 香港_Tg频道:https://t.me/bpjzx2_6
+      - 香港_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_7
+      - 香港_Tg频道:https://t.me/bpjzx2_3
+      - 香港_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_2
+      - 台湾_Tg频道:https://t.me/bpjzx2_4
+      - 台湾_Tg频道:https://t.me/bpjzx2_3
+      - 台湾_Tg频道:https://t.me/bpjzx2_8
+      - 台湾_Tg频道:https://t.me/bpjzx2_7
+      - 台湾_Tg频道:https://t.me/bpjzx2_12
+      - 台湾_Tg频道:https://t.me/bpjzx2_10
+      - 台湾_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_6
+      - 台湾_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - iGG-JP - 上海|日本- 倍率 1
-      - iGG-HK - 香港WTT - 09- 倍率 0.5
-      - iGG-HK - 香港HKBN - 03- 倍率 0.5
-      - iGG-HK - 香港HGC - 08- 倍率 1
-      - iGG-HK - 香港HKBN - 06- 倍率 1
-      - VN01|越南|SS|x1.0
-      - iGG-TW - 台湾01- 倍率 1
-      - iGG-HK - 香港原生 - 11- 倍率 1
-      - HK04|香港|x1.0
-      - iGG-TW - 台湾原生 - 02- 倍率 1
-      - HK02|香港|SS|x1.0
+      - 香港_Tg频道:https://t.me/bpjzx2_8
+      - 香港_Tg频道:https://t.me/bpjzx2_6
+      - 香港_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_7
+      - 香港_Tg频道:https://t.me/bpjzx2_3
+      - 香港_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_2
+      - 台湾_Tg频道:https://t.me/bpjzx2_4
+      - 台湾_Tg频道:https://t.me/bpjzx2_3
+      - 台湾_Tg频道:https://t.me/bpjzx2_8
+      - 台湾_Tg频道:https://t.me/bpjzx2_7
+      - 台湾_Tg频道:https://t.me/bpjzx2_12
+      - 台湾_Tg频道:https://t.me/bpjzx2_10
+      - 台湾_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_6
+      - 台湾_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,80 +108,112 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - iGG-JP - 上海|日本- 倍率 1
-      - iGG-HK - 香港WTT - 09- 倍率 0.5
-      - iGG-HK - 香港HKBN - 03- 倍率 0.5
-      - iGG-HK - 香港HGC - 08- 倍率 1
-      - iGG-HK - 香港HKBN - 06- 倍率 1
-      - VN01|越南|SS|x1.0
-      - iGG-TW - 台湾01- 倍率 1
-      - iGG-HK - 香港原生 - 11- 倍率 1
-      - HK04|香港|x1.0
-      - iGG-TW - 台湾原生 - 02- 倍率 1
-      - HK02|香港|SS|x1.0
+      - 香港_Tg频道:https://t.me/bpjzx2_8
+      - 香港_Tg频道:https://t.me/bpjzx2_6
+      - 香港_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_7
+      - 香港_Tg频道:https://t.me/bpjzx2_3
+      - 香港_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_2
+      - 台湾_Tg频道:https://t.me/bpjzx2_4
+      - 台湾_Tg频道:https://t.me/bpjzx2_3
+      - 台湾_Tg频道:https://t.me/bpjzx2_8
+      - 台湾_Tg频道:https://t.me/bpjzx2_7
+      - 台湾_Tg频道:https://t.me/bpjzx2_12
+      - 台湾_Tg频道:https://t.me/bpjzx2_10
+      - 台湾_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_6
+      - 台湾_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - iGG-HK - 香港WTT - 09- 倍率 0.5
-      - iGG-HK - 香港HKBN - 03- 倍率 0.5
-      - iGG-HK - 香港HGC - 08- 倍率 1
-      - iGG-HK - 香港HKBN - 06- 倍率 1
-      - iGG-TW - 台湾01- 倍率 1
-      - iGG-HK - 香港原生 - 11- 倍率 1
-      - HK04|香港|x1.0
-      - iGG-TW - 台湾原生 - 02- 倍率 1
-      - HK02|香港|SS|x1.0
+      - 香港_Tg频道:https://t.me/bpjzx2_8
+      - 香港_Tg频道:https://t.me/bpjzx2_6
+      - 香港_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_7
+      - 香港_Tg频道:https://t.me/bpjzx2_3
+      - 香港_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_2
+      - 台湾_Tg频道:https://t.me/bpjzx2_4
+      - 台湾_Tg频道:https://t.me/bpjzx2_3
+      - 台湾_Tg频道:https://t.me/bpjzx2_8
+      - 台湾_Tg频道:https://t.me/bpjzx2_7
+      - 台湾_Tg频道:https://t.me/bpjzx2_12
+      - 台湾_Tg频道:https://t.me/bpjzx2_10
+      - 台湾_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_6
+      - 台湾_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - iGG-JP - 上海|日本- 倍率 1
-      - iGG-HK - 香港WTT - 09- 倍率 0.5
-      - iGG-HK - 香港HKBN - 03- 倍率 0.5
-      - iGG-HK - 香港HGC - 08- 倍率 1
-      - iGG-HK - 香港HKBN - 06- 倍率 1
-      - VN01|越南|SS|x1.0
-      - iGG-TW - 台湾01- 倍率 1
-      - iGG-HK - 香港原生 - 11- 倍率 1
-      - HK04|香港|x1.0
-      - iGG-TW - 台湾原生 - 02- 倍率 1
-      - HK02|香港|SS|x1.0
+      - 香港_Tg频道:https://t.me/bpjzx2_8
+      - 香港_Tg频道:https://t.me/bpjzx2_6
+      - 香港_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_7
+      - 香港_Tg频道:https://t.me/bpjzx2_3
+      - 香港_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_2
+      - 台湾_Tg频道:https://t.me/bpjzx2_4
+      - 台湾_Tg频道:https://t.me/bpjzx2_3
+      - 台湾_Tg频道:https://t.me/bpjzx2_8
+      - 台湾_Tg频道:https://t.me/bpjzx2_7
+      - 台湾_Tg频道:https://t.me/bpjzx2_12
+      - 台湾_Tg频道:https://t.me/bpjzx2_10
+      - 台湾_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_6
+      - 台湾_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - iGG-JP - 上海|日本- 倍率 1
-      - iGG-HK - 香港WTT - 09- 倍率 0.5
-      - iGG-HK - 香港HKBN - 03- 倍率 0.5
-      - iGG-HK - 香港HGC - 08- 倍率 1
-      - iGG-HK - 香港HKBN - 06- 倍率 1
-      - VN01|越南|SS|x1.0
-      - iGG-TW - 台湾01- 倍率 1
-      - iGG-HK - 香港原生 - 11- 倍率 1
-      - HK04|香港|x1.0
-      - iGG-TW - 台湾原生 - 02- 倍率 1
-      - HK02|香港|SS|x1.0
+      - 香港_Tg频道:https://t.me/bpjzx2_8
+      - 香港_Tg频道:https://t.me/bpjzx2_6
+      - 香港_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_7
+      - 香港_Tg频道:https://t.me/bpjzx2_3
+      - 香港_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_2
+      - 台湾_Tg频道:https://t.me/bpjzx2_4
+      - 台湾_Tg频道:https://t.me/bpjzx2_3
+      - 台湾_Tg频道:https://t.me/bpjzx2_8
+      - 台湾_Tg频道:https://t.me/bpjzx2_7
+      - 台湾_Tg频道:https://t.me/bpjzx2_12
+      - 台湾_Tg频道:https://t.me/bpjzx2_10
+      - 台湾_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_6
+      - 台湾_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - iGG-JP - 上海|日本- 倍率 1
-      - iGG-HK - 香港WTT - 09- 倍率 0.5
-      - iGG-HK - 香港HKBN - 03- 倍率 0.5
-      - iGG-HK - 香港HGC - 08- 倍率 1
-      - iGG-HK - 香港HKBN - 06- 倍率 1
-      - VN01|越南|SS|x1.0
-      - iGG-TW - 台湾01- 倍率 1
-      - iGG-HK - 香港原生 - 11- 倍率 1
-      - HK04|香港|x1.0
-      - iGG-TW - 台湾原生 - 02- 倍率 1
-      - HK02|香港|SS|x1.0
+      - 香港_Tg频道:https://t.me/bpjzx2_8
+      - 香港_Tg频道:https://t.me/bpjzx2_6
+      - 香港_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_7
+      - 香港_Tg频道:https://t.me/bpjzx2_3
+      - 香港_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_2
+      - 台湾_Tg频道:https://t.me/bpjzx2_4
+      - 台湾_Tg频道:https://t.me/bpjzx2_3
+      - 台湾_Tg频道:https://t.me/bpjzx2_8
+      - 台湾_Tg频道:https://t.me/bpjzx2_7
+      - 台湾_Tg频道:https://t.me/bpjzx2_12
+      - 台湾_Tg频道:https://t.me/bpjzx2_10
+      - 台湾_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_6
+      - 台湾_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -173,17 +229,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - iGG-JP - 上海|日本- 倍率 1
-      - iGG-HK - 香港WTT - 09- 倍率 0.5
-      - iGG-HK - 香港HKBN - 03- 倍率 0.5
-      - iGG-HK - 香港HGC - 08- 倍率 1
-      - iGG-HK - 香港HKBN - 06- 倍率 1
-      - VN01|越南|SS|x1.0
-      - iGG-TW - 台湾01- 倍率 1
-      - iGG-HK - 香港原生 - 11- 倍率 1
-      - HK04|香港|x1.0
-      - iGG-TW - 台湾原生 - 02- 倍率 1
-      - HK02|香港|SS|x1.0
+      - 香港_Tg频道:https://t.me/bpjzx2_8
+      - 香港_Tg频道:https://t.me/bpjzx2_6
+      - 香港_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_7
+      - 香港_Tg频道:https://t.me/bpjzx2_3
+      - 香港_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_2
+      - 台湾_Tg频道:https://t.me/bpjzx2_4
+      - 台湾_Tg频道:https://t.me/bpjzx2_3
+      - 台湾_Tg频道:https://t.me/bpjzx2_8
+      - 台湾_Tg频道:https://t.me/bpjzx2_7
+      - 台湾_Tg频道:https://t.me/bpjzx2_12
+      - 台湾_Tg频道:https://t.me/bpjzx2_10
+      - 台湾_Tg频道:https://t.me/bpjzx2_1
+      - 台湾_Tg频道:https://t.me/bpjzx2_6
+      - 台湾_Tg频道:https://t.me/bpjzx2_5
+      - 香港_Tg频道:https://t.me/bpjzx2_2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
