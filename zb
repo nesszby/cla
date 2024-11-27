@@ -108,6 +108,7 @@ TraceSports,http://47.239.245.207:5050/litv/4gtv-4gtv077
 
 
 $c_start🐌 音樂綜藝 $c_end
+纬来日本,rtmp://f13h.mine.nu/sat/tv771
 民視綜藝台,http://47.239.245.207:5050/litv/4gtv-4gtv004
 靖天育樂台,http://47.239.245.207:5050/litv/4gtv-4gtv062
 靖天歡樂台,http://47.239.245.207:5050/litv/4gtv-4gtv054
@@ -163,5 +164,7 @@ Smart 知識台,http://47.239.245.207:5050/litv/litv-longturn19
 人間衛視,http://47.239.245.207:5050/4gtv/210
 國會頻道1,http://47.239.245.207:5050/litv/4gtv-4gtv084
 國會頻道2,http://47.239.245.207:5050/litv/4gtv-4gtv085
-
+$c_start🐌 4k频道$c_end
+FTV UHD,http://fash2043.cloudycdn.services/slive/_definst_/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/chunklist_b10668000_t64NGs=.m3u8
+love4K nature,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 
