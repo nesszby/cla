@@ -1,4 +1,4 @@
-$c_start🐌 少兒 $c_end
+少兒 #genre#
 靖天映畫台,http://47.239.245.207:5050/litv/4gtv-4gtv055
 靖天卡通台,http://47.239.245.207:5050/litv/4gtv-4gtv044
 龍華卡通台,http://47.239.245.207:5050/litv/litv-longturn01
@@ -17,7 +17,7 @@ LiveABC 互動英語台,http://47.239.245.207:5050/4gtv/188
 
 
 
-$c_start🐌 生活旅遊 $c_end
+生活旅遊 #genre#
 民視旅遊台,http://47.239.245.207:5050/litv/litv-ftv07
 ELTA 生活旅遊,http://47.239.245.207:5050/4gtv/237
 ELTV 生活英語,http://47.239.245.207:5050/litv/litv-longturn20
@@ -30,7 +30,7 @@ Love Nature,http://47.239.245.207:5050/4gtv/139
 Fun 探索娛樂台,http://47.239.245.207:5050/4gtv/274
 幸福空間居家台,http://47.239.245.207:5050/4gtv/168
 
-$c_start🐌 新闻频道 $c_end
+新闻频道 #genre#
 
 年代新聞HD,https://stream1.freetv.fun/28f2a175c45cd3d6885a0432398d36f149c45c516575d0da8a4312b445351c10.m3u8
 年代新聞HD,http://114.33.60.49:8517/http/60.251.39.91:8081/hls/67/809/ch27.m3u8
@@ -58,7 +58,7 @@ SBN 全球財經台,http://47.239.245.207:5050/4gtv/224
 半島國際新聞台,http://47.239.245.207:5050/litv/litv-ftv10
 第1商業台,http://47.239.245.207:5050/litv/4gtv-4gtv104
 
-$c_start🐌 影剧频道 $c_end
+影剧频道 #genre#
 民視影劇台,http://47.239.245.207:5050/litv/litv-ftv09
 中視經典台,http://47.239.245.207:5050/litv/4gtv-4gtv080
 靖天戲劇台,http://47.239.245.207:5050/litv/4gtv-4gtv058
@@ -92,7 +92,7 @@ Rock Entertainment,http://47.239.245.207:5050/4gtv/275
 
 
 
-$c_start🐌 体育频道 $c_end
+ 体育频道 #genre#
 博斯運動一台,http://47.239.245.207:5050/litv/litv-longturn07
 博斯運動二台,http://47.239.245.207:5050/litv/litv-longturn08
 博斯無限台,http://47.239.245.207:5050/litv/litv-longturn10
@@ -108,7 +108,7 @@ TechStorm,http://47.239.245.207:5050/4gtv/181
 TraceSports,http://47.239.245.207:5050/litv/4gtv-4gtv077
 
 
-$c_start🐌 音樂綜藝 $c_end
+ 音樂綜藝 #genre#
 纬来日本,rtmp://f13h.mine.nu/sat/tv771
 民視綜藝台,http://47.239.245.207:5050/litv/4gtv-4gtv004
 靖天育樂台,http://47.239.245.207:5050/litv/4gtv-4gtv062
@@ -133,7 +133,7 @@ THE K-POP,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV16.m3u8
 
 
 
-$c_start🐌 综合频道 $c_end
+综合频道 #genre#
 中視,http://47.239.245.207:5050/litv/4gtv-4gtv040
 中視菁采台,http://47.239.245.207:5050/litv/4gtv-4gtv064
 華視,http://47.239.245.207:5050/litv/4gtv-4gtv041
@@ -149,7 +149,7 @@ Arirang TV,http://47.239.245.207:5050/litv/4gtv-4gtv079
 Bloomberg TV,http://47.239.245.207:5050/4gtv/283
 
 
-$c_start🐌 其他 $c_end
+其他 #genre#
 TVBS,http://47.239.245.207:5050/litv/4gtv-4gtv073
 History 歷史頻道,http://47.239.245.207:5050/4gtv/214
 CI 罪案偵查頻道,http://47.239.245.207:5050/4gtv/215
@@ -165,12 +165,12 @@ Smart 知識台,http://47.239.245.207:5050/litv/litv-longturn19
 人間衛視,http://47.239.245.207:5050/4gtv/210
 國會頻道1,http://47.239.245.207:5050/litv/4gtv-4gtv084
 國會頻道2,http://47.239.245.207:5050/litv/4gtv-4gtv085
-$c_start🐌 4k频道 $c_end
+🐌 4k频道 #genre#
 FTV UHD,http://fash2043.cloudycdn.services/slive/_definst_/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/chunklist_b10668000_t64NGs=.m3u8
 love4K nature,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 
 AKTV,#genre#
-$c_start🐌 AKTV $c_end
+
 28 AI 智慧賽馬,http://aktv.top/AKTV/live/aktv/28ai/AKTV.m3u8
 Channel 5 HD,http://aktv.top/AKTV/live/aktv/channel5hd/AKTV.m3u8
 Channel 8 HD,http://aktv.top/AKTV/live/aktv/channel8hd/AKTV.m3u8
